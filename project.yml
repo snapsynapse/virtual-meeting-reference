@@ -6,8 +6,8 @@
 # ---------------------------------------------------------------------------
 name: "Virtual Meeting Software Guide"
 short_name: "meetings"
-url: "https://example.com"
-repo: "https://github.com/your-org/virtual-meeting-reference"
+url: "https://meetings.snapsynapse.com/"
+repo: "https://github.com/snapsynapse/virtual-meeting-reference"
 description: "A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities."
 
 # ---------------------------------------------------------------------------

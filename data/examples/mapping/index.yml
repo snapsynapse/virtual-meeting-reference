@@ -241,3 +241,1038 @@
   source_heading: Virtual Backgrounds
   obligations:
     - virtual-backgrounds
+
+# Webex Meetings capabilities
+- id: webex-video-conferencing
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: webex-screen-sharing
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: webex-breakout-rooms
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: webex-recording
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: webex-chat
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: webex-polling
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: webex-whiteboard
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: webex-virtual-backgrounds
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# GoTo Meeting capabilities
+- id: goto-video-conferencing
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: goto-screen-sharing
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: goto-breakout-rooms
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: goto-recording
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: goto-chat
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: goto-polling
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: goto-whiteboard
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: goto-virtual-backgrounds
+  regulation: goto-meeting
+  authority: goto
+  source_file: data/examples/container/goto-meeting.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# RingCentral Video capabilities
+- id: ringcentral-video-conferencing
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: ringcentral-screen-sharing
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: ringcentral-breakout-rooms
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: ringcentral-recording
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: ringcentral-chat
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: ringcentral-whiteboard
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: ringcentral-virtual-backgrounds
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Slack capabilities
+- id: slack-video-conferencing
+  regulation: slack
+  authority: salesforce
+  source_file: data/examples/container/slack.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: slack-screen-sharing
+  regulation: slack
+  authority: salesforce
+  source_file: data/examples/container/slack.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: slack-chat
+  regulation: slack
+  authority: salesforce
+  source_file: data/examples/container/slack.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+# ClickMeeting capabilities
+- id: clickmeeting-video-conferencing
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: clickmeeting-screen-sharing
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: clickmeeting-breakout-rooms
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: clickmeeting-recording
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: clickmeeting-chat
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: clickmeeting-polling
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: clickmeeting-whiteboard
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: clickmeeting-virtual-backgrounds
+  regulation: clickmeeting
+  authority: clickmeeting
+  source_file: data/examples/container/clickmeeting.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Zoho Meeting capabilities
+- id: zoho-video-conferencing
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: zoho-screen-sharing
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: zoho-breakout-rooms
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: zoho-recording
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: zoho-chat
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: zoho-polling
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: zoho-whiteboard
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: zoho-virtual-backgrounds
+  regulation: zoho-meeting
+  authority: zoho
+  source_file: data/examples/container/zoho-meeting.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# AnyMeeting capabilities
+- id: anymeeting-video-conferencing
+  regulation: anymeeting
+  authority: intermedia
+  source_file: data/examples/container/anymeeting.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: anymeeting-screen-sharing
+  regulation: anymeeting
+  authority: intermedia
+  source_file: data/examples/container/anymeeting.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: anymeeting-recording
+  regulation: anymeeting
+  authority: intermedia
+  source_file: data/examples/container/anymeeting.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: anymeeting-chat
+  regulation: anymeeting
+  authority: intermedia
+  source_file: data/examples/container/anymeeting.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: anymeeting-polling
+  regulation: anymeeting
+  authority: intermedia
+  source_file: data/examples/container/anymeeting.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+# 8x8 Meet capabilities
+- id: 8x8-video-conferencing
+  regulation: 8x8-meet
+  authority: 8x8
+  source_file: data/examples/container/8x8-meet.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: 8x8-screen-sharing
+  regulation: 8x8-meet
+  authority: 8x8
+  source_file: data/examples/container/8x8-meet.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: 8x8-breakout-rooms
+  regulation: 8x8-meet
+  authority: 8x8
+  source_file: data/examples/container/8x8-meet.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: 8x8-recording
+  regulation: 8x8-meet
+  authority: 8x8
+  source_file: data/examples/container/8x8-meet.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: 8x8-chat
+  regulation: 8x8-meet
+  authority: 8x8
+  source_file: data/examples/container/8x8-meet.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: 8x8-polling
+  regulation: 8x8-meet
+  authority: 8x8
+  source_file: data/examples/container/8x8-meet.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: 8x8-virtual-backgrounds
+  regulation: 8x8-meet
+  authority: 8x8
+  source_file: data/examples/container/8x8-meet.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Skype capabilities
+- id: skype-video-conferencing
+  regulation: skype
+  authority: microsoft
+  source_file: data/examples/container/skype.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: skype-screen-sharing
+  regulation: skype
+  authority: microsoft
+  source_file: data/examples/container/skype.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: skype-recording
+  regulation: skype
+  authority: microsoft
+  source_file: data/examples/container/skype.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: skype-chat
+  regulation: skype
+  authority: microsoft
+  source_file: data/examples/container/skype.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: skype-virtual-backgrounds
+  regulation: skype
+  authority: microsoft
+  source_file: data/examples/container/skype.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# BlueJeans capabilities
+- id: bluejeans-video-conferencing
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: bluejeans-screen-sharing
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: bluejeans-breakout-rooms
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: bluejeans-recording
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: bluejeans-chat
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: bluejeans-polling
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: bluejeans-whiteboard
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: bluejeans-virtual-backgrounds
+  regulation: bluejeans
+  authority: verizon
+  source_file: data/examples/container/bluejeans.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Lifesize capabilities
+- id: lifesize-video-conferencing
+  regulation: lifesize
+  authority: enghouse
+  source_file: data/examples/container/lifesize.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: lifesize-screen-sharing
+  regulation: lifesize
+  authority: enghouse
+  source_file: data/examples/container/lifesize.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: lifesize-recording
+  regulation: lifesize
+  authority: enghouse
+  source_file: data/examples/container/lifesize.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: lifesize-chat
+  regulation: lifesize
+  authority: enghouse
+  source_file: data/examples/container/lifesize.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: lifesize-virtual-backgrounds
+  regulation: lifesize
+  authority: enghouse
+  source_file: data/examples/container/lifesize.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# UberConference capabilities
+- id: uberconference-video-conferencing
+  regulation: uberconference
+  authority: dialpad
+  source_file: data/examples/container/uberconference.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: uberconference-screen-sharing
+  regulation: uberconference
+  authority: dialpad
+  source_file: data/examples/container/uberconference.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: uberconference-recording
+  regulation: uberconference
+  authority: dialpad
+  source_file: data/examples/container/uberconference.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: uberconference-chat
+  regulation: uberconference
+  authority: dialpad
+  source_file: data/examples/container/uberconference.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+# Dialpad Meetings capabilities
+- id: dialpad-video-conferencing
+  regulation: dialpad-meetings
+  authority: dialpad
+  source_file: data/examples/container/dialpad-meetings.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: dialpad-screen-sharing
+  regulation: dialpad-meetings
+  authority: dialpad
+  source_file: data/examples/container/dialpad-meetings.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: dialpad-recording
+  regulation: dialpad-meetings
+  authority: dialpad
+  source_file: data/examples/container/dialpad-meetings.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: dialpad-chat
+  regulation: dialpad-meetings
+  authority: dialpad
+  source_file: data/examples/container/dialpad-meetings.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: dialpad-whiteboard
+  regulation: dialpad-meetings
+  authority: dialpad
+  source_file: data/examples/container/dialpad-meetings.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: dialpad-virtual-backgrounds
+  regulation: dialpad-meetings
+  authority: dialpad
+  source_file: data/examples/container/dialpad-meetings.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# TrueConf capabilities
+- id: trueconf-video-conferencing
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: trueconf-screen-sharing
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: trueconf-breakout-rooms
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: trueconf-recording
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: trueconf-chat
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: trueconf-polling
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: trueconf-whiteboard
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: trueconf-virtual-backgrounds
+  regulation: trueconf
+  authority: trueconf
+  source_file: data/examples/container/trueconf.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Lark capabilities
+- id: lark-video-conferencing
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: lark-screen-sharing
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: lark-breakout-rooms
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: lark-recording
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: lark-chat
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: lark-polling
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: lark-whiteboard
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: lark-virtual-backgrounds
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Whereby capabilities
+- id: whereby-video-conferencing
+  regulation: whereby
+  authority: whereby-as
+  source_file: data/examples/container/whereby.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: whereby-screen-sharing
+  regulation: whereby
+  authority: whereby-as
+  source_file: data/examples/container/whereby.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: whereby-breakout-rooms
+  regulation: whereby
+  authority: whereby-as
+  source_file: data/examples/container/whereby.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: whereby-recording
+  regulation: whereby
+  authority: whereby-as
+  source_file: data/examples/container/whereby.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: whereby-chat
+  regulation: whereby
+  authority: whereby-as
+  source_file: data/examples/container/whereby.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: whereby-polling
+  regulation: whereby
+  authority: whereby-as
+  source_file: data/examples/container/whereby.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: whereby-virtual-backgrounds
+  regulation: whereby
+  authority: whereby-as
+  source_file: data/examples/container/whereby.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# BigBlueButton capabilities
+- id: bbb-video-conferencing
+  regulation: bigbluebutton
+  authority: bigbluebutton-community
+  source_file: data/examples/container/bigbluebutton.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: bbb-screen-sharing
+  regulation: bigbluebutton
+  authority: bigbluebutton-community
+  source_file: data/examples/container/bigbluebutton.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: bbb-breakout-rooms
+  regulation: bigbluebutton
+  authority: bigbluebutton-community
+  source_file: data/examples/container/bigbluebutton.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: bbb-recording
+  regulation: bigbluebutton
+  authority: bigbluebutton-community
+  source_file: data/examples/container/bigbluebutton.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: bbb-chat
+  regulation: bigbluebutton
+  authority: bigbluebutton-community
+  source_file: data/examples/container/bigbluebutton.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: bbb-polling
+  regulation: bigbluebutton
+  authority: bigbluebutton-community
+  source_file: data/examples/container/bigbluebutton.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: bbb-whiteboard
+  regulation: bigbluebutton
+  authority: bigbluebutton-community
+  source_file: data/examples/container/bigbluebutton.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+# Jitsi Meet capabilities
+- id: jitsi-video-conferencing
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: jitsi-screen-sharing
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: jitsi-breakout-rooms
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: jitsi-recording
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: jitsi-chat
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: jitsi-polling
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: jitsi-whiteboard
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: jitsi-virtual-backgrounds
+  regulation: jitsi-meet
+  authority: jitsi-community
+  source_file: data/examples/container/jitsi-meet.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Integrated AI Note-Taker capabilities
+- id: zoom-ai-notetaker
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Integrated AI Note-Taker
+  obligations:
+    - ai-notetaker
+
+- id: teams-ai-notetaker
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Integrated AI Note-Taker
+  obligations:
+    - ai-notetaker
+
+- id: meet-ai-notetaker
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Integrated AI Note-Taker
+  obligations:
+    - ai-notetaker
+
+- id: webex-ai-notetaker
+  regulation: webex-meetings
+  authority: cisco
+  source_file: data/examples/container/webex-meetings.md
+  source_heading: Integrated AI Note-Taker
+  obligations:
+    - ai-notetaker
+
+- id: lark-ai-notetaker
+  regulation: lark
+  authority: bytedance
+  source_file: data/examples/container/lark.md
+  source_heading: Integrated AI Note-Taker
+  obligations:
+    - ai-notetaker
+
+- id: dialpad-ai-notetaker
+  regulation: dialpad-meetings
+  authority: dialpad
+  source_file: data/examples/container/dialpad-meetings.md
+  source_heading: Integrated AI Note-Taker
+  obligations:
+    - ai-notetaker
+
+- id: ringcentral-ai-notetaker
+  regulation: ringcentral-video
+  authority: ringcentral
+  source_file: data/examples/container/ringcentral-video.md
+  source_heading: Integrated AI Note-Taker
+  obligations:
+    - ai-notetaker

@@ -173,6 +173,40 @@ function parseBulletList(text) {
     return text.split('\n').map(l => l.trim()).filter(l => l.startsWith('- ')).map(l => l.slice(2).trim());
 }
 
+/** Generate a sortable (and optionally filterable) table header cell. */
+function th(label, sortType, filterKey) {
+    let attrs = `data-sortable data-sort-type="${sortType}" data-col="${slugify(label)}"`;
+    if (filterKey) attrs += ` data-filterable data-filter-key="${filterKey}"`;
+    return `<th ${attrs}>${escapeHTML(label)}</th>`;
+}
+
+/** Render a <td> with a data-sort-value for dates */
+function tdDate(dateStr) {
+    return `<td data-sort-value="${escapeHTML(dateStr || '')}">${formatDate(dateStr)}</td>`;
+}
+
+/** Render a <td> with a status badge and data-sort-value */
+function tdStatus(status) {
+    return `<td data-sort-value="${escapeHTML(status || '')}">${renderStatusBadge(status)}</td>`;
+}
+
+/** Render a <td> for price with data-sort-value for numeric sorting (e.g. "$13.33/mo" → sorts as 13.33, "Free" → 0) */
+function tdPrice(price) {
+    const str = String(price || '');
+    const num = str.toLowerCase().includes('free') || str === '$0' ? 0 : parseFloat(str.replace(/[^0-9.]/g, '')) || 99999;
+    const display = str || '—';
+    return `<td data-sort-value="${num}">${escapeHTML(display)}</td>`;
+}
+
+/** Render a <td> for range with data-sort-value based on the max number (e.g. "2-1,500" → displays "1,500", sorts as 1500) */
+function tdRange(range) {
+    const str = String(range || '');
+    const match = str.match(/([\d,]+)$/);
+    const display = match ? match[1] : str;
+    const num = match ? parseInt(match[0].replace(/,/g, ''), 10) || 0 : 0;
+    return `<td data-sort-value="${num}">${escapeHTML(display)}</td>`;
+}
+
 // ---------------------------------------------------------------------------
 // Parsing
 // ---------------------------------------------------------------------------
@@ -297,9 +331,12 @@ function loadContainers(dir) {
             const id = f.replace('.md', '');
             const timelineMatch = body.match(/## Timeline\n\n([\s\S]*?)(?=\n---|\n## )/);
             const timeline = timelineMatch ? parseTable(timelineMatch[1]) : [];
+            const pricingMatch = body.match(/## Pricing\n\n([\s\S]*?)(?=\n---|\n## )/);
+            const pricing = pricingMatch ? parseTable(pricingMatch[1]) : [];
+            const startingPrice = pricing.length ? (pricing.find(t => parseFloat(t.price?.replace(/[^0-9.]/g, '')) > 0) || pricing[0])?.price || '' : '';
             const provisionSections = body.split(/\n---\n/).slice(1);
             const provisions = provisionSections.map(parseProvisionSection).filter(Boolean);
-            return { id, ...frontmatter, timeline, provisions, _body: body, _file: f };
+            return { id, ...frontmatter, timeline, pricing, startingPrice, provisions, _body: body, _file: f };
         });
 }
 
@@ -487,6 +524,7 @@ function renderPageShell(config, { title, activePage, prefix, content, descripti
     </div>
     ${renderFooter(config)}
     <script src="${prefix}assets/search.js"></script>
+    <script src="${prefix}assets/tables.js"></script>
     ${renderThemeScript()}
 </body>
 </html>`;
@@ -520,6 +558,7 @@ function renderBridgeShell(config, { title, depth, content, description, canonic
     </div>
     ${renderFooter(config)}
     <script src="${prefix}assets/search.js"></script>
+    <script src="${prefix}assets/tables.js"></script>
     ${renderThemeScript()}
 </body>
 </html>`;
@@ -585,13 +624,13 @@ function generateHomepage(config, data, configCSS) {
 
         <h2>${escapeHTML(containerName)}</h2>
         <table class="data-table">
-            <thead><tr><th>${escapeHTML(config.entities?.container?.name || 'Container')}</th><th>Scope</th><th>Status</th><th>Effective</th><th>Provisions</th></tr></thead>
+            <thead><tr>${th(config.entities?.container?.name || 'Container', 'text')}${th('Starting Price', 'number')}${th('Max Users', 'number')}${th('Status', 'text', 'status')}${th('Provisions', 'number')}</tr></thead>
             <tbody>
                 ${containers.map(c => `<tr>
                     <td><a href="container/${c.id}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td>
-                    <td>${escapeHTML(c.jurisdiction || '')}</td>
-                    <td>${renderStatusBadge(c.status)}</td>
-                    <td>${formatDate(c.effective)}</td>
+                    ${tdPrice(c.startingPrice)}
+                    ${tdRange(c.range)}
+                    ${tdStatus(c.status)}
                     <td>${c.provisions.length}</td>
                 </tr>`).join('\n')}
             </tbody>
@@ -626,36 +665,35 @@ function generateContainersPage(config, data, configCSS) {
     const { containers } = data;
     const cName = config.entities?.container?.name || 'Container';
     const cPlural = config.entities?.container?.plural || 'Containers';
-    const scopeField = config.entities?.container?.scope_field || 'jurisdiction';
-    const scopes = [...new Set(containers.map(c => c[scopeField]).filter(Boolean))].sort();
+    const statuses = [...new Set(containers.map(c => c.status).filter(Boolean))].sort();
 
     const content = `
         <h2 style="margin-top: 0.5rem;">${escapeHTML(cPlural)}</h2>
         <div class="filters">
             <div class="filter-group">
-                <label for="scopeFilter">Scope</label>
-                <select id="scopeFilter" onchange="filterItems()"><option value="">All</option>${scopes.map(s => `<option value="${escapeHTML(s)}">${escapeHTML(s)}</option>`).join('')}</select>
+                <label for="statusFilter">Status</label>
+                <select id="statusFilter" onchange="filterItems()"><option value="">All</option>${statuses.map(s => `<option value="${escapeHTML(s)}">${escapeHTML(s)}</option>`).join('')}</select>
             </div>
             <span class="result-count" id="itemCount"><strong>${containers.length}</strong> ${cPlural.toLowerCase()}</span>
         </div>
         <table class="data-table" id="itemTable">
-            <thead><tr><th>${escapeHTML(cName)}</th><th>Scope</th><th>Status</th><th>Effective</th><th>Provisions</th></tr></thead>
+            <thead><tr>${th(cName, 'text')}${th('Starting Price', 'number')}${th('Max Users', 'number')}${th('Status', 'text', 'status')}${th('Provisions', 'number')}</tr></thead>
             <tbody>
-                ${containers.map(c => `<tr data-scope="${escapeHTML(c[scopeField] || '')}">
+                ${containers.map(c => `<tr data-status="${escapeHTML(c.status || '')}">
                     <td><a href="container/${c.id}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td>
-                    <td>${escapeHTML(c[scopeField] || '')}</td>
-                    <td>${renderStatusBadge(c.status)}</td>
-                    <td>${formatDate(c.effective)}</td>
+                    ${tdPrice(c.startingPrice)}
+                    ${tdRange(c.range)}
+                    ${tdStatus(c.status)}
                     <td>${c.provisions.length}</td>
                 </tr>`).join('\n')}
             </tbody>
         </table>
         <script>
         function filterItems() {
-            var s = document.getElementById('scopeFilter').value;
+            var s = document.getElementById('statusFilter').value;
             var rows = document.querySelectorAll('#itemTable tbody tr');
             var count = 0;
-            rows.forEach(function(r) { var match = !s || r.dataset.scope === s; r.style.display = match ? '' : 'none'; if (match) count++; });
+            rows.forEach(function(r) { var match = !s || r.dataset.status === s; r.style.display = match ? '' : 'none'; if (match) count++; });
             document.getElementById('itemCount').innerHTML = '<strong>' + count + '</strong> ${cPlural.toLowerCase()}';
         }
         </script>
@@ -696,29 +734,29 @@ function generatePrimariesPage(config, data, configCSS) {
 
 function generateMatrixPage(config, data, configCSS) {
     const { primaries, containers, matrix } = data;
-    const pName = config.entities?.primary?.name || 'Primary';
+    const cName = config.entities?.container?.name || 'Container';
 
-    const headerCells = containers.map(c => `<th><a href="container/${c.id}/index.html" onclick="passTheme(this)" title="${escapeHTML(c.name)}">${escapeHTML(c.jurisdiction || c.id)}</a></th>`).join('');
+    const headerCells = primaries.map(p => `<th><a href="primary/${p.id}/index.html" onclick="passTheme(this)" title="${escapeHTML(p.name || humanizeId(p.id))}">${escapeHTML(p.name || humanizeId(p.id))}</a></th>`).join('');
 
-    const rows = primaries.map(p => {
-        const pLabel = p.name || humanizeId(p.id);
-        const cells = containers.map(c => {
+    const rows = containers.map(c => {
+        const cLabel = c.name || humanizeId(c.id);
+        const cells = primaries.map(p => {
             const entry = (matrix[p.id] || {})[c.id];
             if (entry && entry.covered) {
                 const n = entry.provisions.length;
-                return `<td class="matrix-cell covered" title="${escapeHTML(pLabel)} — ${escapeHTML(c.name)}: ${n}"><a href="requires/${c.id}/${p.id}/index.html" onclick="passTheme(this)" style="color:inherit;text-decoration:none;">${n}</a></td>`;
+                return `<td class="matrix-cell covered" title="${escapeHTML(cLabel)} — ${escapeHTML(p.name || humanizeId(p.id))}: ${n}"><a href="requires/${c.id}/${p.id}/index.html" onclick="passTheme(this)" style="color:inherit;text-decoration:none;">${n}</a></td>`;
             }
             return `<td class="matrix-cell empty">&mdash;</td>`;
         }).join('');
-        return `<tr><td class="matrix-row-header group-${p.group || 'other'}"><a href="primary/${p.id}/index.html" onclick="passTheme(this)" style="color:inherit;">${escapeHTML(pLabel)}</a></td>${cells}</tr>`;
+        return `<tr><td class="matrix-row-header"><a href="container/${c.id}/index.html" onclick="passTheme(this)" style="color:inherit;">${escapeHTML(cLabel)}</a></td>${cells}</tr>`;
     }).join('\n');
 
     const content = `
         <h2 style="margin-top: 0.5rem;">Coverage Matrix</h2>
-        <p style="color: var(--text-secondary); margin-bottom: 1rem;">Which ${(config.entities?.container?.plural || 'containers').toLowerCase()} cover which ${(config.entities?.primary?.plural || 'primaries').toLowerCase()}. Green cells link to details.</p>
+        <p style="color: var(--text-secondary); margin-bottom: 1rem;">Which ${(config.entities?.primary?.plural || 'primaries').toLowerCase()} each ${(config.entities?.container?.name || 'container').toLowerCase()} covers. Green cells link to details.</p>
         <div class="matrix-wrapper">
             <table class="matrix-table">
-                <thead><tr><th class="matrix-corner">${escapeHTML(pName)}</th>${headerCells}</tr></thead>
+                <thead><tr><th class="matrix-corner">${escapeHTML(cName)}</th>${headerCells}</tr></thead>
                 <tbody>${rows}</tbody>
             </table>
         </div>
@@ -855,12 +893,14 @@ function generateContainerDetail(config, container, data, configCSS) {
         <div class="detail-header">
             <h2>${escapeHTML(container.name)}</h2>
             <div class="detail-meta">
-                ${container.jurisdiction ? `<span><strong>Scope:</strong> ${escapeHTML(container.jurisdiction)}</span>` : ''}
+                ${container.range ? `<span><strong>Range:</strong> ${escapeHTML(container.range)}</span>` : ''}
                 ${renderStatusBadge(container.status)}
                 ${container.effective ? `<span><strong>Effective:</strong> ${formatDate(container.effective)}</span>` : ''}
                 ${container.official_url ? `<span><a href="${escapeHTML(container.official_url)}" target="_blank" rel="noopener">Official source</a></span>` : ''}
+                ${container.pricing_page ? `<span><a href="${escapeHTML(container.pricing_page)}" target="_blank" rel="noopener">Pricing page</a></span>` : ''}
             </div>
         </div>
+        ${container.pricing.length ? `<div class="pricing-bar">${container.pricing.map(tier => `<span class="price-tag"><strong>${escapeHTML(tier.plan)}</strong>: ${escapeHTML(tier.price)}${tier.notes ? ` <span class="price-note">${escapeHTML(tier.notes)}</span>` : ''}</span>`).join('\n                ')}</div>` : ''}
         ${cPrimaries.length ? `<h3>${config.entities?.primary?.plural || 'Primaries'} Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             ${cPrimaries.map(pId => { const p = primaries.find(pr => pr.id === pId); return `<a href="../primary/${pId}/index.html" onclick="passTheme(this)" class="group-badge ${p?.group || ''}" style="text-decoration:none;">${escapeHTML(p?.name || humanizeId(pId))}</a>`; }).join(' ')}
@@ -893,8 +933,8 @@ function generatePrimaryDetail(config, primary, data, configCSS) {
         ${whatCounts ? `<h3>What Counts</h3><ul>${parseBulletList(whatCounts).map(i => `<li>${escapeHTML(i)}</li>`).join('')}</ul>` : ''}
         ${whatDoesNot ? `<h3>What Does Not Count</h3><ul>${parseBulletList(whatDoesNot).map(i => `<li>${escapeHTML(i)}</li>`).join('')}</ul>` : ''}
         <h3>Implementing ${config.entities?.container?.plural || 'Containers'}</h3>
-        ${coveredContainers.length ? `<table class="data-table"><thead><tr><th>${config.entities?.container?.name || 'Container'}</th><th>Scope</th><th>Status</th><th>Provisions</th></tr></thead><tbody>
-            ${coveredContainers.map(cId => { const c = containers.find(co => co.id === cId); if (!c) return ''; return `<tr><td><a href="../container/${cId}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td><td>${escapeHTML(c.jurisdiction || '')}</td><td>${renderStatusBadge(c.status)}</td><td>${pMatrix[cId].provisions.length}</td></tr>`; }).join('\n')}
+        ${coveredContainers.length ? `<table class="data-table"><thead><tr>${th(config.entities?.container?.name || 'Container', 'text')}${th('Max Users', 'number')}${th('Status', 'text')}${th('Provisions', 'number')}</tr></thead><tbody>
+            ${coveredContainers.map(cId => { const c = containers.find(co => co.id === cId); if (!c) return ''; return `<tr><td><a href="../container/${cId}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td>${tdRange(c.range)}${tdStatus(c.status)}<td>${pMatrix[cId].provisions.length}</td></tr>`; }).join('\n')}
         </tbody></table>` : `<p style="color:var(--text-secondary);">No ${cName}s currently implement this.</p>`}
     `;
 
@@ -915,8 +955,8 @@ function generateAuthorityDetail(config, auth, data, configCSS) {
             </div>
         </div>
         <h3>${config.entities?.container?.plural || 'Containers'} (${authContainers.length})</h3>
-        ${authContainers.length ? `<table class="data-table"><thead><tr><th>Name</th><th>Status</th><th>Effective</th><th>Provisions</th></tr></thead><tbody>
-            ${authContainers.map(c => `<tr><td><a href="../container/${c.id}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td><td>${renderStatusBadge(c.status)}</td><td>${formatDate(c.effective)}</td><td>${c.provisions.length}</td></tr>`).join('\n')}
+        ${authContainers.length ? `<table class="data-table"><thead><tr>${th('Name', 'text')}${th('Status', 'text')}${th('Effective', 'text')}${th('Provisions', 'number')}</tr></thead><tbody>
+            ${authContainers.map(c => `<tr><td><a href="../container/${c.id}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td>${tdStatus(c.status)}${tdDate(c.effective)}<td>${c.provisions.length}</td></tr>`).join('\n')}
         </tbody></table>` : '<p style="color:var(--text-secondary);">None tracked.</p>'}
     `;
 
@@ -992,8 +1032,8 @@ function generateAppliesToBridge(config, scopeValue, data, configCSS) {
         <div class="bridge-header"><h2>${escapeHTML(config.entities?.container?.plural || 'Containers')} in ${escapeHTML(scopeValue)}</h2>
             <p class="bridge-subtitle">${scopeContainers.length} tracked</p>
         </div>
-        <table class="data-table"><thead><tr><th>Name</th><th>Status</th><th>Effective</th><th>Provisions</th></tr></thead><tbody>
-            ${scopeContainers.map(c => `<tr><td><a href="../../container/${c.id}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td><td>${renderStatusBadge(c.status)}</td><td>${formatDate(c.effective)}</td><td>${c.provisions.length}</td></tr>`).join('\n')}
+        <table class="data-table"><thead><tr>${th('Name', 'text')}${th('Status', 'text')}${th('Effective', 'text')}${th('Provisions', 'number')}</tr></thead><tbody>
+            ${scopeContainers.map(c => `<tr><td><a href="../../container/${c.id}/index.html" onclick="passTheme(this)">${escapeHTML(c.name)}</a></td>${tdStatus(c.status)}${tdDate(c.effective)}<td>${c.provisions.length}</td></tr>`).join('\n')}
         </tbody></table>
         <div style="margin-top: 2rem; text-align: center;"><a href="../../containers.html" onclick="passTheme(this)" class="bridge-cta">All ${escapeHTML((config.entities?.container?.plural || 'containers').toLowerCase())}</a></div>
     `;
@@ -1160,9 +1200,11 @@ function build() {
     fs.writeFileSync(path.join(ASSETS_DIR, 'data.json'), JSON.stringify(searchIndex));
     console.log(`  Search index: ${searchIndex.length} entries`);
 
-    // Sitemap + robots
+    // Sitemap + robots + CNAME
     fs.writeFileSync(path.join(DOCS_DIR, 'sitemap.xml'), generateSitemap(config, sitemapPages));
     fs.writeFileSync(path.join(DOCS_DIR, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${config.url || ''}sitemap.xml\n`);
+    const hostname = (config.url || '').replace(/^https?:\/\//, '').replace(/\/+$/, '');
+    if (hostname) fs.writeFileSync(path.join(DOCS_DIR, 'CNAME'), hostname + '\n');
 
     // Copy static assets if not present
     const srcCSS = path.join(ROOT, 'docs', 'assets', 'styles.css');

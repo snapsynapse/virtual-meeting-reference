@@ -7,6 +7,8 @@ status: active
 enacted: 2013-01-01
 effective: 2013-01-01
 official_url: https://zoom.us
+pricing_page: https://zoom.us/pricing
+range: 2-1,000
 last_verified: 2026-03-25
 ---
 
@@ -19,6 +21,15 @@ last_verified: 2026-03-25
 | IPO | 2019-04-18 | Listed on NASDAQ |
 | Zoom 5.0 | 2020-04-27 | Major security and encryption update |
 | Rebranded to Zoom Workplace | 2024-04-01 | AI-powered collaboration platform rebrand |
+
+## Pricing
+
+| Plan | Price | Notes |
+|------|-------|-------|
+| Free | $0/mo | 40-min limit on group meetings |
+| Pro | $13.33/mo | 30-hr meetings, 100 participants |
+| Business | $18.33/mo | 300 participants |
+| Enterprise | Custom | 1000 participants |
 
 ---
 
@@ -251,3 +262,31 @@ last_verified: 2026-03-25
 ### Sources
 
 - [Zoom Virtual Backgrounds](https://support.zoom.us/hc/en-us/articles/210707503)
+
+---
+
+## Integrated AI Note-Taker
+
+| Property | Value |
+|----------|-------|
+| Obligation | ai-notetaker |
+| Sections | AI Companion |
+| Status | active |
+| Effective | 2023-09-01 |
+| Verified | 2026-03-25 |
+| Checked | 2026-03-25 |
+
+### Requirements
+
+| Requirement | Details |
+|-------------|---------|
+| Meeting summary | Auto-generated summary with key topics and next steps |
+| Action items | AI-extracted action items sent to participants |
+
+### Talking Point
+
+> "Zoom AI Companion is included at no extra cost across paid plans, generating summaries, action items, and smart chapters."
+
+### Sources
+
+- [Zoom Workplace](https://zoom.us)

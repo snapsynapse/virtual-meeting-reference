@@ -7,6 +7,8 @@ status: active
 enacted: 2017-03-09
 effective: 2017-03-09
 official_url: https://meet.google.com
+pricing_page: https://workspace.google.com/pricing
+range: 2-500
 last_verified: 2026-03-25
 ---
 
@@ -18,6 +20,15 @@ last_verified: 2026-03-25
 | Rebranded to Google Meet | 2020-04-29 | Made free for all users during the pandemic |
 | Google Hangouts retired | 2022-11-01 | All users migrated to Google Meet and Chat |
 | Gemini integration | 2024-06-01 | AI-powered meeting notes and summaries |
+
+## Pricing
+
+| Plan | Price | Notes |
+|------|-------|-------|
+| Free | $0/mo | 60-min meetings, 100 participants |
+| Business Starter | $7/user/mo | 24-hr meetings, 100 participants |
+| Business Standard | $14/user/mo | 150 participants, recording |
+| Business Plus | $22/user/mo | 500 participants, attendance tracking |
 
 ---
 
@@ -221,3 +232,31 @@ last_verified: 2026-03-25
 ### Sources
 
 - [Meet Backgrounds](https://support.google.com/meet/answer/10058482)
+
+---
+
+## Integrated AI Note-Taker
+
+| Property | Value |
+|----------|-------|
+| Obligation | ai-notetaker |
+| Sections | Gemini |
+| Status | active |
+| Effective | 2024-06-01 |
+| Verified | 2026-03-25 |
+| Checked | 2026-03-25 |
+
+### Requirements
+
+| Requirement | Details |
+|-------------|---------|
+| Take notes for me | AI-generated meeting notes shared via Google Docs |
+| Summary emails | Automatic summary emailed to attendees who missed the meeting |
+
+### Talking Point
+
+> "Google Meet's Gemini integration auto-generates notes in Google Docs, tightly coupled with the Workspace ecosystem."
+
+### Sources
+
+- [Google Meet](https://meet.google.com)

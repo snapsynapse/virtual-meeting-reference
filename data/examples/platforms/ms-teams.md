@@ -7,6 +7,8 @@ status: active
 enacted: 2017-03-14
 effective: 2017-03-14
 official_url: https://www.microsoft.com/en-us/microsoft-teams
+pricing_page: https://www.microsoft.com/en-us/microsoft-teams/compare-teams-offerings
+range: 2-20,000
 last_verified: 2026-03-25
 ---
 
@@ -18,6 +20,16 @@ last_verified: 2026-03-25
 | Skype for Business retirement | 2021-07-31 | Teams fully replaced Skype for Business |
 | Teams Premium | 2023-02-01 | AI-powered premium tier launched |
 | Free version relaunch | 2023-04-12 | Standalone free Teams for personal use |
+
+## Pricing
+
+| Plan | Price | Notes |
+|------|-------|-------|
+| Free | $0/mo | 60-min meetings, 100 participants |
+| Essentials | $4/user/mo | 30-hr meetings, 300 participants |
+| Business Basic | $6/user/mo | 300 participants, recording |
+| Business Standard | $12.50/user/mo | Webinars, app integration |
+| Enterprise | Custom | 1000+ participants |
 
 ---
 
@@ -250,3 +262,31 @@ last_verified: 2026-03-25
 ### Sources
 
 - [Teams Backgrounds](https://support.microsoft.com/en-us/office/change-your-background-in-teams-meetings)
+
+---
+
+## Integrated AI Note-Taker
+
+| Property | Value |
+|----------|-------|
+| Obligation | ai-notetaker |
+| Sections | Copilot |
+| Status | active |
+| Effective | 2023-11-01 |
+| Verified | 2026-03-25 |
+| Checked | 2026-03-25 |
+
+### Requirements
+
+| Requirement | Details |
+|-------------|---------|
+| Intelligent recap | AI-generated meeting notes with topics, action items, and mentions |
+| Follow-up tasks | Copilot suggests follow-up tasks and drafts messages based on meeting content |
+
+### Talking Point
+
+> "Teams Copilot provides real-time meeting notes and can answer questions about what was discussed mid-meeting."
+
+### Sources
+
+- [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams)

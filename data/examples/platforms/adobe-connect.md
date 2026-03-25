@@ -7,6 +7,8 @@ status: active
 enacted: 2003-01-01
 effective: 2003-01-01
 official_url: https://www.adobe.com/products/adobeconnect.html
+pricing_page: https://www.adobe.com/products/adobeconnect/pricing.html
+range: 2-1,500
 last_verified: 2026-03-25
 ---
 
@@ -17,6 +19,14 @@ last_verified: 2026-03-25
 | Launch as Macromedia Breeze | 2003-01-01 | Web conferencing and eLearning platform |
 | Adobe acquisition | 2005-12-03 | Adobe acquires Macromedia, rebrands to Adobe Connect |
 | Adobe Connect 12 | 2022-10-01 | Major update with modern UI and WebRTC support |
+
+## Pricing
+
+| Plan | Price | Notes |
+|------|-------|-------|
+| Named Host | $50/mo | 25 participants |
+| Shared Host | $130/mo | 100 participants |
+| Enterprise | Custom | 1500 participants |
 
 ---
 
