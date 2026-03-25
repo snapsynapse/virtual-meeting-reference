@@ -494,12 +494,13 @@ function renderFooter(config) {
     </footer>`;
 }
 
-function renderPageShell(config, { title, activePage, prefix, content, description, canonicalPath, configCSS }) {
+function renderPageShell(config, { title, activePage, prefix, content, description, canonicalPath, structuredData, configCSS }) {
     prefix = prefix || '';
     const siteName = config.name || 'Knowledge Base';
     const siteUrl = config.url || '';
     const desc = description || config.description || '';
-    const canonical = canonicalPath ? `<link rel="canonical" href="${siteUrl}${canonicalPath}">` : '';
+    const canonical = canonicalPath !== undefined ? `<link rel="canonical" href="${siteUrl}${canonicalPath}">` : '';
+    const jsonLd = structuredData ? `\n    <script type="application/ld+json">${JSON.stringify(structuredData)}</script>` : '';
 
     return `<!DOCTYPE html>
 <html lang="en">
@@ -514,7 +515,7 @@ function renderPageShell(config, { title, activePage, prefix, content, descripti
     <meta name="description" content="${escapeHTML(desc)}">
     <meta property="og:title" content="${escapeHTML(title)}">
     <meta property="og:description" content="${escapeHTML(desc)}">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="website">${jsonLd}
     ${renderThemeInit()}
 </head>
 <body>
@@ -651,14 +652,39 @@ function generateHomepage(config, data, configCSS) {
 
         <h2>Quick Links</h2>
         <div class="stats-bar">
-            <div class="stat-card"><a href="matrix.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">Grid</span><span class="stat-label">Coverage Matrix</span></a></div>
-            <div class="stat-card"><a href="timeline.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">Dates</span><span class="stat-label">Timeline</span></a></div>
-            <div class="stat-card"><a href="compare.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">vs</span><span class="stat-label">Compare</span></a></div>
+            <div class="stat-card"><a href="matrix.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">Grid</span><span class="stat-label">View Coverage Matrix</span></a></div>
+            <div class="stat-card"><a href="compare.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">vs</span><span class="stat-label">Compare Platforms</span></a></div>
+            <div class="stat-card"><a href="timeline.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">Dates</span><span class="stat-label">View Timeline</span></a></div>
             <div class="stat-card"><a href="api/v1/index.json" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">API</span><span class="stat-label">JSON API</span></a></div>
+        </div>
+
+        <h2>Questions?</h2>
+        <div class="stats-bar">
+            <div class="stat-card"><a href="faq.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">?</span><span class="stat-label">Read the FAQ</span></a></div>
+            <div class="stat-card"><a href="contact.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">@</span><span class="stat-label">Contact Us</span></a></div>
         </div>
     `;
 
-    return renderPageShell(config, { title: 'Home', activePage: 'home', content, canonicalPath: '', description: config.description, configCSS });
+    const structuredData = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'WebSite',
+                'name': config.name || '',
+                'url': config.url || '',
+                'description': config.description || '',
+                'publisher': { '@type': 'Organization', 'name': 'Snap Synapse', 'url': 'https://snapsynapse.com' }
+            },
+            {
+                '@type': 'Organization',
+                'name': 'Snap Synapse',
+                'url': 'https://snapsynapse.com',
+                'contactPoint': { '@type': 'ContactPoint', 'email': 'hello@snapsynapse.com', 'contactType': 'customer service' }
+            }
+        ]
+    };
+
+    return renderPageShell(config, { title: 'Home', activePage: 'home', content, canonicalPath: '', description: `Compare ${containers.length} virtual meeting platforms across ${primaries.length} features. Pricing, capabilities, and vendor details for Zoom, Teams, Meet, and more.`, structuredData, configCSS });
 }
 
 function generateContainersPage(config, data, configCSS) {
@@ -699,7 +725,7 @@ function generateContainersPage(config, data, configCSS) {
         </script>
     `;
 
-    return renderPageShell(config, { title: cPlural, activePage: 'containers', content, canonicalPath: 'containers.html', configCSS });
+    return renderPageShell(config, { title: cPlural, activePage: 'containers', content, canonicalPath: 'containers.html', description: `Browse all ${containers.length} virtual meeting platforms with pricing, status, and feature counts. Filter by active, limited, or discontinued.`, configCSS });
 }
 
 function generatePrimariesPage(config, data, configCSS) {
@@ -729,7 +755,7 @@ function generatePrimariesPage(config, data, configCSS) {
         }).join('\n')}
     `;
 
-    return renderPageShell(config, { title: pPlural, activePage: 'primaries', content, canonicalPath: 'primaries.html', configCSS });
+    return renderPageShell(config, { title: pPlural, activePage: 'primaries', content, canonicalPath: 'primaries.html', description: `All ${primaries.length} meeting features tracked — from video conferencing and screen sharing to AI notetakers and breakout rooms. See which platforms support each.`, configCSS });
 }
 
 function generateMatrixPage(config, data, configCSS) {
@@ -762,7 +788,7 @@ function generateMatrixPage(config, data, configCSS) {
         </div>
     `;
 
-    return renderPageShell(config, { title: 'Coverage Matrix', activePage: 'matrix', content, canonicalPath: 'matrix.html', configCSS });
+    return renderPageShell(config, { title: 'Coverage Matrix', activePage: 'matrix', content, canonicalPath: 'matrix.html', description: `Feature coverage matrix for ${containers.length} virtual meeting platforms across ${primaries.length} capabilities. See at a glance which platforms support what.`, configCSS });
 }
 
 function generateTimelinePage(config, data, configCSS) {
@@ -797,7 +823,7 @@ function generateTimelinePage(config, data, configCSS) {
         <p style="color: var(--text-secondary); margin-bottom: 1rem;">Key dates. Solid dots are past; hollow dots are future.</p>
         <div class="timeline">${html}</div>`;
 
-    return renderPageShell(config, { title: 'Timeline', activePage: 'timeline', content, canonicalPath: 'timeline.html', configCSS });
+    return renderPageShell(config, { title: 'Timeline', activePage: 'timeline', content, canonicalPath: 'timeline.html', description: `Timeline of key dates for virtual meeting platforms — launches, major updates, and discontinuations.`, configCSS });
 }
 
 function generateComparePage(config, data, configCSS) {
@@ -844,7 +870,7 @@ function generateComparePage(config, data, configCSS) {
         </script>
     `;
 
-    return renderPageShell(config, { title: 'Compare', activePage: 'compare', content, canonicalPath: 'compare.html', configCSS });
+    return renderPageShell(config, { title: 'Compare', activePage: 'compare', content, canonicalPath: 'compare.html', description: `Compare virtual meeting platforms side by side. Select 2 or 3 platforms to see shared and unique feature coverage.`, configCSS });
 }
 
 function generateAboutPage(config, data, configCSS) {
@@ -873,7 +899,70 @@ function generateAboutPage(config, data, configCSS) {
         <p>See the <a href="${escapeHTML(config.repo || '#')}">repository</a> for contribution guidelines.</p>
     </div>`;
 
-    return renderPageShell(config, { title: 'About', activePage: 'about', content, canonicalPath: 'about.html', configCSS });
+    return renderPageShell(config, { title: 'About', activePage: 'about', content, canonicalPath: 'about.html', description: `About the ${config.name || 'Knowledge Base'} — how the data is structured, the JSON API, and how to contribute.`, configCSS });
+}
+
+function generateContactPage(config, data, configCSS) {
+    const { containers, primaries } = data;
+    const siteName = config.name || 'Knowledge Base';
+    const repo = config.repo || '#';
+
+    const content = `<div class="about-content">
+        <h2 style="margin-top: 0.5rem;">Contact</h2>
+        <p>The ${escapeHTML(siteName)} is maintained by <a href="https://snapsynapse.com">Snap Synapse</a>. There are several ways to get in touch depending on what you need.</p>
+
+        <h3>Report a Data Issue</h3>
+        <p>Found incorrect pricing, a missing platform, or an outdated feature listing? Open an issue on GitHub — this is the fastest way to get a correction made.</p>
+        <p><a href="${escapeHTML(repo)}/issues/new" target="_blank" rel="noopener" class="group-badge communication" style="text-decoration:none;padding:8px 16px;font-size:1rem;">Open a GitHub Issue</a></p>
+
+        <h3>Request a Consultation</h3>
+        <p>Need help evaluating meeting platforms for your organization, planning a migration, or building a virtual classroom strategy? Snap Synapse offers consulting on collaboration technology and AI-readiness.</p>
+        <p><a href="https://snapsynapse.com/contact" target="_blank" rel="noopener" class="group-badge engagement" style="text-decoration:none;padding:8px 16px;font-size:1rem;">Contact Snap Synapse</a></p>
+
+        <h3>General Inquiries</h3>
+        <p>For questions about the data, partnership opportunities, or anything else:</p>
+        <p><a href="mailto:hello@snapsynapse.com" class="group-badge management" style="text-decoration:none;padding:8px 16px;font-size:1rem;">hello@snapsynapse.com</a></p>
+
+        <h3>Contributing</h3>
+        <p>This is an open-source reference. Contributions are welcome — whether adding a new platform, correcting data, or improving the tooling.</p>
+        <p><a href="${escapeHTML(repo)}" target="_blank" rel="noopener">View the repository on GitHub</a></p>
+    </div>`;
+
+    return renderPageShell(config, { title: 'Contact', activePage: 'contact', content, canonicalPath: 'contact.html', description: `Contact Snap Synapse about the ${siteName}. Report data issues on GitHub, request a consultation, or send general inquiries.`, configCSS });
+}
+
+function generateFaqPage(config, data, configCSS) {
+    const { containers, primaries, authorities, totalProvisions } = data;
+    const siteName = config.name || 'Knowledge Base';
+    const cPlural = config.entities?.container?.plural || 'Containers';
+    const pPlural = config.entities?.primary?.plural || 'Primaries';
+
+    const content = `<div class="about-content">
+        <h2 style="margin-top: 0.5rem;">Frequently Asked Questions</h2>
+
+        <h3>What is this site?</h3>
+        <p>The ${escapeHTML(siteName)} is a structured comparison of ${containers.length} virtual meeting and classroom platforms. It tracks ${primaries.length} feature categories across ${authorities.length} vendors, with ${totalProvisions} individual capability assessments. The goal is to provide a clear, navigable reference for anyone evaluating synchronous communication tools.</p>
+
+        <h3>Who maintains this?</h3>
+        <p>This site is maintained by <a href="https://snapsynapse.com">Snap Synapse</a>, a consulting firm specializing in collaboration technology, AI readiness, and learning design. The data is open-source and community contributions are welcome.</p>
+
+        <h3>How is the data structured?</h3>
+        <p><strong>Vendors</strong> produce <strong>${escapeHTML(cPlural.toLowerCase())}</strong>, which support <strong>${escapeHTML(pPlural.toLowerCase())}</strong> through individual capabilities. Each platform page shows its vendor, pricing, timeline, and a detailed breakdown of which features it supports and how. The <a href="matrix.html">Coverage Matrix</a> provides an at-a-glance comparison across all platforms.</p>
+
+        <h3>How often is the data updated?</h3>
+        <p>Data is updated as platforms release new features or change pricing. Community contributions via <a href="${escapeHTML(config.repo || '#')}/issues">GitHub Issues</a> help keep the reference current. Each platform page includes timeline entries showing when data was last verified.</p>
+
+        <h3>A platform is missing or has incorrect data. How do I fix it?</h3>
+        <p>Open a <a href="${escapeHTML(config.repo || '#')}/issues/new">GitHub Issue</a> describing what needs to change. Include a source link if possible. You can also submit a pull request directly if you are comfortable with the data format.</p>
+
+        <h3>Can I use this data programmatically?</h3>
+        <p>Yes. The site exposes a <a href="api/v1/index.json">JSON API</a> with endpoints for platforms, features, vendors, mappings, and the coverage matrix. The API is static and updated with each build.</p>
+
+        <h3>I need help choosing a platform for my organization.</h3>
+        <p>Start with the <a href="compare.html">Compare</a> tool to see feature differences side by side. For personalized guidance, <a href="contact.html">contact Snap Synapse</a> to discuss your requirements.</p>
+    </div>`;
+
+    return renderPageShell(config, { title: 'FAQ', activePage: 'faq', content, canonicalPath: 'faq.html', description: `Frequently asked questions about the ${siteName} — how the data is structured, how to contribute, and how to use the JSON API.`, configCSS });
 }
 
 // ---------------------------------------------------------------------------
@@ -1153,7 +1242,9 @@ function build() {
     fs.writeFileSync(path.join(DOCS_DIR, 'timeline.html'), generateTimelinePage(config, data, configCSS)); sitemapPages.push('timeline.html');
     fs.writeFileSync(path.join(DOCS_DIR, 'compare.html'), generateComparePage(config, data, configCSS)); sitemapPages.push('compare.html');
     fs.writeFileSync(path.join(DOCS_DIR, 'about.html'), generateAboutPage(config, data, configCSS)); sitemapPages.push('about.html');
-    console.log('  Core pages: 7');
+    fs.writeFileSync(path.join(DOCS_DIR, 'faq.html'), generateFaqPage(config, data, configCSS)); sitemapPages.push('faq.html');
+    fs.writeFileSync(path.join(DOCS_DIR, 'contact.html'), generateContactPage(config, data, configCSS)); sitemapPages.push('contact.html');
+    console.log('  Core pages: 9');
 
     for (const c of containers) { const dir = path.join(DOCS_DIR, 'container', c.id); ensureDir(dir); fs.writeFileSync(path.join(dir, 'index.html'), generateContainerDetail(config, c, data, configCSS)); sitemapPages.push(`container/${c.id}/`); }
     console.log(`  Container detail pages: ${containers.length}`);

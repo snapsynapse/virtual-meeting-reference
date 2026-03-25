@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microsoft Teams — Polling and Q&amp;A - Virtual Meeting Software Guide</title>
+    <title>FAQ - Virtual Meeting Software Guide</title>
     <meta name="theme-color" content="#1a1a2e">
-    <link rel="canonical" href="https://meetings.snapsynapse.com/requires/ms-teams/polling/">
-    <link rel="stylesheet" href="../../../assets/styles.css">
+    <link rel="canonical" href="https://meetings.snapsynapse.com/faq.html">
+    <link rel="stylesheet" href="assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
@@ -33,9 +33,9 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    <meta name="description" content="Does Microsoft Teams require Polling and Q&amp;A? Yes.">
-    <meta property="og:title" content="Microsoft Teams — Polling and Q&amp;A">
-    <meta property="og:description" content="Does Microsoft Teams require Polling and Q&amp;A? Yes.">
+    <meta name="description" content="Frequently asked questions about the Virtual Meeting Software Guide — how the data is structured, how to contribute, and how to use the JSON API.">
+    <meta property="og:title" content="FAQ">
+    <meta property="og:description" content="Frequently asked questions about the Virtual Meeting Software Guide — how the data is structured, how to contribute, and how to use the JSON API.">
     <meta property="og:type" content="website">
     <script>
         (function() {
@@ -50,20 +50,20 @@
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-        <h1><a href="../../../index.html" onclick="passTheme(this)">Virtual Meeting Software Guide</a></h1>
+        <h1><a href="index.html" onclick="passTheme(this)">Virtual Meeting Software Guide</a></h1>
         <button class="hamburger-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false" aria-controls="siteNav">
             <span class="hamburger-icon"></span>
         </button>
         <nav class="site-nav" id="siteNav" aria-label="Main navigation">
-            <a href="../../../index.html" class="site-nav-link" onclick="passTheme(this)">Home</a>
-            <a href="../../../containers.html" class="site-nav-link" onclick="passTheme(this)">Platforms</a>
-            <a href="../../../primaries.html" class="site-nav-link" onclick="passTheme(this)">Features</a>
-            <a href="../../../matrix.html" class="site-nav-link" onclick="passTheme(this)">Matrix</a>
-            <a href="../../../timeline.html" class="site-nav-link" onclick="passTheme(this)">Timeline</a>
-            <a href="../../../compare.html" class="site-nav-link" onclick="passTheme(this)">Compare</a>
-            <a href="../../../about.html" class="site-nav-link" onclick="passTheme(this)">About</a>
-            <a href="../../../faq.html" class="site-nav-link" onclick="passTheme(this)">FAQ</a>
-            <a href="../../../contact.html" class="site-nav-link" onclick="passTheme(this)">Contact</a>
+            <a href="index.html" class="site-nav-link" onclick="passTheme(this)">Home</a>
+            <a href="containers.html" class="site-nav-link" onclick="passTheme(this)">Platforms</a>
+            <a href="primaries.html" class="site-nav-link" onclick="passTheme(this)">Features</a>
+            <a href="matrix.html" class="site-nav-link" onclick="passTheme(this)">Matrix</a>
+            <a href="timeline.html" class="site-nav-link" onclick="passTheme(this)">Timeline</a>
+            <a href="compare.html" class="site-nav-link" onclick="passTheme(this)">Compare</a>
+            <a href="about.html" class="site-nav-link" onclick="passTheme(this)">About</a>
+            <a href="faq.html" class="site-nav-link active" onclick="passTheme(this)">FAQ</a>
+            <a href="contact.html" class="site-nav-link" onclick="passTheme(this)">Contact</a>
         </nav>
         <div class="header-actions">
             <div class="site-search" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="searchResults">
@@ -74,43 +74,37 @@
         </div>
     </header>
     <div class="container" id="main-content">
-        
-        <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="../../../index.html" onclick="passTheme(this)">Home</a>
-        <span class="sep">/</span> <a href="../../../container/ms-teams/index.html" onclick="passTheme(this)">Microsoft Teams</a>
-        <span class="sep">/</span> <span>Polling and Q&amp;A</span>
-    </nav>
-        <div class="bridge-header">
-            <h2>Does Microsoft Teams require Polling and Q&amp;A?</h2>
-        </div>
-        <div class="bridge-answer">
-            <p class="answer-yes">Yes &mdash; 1 provision</p>
-        </div>
-        <div class="provision-card" id="polling-and-q-a">
-        <h3>Polling and Q&amp;A</h3>
-        <div class="provision-meta">
-            <span><strong>Implements:</strong> <a href="../primary/polling/index.html" onclick="passTheme(this)">Polling</a></span>
-            <span><span class="status-badge active">active</span></span>
-            <span><strong>Effective:</strong> May 1, 2021</span>
-        </div>
-        <div class="talking-point">"Teams integrates Microsoft Forms directly into meetings for seamless polling and quiz creation."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Polls</td><td>Multiple choice and rating via Microsoft Forms</td></tr><tr><td>Q&amp;A</td><td>Structured Q&amp;A with moderation in webinars/town halls</td></tr><tr><td>Quizzes</td><td>Forms-based quiz with auto-grading</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/office/polls-in-microsoft-teams-meetings" target="_blank" rel="noopener">Teams Polls</a></div>
+        <div class="about-content">
+        <h2 style="margin-top: 0.5rem;">Frequently Asked Questions</h2>
+
+        <h3>What is this site?</h3>
+        <p>The Virtual Meeting Software Guide is a structured comparison of 22 virtual meeting and classroom platforms. It tracks 9 feature categories across 20 vendors, with 157 individual capability assessments. The goal is to provide a clear, navigable reference for anyone evaluating synchronous communication tools.</p>
+
+        <h3>Who maintains this?</h3>
+        <p>This site is maintained by <a href="https://snapsynapse.com">Snap Synapse</a>, a consulting firm specializing in collaboration technology, AI readiness, and learning design. The data is open-source and community contributions are welcome.</p>
+
+        <h3>How is the data structured?</h3>
+        <p><strong>Vendors</strong> produce <strong>platforms</strong>, which support <strong>features</strong> through individual capabilities. Each platform page shows its vendor, pricing, timeline, and a detailed breakdown of which features it supports and how. The <a href="matrix.html">Coverage Matrix</a> provides an at-a-glance comparison across all platforms.</p>
+
+        <h3>How often is the data updated?</h3>
+        <p>Data is updated as platforms release new features or change pricing. Community contributions via <a href="https://github.com/snapsynapse/virtual-meeting-reference/issues">GitHub Issues</a> help keep the reference current. Each platform page includes timeline entries showing when data was last verified.</p>
+
+        <h3>A platform is missing or has incorrect data. How do I fix it?</h3>
+        <p>Open a <a href="https://github.com/snapsynapse/virtual-meeting-reference/issues/new">GitHub Issue</a> describing what needs to change. Include a source link if possible. You can also submit a pull request directly if you are comfortable with the data format.</p>
+
+        <h3>Can I use this data programmatically?</h3>
+        <p>Yes. The site exposes a <a href="api/v1/index.json">JSON API</a> with endpoints for platforms, features, vendors, mappings, and the coverage matrix. The API is static and updated with each build.</p>
+
+        <h3>I need help choosing a platform for my organization.</h3>
+        <p>Start with the <a href="compare.html">Compare</a> tool to see feature differences side by side. For personalized guidance, <a href="contact.html">contact Snap Synapse</a> to discuss your requirements.</p>
     </div>
-        <div style="margin-top: 2rem; text-align: center;">
-            <a href="../../../container/ms-teams/index.html" onclick="passTheme(this)" class="bridge-cta">View Platform</a>
-            <a href="../../../primary/polling/index.html" onclick="passTheme(this)" class="bridge-cta">View Feature</a>
-            <a href="../../../matrix.html" onclick="passTheme(this)" class="bridge-cta">Coverage matrix</a>
-        </div>
-    
     </div>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-meeting-reference">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>
     </footer>
-    <script src="../../../assets/search.js"></script>
-    <script src="../../../assets/tables.js"></script>
+    <script src="assets/search.js"></script>
+    <script src="assets/tables.js"></script>
     <script>
         function toggleTheme() {
             document.documentElement.classList.toggle('light-mode');

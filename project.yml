@@ -101,6 +101,12 @@ nav:
   - id: about
     label: About
     href: about.html
+  - id: faq
+    label: FAQ
+    href: faq.html
+  - id: contact
+    label: Contact
+    href: contact.html
 
 # ---------------------------------------------------------------------------
 # Bridge pages — SEO-targeted detail pages
