@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "generated": "2026-03-25T23:23:13.745Z",
+    "count": 22
+  },
+  "items": [
+    {
+      "id": "8x8-meet",
+      "name": "8x8 Meet",
+      "status": "active",
+      "effective": "2018-01-01",
+      "provision_count": 7
+    },
+    {
+      "id": "adobe-connect",
+      "name": "Adobe Connect",
+      "status": "active",
+      "effective": "2003-01-01",
+      "provision_count": 7
+    },
+    {
+      "id": "anymeeting",
+      "name": "AnyMeeting",
+      "status": "discontinued",
+      "effective": "2009-01-01",
+      "provision_count": 5
+    },
+    {
+      "id": "bigbluebutton",
+      "name": "BigBlueButton",
+      "status": "active",
+      "effective": "2007-06-01",
+      "provision_count": 7
+    },
+    {
+      "id": "bluejeans",
+      "name": "BlueJeans",
+      "status": "discontinued",
+      "effective": "2009-01-01",
+      "provision_count": 8
+    },
+    {
+      "id": "clickmeeting",
+      "name": "ClickMeeting",
+      "status": "active",
+      "effective": "2011-01-01",
+      "provision_count": 8
+    },
+    {
+      "id": "dialpad-meetings",
+      "name": "Dialpad Meetings",
+      "status": "active",
+      "effective": "2020-01-01",
+      "provision_count": 7
+    },
+    {
+      "id": "google-meet",
+      "name": "Google Meet",
+      "status": "active",
+      "effective": "2017-03-09",
+      "provision_count": 8
+    },
+    {
+      "id": "goto-meeting",
+      "name": "GoTo Meeting",
+      "status": "active",
+      "effective": "2004-07-01",
+      "provision_count": 8
+    },
+    {
+      "id": "jitsi-meet",
+      "name": "Jitsi Meet",
+      "status": "active",
+      "effective": "2016-01-01",
+      "provision_count": 8
+    },
+    {
+      "id": "lark",
+      "name": "Lark",
+      "status": "active",
+      "effective": "2019-04-01",
+      "provision_count": 9
+    },
+    {
+      "id": "lifesize",
+      "name": "Lifesize",
+      "status": "limited",
+      "effective": "2003-01-01",
+      "provision_count": 5
+    },
+    {
+      "id": "ms-teams",
+      "name": "Microsoft Teams",
+      "status": "active",
+      "effective": "2017-03-14",
+      "provision_count": 9
+    },
+    {
+      "id": "ringcentral-video",
+      "name": "RingCentral Video",
+      "status": "active",
+      "effective": "2020-04-01",
+      "provision_count": 8
+    },
+    {
+      "id": "skype",
+      "name": "Skype",
+      "status": "limited",
+      "effective": "2003-08-29",
+      "provision_count": 5
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "status": "active",
+      "effective": "2013-08-14",
+      "provision_count": 3
+    },
+    {
+      "id": "trueconf",
+      "name": "TrueConf",
+      "status": "active",
+      "effective": "2003-01-01",
+      "provision_count": 8
+    },
+    {
+      "id": "uberconference",
+      "name": "UberConference",
+      "status": "discontinued",
+      "effective": "2012-11-01",
+      "provision_count": 4
+    },
+    {
+      "id": "webex-meetings",
+      "name": "Webex Meetings",
+      "status": "active",
+      "effective": "2007-05-01",
+      "provision_count": 9
+    },
+    {
+      "id": "whereby",
+      "name": "Whereby",
+      "status": "active",
+      "effective": "2013-01-01",
+      "provision_count": 7
+    },
+    {
+      "id": "zoho-meeting",
+      "name": "Zoho Meeting",
+      "status": "active",
+      "effective": "2011-01-01",
+      "provision_count": 8
+    },
+    {
+      "id": "zoom-workplace",
+      "name": "Zoom Workplace",
+      "status": "active",
+      "effective": "2013-01-01",
+      "provision_count": 9
+    }
+  ]
+}

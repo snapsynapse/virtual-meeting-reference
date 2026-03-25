@@ -1,0 +1,967 @@
+{
+  "meta": {
+    "generated": "2026-03-25T23:23:13.746Z"
+  },
+  "matrix": {
+    "ai-notetaker": {
+      "dialpad-meetings": {
+        "covered": true,
+        "provisions": [
+          "dialpad-ai-notetaker"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-ai-notetaker"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-ai-notetaker"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-ai-notetaker"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-ai-notetaker"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-ai-notetaker"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-ai-notetaker"
+        ]
+      }
+    },
+    "breakout-rooms": {
+      "8x8-meet": {
+        "covered": true,
+        "provisions": [
+          "8x8-breakout-rooms"
+        ]
+      },
+      "adobe-connect": {
+        "covered": true,
+        "provisions": [
+          "connect-breakout-rooms"
+        ]
+      },
+      "bigbluebutton": {
+        "covered": true,
+        "provisions": [
+          "bbb-breakout-rooms"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-breakout-rooms"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-breakout-rooms"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-breakout-rooms"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-breakout-rooms"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-breakout-rooms"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-breakout-rooms"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-breakout-rooms"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-breakout-rooms"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-breakout-rooms"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-breakout-rooms"
+        ]
+      },
+      "whereby": {
+        "covered": true,
+        "provisions": [
+          "whereby-breakout-rooms"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-breakout-rooms"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-breakout-rooms"
+        ]
+      }
+    },
+    "chat-messaging": {
+      "8x8-meet": {
+        "covered": true,
+        "provisions": [
+          "8x8-chat"
+        ]
+      },
+      "adobe-connect": {
+        "covered": true,
+        "provisions": [
+          "connect-chat"
+        ]
+      },
+      "anymeeting": {
+        "covered": true,
+        "provisions": [
+          "anymeeting-chat"
+        ]
+      },
+      "bigbluebutton": {
+        "covered": true,
+        "provisions": [
+          "bbb-chat"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-chat"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-chat"
+        ]
+      },
+      "dialpad-meetings": {
+        "covered": true,
+        "provisions": [
+          "dialpad-chat"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-chat"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-chat"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-chat"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-chat"
+        ]
+      },
+      "lifesize": {
+        "covered": true,
+        "provisions": [
+          "lifesize-chat"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-chat"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-chat"
+        ]
+      },
+      "skype": {
+        "covered": true,
+        "provisions": [
+          "skype-chat"
+        ]
+      },
+      "slack": {
+        "covered": true,
+        "provisions": [
+          "slack-chat"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-chat"
+        ]
+      },
+      "uberconference": {
+        "covered": true,
+        "provisions": [
+          "uberconference-chat"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-chat"
+        ]
+      },
+      "whereby": {
+        "covered": true,
+        "provisions": [
+          "whereby-chat"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-chat"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-chat"
+        ]
+      }
+    },
+    "polling": {
+      "8x8-meet": {
+        "covered": true,
+        "provisions": [
+          "8x8-polling"
+        ]
+      },
+      "adobe-connect": {
+        "covered": true,
+        "provisions": [
+          "connect-polling"
+        ]
+      },
+      "anymeeting": {
+        "covered": true,
+        "provisions": [
+          "anymeeting-polling"
+        ]
+      },
+      "bigbluebutton": {
+        "covered": true,
+        "provisions": [
+          "bbb-polling"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-polling"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-polling"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-polling"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-polling"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-polling"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-polling"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-polling"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-polling"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-polling"
+        ]
+      },
+      "whereby": {
+        "covered": true,
+        "provisions": [
+          "whereby-polling"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-polling"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-polling"
+        ]
+      }
+    },
+    "recording": {
+      "8x8-meet": {
+        "covered": true,
+        "provisions": [
+          "8x8-recording"
+        ]
+      },
+      "adobe-connect": {
+        "covered": true,
+        "provisions": [
+          "connect-recording"
+        ]
+      },
+      "anymeeting": {
+        "covered": true,
+        "provisions": [
+          "anymeeting-recording"
+        ]
+      },
+      "bigbluebutton": {
+        "covered": true,
+        "provisions": [
+          "bbb-recording"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-recording"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-recording"
+        ]
+      },
+      "dialpad-meetings": {
+        "covered": true,
+        "provisions": [
+          "dialpad-recording"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-recording"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-recording"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-recording"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-recording"
+        ]
+      },
+      "lifesize": {
+        "covered": true,
+        "provisions": [
+          "lifesize-recording"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-recording"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-recording"
+        ]
+      },
+      "skype": {
+        "covered": true,
+        "provisions": [
+          "skype-recording"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-recording"
+        ]
+      },
+      "uberconference": {
+        "covered": true,
+        "provisions": [
+          "uberconference-recording"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-recording"
+        ]
+      },
+      "whereby": {
+        "covered": true,
+        "provisions": [
+          "whereby-recording"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-recording"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-recording"
+        ]
+      }
+    },
+    "screen-sharing": {
+      "8x8-meet": {
+        "covered": true,
+        "provisions": [
+          "8x8-screen-sharing"
+        ]
+      },
+      "adobe-connect": {
+        "covered": true,
+        "provisions": [
+          "connect-screen-sharing"
+        ]
+      },
+      "anymeeting": {
+        "covered": true,
+        "provisions": [
+          "anymeeting-screen-sharing"
+        ]
+      },
+      "bigbluebutton": {
+        "covered": true,
+        "provisions": [
+          "bbb-screen-sharing"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-screen-sharing"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-screen-sharing"
+        ]
+      },
+      "dialpad-meetings": {
+        "covered": true,
+        "provisions": [
+          "dialpad-screen-sharing"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-screen-sharing"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-screen-sharing"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-screen-sharing"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-screen-sharing"
+        ]
+      },
+      "lifesize": {
+        "covered": true,
+        "provisions": [
+          "lifesize-screen-sharing"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-screen-sharing"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-screen-sharing"
+        ]
+      },
+      "skype": {
+        "covered": true,
+        "provisions": [
+          "skype-screen-sharing"
+        ]
+      },
+      "slack": {
+        "covered": true,
+        "provisions": [
+          "slack-screen-sharing"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-screen-sharing"
+        ]
+      },
+      "uberconference": {
+        "covered": true,
+        "provisions": [
+          "uberconference-screen-sharing"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-screen-sharing"
+        ]
+      },
+      "whereby": {
+        "covered": true,
+        "provisions": [
+          "whereby-screen-sharing"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-screen-sharing"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-screen-sharing"
+        ]
+      }
+    },
+    "video-conferencing": {
+      "8x8-meet": {
+        "covered": true,
+        "provisions": [
+          "8x8-video-conferencing"
+        ]
+      },
+      "adobe-connect": {
+        "covered": true,
+        "provisions": [
+          "connect-video-conferencing"
+        ]
+      },
+      "anymeeting": {
+        "covered": true,
+        "provisions": [
+          "anymeeting-video-conferencing"
+        ]
+      },
+      "bigbluebutton": {
+        "covered": true,
+        "provisions": [
+          "bbb-video-conferencing"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-video-conferencing"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-video-conferencing"
+        ]
+      },
+      "dialpad-meetings": {
+        "covered": true,
+        "provisions": [
+          "dialpad-video-conferencing"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-video-conferencing"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-video-conferencing"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-video-conferencing"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-video-conferencing"
+        ]
+      },
+      "lifesize": {
+        "covered": true,
+        "provisions": [
+          "lifesize-video-conferencing"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-video-conferencing"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-video-conferencing"
+        ]
+      },
+      "skype": {
+        "covered": true,
+        "provisions": [
+          "skype-video-conferencing"
+        ]
+      },
+      "slack": {
+        "covered": true,
+        "provisions": [
+          "slack-video-conferencing"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-video-conferencing"
+        ]
+      },
+      "uberconference": {
+        "covered": true,
+        "provisions": [
+          "uberconference-video-conferencing"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-video-conferencing"
+        ]
+      },
+      "whereby": {
+        "covered": true,
+        "provisions": [
+          "whereby-video-conferencing"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-video-conferencing"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-video-conferencing"
+        ]
+      }
+    },
+    "virtual-backgrounds": {
+      "8x8-meet": {
+        "covered": true,
+        "provisions": [
+          "8x8-virtual-backgrounds"
+        ]
+      },
+      "adobe-connect": {
+        "covered": true,
+        "provisions": [
+          "connect-virtual-backgrounds"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-virtual-backgrounds"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-virtual-backgrounds"
+        ]
+      },
+      "dialpad-meetings": {
+        "covered": true,
+        "provisions": [
+          "dialpad-virtual-backgrounds"
+        ]
+      },
+      "google-meet": {
+        "covered": true,
+        "provisions": [
+          "meet-virtual-backgrounds"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-virtual-backgrounds"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-virtual-backgrounds"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-virtual-backgrounds"
+        ]
+      },
+      "lifesize": {
+        "covered": true,
+        "provisions": [
+          "lifesize-virtual-backgrounds"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-virtual-backgrounds"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-virtual-backgrounds"
+        ]
+      },
+      "skype": {
+        "covered": true,
+        "provisions": [
+          "skype-virtual-backgrounds"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-virtual-backgrounds"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-virtual-backgrounds"
+        ]
+      },
+      "whereby": {
+        "covered": true,
+        "provisions": [
+          "whereby-virtual-backgrounds"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-virtual-backgrounds"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-virtual-backgrounds"
+        ]
+      }
+    },
+    "whiteboard": {
+      "bigbluebutton": {
+        "covered": true,
+        "provisions": [
+          "bbb-whiteboard"
+        ]
+      },
+      "bluejeans": {
+        "covered": true,
+        "provisions": [
+          "bluejeans-whiteboard"
+        ]
+      },
+      "clickmeeting": {
+        "covered": true,
+        "provisions": [
+          "clickmeeting-whiteboard"
+        ]
+      },
+      "dialpad-meetings": {
+        "covered": true,
+        "provisions": [
+          "dialpad-whiteboard"
+        ]
+      },
+      "goto-meeting": {
+        "covered": true,
+        "provisions": [
+          "goto-whiteboard"
+        ]
+      },
+      "jitsi-meet": {
+        "covered": true,
+        "provisions": [
+          "jitsi-whiteboard"
+        ]
+      },
+      "lark": {
+        "covered": true,
+        "provisions": [
+          "lark-whiteboard"
+        ]
+      },
+      "ms-teams": {
+        "covered": true,
+        "provisions": [
+          "teams-whiteboard"
+        ]
+      },
+      "ringcentral-video": {
+        "covered": true,
+        "provisions": [
+          "ringcentral-whiteboard"
+        ]
+      },
+      "trueconf": {
+        "covered": true,
+        "provisions": [
+          "trueconf-whiteboard"
+        ]
+      },
+      "webex-meetings": {
+        "covered": true,
+        "provisions": [
+          "webex-whiteboard"
+        ]
+      },
+      "zoho-meeting": {
+        "covered": true,
+        "provisions": [
+          "zoho-whiteboard"
+        ]
+      },
+      "zoom-workplace": {
+        "covered": true,
+        "provisions": [
+          "zoom-whiteboard"
+        ]
+      }
+    }
+  }
+}

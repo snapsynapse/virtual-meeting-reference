@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline - Virtual Meeting Software Guide</title>
+    <meta name="theme-color" content="#1a1a2e">
+    <link rel="canonical" href="https://meetings.snapsynapse.com/timeline.html">
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>/* Generated from project.yml — do not edit manually */
+.group-badge.communication { background: #4fc3f7; }
+:is(html, body).light-mode .group-badge.communication { background: #0277bd; }
+.matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
+.group-badge.collaboration { background: #7c4dff; }
+:is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
+.group-badge.management { background: #ff6e40; }
+:is(html, body).light-mode .group-badge.management { background: #bf360c; }
+.matrix-table .matrix-row-header.group-management { border-left-color: #ff6e40; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-management { border-left-color: #bf360c; }
+.group-badge.engagement { background: #66bb6a; }
+:is(html, body).light-mode .group-badge.engagement { background: #2e7d32; }
+.matrix-table .matrix-row-header.group-engagement { border-left-color: #66bb6a; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-engagement { border-left-color: #2e7d32; }
+.status-badge.active { background: #4caf50; color: #000; }
+:is(html, body).light-mode .status-badge.active { background: #1b7d1b; color: #fff; }
+.status-badge.limited { background: #ff9800; color: #000; }
+:is(html, body).light-mode .status-badge.limited { background: #e65100; color: #fff; }
+.status-badge.discontinued { background: #607d8b; color: #000; }
+:is(html, body).light-mode .status-badge.discontinued { background: #455a64; color: #fff; }
+:root { --accent: #4fc3f7; }
+:is(html, body).light-mode { --accent: #0055aa; }
+</style>
+    <meta name="description" content="A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.">
+    <meta property="og:title" content="Timeline">
+    <meta property="og:description" content="A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.">
+    <meta property="og:type" content="website">
+    <script>
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            if (params.get('theme') === 'light' || localStorage.getItem('theme') === 'light') {
+                document.documentElement.classList.add('light-mode');
+                localStorage.setItem('theme', 'light');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <h1><a href="index.html" onclick="passTheme(this)">Virtual Meeting Software Guide</a></h1>
+        <button class="hamburger-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false" aria-controls="siteNav">
+            <span class="hamburger-icon"></span>
+        </button>
+        <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+            <a href="index.html" class="site-nav-link" onclick="passTheme(this)">Home</a>
+            <a href="containers.html" class="site-nav-link" onclick="passTheme(this)">Platforms</a>
+            <a href="primaries.html" class="site-nav-link" onclick="passTheme(this)">Features</a>
+            <a href="matrix.html" class="site-nav-link" onclick="passTheme(this)">Matrix</a>
+            <a href="timeline.html" class="site-nav-link active" onclick="passTheme(this)">Timeline</a>
+            <a href="compare.html" class="site-nav-link" onclick="passTheme(this)">Compare</a>
+            <a href="about.html" class="site-nav-link" onclick="passTheme(this)">About</a>
+        </nav>
+        <div class="header-actions">
+            <div class="site-search" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="searchResults">
+                <input type="search" id="siteSearchInput" class="search-input" placeholder="Search..." aria-label="Search" aria-autocomplete="list" aria-controls="searchResults" autocomplete="off">
+                <ul id="searchResults" class="search-results" role="listbox" hidden></ul>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
+        </div>
+    </header>
+    <div class="container" id="main-content">
+        <h2 style="margin-top: 0.5rem;">Timeline</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 1rem;">Key dates. Solid dots are past; hollow dots are future.</p>
+        <div class="timeline"><div class="timeline-year">1987</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Feb 1, 1987</div>
+            <div class="timeline-content">
+                <a href="container/8x8-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">8x8 Meet</a>
+                <span class="timeline-milestone">8x8 founded</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">1995</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 1995</div>
+            <div class="timeline-content">
+                <a href="container/webex-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Webex Meetings</a>
+                <span class="timeline-milestone">WebEx founded</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">1999</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Oct 1, 1999</div>
+            <div class="timeline-content">
+                <a href="container/ringcentral-video/index.html" onclick="passTheme(this)" class="timeline-regulation">RingCentral Video</a>
+                <span class="timeline-milestone">RingCentral founded</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2003</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2003</div>
+            <div class="timeline-content">
+                <a href="container/adobe-connect/index.html" onclick="passTheme(this)" class="timeline-regulation">Adobe Connect</a>
+                <span class="timeline-milestone">Launch as Macromedia Breeze</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2003</div>
+            <div class="timeline-content">
+                <a href="container/jitsi-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Jitsi Meet</a>
+                <span class="timeline-milestone">Jitsi SIP Communicator</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2003</div>
+            <div class="timeline-content">
+                <a href="container/lifesize/index.html" onclick="passTheme(this)" class="timeline-regulation">Lifesize</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2003</div>
+            <div class="timeline-content">
+                <a href="container/trueconf/index.html" onclick="passTheme(this)" class="timeline-regulation">TrueConf</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Aug 29, 2003</div>
+            <div class="timeline-content">
+                <a href="container/skype/index.html" onclick="passTheme(this)" class="timeline-regulation">Skype</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2004</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jul 1, 2004</div>
+            <div class="timeline-content">
+                <a href="container/goto-meeting/index.html" onclick="passTheme(this)" class="timeline-regulation">GoTo Meeting</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2005</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Sep 12, 2005</div>
+            <div class="timeline-content">
+                <a href="container/skype/index.html" onclick="passTheme(this)" class="timeline-regulation">Skype</a>
+                <span class="timeline-milestone">eBay acquisition</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Dec 3, 2005</div>
+            <div class="timeline-content">
+                <a href="container/adobe-connect/index.html" onclick="passTheme(this)" class="timeline-regulation">Adobe Connect</a>
+                <span class="timeline-milestone">Adobe acquisition</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2007</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">May 1, 2007</div>
+            <div class="timeline-content">
+                <a href="container/webex-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Webex Meetings</a>
+                <span class="timeline-milestone">Cisco acquisition</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2007</div>
+            <div class="timeline-content">
+                <a href="container/bigbluebutton/index.html" onclick="passTheme(this)" class="timeline-regulation">BigBlueButton</a>
+                <span class="timeline-milestone">Initial release</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2009</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2009</div>
+            <div class="timeline-content">
+                <a href="container/anymeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">AnyMeeting</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2009</div>
+            <div class="timeline-content">
+                <a href="container/bluejeans/index.html" onclick="passTheme(this)" class="timeline-regulation">BlueJeans</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2010</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2010</div>
+            <div class="timeline-content">
+                <a href="container/trueconf/index.html" onclick="passTheme(this)" class="timeline-regulation">TrueConf</a>
+                <span class="timeline-milestone">TrueConf Server launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2011</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2011</div>
+            <div class="timeline-content">
+                <a href="container/clickmeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">ClickMeeting</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2011</div>
+            <div class="timeline-content">
+                <a href="container/zoho-meeting/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoho Meeting</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 21, 2011</div>
+            <div class="timeline-content">
+                <a href="container/zoom-workplace/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoom Workplace</a>
+                <span class="timeline-milestone">Founded</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">May 10, 2011</div>
+            <div class="timeline-content">
+                <a href="container/skype/index.html" onclick="passTheme(this)" class="timeline-regulation">Skype</a>
+                <span class="timeline-milestone">Microsoft acquisition</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2012</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2012</div>
+            <div class="timeline-content">
+                <a href="container/goto-meeting/index.html" onclick="passTheme(this)" class="timeline-regulation">GoTo Meeting</a>
+                <span class="timeline-milestone">HD video</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Nov 1, 2012</div>
+            <div class="timeline-content">
+                <a href="container/uberconference/index.html" onclick="passTheme(this)" class="timeline-regulation">UberConference</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2013</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2013</div>
+            <div class="timeline-content">
+                <a href="container/whereby/index.html" onclick="passTheme(this)" class="timeline-regulation">Whereby</a>
+                <span class="timeline-milestone">Launch as appear.in</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2013</div>
+            <div class="timeline-content">
+                <a href="container/zoom-workplace/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoom Workplace</a>
+                <span class="timeline-milestone">Public launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Aug 14, 2013</div>
+            <div class="timeline-content">
+                <a href="container/slack/index.html" onclick="passTheme(this)" class="timeline-regulation">Slack</a>
+                <span class="timeline-milestone">Public launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2014</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2014</div>
+            <div class="timeline-content">
+                <a href="container/trueconf/index.html" onclick="passTheme(this)" class="timeline-regulation">TrueConf</a>
+                <span class="timeline-milestone">TrueConf Online</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Nov 1, 2014</div>
+            <div class="timeline-content">
+                <a href="container/lifesize/index.html" onclick="passTheme(this)" class="timeline-regulation">Lifesize</a>
+                <span class="timeline-milestone">Cloud service launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2015</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2015</div>
+            <div class="timeline-content">
+                <a href="container/clickmeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">ClickMeeting</a>
+                <span class="timeline-milestone">Automated webinars</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 14, 2015</div>
+            <div class="timeline-content">
+                <a href="container/skype/index.html" onclick="passTheme(this)" class="timeline-regulation">Skype</a>
+                <span class="timeline-milestone">Skype for Business launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jul 1, 2015</div>
+            <div class="timeline-content">
+                <a href="container/uberconference/index.html" onclick="passTheme(this)" class="timeline-regulation">UberConference</a>
+                <span class="timeline-milestone">Acquired by Dialpad</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2016</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2016</div>
+            <div class="timeline-content">
+                <a href="container/jitsi-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Jitsi Meet</a>
+                <span class="timeline-milestone">Jitsi Meet launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Mar 1, 2016</div>
+            <div class="timeline-content">
+                <a href="container/slack/index.html" onclick="passTheme(this)" class="timeline-regulation">Slack</a>
+                <span class="timeline-milestone">Voice calls</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2017</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2017</div>
+            <div class="timeline-content">
+                <a href="container/goto-meeting/index.html" onclick="passTheme(this)" class="timeline-regulation">GoTo Meeting</a>
+                <span class="timeline-milestone">LogMeIn merger</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2017</div>
+            <div class="timeline-content">
+                <a href="container/uberconference/index.html" onclick="passTheme(this)" class="timeline-regulation">UberConference</a>
+                <span class="timeline-milestone">Video conferencing added</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Mar 9, 2017</div>
+            <div class="timeline-content">
+                <a href="container/google-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Google Meet</a>
+                <span class="timeline-milestone">Launch as Hangouts Meet</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Mar 14, 2017</div>
+            <div class="timeline-content">
+                <a href="container/ms-teams/index.html" onclick="passTheme(this)" class="timeline-regulation">Microsoft Teams</a>
+                <span class="timeline-milestone">Launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2017</div>
+            <div class="timeline-content">
+                <a href="container/anymeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">AnyMeeting</a>
+                <span class="timeline-milestone">Acquired by Intermedia</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Nov 1, 2017</div>
+            <div class="timeline-content">
+                <a href="container/lark/index.html" onclick="passTheme(this)" class="timeline-regulation">Lark</a>
+                <span class="timeline-milestone">Feishu launch (China)</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2018</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2018</div>
+            <div class="timeline-content">
+                <a href="container/8x8-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">8x8 Meet</a>
+                <span class="timeline-milestone">X Series launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2018</div>
+            <div class="timeline-content">
+                <a href="container/anymeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">AnyMeeting</a>
+                <span class="timeline-milestone">Rebranded as Intermedia AnyMeeting</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 1, 2018</div>
+            <div class="timeline-content">
+                <a href="container/webex-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Webex Meetings</a>
+                <span class="timeline-milestone">Webex Teams launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">May 1, 2018</div>
+            <div class="timeline-content">
+                <a href="container/bluejeans/index.html" onclick="passTheme(this)" class="timeline-regulation">BlueJeans</a>
+                <span class="timeline-milestone">Primetime launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2018</div>
+            <div class="timeline-content">
+                <a href="container/bigbluebutton/index.html" onclick="passTheme(this)" class="timeline-regulation">BigBlueButton</a>
+                <span class="timeline-milestone">BigBlueButton 2.0</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Oct 1, 2018</div>
+            <div class="timeline-content">
+                <a href="container/jitsi-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Jitsi Meet</a>
+                <span class="timeline-milestone">8x8 acquisition</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2019</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2019</div>
+            <div class="timeline-content">
+                <a href="container/trueconf/index.html" onclick="passTheme(this)" class="timeline-regulation">TrueConf</a>
+                <span class="timeline-milestone">Ultra HD support</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 1, 2019</div>
+            <div class="timeline-content">
+                <a href="container/lark/index.html" onclick="passTheme(this)" class="timeline-regulation">Lark</a>
+                <span class="timeline-milestone">Lark international launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 18, 2019</div>
+            <div class="timeline-content">
+                <a href="container/zoom-workplace/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoom Workplace</a>
+                <span class="timeline-milestone">IPO</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Sep 1, 2019</div>
+            <div class="timeline-content">
+                <a href="container/whereby/index.html" onclick="passTheme(this)" class="timeline-regulation">Whereby</a>
+                <span class="timeline-milestone">Rebranded to Whereby</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2020</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/dialpad-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Dialpad Meetings</a>
+                <span class="timeline-milestone">Rebranded from UberConference</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/uberconference/index.html" onclick="passTheme(this)" class="timeline-regulation">UberConference</a>
+                <span class="timeline-milestone">Rebranded to Dialpad Meetings</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Mar 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/clickmeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">ClickMeeting</a>
+                <span class="timeline-milestone">Edu mode</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/ringcentral-video/index.html" onclick="passTheme(this)" class="timeline-regulation">RingCentral Video</a>
+                <span class="timeline-milestone">RingCentral Video launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 27, 2020</div>
+            <div class="timeline-content">
+                <a href="container/zoom-workplace/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoom Workplace</a>
+                <span class="timeline-milestone">Zoom 5.0</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 29, 2020</div>
+            <div class="timeline-content">
+                <a href="container/google-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Google Meet</a>
+                <span class="timeline-milestone">Rebranded to Google Meet</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">May 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/bluejeans/index.html" onclick="passTheme(this)" class="timeline-regulation">BlueJeans</a>
+                <span class="timeline-milestone">Verizon acquisition</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/dialpad-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Dialpad Meetings</a>
+                <span class="timeline-milestone">AI transcription launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/lark/index.html" onclick="passTheme(this)" class="timeline-regulation">Lark</a>
+                <span class="timeline-milestone">Lark Suite expansion</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/uberconference/index.html" onclick="passTheme(this)" class="timeline-regulation">UberConference</a>
+                <span class="timeline-milestone">Discontinued</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/zoho-meeting/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoho Meeting</a>
+                <span class="timeline-milestone">Zoho Meeting 2.0</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Oct 1, 2020</div>
+            <div class="timeline-content">
+                <a href="container/whereby/index.html" onclick="passTheme(this)" class="timeline-regulation">Whereby</a>
+                <span class="timeline-milestone">Whereby Embedded launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2021</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Mar 1, 2021</div>
+            <div class="timeline-content">
+                <a href="container/webex-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Webex Meetings</a>
+                <span class="timeline-milestone">Webex Suite rebrand</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2021</div>
+            <div class="timeline-content">
+                <a href="container/8x8-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">8x8 Meet</a>
+                <span class="timeline-milestone">8x8 Work rebrand</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2021</div>
+            <div class="timeline-content">
+                <a href="container/whereby/index.html" onclick="passTheme(this)" class="timeline-regulation">Whereby</a>
+                <span class="timeline-milestone">Breakout Groups added</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 30, 2021</div>
+            <div class="timeline-content">
+                <a href="container/slack/index.html" onclick="passTheme(this)" class="timeline-regulation">Slack</a>
+                <span class="timeline-milestone">Huddles launch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jul 21, 2021</div>
+            <div class="timeline-content">
+                <a href="container/slack/index.html" onclick="passTheme(this)" class="timeline-regulation">Slack</a>
+                <span class="timeline-milestone">Salesforce acquisition</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jul 31, 2021</div>
+            <div class="timeline-content">
+                <a href="container/ms-teams/index.html" onclick="passTheme(this)" class="timeline-regulation">Microsoft Teams</a>
+                <span class="timeline-milestone">Skype for Business retirement</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jul 31, 2021</div>
+            <div class="timeline-content">
+                <a href="container/skype/index.html" onclick="passTheme(this)" class="timeline-regulation">Skype</a>
+                <span class="timeline-milestone">Skype for Business retired</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2022</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/trueconf/index.html" onclick="passTheme(this)" class="timeline-regulation">TrueConf</a>
+                <span class="timeline-milestone">Up to 1500 participants</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/zoho-meeting/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoho Meeting</a>
+                <span class="timeline-milestone">Breakout rooms added</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 15, 2022</div>
+            <div class="timeline-content">
+                <a href="container/lark/index.html" onclick="passTheme(this)" class="timeline-regulation">Lark</a>
+                <span class="timeline-milestone">Lark Rooms</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Feb 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/goto-meeting/index.html" onclick="passTheme(this)" class="timeline-regulation">GoTo Meeting</a>
+                <span class="timeline-milestone">GoTo rebrand</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Mar 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/bigbluebutton/index.html" onclick="passTheme(this)" class="timeline-regulation">BigBlueButton</a>
+                <span class="timeline-milestone">BigBlueButton 2.5</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/jitsi-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Jitsi Meet</a>
+                <span class="timeline-milestone">Excalidraw whiteboard</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Sep 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/slack/index.html" onclick="passTheme(this)" class="timeline-regulation">Slack</a>
+                <span class="timeline-milestone">Huddles video</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Oct 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/adobe-connect/index.html" onclick="passTheme(this)" class="timeline-regulation">Adobe Connect</a>
+                <span class="timeline-milestone">Adobe Connect 12</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Oct 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/lifesize/index.html" onclick="passTheme(this)" class="timeline-regulation">Lifesize</a>
+                <span class="timeline-milestone">Acquired by Enghouse</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Nov 1, 2022</div>
+            <div class="timeline-content">
+                <a href="container/google-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Google Meet</a>
+                <span class="timeline-milestone">Google Hangouts retired</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2023</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/anymeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">AnyMeeting</a>
+                <span class="timeline-milestone">Service discontinued</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/dialpad-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Dialpad Meetings</a>
+                <span class="timeline-milestone">Dialpad AI integration</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/lifesize/index.html" onclick="passTheme(this)" class="timeline-regulation">Lifesize</a>
+                <span class="timeline-milestone">Limited availability</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/skype/index.html" onclick="passTheme(this)" class="timeline-regulation">Skype</a>
+                <span class="timeline-milestone">Consumer Skype in maintenance</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Feb 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/ms-teams/index.html" onclick="passTheme(this)" class="timeline-regulation">Microsoft Teams</a>
+                <span class="timeline-milestone">Teams Premium</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Mar 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/ringcentral-video/index.html" onclick="passTheme(this)" class="timeline-regulation">RingCentral Video</a>
+                <span class="timeline-milestone">RingSense AI</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 12, 2023</div>
+            <div class="timeline-content">
+                <a href="container/ms-teams/index.html" onclick="passTheme(this)" class="timeline-regulation">Microsoft Teams</a>
+                <span class="timeline-milestone">Free version relaunch</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/clickmeeting/index.html" onclick="passTheme(this)" class="timeline-regulation">ClickMeeting</a>
+                <span class="timeline-milestone">AI features</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Aug 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/bigbluebutton/index.html" onclick="passTheme(this)" class="timeline-regulation">BigBlueButton</a>
+                <span class="timeline-milestone">BigBlueButton 2.7</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Dec 1, 2023</div>
+            <div class="timeline-content">
+                <a href="container/webex-meetings/index.html" onclick="passTheme(this)" class="timeline-regulation">Webex Meetings</a>
+                <span class="timeline-milestone">AI Assistant</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-year">2024</div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2024</div>
+            <div class="timeline-content">
+                <a href="container/8x8-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">8x8 Meet</a>
+                <span class="timeline-milestone">AI-powered features</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jan 1, 2024</div>
+            <div class="timeline-content">
+                <a href="container/ringcentral-video/index.html" onclick="passTheme(this)" class="timeline-regulation">RingCentral Video</a>
+                <span class="timeline-milestone">RingCentral app rebrand</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Apr 1, 2024</div>
+            <div class="timeline-content">
+                <a href="container/zoom-workplace/index.html" onclick="passTheme(this)" class="timeline-regulation">Zoom Workplace</a>
+                <span class="timeline-milestone">Rebranded to Zoom Workplace</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Jun 1, 2024</div>
+            <div class="timeline-content">
+                <a href="container/google-meet/index.html" onclick="passTheme(this)" class="timeline-regulation">Google Meet</a>
+                <span class="timeline-milestone">Gemini integration</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Aug 1, 2024</div>
+            <div class="timeline-content">
+                <a href="container/bluejeans/index.html" onclick="passTheme(this)" class="timeline-regulation">BlueJeans</a>
+                <span class="timeline-milestone">Verizon announces wind-down</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div>
+<div class="timeline-entry past">
+            <div class="timeline-date">Oct 31, 2024</div>
+            <div class="timeline-content">
+                <a href="container/bluejeans/index.html" onclick="passTheme(this)" class="timeline-regulation">BlueJeans</a>
+                <span class="timeline-milestone">Service discontinued</span>
+                <span class="timeline-jurisdiction">Global</span>
+            </div>
+        </div></div>
+    </div>
+    <footer>
+        <p>Maintained with <a href="https://github.com/snapsynapse/virtual-meeting-reference">version control</a>. This is a reference tool, not professional advice.</p>
+        <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>
+    </footer>
+    <script src="assets/search.js"></script>
+    <script src="assets/tables.js"></script>
+    <script>
+        function toggleTheme() {
+            document.documentElement.classList.toggle('light-mode');
+            localStorage.setItem('theme', document.documentElement.classList.contains('light-mode') ? 'light' : 'dark');
+        }
+        function toggleMobileMenu() {
+            var btn = document.querySelector('.hamburger-btn');
+            var menu = document.getElementById('siteNav');
+            var isOpen = menu.classList.toggle('open');
+            btn.classList.toggle('active', isOpen);
+            btn.setAttribute('aria-expanded', isOpen);
+        }
+        document.addEventListener('click', function(e) {
+            var menu = document.getElementById('siteNav');
+            var btn = document.querySelector('.hamburger-btn');
+            if (menu && btn && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+                menu.classList.remove('open');
+                btn.classList.remove('active');
+                btn.setAttribute('aria-expanded', 'false');
+            }
+        });
+        function passTheme(link) {
+            if (document.documentElement.classList.contains('light-mode')) {
+                var url = new URL(link.href, window.location.href);
+                url.searchParams.set('theme', 'light');
+                link.href = url.pathname + url.search + url.hash;
+            }
+        }
+        (function() {
+            var btn = document.createElement('button');
+            btn.className = 'back-to-top';
+            btn.setAttribute('aria-label', 'Back to top');
+            btn.textContent = '\u2191';
+            document.body.appendChild(btn);
+            window.addEventListener('scroll', function() { btn.classList.toggle('visible', window.scrollY > 400); });
+            btn.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+</body>
+</html>

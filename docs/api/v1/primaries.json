@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "generated": "2026-03-25T23:23:13.744Z",
+    "count": 9
+  },
+  "items": [
+    {
+      "id": "ai-notetaker",
+      "name": "Integrated AI Note-Taker",
+      "group": "management",
+      "status": "active"
+    },
+    {
+      "id": "breakout-rooms",
+      "name": "Breakout Rooms",
+      "group": "management",
+      "status": "active"
+    },
+    {
+      "id": "chat-messaging",
+      "name": "Chat and Messaging",
+      "group": "communication",
+      "status": "active"
+    },
+    {
+      "id": "polling",
+      "name": "Polling and Q&A",
+      "group": "engagement",
+      "status": "active"
+    },
+    {
+      "id": "recording",
+      "name": "Recording and Transcription",
+      "group": "management",
+      "status": "active"
+    },
+    {
+      "id": "screen-sharing",
+      "name": "Screen Sharing",
+      "group": "collaboration",
+      "status": "active"
+    },
+    {
+      "id": "video-conferencing",
+      "name": "Video Conferencing",
+      "group": "communication",
+      "status": "active"
+    },
+    {
+      "id": "virtual-backgrounds",
+      "name": "Virtual Backgrounds",
+      "group": "engagement",
+      "status": "active"
+    },
+    {
+      "id": "whiteboard",
+      "name": "Whiteboard",
+      "group": "collaboration",
+      "status": "active"
+    }
+  ]
+}

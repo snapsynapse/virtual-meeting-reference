@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Virtual Meeting Software Guide</title>
+    <meta name="theme-color" content="#1a1a2e">
+    
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>/* Generated from project.yml — do not edit manually */
+.group-badge.communication { background: #4fc3f7; }
+:is(html, body).light-mode .group-badge.communication { background: #0277bd; }
+.matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
+.group-badge.collaboration { background: #7c4dff; }
+:is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
+.group-badge.management { background: #ff6e40; }
+:is(html, body).light-mode .group-badge.management { background: #bf360c; }
+.matrix-table .matrix-row-header.group-management { border-left-color: #ff6e40; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-management { border-left-color: #bf360c; }
+.group-badge.engagement { background: #66bb6a; }
+:is(html, body).light-mode .group-badge.engagement { background: #2e7d32; }
+.matrix-table .matrix-row-header.group-engagement { border-left-color: #66bb6a; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-engagement { border-left-color: #2e7d32; }
+.status-badge.active { background: #4caf50; color: #000; }
+:is(html, body).light-mode .status-badge.active { background: #1b7d1b; color: #fff; }
+.status-badge.limited { background: #ff9800; color: #000; }
+:is(html, body).light-mode .status-badge.limited { background: #e65100; color: #fff; }
+.status-badge.discontinued { background: #607d8b; color: #000; }
+:is(html, body).light-mode .status-badge.discontinued { background: #455a64; color: #fff; }
+:root { --accent: #4fc3f7; }
+:is(html, body).light-mode { --accent: #0055aa; }
+</style>
+    <meta name="description" content="A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.">
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.">
+    <meta property="og:type" content="website">
+    <script>
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            if (params.get('theme') === 'light' || localStorage.getItem('theme') === 'light') {
+                document.documentElement.classList.add('light-mode');
+                localStorage.setItem('theme', 'light');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <h1><a href="index.html" onclick="passTheme(this)">Virtual Meeting Software Guide</a></h1>
+        <button class="hamburger-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false" aria-controls="siteNav">
+            <span class="hamburger-icon"></span>
+        </button>
+        <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+            <a href="index.html" class="site-nav-link active" onclick="passTheme(this)">Home</a>
+            <a href="containers.html" class="site-nav-link" onclick="passTheme(this)">Platforms</a>
+            <a href="primaries.html" class="site-nav-link" onclick="passTheme(this)">Features</a>
+            <a href="matrix.html" class="site-nav-link" onclick="passTheme(this)">Matrix</a>
+            <a href="timeline.html" class="site-nav-link" onclick="passTheme(this)">Timeline</a>
+            <a href="compare.html" class="site-nav-link" onclick="passTheme(this)">Compare</a>
+            <a href="about.html" class="site-nav-link" onclick="passTheme(this)">About</a>
+        </nav>
+        <div class="header-actions">
+            <div class="site-search" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="searchResults">
+                <input type="search" id="siteSearchInput" class="search-input" placeholder="Search..." aria-label="Search" aria-autocomplete="list" aria-controls="searchResults" autocomplete="off">
+                <ul id="searchResults" class="search-results" role="listbox" hidden></ul>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
+        </div>
+    </header>
+    <div class="container" id="main-content">
+        
+        <h2 style="margin-top: 0.5rem;">Virtual Meeting Software Guide</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 1rem;">A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.</p>
+
+        <div class="stats-bar">
+            <div class="stat-card"><span class="stat-number">22</span><span class="stat-label">Platforms</span></div>
+            <div class="stat-card"><span class="stat-number">9</span><span class="stat-label">Features</span></div>
+            <div class="stat-card"><span class="stat-number">157</span><span class="stat-label">Provisions</span></div>
+            <div class="stat-card"><span class="stat-number">20</span><span class="stat-label">Vendors</span></div>
+        </div>
+
+        <h2>Platforms</h2>
+        <table class="data-table">
+            <thead><tr><th data-sortable data-sort-type="text" data-col="platform">Platform</th><th data-sortable data-sort-type="number" data-col="starting-price">Starting Price</th><th data-sortable data-sort-type="number" data-col="max-users">Max Users</th><th data-sortable data-sort-type="text" data-col="status" data-filterable data-filter-key="status">Status</th><th data-sortable data-sort-type="number" data-col="provisions">Provisions</th></tr></thead>
+            <tbody>
+                <tr>
+                    <td><a href="container/8x8-meet/index.html" onclick="passTheme(this)">8x8 Meet</a></td>
+                    <td data-sort-value="24">$24/user/mo</td>
+                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>7</td>
+                </tr>
+<tr>
+                    <td><a href="container/adobe-connect/index.html" onclick="passTheme(this)">Adobe Connect</a></td>
+                    <td data-sort-value="50">$50/mo</td>
+                    <td data-sort-value="1500">1,500</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>7</td>
+                </tr>
+<tr>
+                    <td><a href="container/anymeeting/index.html" onclick="passTheme(this)">AnyMeeting</a></td>
+                    <td data-sort-value="9.99">$9.99/mo</td>
+                    <td data-sort-value="200">200</td>
+                    <td data-sort-value="discontinued"><span class="status-badge discontinued">discontinued</span></td>
+                    <td>5</td>
+                </tr>
+<tr>
+                    <td><a href="container/bigbluebutton/index.html" onclick="passTheme(this)">BigBlueButton</a></td>
+                    <td data-sort-value="550">$5-50/mo</td>
+                    <td data-sort-value="300">300</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>7</td>
+                </tr>
+<tr>
+                    <td><a href="container/bluejeans/index.html" onclick="passTheme(this)">BlueJeans</a></td>
+                    <td data-sort-value="9.99">$9.99/host/mo</td>
+                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="discontinued"><span class="status-badge discontinued">discontinued</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/clickmeeting/index.html" onclick="passTheme(this)">ClickMeeting</a></td>
+                    <td data-sort-value="25">$25/mo</td>
+                    <td data-sort-value="1000">1,000</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/dialpad-meetings/index.html" onclick="passTheme(this)">Dialpad Meetings</a></td>
+                    <td data-sort-value="27">$27/user/mo</td>
+                    <td data-sort-value="150">150</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>7</td>
+                </tr>
+<tr>
+                    <td><a href="container/google-meet/index.html" onclick="passTheme(this)">Google Meet</a></td>
+                    <td data-sort-value="7">$7/user/mo</td>
+                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/goto-meeting/index.html" onclick="passTheme(this)">GoTo Meeting</a></td>
+                    <td data-sort-value="14">$14/organizer/mo</td>
+                    <td data-sort-value="250">250</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/jitsi-meet/index.html" onclick="passTheme(this)">Jitsi Meet</a></td>
+                    <td data-sort-value="99">$99/mo</td>
+                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/lark/index.html" onclick="passTheme(this)">Lark</a></td>
+                    <td data-sort-value="12">$12/user/mo</td>
+                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>9</td>
+                </tr>
+<tr>
+                    <td><a href="container/lifesize/index.html" onclick="passTheme(this)">Lifesize</a></td>
+                    <td data-sort-value="14.95">$14.95/host/mo</td>
+                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="limited"><span class="status-badge limited">limited</span></td>
+                    <td>5</td>
+                </tr>
+<tr>
+                    <td><a href="container/ms-teams/index.html" onclick="passTheme(this)">Microsoft Teams</a></td>
+                    <td data-sort-value="4">$4/user/mo</td>
+                    <td data-sort-value="20000">20,000</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>9</td>
+                </tr>
+<tr>
+                    <td><a href="container/ringcentral-video/index.html" onclick="passTheme(this)">RingCentral Video</a></td>
+                    <td data-sort-value="20">$20/user/mo</td>
+                    <td data-sort-value="200">200</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/skype/index.html" onclick="passTheme(this)">Skype</a></td>
+                    <td data-sort-value="99999">$0/mo</td>
+                    <td data-sort-value="100">100</td>
+                    <td data-sort-value="limited"><span class="status-badge limited">limited</span></td>
+                    <td>5</td>
+                </tr>
+<tr>
+                    <td><a href="container/slack/index.html" onclick="passTheme(this)">Slack</a></td>
+                    <td data-sort-value="8.75">$8.75/user/mo</td>
+                    <td data-sort-value="50">50</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>3</td>
+                </tr>
+<tr>
+                    <td><a href="container/trueconf/index.html" onclick="passTheme(this)">TrueConf</a></td>
+                    <td data-sort-value="8">$8/user/mo</td>
+                    <td data-sort-value="1500">1,500</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/uberconference/index.html" onclick="passTheme(this)">UberConference</a></td>
+                    <td data-sort-value="15">$15/mo</td>
+                    <td data-sort-value="100">100</td>
+                    <td data-sort-value="discontinued"><span class="status-badge discontinued">discontinued</span></td>
+                    <td>4</td>
+                </tr>
+<tr>
+                    <td><a href="container/webex-meetings/index.html" onclick="passTheme(this)">Webex Meetings</a></td>
+                    <td data-sort-value="14.5">$14.50/mo</td>
+                    <td data-sort-value="1000">1,000</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>9</td>
+                </tr>
+<tr>
+                    <td><a href="container/whereby/index.html" onclick="passTheme(this)">Whereby</a></td>
+                    <td data-sort-value="8.99">$8.99/mo</td>
+                    <td data-sort-value="200">200</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>7</td>
+                </tr>
+<tr>
+                    <td><a href="container/zoho-meeting/index.html" onclick="passTheme(this)">Zoho Meeting</a></td>
+                    <td data-sort-value="1">$1/host/mo</td>
+                    <td data-sort-value="250">250</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>8</td>
+                </tr>
+<tr>
+                    <td><a href="container/zoom-workplace/index.html" onclick="passTheme(this)">Zoom Workplace</a></td>
+                    <td data-sort-value="13.33">$13.33/mo</td>
+                    <td data-sort-value="1000">1,000</td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Features</h2>
+        <div class="card-grid">
+            <div class="obligation-card">
+                    <div class="card-title"><a href="primary/ai-notetaker/index.html" onclick="passTheme(this)">Integrated AI Note-Taker</a></div>
+                    <div class="card-meta"><span class="group-badge management">management</span> <span class="meta-item">7 platforms</span></div>
+                    <div class="card-description">Built-in AI capability that automatically generates meeting summaries, action items, key topics, and follow-up tasks from live or recorded meetings without requiring a third-party bot.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/breakout-rooms/index.html" onclick="passTheme(this)">Breakout Rooms</a></div>
+                    <div class="card-meta"><span class="group-badge management">management</span> <span class="meta-item">16 platforms</span></div>
+                    <div class="card-description">Ability to split a meeting into smaller sub-sessions for group discussions or activities, with host controls for assignment and timing.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/chat-messaging/index.html" onclick="passTheme(this)">Chat and Messaging</a></div>
+                    <div class="card-meta"><span class="group-badge communication">communication</span> <span class="meta-item">22 platforms</span></div>
+                    <div class="card-description">Persistent and in-meeting text communication including direct messages, group channels, and threaded conversations.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/polling/index.html" onclick="passTheme(this)">Polling and Q&amp;A</a></div>
+                    <div class="card-meta"><span class="group-badge engagement">engagement</span> <span class="meta-item">16 platforms</span></div>
+                    <div class="card-description">Interactive tools for collecting real-time participant input through polls, surveys, quizzes, and structured Q&amp;A sessions.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/recording/index.html" onclick="passTheme(this)">Recording and Transcription</a></div>
+                    <div class="card-meta"><span class="group-badge management">management</span> <span class="meta-item">21 platforms</span></div>
+                    <div class="card-description">Capability to record meetings (locally or to cloud) and generate transcripts or captions for review and accessibility.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/screen-sharing/index.html" onclick="passTheme(this)">Screen Sharing</a></div>
+                    <div class="card-meta"><span class="group-badge collaboration">collaboration</span> <span class="meta-item">22 platforms</span></div>
+                    <div class="card-description">Ability to share a full desktop, specific application window, or browser tab with meeting participants in real time.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/video-conferencing/index.html" onclick="passTheme(this)">Video Conferencing</a></div>
+                    <div class="card-meta"><span class="group-badge communication">communication</span> <span class="meta-item">22 platforms</span></div>
+                    <div class="card-description">Core capability to host real-time video meetings with multiple participants, including gallery and speaker views.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/virtual-backgrounds/index.html" onclick="passTheme(this)">Virtual Backgrounds</a></div>
+                    <div class="card-meta"><span class="group-badge engagement">engagement</span> <span class="meta-item">18 platforms</span></div>
+                    <div class="card-description">Visual effects that replace or blur a participant's real background with images, videos, or immersive scenes during video calls.</div>
+                </div>
+<div class="obligation-card">
+                    <div class="card-title"><a href="primary/whiteboard/index.html" onclick="passTheme(this)">Whiteboard</a></div>
+                    <div class="card-meta"><span class="group-badge collaboration">collaboration</span> <span class="meta-item">13 platforms</span></div>
+                    <div class="card-description">Shared digital canvas for real-time collaborative drawing, diagramming, and brainstorming during or outside of meetings.</div>
+                </div>
+        </div>
+
+        <h2>Quick Links</h2>
+        <div class="stats-bar">
+            <div class="stat-card"><a href="matrix.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">Grid</span><span class="stat-label">Coverage Matrix</span></a></div>
+            <div class="stat-card"><a href="timeline.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">Dates</span><span class="stat-label">Timeline</span></a></div>
+            <div class="stat-card"><a href="compare.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">vs</span><span class="stat-label">Compare</span></a></div>
+            <div class="stat-card"><a href="api/v1/index.json" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">API</span><span class="stat-label">JSON API</span></a></div>
+        </div>
+    
+    </div>
+    <footer>
+        <p>Maintained with <a href="https://github.com/snapsynapse/virtual-meeting-reference">version control</a>. This is a reference tool, not professional advice.</p>
+        <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>
+    </footer>
+    <script src="assets/search.js"></script>
+    <script src="assets/tables.js"></script>
+    <script>
+        function toggleTheme() {
+            document.documentElement.classList.toggle('light-mode');
+            localStorage.setItem('theme', document.documentElement.classList.contains('light-mode') ? 'light' : 'dark');
+        }
+        function toggleMobileMenu() {
+            var btn = document.querySelector('.hamburger-btn');
+            var menu = document.getElementById('siteNav');
+            var isOpen = menu.classList.toggle('open');
+            btn.classList.toggle('active', isOpen);
+            btn.setAttribute('aria-expanded', isOpen);
+        }
+        document.addEventListener('click', function(e) {
+            var menu = document.getElementById('siteNav');
+            var btn = document.querySelector('.hamburger-btn');
+            if (menu && btn && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+                menu.classList.remove('open');
+                btn.classList.remove('active');
+                btn.setAttribute('aria-expanded', 'false');
+            }
+        });
+        function passTheme(link) {
+            if (document.documentElement.classList.contains('light-mode')) {
+                var url = new URL(link.href, window.location.href);
+                url.searchParams.set('theme', 'light');
+                link.href = url.pathname + url.search + url.hash;
+            }
+        }
+        (function() {
+            var btn = document.createElement('button');
+            btn.className = 'back-to-top';
+            btn.setAttribute('aria-label', 'Back to top');
+            btn.textContent = '\u2191';
+            document.body.appendChild(btn);
+            window.addEventListener('scroll', function() { btn.classList.toggle('visible', window.scrollY > 400); });
+            btn.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+</body>
+</html>

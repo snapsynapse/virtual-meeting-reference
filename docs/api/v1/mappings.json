@@ -1,0 +1,1578 @@
+{
+  "meta": {
+    "generated": "2026-03-25T23:23:13.746Z",
+    "count": 157
+  },
+  "items": [
+    {
+      "id": "zoom-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "zoom-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "zoom-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "zoom-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "zoom-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "zoom-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "zoom-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "zoom-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "teams-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "teams-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "teams-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "teams-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "teams-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "teams-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "teams-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "teams-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "meet-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "meet-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "meet-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "meet-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "meet-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "meet-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "meet-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "connect-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "adobe-connect",
+      "authority": "adobe",
+      "source_file": "data/examples/container/adobe-connect.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "connect-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "adobe-connect",
+      "authority": "adobe",
+      "source_file": "data/examples/container/adobe-connect.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "connect-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "adobe-connect",
+      "authority": "adobe",
+      "source_file": "data/examples/container/adobe-connect.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "connect-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "adobe-connect",
+      "authority": "adobe",
+      "source_file": "data/examples/container/adobe-connect.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "connect-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "adobe-connect",
+      "authority": "adobe",
+      "source_file": "data/examples/container/adobe-connect.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "connect-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "adobe-connect",
+      "authority": "adobe",
+      "source_file": "data/examples/container/adobe-connect.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "connect-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "adobe-connect",
+      "authority": "adobe",
+      "source_file": "data/examples/container/adobe-connect.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "webex-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "webex-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "webex-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "webex-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "webex-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "webex-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "webex-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "webex-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "goto-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "goto-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "goto-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "goto-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "goto-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "goto-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "goto-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "goto-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "goto-meeting",
+      "authority": "goto",
+      "source_file": "data/examples/container/goto-meeting.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "ringcentral-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "ringcentral-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "ringcentral-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "ringcentral-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "ringcentral-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "ringcentral-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "ringcentral-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "slack-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "slack",
+      "authority": "salesforce",
+      "source_file": "data/examples/container/slack.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "slack-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "slack",
+      "authority": "salesforce",
+      "source_file": "data/examples/container/slack.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "slack-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "slack",
+      "authority": "salesforce",
+      "source_file": "data/examples/container/slack.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "clickmeeting-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "clickmeeting-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "clickmeeting-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "clickmeeting-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "clickmeeting-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "clickmeeting-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "clickmeeting-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "clickmeeting-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "clickmeeting",
+      "authority": "clickmeeting",
+      "source_file": "data/examples/container/clickmeeting.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "zoho-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "zoho-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "zoho-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "zoho-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "zoho-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "zoho-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "zoho-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "zoho-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "zoho-meeting",
+      "authority": "zoho",
+      "source_file": "data/examples/container/zoho-meeting.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "anymeeting-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "anymeeting",
+      "authority": "intermedia",
+      "source_file": "data/examples/container/anymeeting.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "anymeeting-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "anymeeting",
+      "authority": "intermedia",
+      "source_file": "data/examples/container/anymeeting.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "anymeeting-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "anymeeting",
+      "authority": "intermedia",
+      "source_file": "data/examples/container/anymeeting.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "anymeeting-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "anymeeting",
+      "authority": "intermedia",
+      "source_file": "data/examples/container/anymeeting.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "anymeeting-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "anymeeting",
+      "authority": "intermedia",
+      "source_file": "data/examples/container/anymeeting.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "8x8-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "8x8-meet",
+      "authority": "8x8",
+      "source_file": "data/examples/container/8x8-meet.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "8x8-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "8x8-meet",
+      "authority": "8x8",
+      "source_file": "data/examples/container/8x8-meet.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "8x8-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "8x8-meet",
+      "authority": "8x8",
+      "source_file": "data/examples/container/8x8-meet.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "8x8-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "8x8-meet",
+      "authority": "8x8",
+      "source_file": "data/examples/container/8x8-meet.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "8x8-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "8x8-meet",
+      "authority": "8x8",
+      "source_file": "data/examples/container/8x8-meet.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "8x8-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "8x8-meet",
+      "authority": "8x8",
+      "source_file": "data/examples/container/8x8-meet.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "8x8-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "8x8-meet",
+      "authority": "8x8",
+      "source_file": "data/examples/container/8x8-meet.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "skype-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "skype",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/skype.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "skype-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "skype",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/skype.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "skype-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "skype",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/skype.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "skype-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "skype",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/skype.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "skype-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "skype",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/skype.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "bluejeans-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "bluejeans-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "bluejeans-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "bluejeans-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "bluejeans-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "bluejeans-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "bluejeans-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "bluejeans-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "bluejeans",
+      "authority": "verizon",
+      "source_file": "data/examples/container/bluejeans.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "lifesize-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "lifesize",
+      "authority": "enghouse",
+      "source_file": "data/examples/container/lifesize.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "lifesize-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "lifesize",
+      "authority": "enghouse",
+      "source_file": "data/examples/container/lifesize.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "lifesize-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "lifesize",
+      "authority": "enghouse",
+      "source_file": "data/examples/container/lifesize.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "lifesize-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "lifesize",
+      "authority": "enghouse",
+      "source_file": "data/examples/container/lifesize.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "lifesize-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "lifesize",
+      "authority": "enghouse",
+      "source_file": "data/examples/container/lifesize.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "uberconference-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "uberconference",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/uberconference.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "uberconference-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "uberconference",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/uberconference.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "uberconference-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "uberconference",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/uberconference.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "uberconference-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "uberconference",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/uberconference.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "dialpad-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "dialpad-meetings",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/dialpad-meetings.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "dialpad-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "dialpad-meetings",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/dialpad-meetings.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "dialpad-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "dialpad-meetings",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/dialpad-meetings.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "dialpad-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "dialpad-meetings",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/dialpad-meetings.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "dialpad-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "dialpad-meetings",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/dialpad-meetings.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "dialpad-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "dialpad-meetings",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/dialpad-meetings.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "trueconf-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "trueconf-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "trueconf-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "trueconf-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "trueconf-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "trueconf-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "trueconf-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "trueconf-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "trueconf",
+      "authority": "trueconf",
+      "source_file": "data/examples/container/trueconf.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "lark-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "lark-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "lark-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "lark-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "lark-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "lark-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "lark-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "lark-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "whereby-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "whereby",
+      "authority": "whereby-as",
+      "source_file": "data/examples/container/whereby.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "whereby-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "whereby",
+      "authority": "whereby-as",
+      "source_file": "data/examples/container/whereby.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "whereby-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "whereby",
+      "authority": "whereby-as",
+      "source_file": "data/examples/container/whereby.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "whereby-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "whereby",
+      "authority": "whereby-as",
+      "source_file": "data/examples/container/whereby.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "whereby-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "whereby",
+      "authority": "whereby-as",
+      "source_file": "data/examples/container/whereby.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "whereby-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "whereby",
+      "authority": "whereby-as",
+      "source_file": "data/examples/container/whereby.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "whereby-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "whereby",
+      "authority": "whereby-as",
+      "source_file": "data/examples/container/whereby.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "bbb-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "bigbluebutton",
+      "authority": "bigbluebutton-community",
+      "source_file": "data/examples/container/bigbluebutton.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "bbb-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "bigbluebutton",
+      "authority": "bigbluebutton-community",
+      "source_file": "data/examples/container/bigbluebutton.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "bbb-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "bigbluebutton",
+      "authority": "bigbluebutton-community",
+      "source_file": "data/examples/container/bigbluebutton.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "bbb-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "bigbluebutton",
+      "authority": "bigbluebutton-community",
+      "source_file": "data/examples/container/bigbluebutton.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "bbb-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "bigbluebutton",
+      "authority": "bigbluebutton-community",
+      "source_file": "data/examples/container/bigbluebutton.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "bbb-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "bigbluebutton",
+      "authority": "bigbluebutton-community",
+      "source_file": "data/examples/container/bigbluebutton.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "bbb-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "bigbluebutton",
+      "authority": "bigbluebutton-community",
+      "source_file": "data/examples/container/bigbluebutton.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "jitsi-video-conferencing",
+      "obligations": [
+        "video-conferencing"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Video Conferencing"
+    },
+    {
+      "id": "jitsi-screen-sharing",
+      "obligations": [
+        "screen-sharing"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Screen Sharing"
+    },
+    {
+      "id": "jitsi-breakout-rooms",
+      "obligations": [
+        "breakout-rooms"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Breakout Rooms"
+    },
+    {
+      "id": "jitsi-recording",
+      "obligations": [
+        "recording"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Recording and Transcription"
+    },
+    {
+      "id": "jitsi-chat",
+      "obligations": [
+        "chat-messaging"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Chat and Messaging"
+    },
+    {
+      "id": "jitsi-polling",
+      "obligations": [
+        "polling"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Polling and Q&A"
+    },
+    {
+      "id": "jitsi-whiteboard",
+      "obligations": [
+        "whiteboard"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Whiteboard"
+    },
+    {
+      "id": "jitsi-virtual-backgrounds",
+      "obligations": [
+        "virtual-backgrounds"
+      ],
+      "regulation": "jitsi-meet",
+      "authority": "jitsi-community",
+      "source_file": "data/examples/container/jitsi-meet.md",
+      "source_heading": "Virtual Backgrounds"
+    },
+    {
+      "id": "zoom-ai-notetaker",
+      "obligations": [
+        "ai-notetaker"
+      ],
+      "regulation": "zoom-workplace",
+      "authority": "zoom",
+      "source_file": "data/examples/container/zoom-workplace.md",
+      "source_heading": "Integrated AI Note-Taker"
+    },
+    {
+      "id": "teams-ai-notetaker",
+      "obligations": [
+        "ai-notetaker"
+      ],
+      "regulation": "ms-teams",
+      "authority": "microsoft",
+      "source_file": "data/examples/container/ms-teams.md",
+      "source_heading": "Integrated AI Note-Taker"
+    },
+    {
+      "id": "meet-ai-notetaker",
+      "obligations": [
+        "ai-notetaker"
+      ],
+      "regulation": "google-meet",
+      "authority": "google",
+      "source_file": "data/examples/container/google-meet.md",
+      "source_heading": "Integrated AI Note-Taker"
+    },
+    {
+      "id": "webex-ai-notetaker",
+      "obligations": [
+        "ai-notetaker"
+      ],
+      "regulation": "webex-meetings",
+      "authority": "cisco",
+      "source_file": "data/examples/container/webex-meetings.md",
+      "source_heading": "Integrated AI Note-Taker"
+    },
+    {
+      "id": "lark-ai-notetaker",
+      "obligations": [
+        "ai-notetaker"
+      ],
+      "regulation": "lark",
+      "authority": "bytedance",
+      "source_file": "data/examples/container/lark.md",
+      "source_heading": "Integrated AI Note-Taker"
+    },
+    {
+      "id": "dialpad-ai-notetaker",
+      "obligations": [
+        "ai-notetaker"
+      ],
+      "regulation": "dialpad-meetings",
+      "authority": "dialpad",
+      "source_file": "data/examples/container/dialpad-meetings.md",
+      "source_heading": "Integrated AI Note-Taker"
+    },
+    {
+      "id": "ringcentral-ai-notetaker",
+      "obligations": [
+        "ai-notetaker"
+      ],
+      "regulation": "ringcentral-video",
+      "authority": "ringcentral",
+      "source_file": "data/examples/container/ringcentral-video.md",
+      "source_heading": "Integrated AI Note-Taker"
+    }
+  ]
+}

@@ -1,0 +1,5156 @@
+{
+  "meta": {
+    "generated": "2026-03-25T23:23:13.746Z"
+  },
+  "comparisons": [
+    {
+      "regulations": [
+        "8x8-meet",
+        "adobe-connect"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "anymeeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "bigbluebutton"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [
+        "virtual-backgrounds"
+      ],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "bluejeans"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "clickmeeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "dialpad-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "google-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "8x8-meet",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "anymeeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "polling",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "bigbluebutton"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "virtual-backgrounds"
+      ],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "bluejeans"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "clickmeeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "dialpad-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "google-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "adobe-connect",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "bigbluebutton"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "bluejeans"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "clickmeeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "dialpad-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 4,
+      "only_a_count": 1,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "google-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 4,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 4,
+      "only_a_count": 1,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 4,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "recording",
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "anymeeting",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "bluejeans"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "clickmeeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "dialpad-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "google-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 4,
+      "only_a_count": 3,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 4,
+      "only_a_count": 3,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bigbluebutton",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard"
+      ],
+      "only_a": [],
+      "only_b": [
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "clickmeeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "dialpad-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 6,
+      "only_a_count": 2,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "google-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "bluejeans",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "dialpad-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 6,
+      "only_a_count": 2,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "google-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "clickmeeting",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "google-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "recording",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 5,
+      "only_a_count": 2,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 6,
+      "only_a_count": 1,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "dialpad-meetings",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "goto-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "google-meet",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "jitsi-meet"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "goto-meeting",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "lark"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "jitsi-meet",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "lark",
+        "lifesize"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 9,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 6,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 9,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lark",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 9,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "ms-teams"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "polling",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "recording",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "lifesize",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "ringcentral-video"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [
+        "polling"
+      ],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "whiteboard",
+        "polling",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "whiteboard",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 6,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "whiteboard",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 9,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ms-teams",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "polling",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 9,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "skype"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 5,
+      "only_a_count": 3,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "recording",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 5,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "polling"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "polling"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "polling"
+      ],
+      "shared_count": 6,
+      "only_a_count": 2,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [
+        "polling"
+      ],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "ringcentral-video",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [
+        "polling"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "skype",
+        "slack"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "recording",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 3,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "skype",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "skype",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "skype",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "skype",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "skype",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "skype",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 5,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "slack",
+        "trueconf"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 3,
+      "only_a_count": 0,
+      "only_b_count": 5
+    },
+    {
+      "regulations": [
+        "slack",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "recording"
+      ],
+      "shared_count": 3,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "slack",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 3,
+      "only_a_count": 0,
+      "only_b_count": 6
+    },
+    {
+      "regulations": [
+        "slack",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 3,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "slack",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 3,
+      "only_a_count": 0,
+      "only_b_count": 5
+    },
+    {
+      "regulations": [
+        "slack",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "recording",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 3,
+      "only_a_count": 0,
+      "only_b_count": 6
+    },
+    {
+      "regulations": [
+        "trueconf",
+        "uberconference"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_b": [],
+      "shared_count": 4,
+      "only_a_count": 4,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "trueconf",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "trueconf",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "trueconf",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "trueconf",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "uberconference",
+        "webex-meetings"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 4,
+      "only_a_count": 0,
+      "only_b_count": 5
+    },
+    {
+      "regulations": [
+        "uberconference",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 4,
+      "only_a_count": 0,
+      "only_b_count": 3
+    },
+    {
+      "regulations": [
+        "uberconference",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "shared_count": 4,
+      "only_a_count": 0,
+      "only_b_count": 4
+    },
+    {
+      "regulations": [
+        "uberconference",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "recording",
+        "chat-messaging"
+      ],
+      "only_a": [],
+      "only_b": [
+        "breakout-rooms",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "shared_count": 4,
+      "only_a_count": 0,
+      "only_b_count": 5
+    },
+    {
+      "regulations": [
+        "webex-meetings",
+        "whereby"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 7,
+      "only_a_count": 2,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "webex-meetings",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [
+        "ai-notetaker"
+      ],
+      "only_b": [],
+      "shared_count": 8,
+      "only_a_count": 1,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "webex-meetings",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds",
+        "ai-notetaker"
+      ],
+      "only_a": [],
+      "only_b": [],
+      "shared_count": 9,
+      "only_a_count": 0,
+      "only_b_count": 0
+    },
+    {
+      "regulations": [
+        "whereby",
+        "zoho-meeting"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 1
+    },
+    {
+      "regulations": [
+        "whereby",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "whiteboard",
+        "ai-notetaker"
+      ],
+      "shared_count": 7,
+      "only_a_count": 0,
+      "only_b_count": 2
+    },
+    {
+      "regulations": [
+        "zoho-meeting",
+        "zoom-workplace"
+      ],
+      "shared_obligations": [
+        "video-conferencing",
+        "screen-sharing",
+        "breakout-rooms",
+        "recording",
+        "chat-messaging",
+        "polling",
+        "whiteboard",
+        "virtual-backgrounds"
+      ],
+      "only_a": [],
+      "only_b": [
+        "ai-notetaker"
+      ],
+      "shared_count": 8,
+      "only_a_count": 0,
+      "only_b_count": 1
+    }
+  ]
+}

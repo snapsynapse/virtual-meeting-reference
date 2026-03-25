@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickMeeting - Virtual Meeting Software Guide</title>
+    <meta name="theme-color" content="#1a1a2e">
+    <link rel="canonical" href="https://meetings.snapsynapse.com/container/clickmeeting/">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <style>/* Generated from project.yml — do not edit manually */
+.group-badge.communication { background: #4fc3f7; }
+:is(html, body).light-mode .group-badge.communication { background: #0277bd; }
+.matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
+.group-badge.collaboration { background: #7c4dff; }
+:is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
+.group-badge.management { background: #ff6e40; }
+:is(html, body).light-mode .group-badge.management { background: #bf360c; }
+.matrix-table .matrix-row-header.group-management { border-left-color: #ff6e40; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-management { border-left-color: #bf360c; }
+.group-badge.engagement { background: #66bb6a; }
+:is(html, body).light-mode .group-badge.engagement { background: #2e7d32; }
+.matrix-table .matrix-row-header.group-engagement { border-left-color: #66bb6a; }
+:is(html, body).light-mode .matrix-table .matrix-row-header.group-engagement { border-left-color: #2e7d32; }
+.status-badge.active { background: #4caf50; color: #000; }
+:is(html, body).light-mode .status-badge.active { background: #1b7d1b; color: #fff; }
+.status-badge.limited { background: #ff9800; color: #000; }
+:is(html, body).light-mode .status-badge.limited { background: #e65100; color: #fff; }
+.status-badge.discontinued { background: #607d8b; color: #000; }
+:is(html, body).light-mode .status-badge.discontinued { background: #455a64; color: #fff; }
+:root { --accent: #4fc3f7; }
+:is(html, body).light-mode { --accent: #0055aa; }
+</style>
+    <meta name="description" content="ClickMeeting — 8 provisions.">
+    <meta property="og:title" content="ClickMeeting">
+    <meta property="og:description" content="ClickMeeting — 8 provisions.">
+    <meta property="og:type" content="website">
+    <script>
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            if (params.get('theme') === 'light' || localStorage.getItem('theme') === 'light') {
+                document.documentElement.classList.add('light-mode');
+                localStorage.setItem('theme', 'light');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <h1><a href="../../index.html" onclick="passTheme(this)">Virtual Meeting Software Guide</a></h1>
+        <button class="hamburger-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false" aria-controls="siteNav">
+            <span class="hamburger-icon"></span>
+        </button>
+        <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+            <a href="../../index.html" class="site-nav-link" onclick="passTheme(this)">Home</a>
+            <a href="../../containers.html" class="site-nav-link" onclick="passTheme(this)">Platforms</a>
+            <a href="../../primaries.html" class="site-nav-link" onclick="passTheme(this)">Features</a>
+            <a href="../../matrix.html" class="site-nav-link" onclick="passTheme(this)">Matrix</a>
+            <a href="../../timeline.html" class="site-nav-link" onclick="passTheme(this)">Timeline</a>
+            <a href="../../compare.html" class="site-nav-link" onclick="passTheme(this)">Compare</a>
+            <a href="../../about.html" class="site-nav-link" onclick="passTheme(this)">About</a>
+        </nav>
+        <div class="header-actions">
+            <div class="site-search" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="searchResults">
+                <input type="search" id="siteSearchInput" class="search-input" placeholder="Search..." aria-label="Search" aria-autocomplete="list" aria-controls="searchResults" autocomplete="off">
+                <ul id="searchResults" class="search-results" role="listbox" hidden></ul>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
+        </div>
+    </header>
+    <div class="container" id="main-content">
+        
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../../index.html" onclick="passTheme(this)">Home</a>
+        <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
+        <span class="sep">/</span> <span>ClickMeeting</span>
+    </nav>
+        <div class="detail-header">
+            <h2>ClickMeeting</h2>
+            <div class="detail-meta">
+                <span><strong>Range:</strong> 2-1,000</span>
+                <span class="status-badge active">active</span>
+                <span><strong>Effective:</strong> Jan 1, 2011</span>
+                <span><a href="https://clickmeeting.com" target="_blank" rel="noopener">Official source</a></span>
+                <span><a href="https://clickmeeting.com/pricing" target="_blank" rel="noopener">Pricing page</a></span>
+            </div>
+        </div>
+        <div class="pricing-bar"><span class="price-tag"><strong>Live</strong>: $25/mo <span class="price-note">25 attendees</span></span>
+                <span class="price-tag"><strong>Automated</strong>: $40/mo <span class="price-note">Automated webinars</span></span>
+                <span class="price-tag"><strong>Enterprise</strong>: Custom <span class="price-note">1000 attendees</span></span></div>
+        <h3>Features Covered</h3>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
+            <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/breakout-rooms/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Breakout Rooms</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/polling/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Polling and Q&amp;A</a> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Whiteboard</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a>
+        </div>
+        <h3>Timeline</h3><table class="data-table"><thead><tr><th>Milestone</th><th>Date</th><th>Notes</th></tr></thead><tbody><tr><td>Launch</td><td>Jan 1, 2011</td><td>ClickMeeting launches as webinar and meeting platform</td></tr><tr><td>Automated webinars</td><td>Jan 1, 2015</td><td>On-demand and automated webinar support added</td></tr><tr><td>Edu mode</td><td>Mar 1, 2020</td><td>Virtual classroom mode for education sector</td></tr><tr><td>AI features</td><td>Jun 1, 2023</td><td>AI-powered meeting summaries and transcription added</td></tr></tbody></table>
+        <h3>Provisions (8)</h3>
+        <div class="provision-card" id="video-conferencing">
+        <h3>Video Conferencing</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)">Video Conferencing</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jan 1, 2011</span>
+        </div>
+        <div class="talking-point">"ClickMeeting supports up to 1,000 webinar attendees with a dedicated virtual classroom mode for education."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 1,000 attendees for webinars</td></tr><tr><td>HD video</td><td>720p video support</td></tr><tr><td>Edu mode</td><td>Virtual classroom layout optimized for teaching</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+<div class="provision-card" id="screen-sharing">
+        <h3>Screen Sharing</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)">Screen Sharing</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jan 1, 2011</span>
+        </div>
+        <div class="talking-point">"ClickMeeting allows direct slide upload and presentation without requiring screen sharing of external apps."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Desktop sharing</td><td>Full screen or application window sharing</td></tr><tr><td>Presentation mode</td><td>Upload and present slides directly within the platform</td></tr><tr><td>Whiteboard overlay</td><td>Annotate over shared content</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+<div class="provision-card" id="breakout-rooms">
+        <h3>Breakout Rooms</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/breakout-rooms/index.html" onclick="passTheme(this)">Breakout Rooms</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jun 1, 2020</span>
+        </div>
+        <div class="talking-point">"ClickMeeting breakout rooms support group activities during webinars and virtual classroom sessions."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room count</td><td>Multiple breakout rooms for group work</td></tr><tr><td>Assignment</td><td>Manual participant assignment by organizer</td></tr><tr><td>Controls</td><td>Timer and broadcast to all rooms</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+<div class="provision-card" id="recording-and-transcription">
+        <h3>Recording and Transcription</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/recording/index.html" onclick="passTheme(this)">Recording</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jan 1, 2011</span>
+        </div>
+        <div class="talking-point">"ClickMeeting recordings can be shared as on-demand webinars, extending the reach of live events."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Automatic cloud recording of meetings and webinars</td></tr><tr><td>On-demand replay</td><td>Share recorded webinars as on-demand content</td></tr><tr><td>Storage</td><td>Cloud storage included in all paid plans</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+<div class="provision-card" id="chat-and-messaging">
+        <h3>Chat and Messaging</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)">Chat Messaging</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jan 1, 2011</span>
+        </div>
+        <div class="talking-point">"ClickMeeting provides moderated chat and a dedicated Q&amp;A panel to manage audience interaction at scale."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>In-meeting chat</td><td>Public and private chat during events</td></tr><tr><td>Moderated chat</td><td>Hosts can moderate messages before they appear</td></tr><tr><td>Q&amp;A panel</td><td>Dedicated Q&amp;A panel for webinar attendees</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+<div class="provision-card" id="polling">
+        <h3>Polling</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/polling/index.html" onclick="passTheme(this)">Polling</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jan 1, 2011</span>
+        </div>
+        <div class="talking-point">"ClickMeeting polling is deeply integrated into the webinar flow with real-time results and post-event analytics."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Poll types</td><td>Multiple choice, single choice, and survey polls</td></tr><tr><td>Live results</td><td>Display results to attendees in real time</td></tr><tr><td>Reports</td><td>Detailed polling analytics in post-event reports</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+<div class="provision-card" id="whiteboard">
+        <h3>Whiteboard</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)">Whiteboard</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jan 1, 2015</span>
+        </div>
+        <div class="talking-point">"ClickMeeting whiteboard integrates alongside presentation slides for interactive teaching and brainstorming."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Drawing tools</td><td>Freehand drawing, shapes, and text</td></tr><tr><td>Collaboration</td><td>Participants can draw on the shared whiteboard</td></tr><tr><td>Presentation integration</td><td>Whiteboard available alongside presentation slides</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+<div class="provision-card" id="virtual-backgrounds">
+        <h3>Virtual Backgrounds</h3>
+        <div class="provision-meta">
+            <span><strong>Implements:</strong> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)">Virtual Backgrounds</a></span>
+            <span><span class="status-badge active">active</span></span>
+            <span><strong>Effective:</strong> Jan 1, 2021</span>
+        </div>
+        <div class="talking-point">"ClickMeeting virtual backgrounds include custom branding options for professional webinar presentations."</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Static backgrounds</td><td>Built-in backgrounds and custom image upload</td></tr><tr><td>Background blur</td><td>Blur effect for privacy</td></tr><tr><td>Branding</td><td>Custom branded backgrounds for webinar presenters</td></tr></tbody></table>
+        
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
+    </div>
+    
+    </div>
+    <footer>
+        <p>Maintained with <a href="https://github.com/snapsynapse/virtual-meeting-reference">version control</a>. This is a reference tool, not professional advice.</p>
+        <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>
+    </footer>
+    <script src="../../assets/search.js"></script>
+    <script src="../../assets/tables.js"></script>
+    <script>
+        function toggleTheme() {
+            document.documentElement.classList.toggle('light-mode');
+            localStorage.setItem('theme', document.documentElement.classList.contains('light-mode') ? 'light' : 'dark');
+        }
+        function toggleMobileMenu() {
+            var btn = document.querySelector('.hamburger-btn');
+            var menu = document.getElementById('siteNav');
+            var isOpen = menu.classList.toggle('open');
+            btn.classList.toggle('active', isOpen);
+            btn.setAttribute('aria-expanded', isOpen);
+        }
+        document.addEventListener('click', function(e) {
+            var menu = document.getElementById('siteNav');
+            var btn = document.querySelector('.hamburger-btn');
+            if (menu && btn && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+                menu.classList.remove('open');
+                btn.classList.remove('active');
+                btn.setAttribute('aria-expanded', 'false');
+            }
+        });
+        function passTheme(link) {
+            if (document.documentElement.classList.contains('light-mode')) {
+                var url = new URL(link.href, window.location.href);
+                url.searchParams.set('theme', 'light');
+                link.href = url.pathname + url.search + url.hash;
+            }
+        }
+        (function() {
+            var btn = document.createElement('button');
+            btn.className = 'back-to-top';
+            btn.setAttribute('aria-label', 'Back to top');
+            btn.textContent = '\u2191';
+            document.body.appendChild(btn);
+            window.addEventListener('scroll', function() { btn.classList.toggle('visible', window.scrollY > 400); });
+            btn.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+</body>
+</html>

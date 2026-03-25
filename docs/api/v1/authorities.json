@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "generated": "2026-03-25T23:23:13.746Z",
+    "count": 20
+  },
+  "items": [
+    {
+      "id": "8x8",
+      "name": "8x8",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "bigbluebutton-community",
+      "name": "BigBlueButton Community",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "bytedance",
+      "name": "ByteDance",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco Systems",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "clickmeeting",
+      "name": "ClickMeeting",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "dialpad",
+      "name": "Dialpad",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "enghouse",
+      "name": "Enghouse Systems",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "goto",
+      "name": "GoTo",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "intermedia",
+      "name": "Intermedia",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "jitsi-community",
+      "name": "Jitsi Community (8x8)",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "ringcentral",
+      "name": "RingCentral",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce (Slack Technologies)",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "trueconf",
+      "name": "TrueConf",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "verizon",
+      "name": "Verizon",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "whereby-as",
+      "name": "Whereby AS",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "zoho",
+      "name": "Zoho",
+      "jurisdiction": "Global"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom Video Communications",
+      "jurisdiction": "Global"
+    }
+  ]
+}
