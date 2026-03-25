@@ -1,0 +1,243 @@
+# Zoom Workplace capabilities
+- id: zoom-video-conferencing
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: zoom-screen-sharing
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: zoom-breakout-rooms
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: zoom-recording
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: zoom-polling
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: zoom-chat
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: zoom-whiteboard
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: zoom-virtual-backgrounds
+  regulation: zoom-workplace
+  authority: zoom
+  source_file: data/examples/container/zoom-workplace.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Microsoft Teams capabilities
+- id: teams-video-conferencing
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: teams-screen-sharing
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: teams-breakout-rooms
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: teams-recording
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: teams-chat
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: teams-whiteboard
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Whiteboard
+  obligations:
+    - whiteboard
+
+- id: teams-polling
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: teams-virtual-backgrounds
+  regulation: ms-teams
+  authority: microsoft
+  source_file: data/examples/container/ms-teams.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Google Meet capabilities
+- id: meet-video-conferencing
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: meet-screen-sharing
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: meet-breakout-rooms
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: meet-recording
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: meet-chat
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: meet-polling
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: meet-virtual-backgrounds
+  regulation: google-meet
+  authority: google
+  source_file: data/examples/container/google-meet.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
+
+# Adobe Connect capabilities
+- id: connect-video-conferencing
+  regulation: adobe-connect
+  authority: adobe
+  source_file: data/examples/container/adobe-connect.md
+  source_heading: Video Conferencing
+  obligations:
+    - video-conferencing
+
+- id: connect-screen-sharing
+  regulation: adobe-connect
+  authority: adobe
+  source_file: data/examples/container/adobe-connect.md
+  source_heading: Screen Sharing
+  obligations:
+    - screen-sharing
+
+- id: connect-breakout-rooms
+  regulation: adobe-connect
+  authority: adobe
+  source_file: data/examples/container/adobe-connect.md
+  source_heading: Breakout Rooms
+  obligations:
+    - breakout-rooms
+
+- id: connect-recording
+  regulation: adobe-connect
+  authority: adobe
+  source_file: data/examples/container/adobe-connect.md
+  source_heading: Recording and Transcription
+  obligations:
+    - recording
+
+- id: connect-polling
+  regulation: adobe-connect
+  authority: adobe
+  source_file: data/examples/container/adobe-connect.md
+  source_heading: Polling and Q&A
+  obligations:
+    - polling
+
+- id: connect-chat
+  regulation: adobe-connect
+  authority: adobe
+  source_file: data/examples/container/adobe-connect.md
+  source_heading: Chat and Messaging
+  obligations:
+    - chat-messaging
+
+- id: connect-virtual-backgrounds
+  regulation: adobe-connect
+  authority: adobe
+  source_file: data/examples/container/adobe-connect.md
+  source_heading: Virtual Backgrounds
+  obligations:
+    - virtual-backgrounds
