@@ -1291,11 +1291,152 @@ function build() {
     fs.writeFileSync(path.join(ASSETS_DIR, 'data.json'), JSON.stringify(searchIndex));
     console.log(`  Search index: ${searchIndex.length} entries`);
 
-    // Sitemap + robots + CNAME
+    // Sitemap + robots + CNAME + llms.txt + agents.json + index.xml
+    const siteUrl = config.url || '';
+    const siteName = config.name || 'Knowledge Base';
+    const siteDesc = config.description || '';
+    const hostname = (siteUrl).replace(/^https?:\/\//, '').replace(/\/+$/, '');
+
     fs.writeFileSync(path.join(DOCS_DIR, 'sitemap.xml'), generateSitemap(config, sitemapPages));
-    fs.writeFileSync(path.join(DOCS_DIR, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${config.url || ''}sitemap.xml\n`);
-    const hostname = (config.url || '').replace(/^https?:\/\//, '').replace(/\/+$/, '');
+
+    fs.writeFileSync(path.join(DOCS_DIR, 'robots.txt'), [
+        'User-agent: *',
+        'Allow: /',
+        '',
+        `Sitemap: ${siteUrl}sitemap.xml`,
+        `# Machine-readable site info: ${siteUrl}agents.json`,
+        `# LLM context: ${siteUrl}llms.txt`,
+        ''
+    ].join('\n'));
+
     if (hostname) fs.writeFileSync(path.join(DOCS_DIR, 'CNAME'), hostname + '\n');
+
+    // llms.txt — LLM-friendly site overview
+    const cPlural = config.entities?.container?.plural || 'Containers';
+    const pPlural = config.entities?.primary?.plural || 'Primaries';
+    const llmsTxt = [
+        `# ${siteName}`,
+        '',
+        `> ${siteDesc}`,
+        `> Tracks ${containers.length} ${cPlural.toLowerCase()}, ${primaries.length} ${pPlural.toLowerCase()}, and ${totalProvisions} capabilities across ${authorities.length} vendors.`,
+        '',
+        `## ${cPlural}`,
+        '',
+        ...containers.map(c => `- [${c.name}](${siteUrl}container/${c.id}/): ${c.status}${c.startingPrice ? ', from ' + c.startingPrice : ''}`),
+        '',
+        `## ${pPlural}`,
+        '',
+        ...primaries.map(p => {
+            const regCount = Object.keys(matrix[p.id] || {}).length;
+            return `- [${p.name || humanizeId(p.id)}](${siteUrl}primary/${p.id}/): ${regCount} ${cPlural.toLowerCase()} support this`;
+        }),
+        '',
+        '## Tools',
+        '',
+        `- [Coverage Matrix](${siteUrl}matrix.html): Which ${pPlural.toLowerCase()} each ${(config.entities?.container?.name || 'container').toLowerCase()} supports`,
+        `- [Compare](${siteUrl}compare.html): Side-by-side ${(config.entities?.container?.name || 'container').toLowerCase()} comparison`,
+        `- [Timeline](${siteUrl}timeline.html): Key dates and milestones`,
+        '',
+        '## Machine-Readable',
+        '',
+        `- [JSON API](${siteUrl}api/v1/index.json): Programmatic access to all data`,
+        `- [agents.json](${siteUrl}agents.json): Agent discovery metadata`,
+        `- [Sitemap](${siteUrl}sitemap.xml): All pages`,
+        `- [RSS Feed](${siteUrl}index.xml): Recent updates`,
+        ''
+    ].join('\n');
+    fs.writeFileSync(path.join(DOCS_DIR, 'llms.txt'), llmsTxt);
+
+    // agents.json — agent-readable site metadata
+    const agentsJson = {
+        schema_version: '1.0',
+        site: {
+            name: siteName,
+            url: siteUrl,
+            description: siteDesc,
+            publisher: { name: 'Snap Synapse', url: 'https://snapsynapse.com' },
+            repo: config.repo || '',
+            license: 'MIT'
+        },
+        capabilities: [
+            {
+                id: 'platform-comparison',
+                name: `${config.entities?.container?.name || 'Container'} Comparison`,
+                description: `Compare ${containers.length} ${cPlural.toLowerCase()} across ${primaries.length} ${pPlural.toLowerCase()}`,
+                url: `${siteUrl}compare.html`
+            },
+            {
+                id: 'coverage-matrix',
+                name: 'Coverage Matrix',
+                description: `See which ${pPlural.toLowerCase()} each ${(config.entities?.container?.name || 'container').toLowerCase()} supports`,
+                url: `${siteUrl}matrix.html`
+            },
+            {
+                id: 'json-api',
+                name: 'JSON API',
+                description: 'Programmatic access to all platform, feature, and vendor data',
+                url: `${siteUrl}api/v1/index.json`,
+                endpoints: [
+                    { path: 'api/v1/containers.json', description: `All ${cPlural.toLowerCase()}` },
+                    { path: 'api/v1/primaries.json', description: `All ${pPlural.toLowerCase()}` },
+                    { path: 'api/v1/authorities.json', description: 'All vendors' },
+                    { path: 'api/v1/mappings.json', description: 'All capability mappings' },
+                    { path: 'api/v1/matrix.json', description: 'Coverage matrix' },
+                    { path: 'api/v1/comparisons.json', description: 'Pre-computed comparisons' }
+                ]
+            }
+        ],
+        content: {
+            containers: containers.map(c => ({ id: c.id, name: c.name, status: c.status, url: `${siteUrl}container/${c.id}/` })),
+            primaries: primaries.map(p => ({ id: p.id, name: p.name || humanizeId(p.id), group: p.group, url: `${siteUrl}primary/${p.id}/` })),
+            authorities: authorities.map(a => ({ id: a.id, name: a.name || humanizeId(a.id), url: `${siteUrl}authority/${a.id}/` }))
+        },
+        discovery: {
+            llms_txt: `${siteUrl}llms.txt`,
+            sitemap: `${siteUrl}sitemap.xml`,
+            rss: `${siteUrl}index.xml`,
+            robots: `${siteUrl}robots.txt`
+        },
+        contact: {
+            email: 'hello@snapsynapse.com',
+            issues: `${config.repo || ''}/issues`
+        },
+        meta: {
+            last_updated: new Date().toISOString().split('T')[0],
+            generated_by: 'knowledge-as-code build.js'
+        }
+    };
+    fs.writeFileSync(path.join(DOCS_DIR, 'agents.json'), JSON.stringify(agentsJson, null, 2) + '\n');
+
+    // index.xml — RSS feed of platforms (most recently verified first)
+    const sortedContainers = [...containers].sort((a, b) => (b.last_verified || '').localeCompare(a.last_verified || ''));
+    const rssItems = sortedContainers.slice(0, 20).map(c => {
+        const desc = `${c.name}: ${c.status}${c.startingPrice ? ', from ' + c.startingPrice : ''}. ${c.provisions.length} capabilities tracked.`;
+        return [
+            '    <item>',
+            `      <title>${escapeHTML(c.name)}</title>`,
+            `      <link>${siteUrl}container/${c.id}/</link>`,
+            `      <guid>${siteUrl}container/${c.id}/</guid>`,
+            `      <description>${escapeHTML(desc)}</description>`,
+            c.last_verified ? `      <pubDate>${new Date(c.last_verified).toUTCString()}</pubDate>` : '',
+            '    </item>'
+        ].filter(Boolean).join('\n');
+    }).join('\n');
+    const rssFeed = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        '  <channel>',
+        `    <title>${escapeHTML(siteName)}</title>`,
+        `    <link>${siteUrl}</link>`,
+        `    <description>${escapeHTML(siteDesc)}</description>`,
+        `    <atom:link href="${siteUrl}index.xml" rel="self" type="application/rss+xml"/>`,
+        `    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
+        rssItems,
+        '  </channel>',
+        '</rss>',
+        ''
+    ].join('\n');
+    fs.writeFileSync(path.join(DOCS_DIR, 'index.xml'), rssFeed);
 
     // Copy static assets if not present
     const srcCSS = path.join(ROOT, 'docs', 'assets', 'styles.css');

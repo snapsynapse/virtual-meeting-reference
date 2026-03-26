@@ -1,0 +1,368 @@
+{
+  "schema_version": "1.0",
+  "site": {
+    "name": "Virtual Meeting Software Guide",
+    "url": "https://meetings.snapsynapse.com/",
+    "description": "A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.",
+    "publisher": {
+      "name": "Snap Synapse",
+      "url": "https://snapsynapse.com"
+    },
+    "repo": "https://github.com/snapsynapse/virtual-meeting-reference",
+    "license": "MIT"
+  },
+  "capabilities": [
+    {
+      "id": "platform-comparison",
+      "name": "Platform Comparison",
+      "description": "Compare 22 platforms across 9 features",
+      "url": "https://meetings.snapsynapse.com/compare.html"
+    },
+    {
+      "id": "coverage-matrix",
+      "name": "Coverage Matrix",
+      "description": "See which features each platform supports",
+      "url": "https://meetings.snapsynapse.com/matrix.html"
+    },
+    {
+      "id": "json-api",
+      "name": "JSON API",
+      "description": "Programmatic access to all platform, feature, and vendor data",
+      "url": "https://meetings.snapsynapse.com/api/v1/index.json",
+      "endpoints": [
+        {
+          "path": "api/v1/containers.json",
+          "description": "All platforms"
+        },
+        {
+          "path": "api/v1/primaries.json",
+          "description": "All features"
+        },
+        {
+          "path": "api/v1/authorities.json",
+          "description": "All vendors"
+        },
+        {
+          "path": "api/v1/mappings.json",
+          "description": "All capability mappings"
+        },
+        {
+          "path": "api/v1/matrix.json",
+          "description": "Coverage matrix"
+        },
+        {
+          "path": "api/v1/comparisons.json",
+          "description": "Pre-computed comparisons"
+        }
+      ]
+    }
+  ],
+  "content": {
+    "containers": [
+      {
+        "id": "8x8-meet",
+        "name": "8x8 Meet",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/8x8-meet/"
+      },
+      {
+        "id": "adobe-connect",
+        "name": "Adobe Connect",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/adobe-connect/"
+      },
+      {
+        "id": "anymeeting",
+        "name": "AnyMeeting",
+        "status": "discontinued",
+        "url": "https://meetings.snapsynapse.com/container/anymeeting/"
+      },
+      {
+        "id": "bigbluebutton",
+        "name": "BigBlueButton",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/bigbluebutton/"
+      },
+      {
+        "id": "bluejeans",
+        "name": "BlueJeans",
+        "status": "discontinued",
+        "url": "https://meetings.snapsynapse.com/container/bluejeans/"
+      },
+      {
+        "id": "clickmeeting",
+        "name": "ClickMeeting",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/clickmeeting/"
+      },
+      {
+        "id": "dialpad-meetings",
+        "name": "Dialpad Meetings",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/dialpad-meetings/"
+      },
+      {
+        "id": "google-meet",
+        "name": "Google Meet",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/google-meet/"
+      },
+      {
+        "id": "goto-meeting",
+        "name": "GoTo Meeting",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/goto-meeting/"
+      },
+      {
+        "id": "jitsi-meet",
+        "name": "Jitsi Meet",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/jitsi-meet/"
+      },
+      {
+        "id": "lark",
+        "name": "Lark",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/lark/"
+      },
+      {
+        "id": "lifesize",
+        "name": "Lifesize",
+        "status": "limited",
+        "url": "https://meetings.snapsynapse.com/container/lifesize/"
+      },
+      {
+        "id": "ms-teams",
+        "name": "Microsoft Teams",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/ms-teams/"
+      },
+      {
+        "id": "ringcentral-video",
+        "name": "RingCentral Video",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/ringcentral-video/"
+      },
+      {
+        "id": "skype",
+        "name": "Skype",
+        "status": "limited",
+        "url": "https://meetings.snapsynapse.com/container/skype/"
+      },
+      {
+        "id": "slack",
+        "name": "Slack",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/slack/"
+      },
+      {
+        "id": "trueconf",
+        "name": "TrueConf",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/trueconf/"
+      },
+      {
+        "id": "uberconference",
+        "name": "UberConference",
+        "status": "discontinued",
+        "url": "https://meetings.snapsynapse.com/container/uberconference/"
+      },
+      {
+        "id": "webex-meetings",
+        "name": "Webex Meetings",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/webex-meetings/"
+      },
+      {
+        "id": "whereby",
+        "name": "Whereby",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/whereby/"
+      },
+      {
+        "id": "zoho-meeting",
+        "name": "Zoho Meeting",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/zoho-meeting/"
+      },
+      {
+        "id": "zoom-workplace",
+        "name": "Zoom Workplace",
+        "status": "active",
+        "url": "https://meetings.snapsynapse.com/container/zoom-workplace/"
+      }
+    ],
+    "primaries": [
+      {
+        "id": "ai-notetaker",
+        "name": "Integrated AI Note-Taker",
+        "group": "management",
+        "url": "https://meetings.snapsynapse.com/primary/ai-notetaker/"
+      },
+      {
+        "id": "breakout-rooms",
+        "name": "Breakout Rooms",
+        "group": "management",
+        "url": "https://meetings.snapsynapse.com/primary/breakout-rooms/"
+      },
+      {
+        "id": "chat-messaging",
+        "name": "Chat and Messaging",
+        "group": "communication",
+        "url": "https://meetings.snapsynapse.com/primary/chat-messaging/"
+      },
+      {
+        "id": "polling",
+        "name": "Polling and Q&A",
+        "group": "engagement",
+        "url": "https://meetings.snapsynapse.com/primary/polling/"
+      },
+      {
+        "id": "recording",
+        "name": "Recording and Transcription",
+        "group": "management",
+        "url": "https://meetings.snapsynapse.com/primary/recording/"
+      },
+      {
+        "id": "screen-sharing",
+        "name": "Screen Sharing",
+        "group": "collaboration",
+        "url": "https://meetings.snapsynapse.com/primary/screen-sharing/"
+      },
+      {
+        "id": "video-conferencing",
+        "name": "Video Conferencing",
+        "group": "communication",
+        "url": "https://meetings.snapsynapse.com/primary/video-conferencing/"
+      },
+      {
+        "id": "virtual-backgrounds",
+        "name": "Virtual Backgrounds",
+        "group": "engagement",
+        "url": "https://meetings.snapsynapse.com/primary/virtual-backgrounds/"
+      },
+      {
+        "id": "whiteboard",
+        "name": "Whiteboard",
+        "group": "collaboration",
+        "url": "https://meetings.snapsynapse.com/primary/whiteboard/"
+      }
+    ],
+    "authorities": [
+      {
+        "id": "8x8",
+        "name": "8x8",
+        "url": "https://meetings.snapsynapse.com/authority/8x8/"
+      },
+      {
+        "id": "adobe",
+        "name": "Adobe",
+        "url": "https://meetings.snapsynapse.com/authority/adobe/"
+      },
+      {
+        "id": "bigbluebutton-community",
+        "name": "BigBlueButton Community",
+        "url": "https://meetings.snapsynapse.com/authority/bigbluebutton-community/"
+      },
+      {
+        "id": "bytedance",
+        "name": "ByteDance",
+        "url": "https://meetings.snapsynapse.com/authority/bytedance/"
+      },
+      {
+        "id": "cisco",
+        "name": "Cisco Systems",
+        "url": "https://meetings.snapsynapse.com/authority/cisco/"
+      },
+      {
+        "id": "clickmeeting",
+        "name": "ClickMeeting",
+        "url": "https://meetings.snapsynapse.com/authority/clickmeeting/"
+      },
+      {
+        "id": "dialpad",
+        "name": "Dialpad",
+        "url": "https://meetings.snapsynapse.com/authority/dialpad/"
+      },
+      {
+        "id": "enghouse",
+        "name": "Enghouse Systems",
+        "url": "https://meetings.snapsynapse.com/authority/enghouse/"
+      },
+      {
+        "id": "google",
+        "name": "Google",
+        "url": "https://meetings.snapsynapse.com/authority/google/"
+      },
+      {
+        "id": "goto",
+        "name": "GoTo",
+        "url": "https://meetings.snapsynapse.com/authority/goto/"
+      },
+      {
+        "id": "intermedia",
+        "name": "Intermedia",
+        "url": "https://meetings.snapsynapse.com/authority/intermedia/"
+      },
+      {
+        "id": "jitsi-community",
+        "name": "Jitsi Community (8x8)",
+        "url": "https://meetings.snapsynapse.com/authority/jitsi-community/"
+      },
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "url": "https://meetings.snapsynapse.com/authority/microsoft/"
+      },
+      {
+        "id": "ringcentral",
+        "name": "RingCentral",
+        "url": "https://meetings.snapsynapse.com/authority/ringcentral/"
+      },
+      {
+        "id": "salesforce",
+        "name": "Salesforce (Slack Technologies)",
+        "url": "https://meetings.snapsynapse.com/authority/salesforce/"
+      },
+      {
+        "id": "trueconf",
+        "name": "TrueConf",
+        "url": "https://meetings.snapsynapse.com/authority/trueconf/"
+      },
+      {
+        "id": "verizon",
+        "name": "Verizon",
+        "url": "https://meetings.snapsynapse.com/authority/verizon/"
+      },
+      {
+        "id": "whereby-as",
+        "name": "Whereby AS",
+        "url": "https://meetings.snapsynapse.com/authority/whereby-as/"
+      },
+      {
+        "id": "zoho",
+        "name": "Zoho",
+        "url": "https://meetings.snapsynapse.com/authority/zoho/"
+      },
+      {
+        "id": "zoom",
+        "name": "Zoom Video Communications",
+        "url": "https://meetings.snapsynapse.com/authority/zoom/"
+      }
+    ]
+  },
+  "discovery": {
+    "llms_txt": "https://meetings.snapsynapse.com/llms.txt",
+    "sitemap": "https://meetings.snapsynapse.com/sitemap.xml",
+    "rss": "https://meetings.snapsynapse.com/index.xml",
+    "robots": "https://meetings.snapsynapse.com/robots.txt"
+  },
+  "contact": {
+    "email": "hello@snapsynapse.com",
+    "issues": "https://github.com/snapsynapse/virtual-meeting-reference/issues"
+  },
+  "meta": {
+    "last_updated": "2026-03-26",
+    "generated_by": "knowledge-as-code build.js"
+  }
+}

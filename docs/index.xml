@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtual Meeting Software Guide</title>
+    <link>https://meetings.snapsynapse.com/</link>
+    <description>A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.</description>
+    <atom:link href="https://meetings.snapsynapse.com/index.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Thu, 26 Mar 2026 04:41:06 GMT</lastBuildDate>
+    <item>
+      <title>8x8 Meet</title>
+      <link>https://meetings.snapsynapse.com/container/8x8-meet/</link>
+      <guid>https://meetings.snapsynapse.com/container/8x8-meet/</guid>
+      <description>8x8 Meet: active, from $24/user/mo. 7 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Adobe Connect</title>
+      <link>https://meetings.snapsynapse.com/container/adobe-connect/</link>
+      <guid>https://meetings.snapsynapse.com/container/adobe-connect/</guid>
+      <description>Adobe Connect: active, from $50/mo. 7 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AnyMeeting</title>
+      <link>https://meetings.snapsynapse.com/container/anymeeting/</link>
+      <guid>https://meetings.snapsynapse.com/container/anymeeting/</guid>
+      <description>AnyMeeting: discontinued, from $9.99/mo. 5 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BigBlueButton</title>
+      <link>https://meetings.snapsynapse.com/container/bigbluebutton/</link>
+      <guid>https://meetings.snapsynapse.com/container/bigbluebutton/</guid>
+      <description>BigBlueButton: active, from $5-50/mo. 7 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BlueJeans</title>
+      <link>https://meetings.snapsynapse.com/container/bluejeans/</link>
+      <guid>https://meetings.snapsynapse.com/container/bluejeans/</guid>
+      <description>BlueJeans: discontinued, from $9.99/host/mo. 8 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ClickMeeting</title>
+      <link>https://meetings.snapsynapse.com/container/clickmeeting/</link>
+      <guid>https://meetings.snapsynapse.com/container/clickmeeting/</guid>
+      <description>ClickMeeting: active, from $25/mo. 8 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dialpad Meetings</title>
+      <link>https://meetings.snapsynapse.com/container/dialpad-meetings/</link>
+      <guid>https://meetings.snapsynapse.com/container/dialpad-meetings/</guid>
+      <description>Dialpad Meetings: active, from $27/user/mo. 7 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google Meet</title>
+      <link>https://meetings.snapsynapse.com/container/google-meet/</link>
+      <guid>https://meetings.snapsynapse.com/container/google-meet/</guid>
+      <description>Google Meet: active, from $7/user/mo. 8 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoTo Meeting</title>
+      <link>https://meetings.snapsynapse.com/container/goto-meeting/</link>
+      <guid>https://meetings.snapsynapse.com/container/goto-meeting/</guid>
+      <description>GoTo Meeting: active, from $14/organizer/mo. 8 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jitsi Meet</title>
+      <link>https://meetings.snapsynapse.com/container/jitsi-meet/</link>
+      <guid>https://meetings.snapsynapse.com/container/jitsi-meet/</guid>
+      <description>Jitsi Meet: active, from $99/mo. 8 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lark</title>
+      <link>https://meetings.snapsynapse.com/container/lark/</link>
+      <guid>https://meetings.snapsynapse.com/container/lark/</guid>
+      <description>Lark: active, from $12/user/mo. 9 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lifesize</title>
+      <link>https://meetings.snapsynapse.com/container/lifesize/</link>
+      <guid>https://meetings.snapsynapse.com/container/lifesize/</guid>
+      <description>Lifesize: limited, from $14.95/host/mo. 5 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Teams</title>
+      <link>https://meetings.snapsynapse.com/container/ms-teams/</link>
+      <guid>https://meetings.snapsynapse.com/container/ms-teams/</guid>
+      <description>Microsoft Teams: active, from $4/user/mo. 9 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>RingCentral Video</title>
+      <link>https://meetings.snapsynapse.com/container/ringcentral-video/</link>
+      <guid>https://meetings.snapsynapse.com/container/ringcentral-video/</guid>
+      <description>RingCentral Video: active, from $20/user/mo. 8 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Skype</title>
+      <link>https://meetings.snapsynapse.com/container/skype/</link>
+      <guid>https://meetings.snapsynapse.com/container/skype/</guid>
+      <description>Skype: limited, from $0/mo. 5 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Slack</title>
+      <link>https://meetings.snapsynapse.com/container/slack/</link>
+      <guid>https://meetings.snapsynapse.com/container/slack/</guid>
+      <description>Slack: active, from $8.75/user/mo. 3 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>TrueConf</title>
+      <link>https://meetings.snapsynapse.com/container/trueconf/</link>
+      <guid>https://meetings.snapsynapse.com/container/trueconf/</guid>
+      <description>TrueConf: active, from $8/user/mo. 8 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>UberConference</title>
+      <link>https://meetings.snapsynapse.com/container/uberconference/</link>
+      <guid>https://meetings.snapsynapse.com/container/uberconference/</guid>
+      <description>UberConference: discontinued, from $15/mo. 4 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Webex Meetings</title>
+      <link>https://meetings.snapsynapse.com/container/webex-meetings/</link>
+      <guid>https://meetings.snapsynapse.com/container/webex-meetings/</guid>
+      <description>Webex Meetings: active, from $14.50/mo. 9 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Whereby</title>
+      <link>https://meetings.snapsynapse.com/container/whereby/</link>
+      <guid>https://meetings.snapsynapse.com/container/whereby/</guid>
+      <description>Whereby: active, from $8.99/mo. 7 capabilities tracked.</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+# Virtual Meeting Software Guide
+
+> A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.
+> Tracks 22 platforms, 9 features, and 157 capabilities across 20 vendors.
+
+## Platforms
+
+- [8x8 Meet](https://meetings.snapsynapse.com/container/8x8-meet/): active, from $24/user/mo
+- [Adobe Connect](https://meetings.snapsynapse.com/container/adobe-connect/): active, from $50/mo
+- [AnyMeeting](https://meetings.snapsynapse.com/container/anymeeting/): discontinued, from $9.99/mo
+- [BigBlueButton](https://meetings.snapsynapse.com/container/bigbluebutton/): active, from $5-50/mo
+- [BlueJeans](https://meetings.snapsynapse.com/container/bluejeans/): discontinued, from $9.99/host/mo
+- [ClickMeeting](https://meetings.snapsynapse.com/container/clickmeeting/): active, from $25/mo
+- [Dialpad Meetings](https://meetings.snapsynapse.com/container/dialpad-meetings/): active, from $27/user/mo
+- [Google Meet](https://meetings.snapsynapse.com/container/google-meet/): active, from $7/user/mo
+- [GoTo Meeting](https://meetings.snapsynapse.com/container/goto-meeting/): active, from $14/organizer/mo
+- [Jitsi Meet](https://meetings.snapsynapse.com/container/jitsi-meet/): active, from $99/mo
+- [Lark](https://meetings.snapsynapse.com/container/lark/): active, from $12/user/mo
+- [Lifesize](https://meetings.snapsynapse.com/container/lifesize/): limited, from $14.95/host/mo
+- [Microsoft Teams](https://meetings.snapsynapse.com/container/ms-teams/): active, from $4/user/mo
+- [RingCentral Video](https://meetings.snapsynapse.com/container/ringcentral-video/): active, from $20/user/mo
+- [Skype](https://meetings.snapsynapse.com/container/skype/): limited, from $0/mo
+- [Slack](https://meetings.snapsynapse.com/container/slack/): active, from $8.75/user/mo
+- [TrueConf](https://meetings.snapsynapse.com/container/trueconf/): active, from $8/user/mo
+- [UberConference](https://meetings.snapsynapse.com/container/uberconference/): discontinued, from $15/mo
+- [Webex Meetings](https://meetings.snapsynapse.com/container/webex-meetings/): active, from $14.50/mo
+- [Whereby](https://meetings.snapsynapse.com/container/whereby/): active, from $8.99/mo
+- [Zoho Meeting](https://meetings.snapsynapse.com/container/zoho-meeting/): active, from $1/host/mo
+- [Zoom Workplace](https://meetings.snapsynapse.com/container/zoom-workplace/): active, from $13.33/mo
+
+## Features
+
+- [Integrated AI Note-Taker](https://meetings.snapsynapse.com/primary/ai-notetaker/): 7 platforms support this
+- [Breakout Rooms](https://meetings.snapsynapse.com/primary/breakout-rooms/): 16 platforms support this
+- [Chat and Messaging](https://meetings.snapsynapse.com/primary/chat-messaging/): 22 platforms support this
+- [Polling and Q&A](https://meetings.snapsynapse.com/primary/polling/): 16 platforms support this
+- [Recording and Transcription](https://meetings.snapsynapse.com/primary/recording/): 21 platforms support this
+- [Screen Sharing](https://meetings.snapsynapse.com/primary/screen-sharing/): 22 platforms support this
+- [Video Conferencing](https://meetings.snapsynapse.com/primary/video-conferencing/): 22 platforms support this
+- [Virtual Backgrounds](https://meetings.snapsynapse.com/primary/virtual-backgrounds/): 18 platforms support this
+- [Whiteboard](https://meetings.snapsynapse.com/primary/whiteboard/): 13 platforms support this
+
+## Tools
+
+- [Coverage Matrix](https://meetings.snapsynapse.com/matrix.html): Which features each platform supports
+- [Compare](https://meetings.snapsynapse.com/compare.html): Side-by-side platform comparison
+- [Timeline](https://meetings.snapsynapse.com/timeline.html): Key dates and milestones
+
+## Machine-Readable
+
+- [JSON API](https://meetings.snapsynapse.com/api/v1/index.json): Programmatic access to all data
+- [agents.json](https://meetings.snapsynapse.com/agents.json): Agent discovery metadata
+- [Sitemap](https://meetings.snapsynapse.com/sitemap.xml): All pages
+- [RSS Feed](https://meetings.snapsynapse.com/index.xml): Recent updates
