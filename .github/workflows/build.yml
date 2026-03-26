@@ -1,22 +1,14 @@
-name: Build
+name: Validate
 
 on:
   push:
     branches: [main]
-    paths:
-      - 'data/**'
-      - 'scripts/**'
-      - 'project.yml'
-      - 'docs/assets/**'
   pull_request:
     branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,14 +21,5 @@ jobs:
       - name: Validate cross-references
         run: node scripts/validate.js
 
-      - name: Build site
+      - name: Verify build succeeds
         run: node scripts/build.js
-
-      - name: Commit if changed
-        if: github.event_name != 'pull_request'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          git diff --staged --quiet || git commit -m "Rebuild site [skip ci]"
-          git push
