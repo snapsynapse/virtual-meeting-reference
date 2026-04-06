@@ -531,7 +531,7 @@ function renderPageShell(config, { title, activePage, prefix, content, descripti
 </html>`;
 }
 
-function renderBridgeShell(config, { title, depth, content, description, canonicalPath, structuredData, configCSS }) {
+function renderBridgeShell(config, { title, depth, content, description, canonicalPath, structuredData, configCSS, noindex }) {
     const prefix = depth > 0 ? '../'.repeat(depth) : '';
     const siteUrl = config.url || '';
     const jsonLd = structuredData ? `\n    <script type="application/ld+json">${JSON.stringify(structuredData)}</script>` : '';
@@ -546,6 +546,7 @@ function renderBridgeShell(config, { title, depth, content, description, canonic
     <link rel="canonical" href="${siteUrl}${canonicalPath || ''}">
     <link rel="stylesheet" href="${prefix}assets/styles.css">
     <style>${configCSS || ''}</style>
+    ${noindex ? '<meta name="robots" content="noindex">' : ''}
     <meta name="description" content="${escapeHTML(description || '')}">
     <meta property="og:title" content="${escapeHTML(title)}">
     <meta property="og:description" content="${escapeHTML(description || '')}">
@@ -1108,7 +1109,7 @@ function generateCompareBridge(config, cA, cB, comparison, data, configCSS) {
         </div>
     `;
 
-    return renderBridgeShell(config, { title: `${cA.name} vs ${cB.name}`, depth: 3, content, canonicalPath: `compare/${cA.id}-vs-${cB.id}/`, configCSS });
+    return renderBridgeShell(config, { title: `${cA.name} vs ${cB.name}`, depth: 3, content, canonicalPath: `compare/${cA.id}-vs-${cB.id}/`, configCSS, noindex: comparison.shared_count === 0 });
 }
 
 function generateAppliesToBridge(config, scopeValue, data, configCSS) {
@@ -1127,7 +1128,7 @@ function generateAppliesToBridge(config, scopeValue, data, configCSS) {
         <div style="margin-top: 2rem; text-align: center;"><a href="../../containers.html" onclick="passTheme(this)" class="bridge-cta">All ${escapeHTML((config.entities?.container?.plural || 'containers').toLowerCase())}</a></div>
     `;
 
-    return renderBridgeShell(config, { title: `${scopeValue}`, depth: 2, content, canonicalPath: `applies-to/${slugify(scopeValue)}/`, configCSS });
+    return renderBridgeShell(config, { title: `${scopeValue}`, depth: 2, content, canonicalPath: `applies-to/${slugify(scopeValue)}/`, configCSS, noindex: scopeContainers.length === 0 });
 }
 
 // ---------------------------------------------------------------------------
@@ -1153,6 +1154,37 @@ function generateSitemap(config, pages) {
     const base = config.url || '';
     const lastmod = new Date().toISOString().split('T')[0];
     return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map(p => `  <url><loc>${base}${p}</loc><lastmod>${lastmod}</lastmod></url>`).join('\n')}\n</urlset>`;
+}
+
+function generate404Page(config, configCSS) {
+    const containerPlural = (config.entities?.container?.plural || 'Containers').toLowerCase();
+    const primaryPlural = (config.entities?.primary?.plural || 'Primaries').toLowerCase();
+    return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - ${escapeHTML(config.name || '')}</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <style>${configCSS || ''}</style>
+    ${renderThemeInit()}
+</head>
+<body>
+    ${renderSiteNav(config, 'none', '/')}
+    <div class="container" id="main-content" style="text-align:center;">
+        <h1 style="margin-top:2rem;">404 — Page Not Found</h1>
+        <p style="color:var(--text-secondary); margin: 1rem 0 2rem;">The page you're looking for doesn't exist or has moved.</p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+            <a href="/" class="bridge-cta">Home</a>
+            <a href="/containers.html" class="bridge-cta">All ${escapeHTML(containerPlural)}</a>
+            <a href="/primaries.html" class="bridge-cta">All ${escapeHTML(primaryPlural)}</a>
+        </div>
+    </div>
+    ${renderFooter(config)}
+    ${renderThemeScript()}
+</body>
+</html>`;
 }
 
 // ---------------------------------------------------------------------------
@@ -1274,7 +1306,7 @@ function build() {
         for (const comp of comparisons) {
             const [aId, bId] = comp.regulations;
             const cA = containers.find(c => c.id === aId), cB = containers.find(c => c.id === bId);
-            if (cA && cB) { const dir = path.join(DOCS_DIR, 'compare', `${aId}-vs-${bId}`); ensureDir(dir); fs.writeFileSync(path.join(dir, 'index.html'), generateCompareBridge(config, cA, cB, comp, data, configCSS)); sitemapPages.push(`compare/${aId}-vs-${bId}/`); cmpCount++; }
+            if (cA && cB) { const dir = path.join(DOCS_DIR, 'compare', `${aId}-vs-${bId}`); ensureDir(dir); fs.writeFileSync(path.join(dir, 'index.html'), generateCompareBridge(config, cA, cB, comp, data, configCSS)); if (comp.shared_count > 0) sitemapPages.push(`compare/${aId}-vs-${bId}/`); cmpCount++; }
         }
     }
     console.log(`  Compare bridge pages: ${cmpCount}`);
@@ -1283,7 +1315,13 @@ function build() {
     if (config.bridges?.applies_to) {
         const scopeField = config.entities?.container?.scope_field || config.bridges.applies_to.field || 'jurisdiction';
         const scopes = [...new Set(containers.map(c => c[scopeField]).filter(Boolean))];
-        for (const s of scopes) { const dir = path.join(DOCS_DIR, 'applies-to', slugify(s)); ensureDir(dir); fs.writeFileSync(path.join(dir, 'index.html'), generateAppliesToBridge(config, s, data, configCSS)); sitemapPages.push(`applies-to/${slugify(s)}/`); appCount++; }
+        for (const s of scopes) {
+            const dir = path.join(DOCS_DIR, 'applies-to', slugify(s)); ensureDir(dir);
+            const scopeContainerCount = containers.filter(c => c[scopeField] === s).length;
+            fs.writeFileSync(path.join(dir, 'index.html'), generateAppliesToBridge(config, s, data, configCSS));
+            if (scopeContainerCount > 0) sitemapPages.push(`applies-to/${slugify(s)}/`);
+            appCount++;
+        }
     }
     console.log(`  Applies-to bridge pages: ${appCount}`);
 
@@ -1438,6 +1476,12 @@ function build() {
         ''
     ].join('\n');
     fs.writeFileSync(path.join(DOCS_DIR, 'index.xml'), rssFeed);
+
+    // .nojekyll — prevent GitHub Pages from running Jekyll on output
+    fs.writeFileSync(path.join(DOCS_DIR, '.nojekyll'), '');
+
+    // 404 page
+    fs.writeFileSync(path.join(DOCS_DIR, '404.html'), generate404Page(config, configCSS));
 
     // Copy static assets if not present
     const srcCSS = path.join(ROOT, 'docs', 'assets', 'styles.css');
