@@ -1150,9 +1150,8 @@ function buildSearchIndex(config, data) {
     return items;
 }
 
-function generateSitemap(config, pages) {
+function generateSitemap(config, pages, lastmod) {
     const base = config.url || '';
-    const lastmod = new Date().toISOString().split('T')[0];
     return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map(p => `  <url><loc>${base}${p}</loc><lastmod>${lastmod}</lastmod></url>`).join('\n')}\n</urlset>`;
 }
 
@@ -1253,15 +1252,21 @@ function build() {
 
     const data = { primaries, containers, authorities, mappingIndex, matrix, comparisons, totalProvisions };
     const configCSS = generateConfigCSS(config);
+    const sourceDate = containers
+        .map(container => container.last_verified)
+        .filter(value => /^\d{4}-\d{2}-\d{2}$/.test(value || ''))
+        .sort()
+        .at(-1) || '1970-01-01';
+    const generatedAt = `${sourceDate}T00:00:00.000Z`;
 
     // --- JSON API ---
-    fs.writeFileSync(path.join(API_DIR, 'primaries.json'), JSON.stringify({ meta: { generated: new Date().toISOString(), count: primaries.length }, items: primaries.map(p => ({ id: p.id, name: p.name || humanizeId(p.id), group: p.group || '', status: p.status || 'active' })) }, null, 2));
-    fs.writeFileSync(path.join(API_DIR, 'containers.json'), JSON.stringify({ meta: { generated: new Date().toISOString(), count: containers.length }, items: containers.map(c => ({ id: c.id, name: c.name, status: c.status, effective: c.effective, provision_count: c.provisions.length })) }, null, 2));
-    fs.writeFileSync(path.join(API_DIR, 'authorities.json'), JSON.stringify({ meta: { generated: new Date().toISOString(), count: authorities.length }, items: authorities.map(a => ({ id: a.id, name: a.name || humanizeId(a.id), jurisdiction: a.jurisdiction || '' })) }, null, 2));
-    fs.writeFileSync(path.join(API_DIR, 'mappings.json'), JSON.stringify({ meta: { generated: new Date().toISOString(), count: mappingIndex.length }, items: mappingIndex }, null, 2));
-    fs.writeFileSync(path.join(API_DIR, 'matrix.json'), JSON.stringify({ meta: { generated: new Date().toISOString() }, matrix }, null, 2));
-    fs.writeFileSync(path.join(API_DIR, 'comparisons.json'), JSON.stringify({ meta: { generated: new Date().toISOString() }, comparisons }, null, 2));
-    fs.writeFileSync(path.join(API_DIR, 'index.json'), JSON.stringify({ meta: { generated: new Date().toISOString(), version: '1.0', project: config.short_name || 'kac' }, files: { primaries: { path: 'primaries.json' }, containers: { path: 'containers.json' }, authorities: { path: 'authorities.json' }, mappings: { path: 'mappings.json' }, matrix: { path: 'matrix.json' }, comparisons: { path: 'comparisons.json' } } }, null, 2));
+    fs.writeFileSync(path.join(API_DIR, 'primaries.json'), JSON.stringify({ meta: { generated: generatedAt, count: primaries.length }, items: primaries.map(p => ({ id: p.id, name: p.name || humanizeId(p.id), group: p.group || '', status: p.status || 'active' })) }, null, 2));
+    fs.writeFileSync(path.join(API_DIR, 'containers.json'), JSON.stringify({ meta: { generated: generatedAt, count: containers.length }, items: containers.map(c => ({ id: c.id, name: c.name, status: c.status, effective: c.effective, provision_count: c.provisions.length })) }, null, 2));
+    fs.writeFileSync(path.join(API_DIR, 'authorities.json'), JSON.stringify({ meta: { generated: generatedAt, count: authorities.length }, items: authorities.map(a => ({ id: a.id, name: a.name || humanizeId(a.id), jurisdiction: a.jurisdiction || '' })) }, null, 2));
+    fs.writeFileSync(path.join(API_DIR, 'mappings.json'), JSON.stringify({ meta: { generated: generatedAt, count: mappingIndex.length }, items: mappingIndex }, null, 2));
+    fs.writeFileSync(path.join(API_DIR, 'matrix.json'), JSON.stringify({ meta: { generated: generatedAt }, matrix }, null, 2));
+    fs.writeFileSync(path.join(API_DIR, 'comparisons.json'), JSON.stringify({ meta: { generated: generatedAt }, comparisons }, null, 2));
+    fs.writeFileSync(path.join(API_DIR, 'index.json'), JSON.stringify({ meta: { generated: generatedAt, version: '1.0', project: config.short_name || 'kac' }, files: { primaries: { path: 'primaries.json' }, containers: { path: 'containers.json' }, authorities: { path: 'authorities.json' }, mappings: { path: 'mappings.json' }, matrix: { path: 'matrix.json' }, comparisons: { path: 'comparisons.json' } } }, null, 2));
 
     console.log('  JSON API: 6 files');
 
@@ -1336,12 +1341,37 @@ function build() {
     const siteDesc = config.description || '';
     const hostname = (siteUrl).replace(/^https?:\/\//, '').replace(/\/+$/, '');
 
-    fs.writeFileSync(path.join(DOCS_DIR, 'sitemap.xml'), generateSitemap(config, sitemapPages));
+    fs.writeFileSync(path.join(DOCS_DIR, 'sitemap.xml'), generateSitemap(config, sitemapPages, sourceDate));
 
+    const explicitlyAllowedCrawlers = [
+        'GPTBot',
+        'OAI-SearchBot',
+        'ChatGPT-User',
+        'ClaudeBot',
+        'Claude-Web',
+        'Claude-User',
+        'Claude-SearchBot',
+        'PerplexityBot',
+        'Perplexity-User',
+        'Google-Extended',
+        'Applebot-Extended',
+        'Amazonbot',
+        'Bytespider',
+        'cohere-ai',
+        'CCBot',
+        'Googlebot',
+        'Bingbot',
+        'DuckDuckBot',
+        'Slurp',
+        'Twitterbot',
+        'facebookexternalhit'
+    ];
     fs.writeFileSync(path.join(DOCS_DIR, 'robots.txt'), [
         'User-agent: *',
         'Allow: /',
         '',
+        '# Named crawlers are listed explicitly for auditability; the wildcard already allows them.',
+        ...explicitlyAllowedCrawlers.flatMap(crawler => [`User-agent: ${crawler}`, 'Allow: /', '']),
         `Sitemap: ${siteUrl}sitemap.xml`,
         `# Machine-readable site info: ${siteUrl}agents.json`,
         `# LLM context: ${siteUrl}llms.txt`,
@@ -1441,7 +1471,7 @@ function build() {
             issues: `${config.repo || ''}/issues`
         },
         meta: {
-            last_updated: new Date().toISOString().split('T')[0],
+            last_updated: sourceDate,
             generated_by: 'knowledge-as-code build.js'
         }
     };
@@ -1469,7 +1499,7 @@ function build() {
         `    <link>${siteUrl}</link>`,
         `    <description>${escapeHTML(siteDesc)}</description>`,
         `    <atom:link href="${siteUrl}index.xml" rel="self" type="application/rss+xml"/>`,
-        `    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
+        `    <lastBuildDate>${new Date(generatedAt).toUTCString()}</lastBuildDate>`,
         rssItems,
         '  </channel>',
         '</rss>',

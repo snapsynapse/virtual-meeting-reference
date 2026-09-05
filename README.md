@@ -1,8 +1,8 @@
-# Virtual Meeting Software Guide
+# Virtual Classroom Watch
 
 A structured, version-controlled reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.
 
-**Live site:** https://meetings.snapsynapse.com
+**Live site:** https://VirtualClassroom.watch/
 
 ## What This Tracks
 

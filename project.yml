@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------------------
 # Project identity
 # ---------------------------------------------------------------------------
-name: "Virtual Meeting Software Guide"
-short_name: "meetings"
-url: "https://meetings.snapsynapse.com/"
-repo: "https://github.com/snapsynapse/virtual-meeting-reference"
+name: "Virtual Classroom Watch"
+short_name: "virtual-classroom-watch"
+url: "https://VirtualClassroom.watch/"
+repo: "https://github.com/snapsynapse/virtual-classroom-watch"
 description: "A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities."
 
 # ---------------------------------------------------------------------------
