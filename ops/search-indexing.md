@@ -65,14 +65,14 @@ For a creator-profile or external-platform property, replace the website validat
 
 Audit date: 2026-09-05.
 
-- Authority: local fixes, evidence writes, Git commit, push, and deployment authorized. Google Search Console mutation remains outside this delivery until the exact property is identified and the deployed sitemap passes production verification.
-- Source revision: `997b34545b01274793c33d73418e6c2c251836c9` plus the current uncommitted correction tranche.
-- Offline contract: 424 sitemap pages, 0 defects, 0 infrastructure failures after remediation.
-- Production deployment: GitHub Pages reports built from `main` at `997b34545b01274793c33d73418e6c2c251836c9`.
-- Production state: healthy HTTP, canonical, robots, discovery files, and hard 404 behavior, but stale relative to local corrections.
-- Sitemap drift: production has 449 URLs; corrected local output has 424. The production contract identifies 25 stale URLs, all involving the retired UberConference record: four capability routes and 21 comparison routes.
+- Authority: local fixes, evidence writes, Git commit, push, and deployment were authorized and completed. Google Search Console mutation remains outside this delivery until the exact property is identified.
+- Implementation revision: `d6c7360b31a4ed0b4df519777f3db9d49e5e2508`.
+- Offline contract: 424 sitemap pages, 0 defects, 0 infrastructure failures.
+- Production deployment: GitHub Pages run `34001492258` completed successfully for the implementation revision; validation run `34001492944` also passed.
+- Production state: 424 sitemap pages, 0 defects, 0 infrastructure failures. The live sitemap, `agents.json`, and `llms.txt` hashes match the committed artifacts; the assistant guide returns HTTP 200 and a retired UberConference capability route returns HTTP 404.
+- Sitemap drift: resolved. Production and the corrected repository each expose the same 424 canonical sitemap URLs.
 - Console property ID: unknown. The sitemap has never been submitted to Google Search Console; console reports and actions were not inspected.
-- Publication sequence: commit and push the corrected repository, wait for the Pages deployment, run the production contract, and verify `https://virtualclassroom.watch/sitemap.xml` before any first submission.
+- Remaining search action: identify the exact Google Search Console property, then submit `https://virtualclassroom.watch/sitemap.xml` once and record the accepted action below.
 
 Do not repeat before deployment: no sitemap submission, indexing request,
 validation request, or IndexNow action has been accepted in this run.
