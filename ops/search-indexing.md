@@ -65,7 +65,7 @@ For a creator-profile or external-platform property, replace the website validat
 
 Audit date: 2026-09-05.
 
-- Authority: local fixes, evidence writes, Git commit, push, and deployment were authorized and completed. Google Search Console mutation remains outside this delivery until the exact property is identified.
+- Authority: local fixes, evidence writes, Git commit, push, and deployment were authorized and completed. The user separately completed the first Google Search Console sitemap submission and authorized its evidence capture.
 - Implementation revision: `d6c7360b31a4ed0b4df519777f3db9d49e5e2508`.
 - Offline contract: 424 sitemap pages, 0 defects, 0 infrastructure failures.
 - Production deployment: GitHub Pages run `34001492258` completed successfully for the implementation revision; validation run `34001492944` also passed.
