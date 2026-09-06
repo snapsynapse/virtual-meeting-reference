@@ -11,7 +11,7 @@ open_tasks: []
 
 Canonical origin: `https://virtualclassroom.watch/`
 
-Console property ID: `UNSET: verify before console work`
+Console property ID: `sc-domain:virtualclassroom.watch`
 
 Property mode: `website`
 
@@ -71,11 +71,12 @@ Audit date: 2026-09-05.
 - Production deployment: GitHub Pages run `34001492258` completed successfully for the implementation revision; validation run `34001492944` also passed.
 - Production state: 424 sitemap pages, 0 defects, 0 infrastructure failures. The live sitemap, `agents.json`, and `llms.txt` hashes match the committed artifacts; the assistant guide returns HTTP 200 and a retired UberConference capability route returns HTTP 404.
 - Sitemap drift: resolved. Production and the corrected repository each expose the same 424 canonical sitemap URLs.
-- Console property ID: unknown. The sitemap has never been submitted to Google Search Console; console reports and actions were not inspected.
-- Remaining search action: identify the exact Google Search Console property, then submit `https://virtualclassroom.watch/sitemap.xml` once and record the accepted action below.
+- Console property ID: `sc-domain:virtualclassroom.watch`.
+- Google Search Console accepted the first submission of `https://virtualclassroom.watch/sitemap.xml`; the user observed 424 discovered pages immediately after submission.
+- Remaining search action: allow Google to process the submitted sitemap, then review coverage evidence without repeating the accepted submission.
 
-Do not repeat before deployment: no sitemap submission, indexing request,
-validation request, or IndexNow action has been accepted in this run.
+Do not repeat the accepted sitemap submission. No bulk indexing request,
+validation request, or IndexNow action was made in this run.
 
 ## Console action ledger
 
@@ -83,6 +84,7 @@ Read this table before opening the console. Add only observed actions and confir
 
 | Provider and property | Action and target | Accepted at | Confirmation | Result class | Repeat policy | Next review |
 |---|---|---|---|---|---|---|
+| Google Search Console `sc-domain:virtualclassroom.watch` | Submit `https://virtualclassroom.watch/sitemap.xml` | 2026-09-05T18:42:42-06:00 | User observed 424 discovered pages | Accepted, processing pending | Do not repeat while accepted | After Google reports processed coverage |
 
 Keep rejected attempts and unknown outcomes distinct from accepted actions. Do not repeat an accepted action merely because the provider report remains stale.
 
