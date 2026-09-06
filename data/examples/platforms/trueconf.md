@@ -9,7 +9,7 @@ effective: 2003-01-01
 official_url: https://trueconf.com
 pricing_page: https://trueconf.com/pricing.html
 range: 2-1,500
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -26,10 +26,8 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Free | $0/mo | 12 participants |
-| Small | $8/user/mo | 50 participants |
-| Medium | $12/user/mo | 250 participants |
-| Enterprise | Custom | 1500 participants |
+| Free | $0 | License and conference limits vary by deployment edition |
+| Paid server editions | Quote-based | Capacity and licensing are configured for the deployment |
 
 ---
 
@@ -41,8 +39,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server, TrueConf Online |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -52,9 +50,9 @@ last_verified: 2026-03-25
 | Video quality | Up to 4K UHD video |
 | Deployment | On-premises server or cloud-hosted options |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf supports up to 1500 participants and offers full on-premises deployment for data sovereignty requirements."
+TrueConf supports up to 1500 participants and offers full on-premises deployment for data sovereignty requirements.
 
 ### Sources
 
@@ -70,8 +68,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server, TrueConf Online |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -81,9 +79,9 @@ last_verified: 2026-03-25
 | Remote control | Allow participants to remotely control shared screen |
 | Multi-presenter | Multiple participants can share content simultaneously |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf includes remote desktop control alongside screen sharing for hands-on technical collaboration."
+TrueConf includes remote desktop control alongside screen sharing for hands-on technical collaboration.
 
 ### Sources
 
@@ -99,8 +97,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server |
 | Status | active |
 | Effective | 2019-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -110,9 +108,9 @@ last_verified: 2026-03-25
 | Assignment | Manual participant assignment to rooms |
 | Return | Bring all participants back to the main meeting |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf supports breakout rooms for splitting large meetings into smaller discussion groups."
+TrueConf supports breakout rooms for splitting large meetings into smaller discussion groups.
 
 ### Sources
 
@@ -128,8 +126,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server, TrueConf Online |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -139,9 +137,9 @@ last_verified: 2026-03-25
 | Server recording | Automatic server-side recording on TrueConf Server |
 | Storage | On-premises storage with no cloud dependency |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf Server stores recordings entirely on-premises, ensuring recorded content never leaves the organization's network."
+TrueConf Server stores recordings entirely on-premises, ensuring recorded content never leaves the organization's network.
 
 ### Sources
 
@@ -157,8 +155,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server, TrueConf Online |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -168,9 +166,9 @@ last_verified: 2026-03-25
 | Persistent chat | Team messaging outside of meetings |
 | File sharing | Share files and documents in chat |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf provides persistent team messaging alongside video conferencing within its self-hosted environment."
+TrueConf provides persistent team messaging alongside video conferencing within its self-hosted environment.
 
 ### Sources
 
@@ -186,8 +184,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server |
 | Status | active |
 | Effective | 2019-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -197,9 +195,9 @@ last_verified: 2026-03-25
 | Question types | Multiple choice and open-ended questions |
 | Results | Real-time poll results visible to the host |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf includes built-in polling for audience engagement during large-scale meetings and webinars."
+TrueConf includes built-in polling for audience engagement during large-scale meetings and webinars.
 
 ### Sources
 
@@ -215,8 +213,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server, TrueConf Online |
 | Status | active |
 | Effective | 2010-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -226,9 +224,9 @@ last_verified: 2026-03-25
 | Tools | Pen, shapes, text, and eraser tools |
 | Slideshow | Present slides and annotate over them on the whiteboard |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf's whiteboard supports slide annotation, combining presentation delivery with real-time collaboration."
+TrueConf's whiteboard supports slide annotation, combining presentation delivery with real-time collaboration.
 
 ### Sources
 
@@ -244,8 +242,8 @@ last_verified: 2026-03-25
 | Sections | TrueConf Server, TrueConf Online |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -255,9 +253,9 @@ last_verified: 2026-03-25
 | Custom backgrounds | Upload custom background images |
 | Background replacement | AI-powered background replacement |
 
-### Talking Point
+### Editorial Summary
 
-> "TrueConf offers AI-powered virtual background replacement across desktop and mobile clients."
+TrueConf offers AI-powered virtual background replacement across desktop and mobile clients.
 
 ### Sources
 

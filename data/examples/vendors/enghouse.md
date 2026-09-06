@@ -2,7 +2,7 @@
 id: enghouse
 name: Enghouse Systems
 jurisdiction: Global
-website: https://www.enghouse.com
+website: https://enghouse.com
 ---
 
 ## Platforms

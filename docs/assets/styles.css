@@ -412,7 +412,19 @@ h3 {
     font-size: 0.7rem;
     font-weight: 600;
     white-space: nowrap;
+    color: #111;
+}
+
+:is(html, body).light-mode .group-badge {
     color: #fff;
+}
+
+.group-badge.collaboration {
+    color: #fff;
+}
+
+.provision-sources a {
+    text-decoration: underline;
 }
 
 /* Group badge colors are generated from project.yml by build.js */

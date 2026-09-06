@@ -3,13 +3,12 @@ name: Skype
 authority: microsoft
 market: Global
 type: platform
-status: limited
+status: discontinued
 enacted: 2003-08-29
 effective: 2003-08-29
-official_url: https://www.skype.com
-pricing_page: https://www.skype.com/en/
+official_url: https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836
 range: 2-100
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -21,15 +20,15 @@ last_verified: 2026-03-25
 | Microsoft acquisition | 2011-05-10 | Acquired by Microsoft for $8.5 billion |
 | Skype for Business launch | 2015-04-14 | Enterprise version replacing Microsoft Lync |
 | Skype for Business retired | 2021-07-31 | Enterprise users migrated to Microsoft Teams |
-| Consumer Skype in maintenance | 2023-01-01 | Limited updates as Teams becomes primary platform |
+| Consumer Skype retired | 2025-05-05 | Consumer service retired; users directed to Microsoft Teams Free |
 
 ## Pricing
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Free | $0/mo | 100 participants, 24-hr calls |
+| Historical free service | Discontinued | Consumer Skype retired 2025-05-05 |
 
-*Note: Consumer Skype is free.*
+*Note: Historical capabilities below describe the retired consumer Skype service.*
 
 ---
 
@@ -39,10 +38,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | video-conferencing |
 | Sections | Skype |
-| Status | limited |
+| Status | discontinued |
 | Effective | 2003-08-29 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -52,13 +51,13 @@ last_verified: 2026-03-25
 | Video quality | HD video calling |
 | Layout | Grid view for group calls |
 
-### Talking Point
+### Editorial Summary
 
-> "Skype pioneered consumer video calling but now operates in limited maintenance mode as Microsoft focuses on Teams."
+Skype pioneered consumer video calling but now operates in limited maintenance mode as Microsoft focuses on Teams.
 
 ### Sources
 
-- [Skype](https://www.skype.com)
+- [Skype](https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836)
 
 ---
 
@@ -68,10 +67,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | screen-sharing |
 | Sections | Skype |
-| Status | limited |
+| Status | discontinued |
 | Effective | 2010-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -81,13 +80,13 @@ last_verified: 2026-03-25
 | Audio sharing | System audio can be shared on some platforms |
 | Availability | Desktop and mobile screen sharing |
 
-### Talking Point
+### Editorial Summary
 
-> "Skype screen sharing remains functional for consumer use but lacks the advanced controls found in Teams."
+Skype screen sharing remains functional for consumer use but lacks the advanced controls found in Teams.
 
 ### Sources
 
-- [Skype](https://www.skype.com)
+- [Skype](https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836)
 
 ---
 
@@ -97,10 +96,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | recording |
 | Sections | Skype |
-| Status | limited |
+| Status | discontinued |
 | Effective | 2018-09-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -110,13 +109,13 @@ last_verified: 2026-03-25
 | Download | Recordings can be downloaded as MP4 |
 | Notification | All participants notified when recording starts |
 
-### Talking Point
+### Editorial Summary
 
-> "Skype call recording stores clips in the cloud for 30 days, after which they must be downloaded to preserve."
+Skype call recording stores clips in the cloud for 30 days, after which they must be downloaded to preserve.
 
 ### Sources
 
-- [Skype](https://www.skype.com)
+- [Skype](https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836)
 
 ---
 
@@ -126,10 +125,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | chat-messaging |
 | Sections | Skype |
-| Status | limited |
+| Status | discontinued |
 | Effective | 2003-08-29 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -139,13 +138,13 @@ last_verified: 2026-03-25
 | File sharing | Send files, photos, and documents in chat |
 | Emoji and reactions | Reactions and emoticons in conversations |
 
-### Talking Point
+### Editorial Summary
 
-> "Skype messaging was a pioneer in consumer instant messaging and remains available for personal communication."
+Skype messaging was a pioneer in consumer instant messaging and remains available for personal communication.
 
 ### Sources
 
-- [Skype](https://www.skype.com)
+- [Skype](https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836)
 
 ---
 
@@ -155,10 +154,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | virtual-backgrounds |
 | Sections | Skype |
-| Status | limited |
+| Status | discontinued |
 | Effective | 2020-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -168,10 +167,10 @@ last_verified: 2026-03-25
 | Background blur | Blur background during video calls |
 | Preview | Preview background before starting call |
 
-### Talking Point
+### Editorial Summary
 
-> "Skype added virtual backgrounds and blur during the 2020 remote work surge, borrowing features from Teams."
+Skype added virtual backgrounds and blur during the 2020 remote work surge, borrowing features from Teams.
 
 ### Sources
 
-- [Skype](https://www.skype.com)
+- [Skype](https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836)

@@ -6,15 +6,18 @@
     <title>Compare - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/compare.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -37,6 +40,7 @@
     <meta property="og:title" content="Compare">
     <meta property="og:description" content="Compare virtual meeting platforms side by side. Select 2 or 3 platforms to see shared and unique feature coverage.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -73,8 +77,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <h2 style="margin-top: 0.5rem;">Compare Platforms</h2>
         <p style="color: var(--text-secondary); margin-bottom: 1rem;">Select 2 or 3 to compare coverage.</p>
         <div class="compare-selector" id="compareSelector"><label><input type="checkbox" name="cmp" value="8x8-meet" onchange="updateComparison()"> <span>8x8 Meet</span></label>
@@ -101,7 +105,7 @@
 <label><input type="checkbox" name="cmp" value="zoom-workplace" onchange="updateComparison()"> <span>Zoom Workplace</span></label></div>
         <div id="compareResult" class="compare-result"></div>
         <script>
-        var cmpData = [{"id":"8x8-meet","name":"8x8 Meet","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","virtual-backgrounds"]},{"id":"adobe-connect","name":"Adobe Connect","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","polling","chat-messaging","virtual-backgrounds"]},{"id":"anymeeting","name":"AnyMeeting","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","polling"]},{"id":"bigbluebutton","name":"BigBlueButton","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard"]},{"id":"bluejeans","name":"BlueJeans","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"clickmeeting","name":"ClickMeeting","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"dialpad-meetings","name":"Dialpad Meetings","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"google-meet","name":"Google Meet","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","virtual-backgrounds","ai-notetaker"]},{"id":"goto-meeting","name":"GoTo Meeting","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"jitsi-meet","name":"Jitsi Meet","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"lark","name":"Lark","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"lifesize","name":"Lifesize","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","virtual-backgrounds"]},{"id":"ms-teams","name":"Microsoft Teams","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","whiteboard","polling","virtual-backgrounds","ai-notetaker"]},{"id":"ringcentral-video","name":"RingCentral Video","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"skype","name":"Skype","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","virtual-backgrounds"]},{"id":"slack","name":"Slack","primaries":["video-conferencing","screen-sharing","chat-messaging"]},{"id":"trueconf","name":"TrueConf","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"uberconference","name":"UberConference","primaries":["video-conferencing","screen-sharing","recording","chat-messaging"]},{"id":"webex-meetings","name":"Webex Meetings","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"whereby","name":"Whereby","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","virtual-backgrounds"]},{"id":"zoho-meeting","name":"Zoho Meeting","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"zoom-workplace","name":"Zoom Workplace","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","polling","chat-messaging","whiteboard","virtual-backgrounds","ai-notetaker"]}];
+        var cmpData = [{"id":"8x8-meet","name":"8x8 Meet","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","virtual-backgrounds"]},{"id":"adobe-connect","name":"Adobe Connect","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","polling","chat-messaging","virtual-backgrounds"]},{"id":"anymeeting","name":"AnyMeeting","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","polling"]},{"id":"bigbluebutton","name":"BigBlueButton","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard"]},{"id":"bluejeans","name":"BlueJeans","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"clickmeeting","name":"ClickMeeting","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"dialpad-meetings","name":"Dialpad Meetings","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"google-meet","name":"Google Meet","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","virtual-backgrounds","ai-notetaker"]},{"id":"goto-meeting","name":"GoTo Meeting","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"jitsi-meet","name":"Jitsi Meet","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"lark","name":"Lark","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"lifesize","name":"Lifesize","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","virtual-backgrounds"]},{"id":"ms-teams","name":"Microsoft Teams","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","whiteboard","polling","virtual-backgrounds","ai-notetaker"]},{"id":"ringcentral-video","name":"RingCentral Video","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"skype","name":"Skype","primaries":["video-conferencing","screen-sharing","recording","chat-messaging","virtual-backgrounds"]},{"id":"slack","name":"Slack","primaries":["video-conferencing","screen-sharing","chat-messaging"]},{"id":"trueconf","name":"TrueConf","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"uberconference","name":"UberConference","primaries":[]},{"id":"webex-meetings","name":"Webex Meetings","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds","ai-notetaker"]},{"id":"whereby","name":"Whereby","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","virtual-backgrounds"]},{"id":"zoho-meeting","name":"Zoho Meeting","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","chat-messaging","polling","whiteboard","virtual-backgrounds"]},{"id":"zoom-workplace","name":"Zoom Workplace","primaries":["video-conferencing","screen-sharing","breakout-rooms","recording","polling","chat-messaging","whiteboard","virtual-backgrounds","ai-notetaker"]}];
         var pNames = {"ai-notetaker":"Integrated AI Note-Taker","breakout-rooms":"Breakout Rooms","chat-messaging":"Chat and Messaging","polling":"Polling and Q&A","recording":"Recording and Transcription","screen-sharing":"Screen Sharing","video-conferencing":"Video Conferencing","virtual-backgrounds":"Virtual Backgrounds","whiteboard":"Whiteboard"};
         function updateComparison() {
             var checked = Array.from(document.querySelectorAll('#compareSelector input:checked'));
@@ -130,8 +134,8 @@
             if (ids.length) { ids.forEach(function(id) { var cb = document.querySelector('#compareSelector input[value="'+id+'"]'); if (cb) cb.checked = true; }); updateComparison(); }
         })();
         </script>
-    
-    </div>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

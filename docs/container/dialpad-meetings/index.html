@@ -6,15 +6,18 @@
     <title>Dialpad Meetings - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/dialpad-meetings/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Dialpad Meetings — 7 provisions.">
     <meta property="og:title" content="Dialpad Meetings">
     <meta property="og:description" content="Dialpad Meetings — 7 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -84,16 +88,17 @@
         <div class="detail-header">
             <h2>Dialpad Meetings</h2>
             <div class="detail-meta">
-                <span><strong>Range:</strong> 2-150</span>
+                <span><strong>Range:</strong> 2-1,500</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Jan 1, 2020</span>
-                <span><a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Official source</a></span>
-                <span><a href="https://www.dialpad.com/pricing" target="_blank" rel="noopener">Pricing page</a></span>
+                <span><strong>Vendor:</strong> <a href="../../authority/dialpad/">Dialpad</a></span>
+                <span><a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Official source</a></span>
+                <span><a href="https://help.dialpad.com/docs/dialpad-ai-meetings-billing" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
         </div>
-        <div class="pricing-bar"><span class="price-tag"><strong>Standard</strong>: $27/user/mo <span class="price-note">AI-powered meetings included</span></span>
-                <span class="price-tag"><strong>Pro</strong>: $35/user/mo <span class="price-note">CRM integrations</span></span>
-                <span class="price-tag"><strong>Enterprise</strong>: Custom <span class="price-note">Custom integrations and support</span></span></div>
+        <div class="pricing-bar"><span class="price-tag"><strong>Meetings Free</strong>: $0 <span class="price-note">Standalone free meeting service</span></span>
+                <span class="price-tag"><strong>Meetings Business</strong>: Included <span class="price-note">Included with eligible Dialpad plans</span></span>
+                <span class="price-tag"><strong>Large Meetings</strong>: Add-on <span class="price-note">Supports up to 1,500 participants; availability and price depend on account</span></span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Whiteboard</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a> <a href="../primary/ai-notetaker/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Integrated AI Note-Taker</a>
@@ -107,10 +112,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2020</span>
         </div>
-        <div class="talking-point">"Dialpad Meetings provides built-in AI transcription and post-meeting summaries without third-party add-ons."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 150 participants</td></tr><tr><td>AI transcription</td><td>Real-time speech-to-text transcription during meetings</td></tr><tr><td>HD video</td><td>High-definition video with automatic bandwidth adjustment</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
+        <div class="talking-point">Dialpad Meetings provides built-in AI transcription and post-meeting summaries without third-party add-ons.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 150 normally; up to 1,500 with the Large Meetings add-on</td></tr><tr><td>AI transcription</td><td>Real-time speech-to-text transcription during meetings</td></tr><tr><td>HD video</td><td>High-definition video with automatic bandwidth adjustment</td></tr></tbody></table>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
         <h3>Screen Sharing</h3>
@@ -119,10 +124,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2020</span>
         </div>
-        <div class="talking-point">"Dialpad Meetings inherited UberConference's download-free browser sharing and added annotation support."</div>
+        <div class="talking-point">Dialpad Meetings inherited UberConference's download-free browser sharing and added annotation support.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Sharing options</td><td>Full screen, application window, or browser tab</td></tr><tr><td>No downloads</td><td>Browser-based sharing without plugins</td></tr><tr><td>Annotation</td><td>Presenter can annotate shared content</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
         <h3>Recording and Transcription</h3>
@@ -131,10 +136,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2020</span>
         </div>
-        <div class="talking-point">"Dialpad Meetings pairs cloud recording with AI-generated summaries and action items for post-meeting review."</div>
+        <div class="talking-point">Dialpad Meetings pairs cloud recording with AI-generated summaries and action items for post-meeting review.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Automatic or manual cloud recording</td></tr><tr><td>AI summaries</td><td>AI-generated post-meeting summaries with action items</td></tr><tr><td>Transcripts</td><td>Searchable transcripts linked to recordings</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
         <h3>Chat and Messaging</h3>
@@ -143,22 +148,22 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2020</span>
         </div>
-        <div class="talking-point">"Dialpad Meetings integrates with Dialpad's unified communications platform for seamless messaging across channels."</div>
+        <div class="talking-point">Dialpad Meetings integrates with Dialpad's unified communications platform for seamless messaging across channels.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>In-meeting chat</td><td>Text chat during live meetings</td></tr><tr><td>Dialpad Messaging</td><td>Persistent team messaging integrated across the Dialpad platform</td></tr><tr><td>File sharing</td><td>Share files in chat during and outside meetings</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
     </div>
-<div class="provision-card" id="whiteboard">
-        <h3>Whiteboard</h3>
+<div class="provision-card" id="miro-whiteboard-integration">
+        <h3>Miro Whiteboard Integration</h3>
         <div class="provision-meta">
             <span><strong>Implements:</strong> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)">Whiteboard</a></span>
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2023</span>
         </div>
-        <div class="talking-point">"Dialpad Meetings added collaborative whiteboarding to support visual brainstorming during video calls."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Collaborative drawing</td><td>Real-time whiteboard with multi-user drawing</td></tr><tr><td>Shapes and text</td><td>Insert shapes, text, and sticky notes</td></tr><tr><td>Export</td><td>Save whiteboard contents as image</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
+        <div class="talking-point">Dialpad Meetings added collaborative whiteboarding to support visual brainstorming during video calls.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Collaboration</td><td>Launch a collaborative Miro board from a meeting</td></tr><tr><td>Drawing tools</td><td>Miro templates, drawing tools, shapes, text, and sticky notes</td></tr><tr><td>Persistence</td><td>Board retention and access depend on the connected Miro account</td></tr></tbody></table>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
         <h3>Virtual Backgrounds</h3>
@@ -167,10 +172,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2020</span>
         </div>
-        <div class="talking-point">"Dialpad Meetings includes virtual backgrounds and blur to maintain a professional appearance from any location."</div>
+        <div class="talking-point">Dialpad Meetings includes virtual backgrounds and blur to maintain a professional appearance from any location.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background blur</td><td>Blur background during video calls</td></tr><tr><td>Custom backgrounds</td><td>Upload custom background images</td></tr><tr><td>Preset backgrounds</td><td>Built-in selection of virtual backgrounds</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
     </div>
 <div class="provision-card" id="integrated-ai-note-taker">
         <h3>Integrated AI Note-Taker</h3>
@@ -179,13 +184,36 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2022</span>
         </div>
-        <div class="talking-point">"Dialpad pioneered real-time AI in meetings, offering live transcription and post-call recaps as core features."</div>
+        <div class="talking-point">Dialpad pioneered real-time AI in meetings, offering live transcription and post-call recaps as core features.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Ai Recap</td><td>Automatic post-call summary with action items and sentiment analysis</td></tr><tr><td>Real-time Ai</td><td>Live transcription with real-time coaching and keyword detection</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://dialpad.com/ai-meetings/" target="_blank" rel="noopener">Dialpad Meetings</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Dialpad Meetings</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-dialpad-meetings/">Dialpad Meetings vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-dialpad-meetings/">Dialpad Meetings vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-dialpad-meetings/">Dialpad Meetings vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-dialpad-meetings/">Dialpad Meetings vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-dialpad-meetings/">Dialpad Meetings vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-dialpad-meetings/">Dialpad Meetings vs ClickMeeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-google-meet/">Dialpad Meetings vs Google Meet</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-goto-meeting/">Dialpad Meetings vs GoTo Meeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-jitsi-meet/">Dialpad Meetings vs Jitsi Meet</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-lark/">Dialpad Meetings vs Lark</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-lifesize/">Dialpad Meetings vs Lifesize</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-ms-teams/">Dialpad Meetings vs Microsoft Teams</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-ringcentral-video/">Dialpad Meetings vs RingCentral Video</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-skype/">Dialpad Meetings vs Skype</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-slack/">Dialpad Meetings vs Slack</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-trueconf/">Dialpad Meetings vs TrueConf</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-webex-meetings/">Dialpad Meetings vs Webex Meetings</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-whereby/">Dialpad Meetings vs Whereby</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-zoho-meeting/">Dialpad Meetings vs Zoho Meeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-zoom-workplace/">Dialpad Meetings vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

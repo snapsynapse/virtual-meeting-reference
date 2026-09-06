@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2004-07-01
 effective: 2004-07-01
-official_url: https://www.goto.com/meeting
-pricing_page: https://www.goto.com/pricing
+official_url: https://goto.com/meeting
+pricing_page: https://goto.com/pricing/meeting
 range: 2-250
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -25,9 +25,9 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Professional | $14/organizer/mo | 150 participants |
-| Business | $19/organizer/mo | 250 participants |
-| Enterprise | Custom | Custom pricing |
+| Professional | Quote-based | Up to 150 participants |
+| Business | Quote-based | Up to 250 participants |
+| Enterprise | Quote-based | Up to 250 participants; contract terms vary |
 
 ---
 
@@ -39,8 +39,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2004-07-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -50,13 +50,13 @@ last_verified: 2026-03-25
 | HD video | 720p video support |
 | Commuter mode | Audio-optimized mobile experience |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting supports up to 250 participants with a commuter mode optimized for mobile audio-only joining."
+GoTo Meeting supports up to 250 participants with a commuter mode optimized for mobile audio-only joining.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)
 
 ---
 
@@ -68,8 +68,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2004-07-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -79,13 +79,13 @@ last_verified: 2026-03-25
 | Presenter swap | Any participant can become presenter |
 | Multi-monitor | Support for sharing from multiple monitors |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting allows seamless presenter swapping so any participant can share their screen during a session."
+GoTo Meeting allows seamless presenter swapping so any participant can share their screen during a session.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)
 
 ---
 
@@ -97,8 +97,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -108,13 +108,13 @@ last_verified: 2026-03-25
 | Assignment | Manual assignment by organizer |
 | Controls | Broadcast messages and timer |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting added breakout rooms in 2021, supporting up to 50 rooms for group collaboration."
+GoTo Meeting added breakout rooms in 2021, supporting up to 50 rooms for group collaboration.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)
 
 ---
 
@@ -126,8 +126,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2004-07-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -137,13 +137,13 @@ last_verified: 2026-03-25
 | Local recording | Available for desktop organizers |
 | Transcription | Automated transcription on business plans |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting provides cloud recording with automated transcription on business and enterprise plans."
+GoTo Meeting provides cloud recording with automated transcription on business and enterprise plans.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)
 
 ---
 
@@ -155,8 +155,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2004-07-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -166,13 +166,13 @@ last_verified: 2026-03-25
 | File sharing | Share files via the chat panel during meetings |
 | Chat history | Chat logs available in meeting reports |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting in-meeting chat supports both public and private messaging with file sharing."
+GoTo Meeting in-meeting chat supports both public and private messaging with file sharing.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)
 
 ---
 
@@ -182,55 +182,52 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | polling |
 | Sections | Meetings |
-| Status | active |
+| Status | limited |
 | Effective | 2018-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Poll types | Multiple choice polls during meetings |
-| Results sharing | Share poll results with participants in real time |
-| Reports | Post-meeting poll result reports |
+| Meeting polling | Not confirmed in current first-party GoTo Meeting material; do not conflate with GoTo Webinar polling |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting includes built-in polling for gathering real-time participant feedback during sessions."
+GoTo Meeting includes built-in polling for gathering real-time participant feedback during sessions.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)
 
 ---
 
-## Whiteboard
+## Screen Annotation
 
 | Property | Value |
 |----------|-------|
 | Obligation | whiteboard |
-| Sections | Meetings |
+| Sections | Annotation tools |
 | Status | active |
 | Effective | 2018-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Drawing tools | Freehand drawing, shapes, and text on shared canvas |
-| Collaboration | Multiple participants can annotate simultaneously |
-| Screen annotation | Drawing tools available on shared screens |
+| Screen annotation | Drawing tools are available on shared screens |
+| Standalone canvas | Not confirmed in current first-party GoTo Meeting material |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting drawing tools allow real-time collaborative annotation on shared screens and blank canvases."
+GoTo Meeting drawing tools allow real-time collaborative annotation on shared screens and blank canvases.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)
 
 ---
 
@@ -242,8 +239,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2020-11-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -253,10 +250,10 @@ last_verified: 2026-03-25
 | Background blur | Blur effect for privacy |
 | Webcam effects | Soft focus and other camera enhancements |
 
-### Talking Point
+### Editorial Summary
 
-> "GoTo Meeting offers virtual backgrounds and background blur alongside webcam soft focus enhancements."
+GoTo Meeting offers virtual backgrounds and background blur alongside webcam soft focus enhancements.
 
 ### Sources
 
-- [GoTo Meeting](https://www.goto.com/meeting)
+- [GoTo Meeting](https://goto.com/meeting)

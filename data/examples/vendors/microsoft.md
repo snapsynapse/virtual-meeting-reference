@@ -2,7 +2,7 @@
 id: microsoft
 name: Microsoft
 jurisdiction: Global
-website: https://www.microsoft.com
+website: https://microsoft.com
 ---
 
 ## Platforms

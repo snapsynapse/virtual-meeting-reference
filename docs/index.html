@@ -6,15 +6,18 @@
     <title>Home - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -37,6 +40,7 @@
     <meta property="og:title" content="Home">
     <meta property="og:description" content="Compare 22 virtual meeting platforms across 9 features. Pricing, capabilities, and vendor details for Zoom, Teams, Meet, and more.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Virtual Classroom Watch","url":"https://VirtualClassroom.watch/","description":"A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.","publisher":{"@type":"Organization","name":"Snap Synapse","url":"https://snapsynapse.com"}},{"@type":"Organization","name":"Snap Synapse","url":"https://snapsynapse.com","contactPoint":{"@type":"ContactPoint","email":"hello@snapsynapse.com","contactType":"customer service"}}]}</script>
     <script>
         (function() {
@@ -74,15 +78,15 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <h2 style="margin-top: 0.5rem;">Virtual Classroom Watch</h2>
         <p style="color: var(--text-secondary); margin-bottom: 1rem;">A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.</p>
 
         <div class="stats-bar">
             <div class="stat-card"><span class="stat-number">22</span><span class="stat-label">Platforms</span></div>
             <div class="stat-card"><span class="stat-number">9</span><span class="stat-label">Features</span></div>
-            <div class="stat-card"><span class="stat-number">157</span><span class="stat-label">Provisions</span></div>
+            <div class="stat-card"><span class="stat-number">153</span><span class="stat-label">Provisions</span></div>
             <div class="stat-card"><span class="stat-number">20</span><span class="stat-label">Vendors</span></div>
         </div>
 
@@ -92,107 +96,107 @@
             <tbody>
                 <tr>
                     <td><a href="container/8x8-meet/index.html" onclick="passTheme(this)">8x8 Meet</a></td>
-                    <td data-sort-value="24">$24/user/mo</td>
+                    <td data-sort-value="99999">Quote-based</td>
                     <td data-sort-value="500">500</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>7</td>
                 </tr>
 <tr>
                     <td><a href="container/adobe-connect/index.html" onclick="passTheme(this)">Adobe Connect</a></td>
-                    <td data-sort-value="50">$50/mo</td>
+                    <td data-sort-value="190">$190/host/year</td>
                     <td data-sort-value="1500">1,500</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>7</td>
                 </tr>
 <tr>
                     <td><a href="container/anymeeting/index.html" onclick="passTheme(this)">AnyMeeting</a></td>
-                    <td data-sort-value="9.99">$9.99/mo</td>
+                    <td data-sort-value="99999">Quote-based</td>
                     <td data-sort-value="200">200</td>
-                    <td data-sort-value="discontinued"><span class="status-badge discontinued">discontinued</span></td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>5</td>
                 </tr>
 <tr>
                     <td><a href="container/bigbluebutton/index.html" onclick="passTheme(this)">BigBlueButton</a></td>
-                    <td data-sort-value="550">$5-50/mo</td>
-                    <td data-sort-value="300">300</td>
+                    <td data-sort-value="99999">Open source</td>
+                    <td data-sort-value="0">deployment-dependent</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>7</td>
                 </tr>
 <tr>
                     <td><a href="container/bluejeans/index.html" onclick="passTheme(this)">BlueJeans</a></td>
-                    <td data-sort-value="9.99">$9.99/host/mo</td>
+                    <td data-sort-value="99999">Discontinued</td>
                     <td data-sort-value="500">500</td>
                     <td data-sort-value="discontinued"><span class="status-badge discontinued">discontinued</span></td>
                     <td>8</td>
                 </tr>
 <tr>
                     <td><a href="container/clickmeeting/index.html" onclick="passTheme(this)">ClickMeeting</a></td>
-                    <td data-sort-value="25">$25/mo</td>
-                    <td data-sort-value="1000">1,000</td>
+                    <td data-sort-value="99999">Capacity-based</td>
+                    <td data-sort-value="10000">10,000</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>8</td>
                 </tr>
 <tr>
                     <td><a href="container/dialpad-meetings/index.html" onclick="passTheme(this)">Dialpad Meetings</a></td>
-                    <td data-sort-value="27">$27/user/mo</td>
-                    <td data-sort-value="150">150</td>
+                    <td data-sort-value="0">$0</td>
+                    <td data-sort-value="1500">1,500</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>7</td>
                 </tr>
 <tr>
                     <td><a href="container/google-meet/index.html" onclick="passTheme(this)">Google Meet</a></td>
                     <td data-sort-value="7">$7/user/mo</td>
-                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="1000">1,000</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>8</td>
                 </tr>
 <tr>
                     <td><a href="container/goto-meeting/index.html" onclick="passTheme(this)">GoTo Meeting</a></td>
-                    <td data-sort-value="14">$14/organizer/mo</td>
+                    <td data-sort-value="99999">Quote-based</td>
                     <td data-sort-value="250">250</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>8</td>
                 </tr>
 <tr>
                     <td><a href="container/jitsi-meet/index.html" onclick="passTheme(this)">Jitsi Meet</a></td>
-                    <td data-sort-value="99">$99/mo</td>
-                    <td data-sort-value="500">500</td>
+                    <td data-sort-value="99999">Open source</td>
+                    <td data-sort-value="0">deployment-dependent</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>8</td>
                 </tr>
 <tr>
                     <td><a href="container/lark/index.html" onclick="passTheme(this)">Lark</a></td>
-                    <td data-sort-value="12">$12/user/mo</td>
+                    <td data-sort-value="6">$6/user/mo</td>
                     <td data-sort-value="500">500</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>9</td>
                 </tr>
 <tr>
                     <td><a href="container/lifesize/index.html" onclick="passTheme(this)">Lifesize</a></td>
-                    <td data-sort-value="14.95">$14.95/host/mo</td>
+                    <td data-sort-value="99999">Quote-based</td>
                     <td data-sort-value="500">500</td>
-                    <td data-sort-value="limited"><span class="status-badge limited">limited</span></td>
+                    <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>5</td>
                 </tr>
 <tr>
                     <td><a href="container/ms-teams/index.html" onclick="passTheme(this)">Microsoft Teams</a></td>
                     <td data-sort-value="4">$4/user/mo</td>
-                    <td data-sort-value="20000">20,000</td>
+                    <td data-sort-value="11000">11,000</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>9</td>
                 </tr>
 <tr>
                     <td><a href="container/ringcentral-video/index.html" onclick="passTheme(this)">RingCentral Video</a></td>
-                    <td data-sort-value="20">$20/user/mo</td>
+                    <td data-sort-value="99999">Quote-based</td>
                     <td data-sort-value="200">200</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>8</td>
                 </tr>
 <tr>
                     <td><a href="container/skype/index.html" onclick="passTheme(this)">Skype</a></td>
-                    <td data-sort-value="99999">$0/mo</td>
+                    <td data-sort-value="99999">Discontinued</td>
                     <td data-sort-value="100">100</td>
-                    <td data-sort-value="limited"><span class="status-badge limited">limited</span></td>
+                    <td data-sort-value="discontinued"><span class="status-badge discontinued">discontinued</span></td>
                     <td>5</td>
                 </tr>
 <tr>
@@ -204,35 +208,35 @@
                 </tr>
 <tr>
                     <td><a href="container/trueconf/index.html" onclick="passTheme(this)">TrueConf</a></td>
-                    <td data-sort-value="8">$8/user/mo</td>
+                    <td data-sort-value="0">$0</td>
                     <td data-sort-value="1500">1,500</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>8</td>
                 </tr>
 <tr>
                     <td><a href="container/uberconference/index.html" onclick="passTheme(this)">UberConference</a></td>
-                    <td data-sort-value="15">$15/mo</td>
+                    <td data-sort-value="99999">—</td>
                     <td data-sort-value="100">100</td>
                     <td data-sort-value="discontinued"><span class="status-badge discontinued">discontinued</span></td>
-                    <td>4</td>
+                    <td>0</td>
                 </tr>
 <tr>
                     <td><a href="container/webex-meetings/index.html" onclick="passTheme(this)">Webex Meetings</a></td>
-                    <td data-sort-value="14.5">$14.50/mo</td>
+                    <td data-sort-value="99999">Verify current offer</td>
                     <td data-sort-value="1000">1,000</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>9</td>
                 </tr>
 <tr>
                     <td><a href="container/whereby/index.html" onclick="passTheme(this)">Whereby</a></td>
-                    <td data-sort-value="8.99">$8.99/mo</td>
+                    <td data-sort-value="10.99">$10.99/mo</td>
                     <td data-sort-value="200">200</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>7</td>
                 </tr>
 <tr>
                     <td><a href="container/zoho-meeting/index.html" onclick="passTheme(this)">Zoho Meeting</a></td>
-                    <td data-sort-value="1">$1/host/mo</td>
+                    <td data-sort-value="99999">$0/mo</td>
                     <td data-sort-value="250">250</td>
                     <td data-sort-value="active"><span class="status-badge active">active</span></td>
                     <td>8</td>
@@ -261,7 +265,7 @@
                 </div>
 <div class="obligation-card">
                     <div class="card-title"><a href="primary/chat-messaging/index.html" onclick="passTheme(this)">Chat and Messaging</a></div>
-                    <div class="card-meta"><span class="group-badge communication">communication</span> <span class="meta-item">22 platforms</span></div>
+                    <div class="card-meta"><span class="group-badge communication">communication</span> <span class="meta-item">21 platforms</span></div>
                     <div class="card-description">Persistent and in-meeting text communication including direct messages, group channels, and threaded conversations.</div>
                 </div>
 <div class="obligation-card">
@@ -271,17 +275,17 @@
                 </div>
 <div class="obligation-card">
                     <div class="card-title"><a href="primary/recording/index.html" onclick="passTheme(this)">Recording and Transcription</a></div>
-                    <div class="card-meta"><span class="group-badge management">management</span> <span class="meta-item">21 platforms</span></div>
+                    <div class="card-meta"><span class="group-badge management">management</span> <span class="meta-item">20 platforms</span></div>
                     <div class="card-description">Capability to record meetings (locally or to cloud) and generate transcripts or captions for review and accessibility.</div>
                 </div>
 <div class="obligation-card">
                     <div class="card-title"><a href="primary/screen-sharing/index.html" onclick="passTheme(this)">Screen Sharing</a></div>
-                    <div class="card-meta"><span class="group-badge collaboration">collaboration</span> <span class="meta-item">22 platforms</span></div>
+                    <div class="card-meta"><span class="group-badge collaboration">collaboration</span> <span class="meta-item">21 platforms</span></div>
                     <div class="card-description">Ability to share a full desktop, specific application window, or browser tab with meeting participants in real time.</div>
                 </div>
 <div class="obligation-card">
                     <div class="card-title"><a href="primary/video-conferencing/index.html" onclick="passTheme(this)">Video Conferencing</a></div>
-                    <div class="card-meta"><span class="group-badge communication">communication</span> <span class="meta-item">22 platforms</span></div>
+                    <div class="card-meta"><span class="group-badge communication">communication</span> <span class="meta-item">21 platforms</span></div>
                     <div class="card-description">Core capability to host real-time video meetings with multiple participants, including gallery and speaker views.</div>
                 </div>
 <div class="obligation-card">
@@ -309,8 +313,8 @@
             <div class="stat-card"><a href="faq.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">?</span><span class="stat-label">Read the FAQ</span></a></div>
             <div class="stat-card"><a href="contact.html" onclick="passTheme(this)" style="text-decoration:none;color:inherit;"><span class="stat-number" style="font-size:1.5rem;">@</span><span class="stat-label">Contact Us</span></a></div>
         </div>
-    
-    </div>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

@@ -150,6 +150,51 @@ function validate() {
             console.error(`  ERROR: Container "${cId}" references unknown authority "${fm.authority}"`);
             errors++;
         }
+
+        const allowedStatuses = new Set(['active', 'limited', 'discontinued']);
+        if (!allowedStatuses.has(fm.status)) {
+            console.error(`  ERROR: Container "${cId}" has invalid status "${fm.status || ''}"`);
+            errors++;
+        }
+
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(fm.last_verified || '') || Number.isNaN(Date.parse(fm.last_verified))) {
+            console.error(`  ERROR: Container "${cId}" has invalid last_verified date "${fm.last_verified || ''}"`);
+            errors++;
+        }
+
+        if (/https:\/\/www\./.test(content)) {
+            console.error(`  ERROR: Container "${cId}" contains a non-canonical www URL`);
+            errors++;
+        }
+
+        if (/^### Talking Point$/m.test(content) || /^> "/m.test(content)) {
+            console.error(`  ERROR: Container "${cId}" contains an unattributed quotation-style talking point`);
+            errors++;
+        }
+
+        const capabilityStatuses = [...content.matchAll(/^\| Status \| ([^|]+) \|$/gm)].map(match => match[1].trim());
+        for (const status of capabilityStatuses) {
+            if (!allowedStatuses.has(status)) {
+                console.error(`  ERROR: Container "${cId}" contains invalid capability status "${status}"`);
+                errors++;
+            }
+            if (fm.status === 'discontinued' && status !== 'discontinued') {
+                console.error(`  ERROR: Discontinued container "${cId}" contains capability status "${status}"`);
+                errors++;
+            }
+        }
+    }
+
+    // Validate that mapping headings still exist in their owning platform files.
+    for (const m of mappings) {
+        if (!m.regulation || !m.source_heading) continue;
+        const ownerPath = path.join(containerDir, `${m.regulation}.md`);
+        if (!fs.existsSync(ownerPath)) continue;
+        const content = fs.readFileSync(ownerPath, 'utf-8');
+        if (!content.includes(`## ${m.source_heading}`)) {
+            console.error(`  ERROR: Mapping "${m.id}" references missing heading "${m.source_heading}" in "${m.regulation}"`);
+            errors++;
+        }
     }
 
     if (errors > 0) {

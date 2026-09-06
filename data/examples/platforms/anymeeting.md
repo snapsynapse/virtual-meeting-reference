@@ -3,13 +3,13 @@ name: AnyMeeting
 authority: intermedia
 market: Global
 type: platform
-status: discontinued
+status: active
 enacted: 2009-01-01
 effective: 2009-01-01
-official_url: https://www.intermedia.com/products/anymeeting
-pricing_page: https://www.intermedia.com/products/anymeeting
+official_url: https://intermedia.com/products/anymeeting-video-conferencing
+pricing_page: https://intermedia.com/products/unite/pricing
 range: 2-200
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -19,16 +19,15 @@ last_verified: 2026-03-25
 | Launch | 2009-01-01 | Free ad-supported web conferencing tool |
 | Acquired by Intermedia | 2017-06-01 | Integrated into Intermedia's UCaaS portfolio |
 | Rebranded as Intermedia AnyMeeting | 2018-01-01 | Shifted to paid plans under Intermedia brand |
-| Service discontinued | 2023-01-01 | Replaced by Intermedia Unite video conferencing |
+| Integrated with Intermedia Unite | 2023-01-01 | Continued as the video-meetings capability within Intermedia Unite |
 
 ## Pricing
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Pro | $9.99/mo | 30 participants |
-| Enterprise | $12.99/mo | 200 participants |
+| Intermedia Unite | Quote-based | AnyMeeting is included within current Unite service packages |
 
-*Note: Service discontinued.*
+*Note: Intermedia does not publish a standalone current AnyMeeting price in the audited product material.*
 
 ---
 
@@ -38,10 +37,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | video-conferencing |
 | Sections | AnyMeeting |
-| Status | discontinued |
+| Status | active |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -51,13 +50,13 @@ last_verified: 2026-03-25
 | Video quality | HD video conferencing |
 | Layout | Speaker and gallery view |
 
-### Talking Point
+### Editorial Summary
 
-> "AnyMeeting was a budget-friendly webinar tool popular with small businesses before its discontinuation."
+AnyMeeting was a budget-friendly webinar tool popular with small businesses before its discontinuation.
 
 ### Sources
 
-- [AnyMeeting](https://www.intermedia.com/products/anymeeting)
+- [AnyMeeting](https://intermedia.com/products/anymeeting-video-conferencing)
 
 ---
 
@@ -67,10 +66,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | screen-sharing |
 | Sections | AnyMeeting |
-| Status | discontinued |
+| Status | active |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -80,13 +79,13 @@ last_verified: 2026-03-25
 | Presenter control | Host can pass presenter role to participants |
 | Browser-based | No download required for screen sharing |
 
-### Talking Point
+### Editorial Summary
 
-> "AnyMeeting offered browser-based screen sharing without requiring software downloads."
+AnyMeeting offered browser-based screen sharing without requiring software downloads.
 
 ### Sources
 
-- [AnyMeeting](https://www.intermedia.com/products/anymeeting)
+- [AnyMeeting](https://intermedia.com/products/anymeeting-video-conferencing)
 
 ---
 
@@ -96,10 +95,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | recording |
 | Sections | AnyMeeting |
-| Status | discontinued |
+| Status | active |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -109,13 +108,13 @@ last_verified: 2026-03-25
 | Download | Download recordings in standard video format |
 | Storage | Cloud storage included with paid plans |
 
-### Talking Point
+### Editorial Summary
 
-> "AnyMeeting provided cloud recording capabilities aimed at small business webinar archival needs."
+AnyMeeting provided cloud recording capabilities aimed at small business webinar archival needs.
 
 ### Sources
 
-- [AnyMeeting](https://www.intermedia.com/products/anymeeting)
+- [AnyMeeting](https://intermedia.com/products/anymeeting-video-conferencing)
 
 ---
 
@@ -125,10 +124,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | chat-messaging |
 | Sections | AnyMeeting |
-| Status | discontinued |
+| Status | active |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -138,13 +137,13 @@ last_verified: 2026-03-25
 | Private messaging | Private messages between host and participants |
 | Q&A panel | Dedicated Q&A panel for webinars |
 
-### Talking Point
+### Editorial Summary
 
-> "AnyMeeting included a Q&A panel alongside chat, designed for interactive webinar sessions."
+AnyMeeting included a Q&A panel alongside chat, designed for interactive webinar sessions.
 
 ### Sources
 
-- [AnyMeeting](https://www.intermedia.com/products/anymeeting)
+- [AnyMeeting](https://intermedia.com/products/anymeeting-video-conferencing)
 
 ---
 
@@ -154,10 +153,10 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | polling |
 | Sections | AnyMeeting |
-| Status | discontinued |
+| Status | active |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -167,10 +166,10 @@ last_verified: 2026-03-25
 | Survey | Post-meeting survey capability |
 | Results | Real-time polling results for the host |
 
-### Talking Point
+### Editorial Summary
 
-> "AnyMeeting's polling and survey features were core to its webinar-focused value proposition."
+AnyMeeting's polling and survey features were core to its webinar-focused value proposition.
 
 ### Sources
 
-- [AnyMeeting](https://www.intermedia.com/products/anymeeting)
+- [AnyMeeting](https://intermedia.com/products/anymeeting-video-conferencing)

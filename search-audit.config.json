@@ -1,0 +1,96 @@
+{
+  "$schema": "portfolio-search-indexing-audit/v4",
+  "contractVersion": 4,
+  "canonicalOrigin": "https://virtualclassroom.watch/",
+  "outputDir": "docs",
+  "sitemaps": [
+    "sitemap.xml"
+  ],
+  "minimumWords": 120,
+  "thinPageExemptions": [
+    "^/(?:about|compare)\\.html$",
+    "^/authority/",
+    "^/compare/",
+    "^/requires/",
+    "^/container/uberconference/$"
+  ],
+  "expectedNoindex": [
+    "/404.html"
+  ],
+  "requireJsonLd": false,
+  "jsonLdRequiredPaths": [],
+  "lastmodAgreementPaths": [],
+  "compareRepositorySitemaps": true,
+  "internalSourceRules": [],
+  "requiredFiles": [
+    {
+      "path": "robots.txt",
+      "contentTypes": [
+        "text/plain"
+      ],
+      "contains": [
+        "Sitemap: https://VirtualClassroom.watch/sitemap.xml"
+      ]
+    },
+    {
+      "path": "sitemap.xml",
+      "contentTypes": [
+        "xml"
+      ],
+      "contains": []
+    },
+    {
+      "path": "llms.txt",
+      "contentTypes": ["text/plain"],
+      "contains": ["/.well-known/assistant-guide.txt"]
+    },
+    {
+      "path": "agents.json",
+      "contentTypes": ["application/json"],
+      "contains": ["platform-comparison"]
+    },
+    {
+      "path": ".well-known/assistant-guide.txt",
+      "contentTypes": ["text/plain"],
+      "contains": ["human-verifiable-assistant-guide"]
+    },
+    {
+      "path": "site.webmanifest",
+      "contentTypes": ["manifest", "application/json"],
+      "contains": ["Virtual Classroom Watch"]
+    },
+    {
+      "path": "favicon.svg",
+      "contentTypes": ["image/svg+xml"],
+      "contains": ["Virtual Classroom Watch"]
+    },
+    {
+      "path": "imgs/og.png",
+      "contentTypes": ["image/png"],
+      "contains": []
+    }
+  ],
+  "redirects": [
+    {
+      "from": "http://virtualclassroom.watch/",
+      "to": "https://virtualclassroom.watch/"
+    },
+    {
+      "from": "https://www.virtualclassroom.watch/",
+      "to": "https://virtualclassroom.watch/"
+    },
+    {
+      "from": "http://www.virtualclassroom.watch/",
+      "to": "https://virtualclassroom.watch/"
+    }
+  ],
+  "hosted404Patterns": [
+    "There isn't a GitHub Pages site here",
+    "<title>Page not found",
+    "404 File not found",
+    "<title>Page Not Found - Virtual Classroom Watch</title>"
+  ],
+  "expectedNotFoundPaths": [
+    "/__search-audit-404__"
+  ]
+}

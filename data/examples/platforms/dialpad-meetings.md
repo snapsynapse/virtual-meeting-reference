@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2020-01-01
 effective: 2020-01-01
-official_url: https://www.dialpad.com/ai-meetings/
-pricing_page: https://www.dialpad.com/pricing
-range: 2-150
-last_verified: 2026-03-25
+official_url: https://dialpad.com/ai-meetings/
+pricing_page: https://help.dialpad.com/docs/dialpad-ai-meetings-billing
+range: 2-1,500
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -24,9 +24,9 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Standard | $27/user/mo | AI-powered meetings included |
-| Pro | $35/user/mo | CRM integrations |
-| Enterprise | Custom | Custom integrations and support |
+| Meetings Free | $0 | Standalone free meeting service |
+| Meetings Business | Included | Included with eligible Dialpad plans |
+| Large Meetings | Add-on | Supports up to 1,500 participants; availability and price depend on account |
 
 ---
 
@@ -38,24 +38,24 @@ last_verified: 2026-03-25
 | Sections | Dialpad Meetings |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Participant limit | Up to 150 participants |
+| Participant limit | Up to 150 normally; up to 1,500 with the Large Meetings add-on |
 | AI transcription | Real-time speech-to-text transcription during meetings |
 | HD video | High-definition video with automatic bandwidth adjustment |
 
-### Talking Point
+### Editorial Summary
 
-> "Dialpad Meetings provides built-in AI transcription and post-meeting summaries without third-party add-ons."
+Dialpad Meetings provides built-in AI transcription and post-meeting summaries without third-party add-ons.
 
 ### Sources
 
-- [Dialpad Meetings](https://www.dialpad.com/ai-meetings/)
+- [Dialpad Meetings](https://dialpad.com/ai-meetings/)
 
 ---
 
@@ -67,8 +67,8 @@ last_verified: 2026-03-25
 | Sections | Dialpad Meetings |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -78,13 +78,13 @@ last_verified: 2026-03-25
 | No downloads | Browser-based sharing without plugins |
 | Annotation | Presenter can annotate shared content |
 
-### Talking Point
+### Editorial Summary
 
-> "Dialpad Meetings inherited UberConference's download-free browser sharing and added annotation support."
+Dialpad Meetings inherited UberConference's download-free browser sharing and added annotation support.
 
 ### Sources
 
-- [Dialpad Meetings](https://www.dialpad.com/ai-meetings/)
+- [Dialpad Meetings](https://dialpad.com/ai-meetings/)
 
 ---
 
@@ -96,8 +96,8 @@ last_verified: 2026-03-25
 | Sections | Dialpad Meetings |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -107,13 +107,13 @@ last_verified: 2026-03-25
 | AI summaries | AI-generated post-meeting summaries with action items |
 | Transcripts | Searchable transcripts linked to recordings |
 
-### Talking Point
+### Editorial Summary
 
-> "Dialpad Meetings pairs cloud recording with AI-generated summaries and action items for post-meeting review."
+Dialpad Meetings pairs cloud recording with AI-generated summaries and action items for post-meeting review.
 
 ### Sources
 
-- [Dialpad Meetings](https://www.dialpad.com/ai-meetings/)
+- [Dialpad Meetings](https://dialpad.com/ai-meetings/)
 
 ---
 
@@ -125,8 +125,8 @@ last_verified: 2026-03-25
 | Sections | Dialpad Meetings, Dialpad Messaging |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -136,42 +136,42 @@ last_verified: 2026-03-25
 | Dialpad Messaging | Persistent team messaging integrated across the Dialpad platform |
 | File sharing | Share files in chat during and outside meetings |
 
-### Talking Point
+### Editorial Summary
 
-> "Dialpad Meetings integrates with Dialpad's unified communications platform for seamless messaging across channels."
+Dialpad Meetings integrates with Dialpad's unified communications platform for seamless messaging across channels.
 
 ### Sources
 
-- [Dialpad Meetings](https://www.dialpad.com/ai-meetings/)
+- [Dialpad Meetings](https://dialpad.com/ai-meetings/)
 
 ---
 
-## Whiteboard
+## Miro Whiteboard Integration
 
 | Property | Value |
 |----------|-------|
 | Obligation | whiteboard |
-| Sections | Dialpad Meetings |
+| Sections | Miro integration |
 | Status | active |
 | Effective | 2023-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Collaborative drawing | Real-time whiteboard with multi-user drawing |
-| Shapes and text | Insert shapes, text, and sticky notes |
-| Export | Save whiteboard contents as image |
+| Collaboration | Launch a collaborative Miro board from a meeting |
+| Drawing tools | Miro templates, drawing tools, shapes, text, and sticky notes |
+| Persistence | Board retention and access depend on the connected Miro account |
 
-### Talking Point
+### Editorial Summary
 
-> "Dialpad Meetings added collaborative whiteboarding to support visual brainstorming during video calls."
+Dialpad Meetings added collaborative whiteboarding to support visual brainstorming during video calls.
 
 ### Sources
 
-- [Dialpad Meetings](https://www.dialpad.com/ai-meetings/)
+- [Dialpad Meetings](https://dialpad.com/ai-meetings/)
 
 ---
 
@@ -183,8 +183,8 @@ last_verified: 2026-03-25
 | Sections | Dialpad Meetings |
 | Status | active |
 | Effective | 2020-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -194,13 +194,13 @@ last_verified: 2026-03-25
 | Custom backgrounds | Upload custom background images |
 | Preset backgrounds | Built-in selection of virtual backgrounds |
 
-### Talking Point
+### Editorial Summary
 
-> "Dialpad Meetings includes virtual backgrounds and blur to maintain a professional appearance from any location."
+Dialpad Meetings includes virtual backgrounds and blur to maintain a professional appearance from any location.
 
 ### Sources
 
-- [Dialpad Meetings](https://www.dialpad.com/ai-meetings/)
+- [Dialpad Meetings](https://dialpad.com/ai-meetings/)
 
 ---
 
@@ -212,8 +212,8 @@ last_verified: 2026-03-25
 | Sections | Ai Recaps |
 | Status | active |
 | Effective | 2022-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -222,10 +222,10 @@ last_verified: 2026-03-25
 | Ai Recap | Automatic post-call summary with action items and sentiment analysis |
 | Real-time Ai | Live transcription with real-time coaching and keyword detection |
 
-### Talking Point
+### Editorial Summary
 
-> "Dialpad pioneered real-time AI in meetings, offering live transcription and post-call recaps as core features."
+Dialpad pioneered real-time AI in meetings, offering live transcription and post-call recaps as core features.
 
 ### Sources
 
-- [Dialpad Meetings](https://www.dialpad.com/ai-meetings/)
+- [Dialpad Meetings](https://dialpad.com/ai-meetings/)

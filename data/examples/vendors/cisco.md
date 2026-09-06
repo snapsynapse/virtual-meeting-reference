@@ -2,7 +2,7 @@
 id: cisco
 name: Cisco Systems
 jurisdiction: Global
-website: https://www.cisco.com
+website: https://cisco.com
 ---
 
 ## Platforms

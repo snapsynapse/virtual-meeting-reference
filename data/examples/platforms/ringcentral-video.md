@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2020-04-01
 effective: 2020-04-01
-official_url: https://www.ringcentral.com/video
-pricing_page: https://www.ringcentral.com/office/plansandpricing.html
+official_url: https://ringcentral.com/video
+pricing_page: https://ringcentral.com/us/en/office/plansandpricing.html
 range: 2-200
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -18,16 +18,16 @@ last_verified: 2026-03-25
 |-----------|------|-------|
 | RingCentral founded | 1999-10-01 | Founded as cloud communications company |
 | RingCentral Video launch | 2020-04-01 | Native video meetings product released as part of MVP |
-| RingSense AI | 2023-03-01 | AI-powered conversation intelligence added |
+| AI Assistant | 2023-03-01 | AI-powered meeting transcription, summaries, and action items added |
 | RingCentral app rebrand | 2024-01-01 | Unified RingCentral app combining messaging, video, and phone |
 
 ## Pricing
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Core | $20/user/mo | 100 participants |
-| Advanced | $25/user/mo | 100 participants, auto-recording |
-| Ultra | $35/user/mo | 200 participants |
+| Core | Quote-based | Current public pricing was not exposed in accessible first-party content |
+| Advanced | Quote-based | Current public pricing was not exposed in accessible first-party content |
+| Ultra | Quote-based | Current public pricing was not exposed in accessible first-party content |
 
 ---
 
@@ -39,8 +39,8 @@ last_verified: 2026-03-25
 | Sections | Video |
 | Status | active |
 | Effective | 2020-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -50,13 +50,13 @@ last_verified: 2026-03-25
 | HD video | 720p and 1080p support |
 | AI noise reduction | AI-powered background noise suppression |
 
-### Talking Point
+### Editorial Summary
 
-> "RingCentral Video supports up to 200 participants with AI noise reduction included on all plans."
+RingCentral Video supports up to 200 participants with AI noise reduction included on all plans.
 
 ### Sources
 
-- [RingCentral Video](https://www.ringcentral.com/video)
+- [RingCentral Video](https://ringcentral.com/video)
 
 ---
 
@@ -68,8 +68,8 @@ last_verified: 2026-03-25
 | Sections | Video |
 | Status | active |
 | Effective | 2020-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -79,13 +79,13 @@ last_verified: 2026-03-25
 | Annotation | Drawing tools on shared content |
 | Remote control | Grant remote control to participants |
 
-### Talking Point
+### Editorial Summary
 
-> "RingCentral Video screen sharing includes annotation and remote control for collaborative workflows."
+RingCentral Video screen sharing includes annotation and remote control for collaborative workflows.
 
 ### Sources
 
-- [RingCentral Video](https://www.ringcentral.com/video)
+- [RingCentral Video](https://ringcentral.com/video)
 
 ---
 
@@ -97,8 +97,8 @@ last_verified: 2026-03-25
 | Sections | Video |
 | Status | active |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -108,13 +108,13 @@ last_verified: 2026-03-25
 | Assignment | Automatic or manual assignment |
 | Controls | Timer, broadcast message, and recall participants |
 
-### Talking Point
+### Editorial Summary
 
-> "RingCentral Video supports up to 50 breakout rooms with automatic and manual participant assignment."
+RingCentral Video supports up to 50 breakout rooms with automatic and manual participant assignment.
 
 ### Sources
 
-- [RingCentral Video](https://www.ringcentral.com/video)
+- [RingCentral Video](https://ringcentral.com/video)
 
 ---
 
@@ -126,24 +126,24 @@ last_verified: 2026-03-25
 | Sections | Video |
 | Status | active |
 | Effective | 2020-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
 | Cloud recording | Recordings stored in RingCentral cloud |
-| AI summaries | RingSense AI generates meeting summaries and action items |
+| AI summaries | RingCentral AI Assistant generates meeting summaries and action items |
 | Transcription | Automated transcription with speaker identification |
 
-### Talking Point
+### Editorial Summary
 
-> "RingCentral RingSense AI provides automated meeting summaries, action items, and searchable transcripts."
+RingCentral RingSense AI provides automated meeting summaries, action items, and searchable transcripts.
 
 ### Sources
 
-- [RingCentral Video](https://www.ringcentral.com/video)
+- [RingCentral Video](https://ringcentral.com/video)
 
 ---
 
@@ -155,8 +155,8 @@ last_verified: 2026-03-25
 | Sections | Messaging |
 | Status | active |
 | Effective | 2020-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -166,13 +166,13 @@ last_verified: 2026-03-25
 | Team messaging | Persistent team channels with file sharing |
 | Task management | Built-in task assignment within conversations |
 
-### Talking Point
+### Editorial Summary
 
-> "RingCentral Team Messaging integrates directly with video, providing persistent channels and built-in task management."
+RingCentral Team Messaging integrates directly with video, providing persistent channels and built-in task management.
 
 ### Sources
 
-- [RingCentral Messaging](https://www.ringcentral.com/teams/messaging)
+- [RingCentral Messaging](https://ringcentral.com/teams/messaging)
 
 ---
 
@@ -184,8 +184,8 @@ last_verified: 2026-03-25
 | Sections | Video |
 | Status | active |
 | Effective | 2022-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -195,13 +195,13 @@ last_verified: 2026-03-25
 | Tools | Drawing, shapes, sticky notes, and text |
 | Persistence | Whiteboards saved and accessible after meetings |
 
-### Talking Point
+### Editorial Summary
 
-> "RingCentral Whiteboard provides a persistent collaborative canvas with drawing tools and sticky notes."
+RingCentral Whiteboard provides a persistent collaborative canvas with drawing tools and sticky notes.
 
 ### Sources
 
-- [RingCentral Video](https://www.ringcentral.com/video)
+- [RingCentral Video](https://ringcentral.com/video)
 
 ---
 
@@ -213,8 +213,8 @@ last_verified: 2026-03-25
 | Sections | Video |
 | Status | active |
 | Effective | 2020-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -224,13 +224,13 @@ last_verified: 2026-03-25
 | Background blur | Adjustable blur effect |
 | Auto-framing | AI-powered camera framing to keep user centered |
 
-### Talking Point
+### Editorial Summary
 
-> "RingCentral Video includes virtual backgrounds, blur, and AI auto-framing on all plans."
+RingCentral Video includes virtual backgrounds, blur, and AI auto-framing on all plans.
 
 ### Sources
 
-- [RingCentral Video](https://www.ringcentral.com/video)
+- [RingCentral Video](https://ringcentral.com/video)
 
 ---
 
@@ -239,23 +239,23 @@ last_verified: 2026-03-25
 | Property | Value |
 |----------|-------|
 | Obligation | ai-notetaker |
-| Sections | RingSense AI |
+| Sections | RingCentral AI Assistant |
 | Status | active |
 | Effective | 2023-09-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Meeting insights | AI-generated summaries with topics, keywords, and sentiment |
+| Meeting insights | AI-generated transcripts, summaries, action items, highlights, and chapters |
 | Action items | Automatic action item and follow-up detection |
 
-### Talking Point
+### Editorial Summary
 
-> "RingSense AI provides cross-platform meeting intelligence including sentiment analysis and keyword tracking."
+RingSense AI provides cross-platform meeting intelligence including sentiment analysis and keyword tracking.
 
 ### Sources
 
-- [RingCentral Video](https://www.ringcentral.com/video)
+- [RingCentral Video](https://ringcentral.com/video)

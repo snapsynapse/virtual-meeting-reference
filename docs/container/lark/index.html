@@ -6,15 +6,18 @@
     <title>Lark - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/lark/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Lark — 9 provisions.">
     <meta property="og:title" content="Lark">
     <meta property="og:description" content="Lark — 9 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -87,13 +91,15 @@
                 <span><strong>Range:</strong> 2-500</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Apr 1, 2019</span>
-                <span><a href="https://www.larksuite.com" target="_blank" rel="noopener">Official source</a></span>
-                <span><a href="https://www.larksuite.com/pricing" target="_blank" rel="noopener">Pricing page</a></span>
+                <span><strong>Vendor:</strong> <a href="../../authority/bytedance/">ByteDance</a></span>
+                <span><a href="https://larksuite.com" target="_blank" rel="noopener">Official source</a></span>
+                <span><a href="https://larksuite.com/en_us/plans" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
         </div>
-        <div class="pricing-bar"><span class="price-tag"><strong>Starter</strong>: $0/mo <span class="price-note">50 users, basic features</span></span>
-                <span class="price-tag"><strong>Pro</strong>: $12/user/mo <span class="price-note">500 participants, advanced admin</span></span>
-                <span class="price-tag"><strong>Enterprise</strong>: Custom <span class="price-note">Unlimited</span></span></div>
+        <div class="pricing-bar"><span class="price-tag"><strong>Starter</strong>: $0/mo <span class="price-note">Up to 20 users; one-to-one meetings</span></span>
+                <span class="price-tag"><strong>Basic</strong>: $6/user/mo <span class="price-note">Annual billing; one-to-one meetings</span></span>
+                <span class="price-tag"><strong>Pro</strong>: $12/user/mo <span class="price-note">Annual billing; up to 500 meeting participants</span></span>
+                <span class="price-tag"><strong>Enterprise</strong>: Custom <span class="price-note">Up to 500 meeting participants</span></span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/breakout-rooms/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Breakout Rooms</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/polling/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Polling and Q&amp;A</a> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Whiteboard</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a> <a href="../primary/ai-notetaker/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Integrated AI Note-Taker</a>
@@ -107,10 +113,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Apr 1, 2019</span>
         </div>
-        <div class="talking-point">"Lark integrates video meetings directly into its collaboration suite, making it seamless to jump from chat to call."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 500 participants on enterprise plans</td></tr><tr><td>Video quality</td><td>HD video with adaptive bitrate</td></tr><tr><td>Gallery view</td><td>Grid layout with multiple participants visible</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Video Conferencing</a></div>
+        <div class="talking-point">Lark integrates video meetings directly into its collaboration suite, making it seamless to jump from chat to call.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 500 participants on Pro and Enterprise plans</td></tr><tr><td>Video quality</td><td>HD video with adaptive bitrate</td></tr><tr><td>Gallery view</td><td>Grid layout with multiple participants visible</td></tr></tbody></table>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Video Conferencing</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
         <h3>Screen Sharing</h3>
@@ -119,10 +125,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Apr 1, 2019</span>
         </div>
-        <div class="talking-point">"Lark's Magic Share feature allows document sharing within meetings without traditional screen sharing limitations."</div>
+        <div class="talking-point">Lark's Magic Share feature allows document sharing within meetings without traditional screen sharing limitations.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Sharing options</td><td>Full screen, application window, or browser tab</td></tr><tr><td>Magic Share</td><td>Share documents directly within the meeting for collaborative viewing</td></tr><tr><td>Annotations</td><td>Participants can annotate shared content</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
     </div>
 <div class="provision-card" id="breakout-rooms">
         <h3>Breakout Rooms</h3>
@@ -131,10 +137,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2021</span>
         </div>
-        <div class="talking-point">"Lark breakout rooms support both pre-assigned and on-the-fly groupings for flexible workshop facilitation."</div>
+        <div class="talking-point">Lark breakout rooms support both pre-assigned and on-the-fly groupings for flexible workshop facilitation.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room creation</td><td>Host can create multiple breakout rooms during a meeting</td></tr><tr><td>Assignment</td><td>Manual or automatic participant assignment</td></tr><tr><td>Broadcast</td><td>Host can broadcast messages to all breakout rooms</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
         <h3>Recording and Transcription</h3>
@@ -143,10 +149,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Apr 1, 2019</span>
         </div>
-        <div class="talking-point">"Lark automatically generates meeting minutes with action items, reducing post-meeting administrative overhead."</div>
+        <div class="talking-point">Lark automatically generates meeting minutes with action items, reducing post-meeting administrative overhead.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Meetings recorded and saved to Lark cloud storage</td></tr><tr><td>Auto-transcription</td><td>AI-generated transcripts with speaker identification</td></tr><tr><td>Meeting minutes</td><td>Automated meeting summary and action items</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
         <h3>Chat and Messaging</h3>
@@ -155,10 +161,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Apr 1, 2019</span>
         </div>
-        <div class="talking-point">"Lark Messenger provides a unified chat experience tightly integrated with meetings, docs, and project tools."</div>
+        <div class="talking-point">Lark Messenger provides a unified chat experience tightly integrated with meetings, docs, and project tools.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>In-meeting chat</td><td>Text chat during live meetings</td></tr><tr><td>Lark Messenger</td><td>Persistent team messaging with threads and reactions</td></tr><tr><td>Group chats</td><td>Topic-based group chats with file sharing and integrations</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/messenger" target="_blank" rel="noopener">Lark Messenger</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/messenger" target="_blank" rel="noopener">Lark Messenger</a></div>
     </div>
 <div class="provision-card" id="polling-and-q-a">
         <h3>Polling and Q&amp;A</h3>
@@ -167,10 +173,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2021</span>
         </div>
-        <div class="talking-point">"Lark's in-meeting polling integrates with its broader survey and form tools for consistent data collection."</div>
+        <div class="talking-point">Lark's in-meeting polling integrates with its broader survey and form tools for consistent data collection.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Polls</td><td>In-meeting polls with multiple choice options</td></tr><tr><td>Real-time results</td><td>Results displayed live during the meeting</td></tr><tr><td>Export</td><td>Poll results exportable after the meeting</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
     </div>
 <div class="provision-card" id="whiteboard">
         <h3>Whiteboard</h3>
@@ -179,10 +185,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2021</span>
         </div>
-        <div class="talking-point">"Lark's whiteboard is natively embedded in the platform, accessible from both meetings and the document editor."</div>
+        <div class="talking-point">Lark's whiteboard is natively embedded in the platform, accessible from both meetings and the document editor.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Collaborative canvas</td><td>Real-time multi-user whiteboard</td></tr><tr><td>Templates</td><td>Pre-built templates for brainstorming and planning</td></tr><tr><td>Integration</td><td>Whiteboards accessible from meetings and Lark Docs</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/whiteboard" target="_blank" rel="noopener">Lark Whiteboard</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/whiteboard" target="_blank" rel="noopener">Lark Whiteboard</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
         <h3>Virtual Backgrounds</h3>
@@ -191,10 +197,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2020</span>
         </div>
-        <div class="talking-point">"Lark offers virtual avatars as an alternative to traditional backgrounds, allowing expressive camera-off participation."</div>
+        <div class="talking-point">Lark offers virtual avatars as an alternative to traditional backgrounds, allowing expressive camera-off participation.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background images</td><td>Custom upload or built-in image library</td></tr><tr><td>Background blur</td><td>Adjustable blur intensity</td></tr><tr><td>Virtual avatars</td><td>Avatar mode for camera-off participation</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com/en_us/product/video-conferencing" target="_blank" rel="noopener">Lark Meetings</a></div>
     </div>
 <div class="provision-card" id="integrated-ai-note-taker">
         <h3>Integrated AI Note-Taker</h3>
@@ -203,13 +209,36 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2023</span>
         </div>
-        <div class="talking-point">"Lark Minutes AI segments meetings by topic and links extracted action items directly to Lark's task management system."</div>
+        <div class="talking-point">Lark Minutes AI segments meetings by topic and links extracted action items directly to Lark's task management system.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Smart minutes</td><td>AI-powered meeting minutes with topic segmentation</td></tr><tr><td>Action tracking</td><td>Automatic action item extraction linked to Lark Tasks</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.larksuite.com" target="_blank" rel="noopener">Lark</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://larksuite.com" target="_blank" rel="noopener">Lark</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Lark</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-lark/">Lark vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-lark/">Lark vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-lark/">Lark vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-lark/">Lark vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-lark/">Lark vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-lark/">Lark vs ClickMeeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-lark/">Lark vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/google-meet-vs-lark/">Lark vs Google Meet</a></li>
+            <li><a href="../../compare/goto-meeting-vs-lark/">Lark vs GoTo Meeting</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-lark/">Lark vs Jitsi Meet</a></li>
+            <li><a href="../../compare/lark-vs-lifesize/">Lark vs Lifesize</a></li>
+            <li><a href="../../compare/lark-vs-ms-teams/">Lark vs Microsoft Teams</a></li>
+            <li><a href="../../compare/lark-vs-ringcentral-video/">Lark vs RingCentral Video</a></li>
+            <li><a href="../../compare/lark-vs-skype/">Lark vs Skype</a></li>
+            <li><a href="../../compare/lark-vs-slack/">Lark vs Slack</a></li>
+            <li><a href="../../compare/lark-vs-trueconf/">Lark vs TrueConf</a></li>
+            <li><a href="../../compare/lark-vs-webex-meetings/">Lark vs Webex Meetings</a></li>
+            <li><a href="../../compare/lark-vs-whereby/">Lark vs Whereby</a></li>
+            <li><a href="../../compare/lark-vs-zoho-meeting/">Lark vs Zoho Meeting</a></li>
+            <li><a href="../../compare/lark-vs-zoom-workplace/">Lark vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

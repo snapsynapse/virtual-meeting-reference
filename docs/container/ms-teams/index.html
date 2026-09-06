@@ -6,15 +6,18 @@
     <title>Microsoft Teams - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/ms-teams/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Microsoft Teams — 9 provisions.">
     <meta property="og:title" content="Microsoft Teams">
     <meta property="og:description" content="Microsoft Teams — 9 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -84,18 +88,19 @@
         <div class="detail-header">
             <h2>Microsoft Teams</h2>
             <div class="detail-meta">
-                <span><strong>Range:</strong> 2-20,000</span>
+                <span><strong>Range:</strong> 2-11,000</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Mar 14, 2017</span>
-                <span><a href="https://www.microsoft.com/en-us/microsoft-teams" target="_blank" rel="noopener">Official source</a></span>
-                <span><a href="https://www.microsoft.com/en-us/microsoft-teams/compare-teams-offerings" target="_blank" rel="noopener">Pricing page</a></span>
+                <span><strong>Vendor:</strong> <a href="../../authority/microsoft/">Microsoft</a></span>
+                <span><a href="https://microsoft.com/en-us/microsoft-teams" target="_blank" rel="noopener">Official source</a></span>
+                <span><a href="https://microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
         </div>
         <div class="pricing-bar"><span class="price-tag"><strong>Free</strong>: $0/mo <span class="price-note">60-min meetings, 100 participants</span></span>
                 <span class="price-tag"><strong>Essentials</strong>: $4/user/mo <span class="price-note">30-hr meetings, 300 participants</span></span>
-                <span class="price-tag"><strong>Business Basic</strong>: $6/user/mo <span class="price-note">300 participants, recording</span></span>
-                <span class="price-tag"><strong>Business Standard</strong>: $12.50/user/mo <span class="price-note">Webinars, app integration</span></span>
-                <span class="price-tag"><strong>Enterprise</strong>: Custom <span class="price-note">1000+ participants</span></span></div>
+                <span class="price-tag"><strong>Business Basic</strong>: $7/user/mo <span class="price-note">Annual billing; 300 participants and recording</span></span>
+                <span class="price-tag"><strong>Business Standard</strong>: Package-dependent <span class="price-note">Teams/no-Teams and Copilot bundles vary by market</span></span>
+                <span class="price-tag"><strong>Enterprise</strong>: Quote-based <span class="price-note">1,000 interactive plus up to 10,000 view-only attendees</span></span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/breakout-rooms/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Breakout Rooms</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Whiteboard</a> <a href="../primary/polling/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Polling and Q&amp;A</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a> <a href="../primary/ai-notetaker/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Integrated AI Note-Taker</a>
@@ -109,10 +114,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 14, 2017</span>
         </div>
-        <div class="talking-point">"Teams Together Mode places participants in a shared virtual environment, designed to reduce meeting fatigue."</div>
+        <div class="talking-point">Teams Together Mode places participants in a shared virtual environment, designed to reduce meeting fatigue.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Gallery view</td><td>Up to 49 participants in large gallery</td></tr><tr><td>Together mode</td><td>Shared virtual background for all participants</td></tr><tr><td>Video quality</td><td>Up to 1080p depending on plan</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.microsoft.com/en-us/microsoft-teams/features" target="_blank" rel="noopener">Teams Features</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://microsoft.com/en-us/microsoft-teams/features" target="_blank" rel="noopener">Teams Features</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
         <h3>Screen Sharing</h3>
@@ -121,9 +126,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 14, 2017</span>
         </div>
-        <div class="talking-point">"PowerPoint Live in Teams gives presenters private notes and slide navigation while attendees see a clean slideshow."</div>
+        <div class="talking-point">PowerPoint Live in Teams gives presenters private notes and slide navigation while attendees see a clean slideshow.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Desktop sharing</td><td>Full screen or window sharing</td></tr><tr><td>PowerPoint Live</td><td>Native slideshow mode with presenter tools</td></tr><tr><td>Remote control</td><td>Give and request control of shared screen</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/office/share-content-in-a-meeting" target="_blank" rel="noopener">Teams Screen Sharing</a></div>
     </div>
 <div class="provision-card" id="breakout-rooms">
@@ -133,9 +138,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Dec 9, 2020</span>
         </div>
-        <div class="talking-point">"Teams supports pre-assigning breakout rooms before a meeting starts, useful for recurring classroom sessions."</div>
+        <div class="talking-point">Teams supports pre-assigning breakout rooms before a meeting starts, useful for recurring classroom sessions.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room count</td><td>Up to 50 breakout rooms</td></tr><tr><td>Assignment</td><td>Automatic or manual participant assignment</td></tr><tr><td>Pre-assignment</td><td>Rooms can be configured before the meeting starts</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/office/use-breakout-rooms-in-teams-meetings" target="_blank" rel="noopener">Teams Breakout Rooms</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
@@ -145,9 +150,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 14, 2017</span>
         </div>
-        <div class="talking-point">"Teams recordings automatically save to OneDrive/SharePoint, tightly integrated with the Microsoft 365 ecosystem."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Stored in OneDrive or SharePoint</td></tr><tr><td>Transcription</td><td>Automatic transcription with speaker attribution</td></tr><tr><td>Copilot</td><td>AI-powered meeting recap and action items (Premium)</td></tr></tbody></table>
-        
+        <div class="talking-point">Teams recordings automatically save to OneDrive/SharePoint, tightly integrated with the Microsoft 365 ecosystem.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Stored in OneDrive or SharePoint</td></tr><tr><td>Transcription</td><td>Automatic transcription with speaker attribution</td></tr><tr><td>Copilot</td><td>AI-powered recap and action items require an eligible feature-specific license</td></tr></tbody></table>
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/office/record-a-meeting-in-teams" target="_blank" rel="noopener">Teams Recording</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
@@ -157,10 +162,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 14, 2017</span>
         </div>
-        <div class="talking-point">"Teams channels serve as persistent workspaces where chat, files, and meeting recordings coexist."</div>
+        <div class="talking-point">Teams channels serve as persistent workspaces where chat, files, and meeting recordings coexist.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Channels</td><td>Team channels with standard and private options</td></tr><tr><td>In-meeting chat</td><td>Persistent chat tied to each meeting</td></tr><tr><td>File sharing</td><td>Integrated with OneDrive and SharePoint</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.microsoft.com/en-us/microsoft-teams/features" target="_blank" rel="noopener">Teams Chat</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://microsoft.com/en-us/microsoft-teams/features" target="_blank" rel="noopener">Teams Chat</a></div>
     </div>
 <div class="provision-card" id="whiteboard">
         <h3>Whiteboard</h3>
@@ -169,10 +174,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jul 1, 2019</span>
         </div>
-        <div class="talking-point">"Microsoft Whiteboard is natively embedded in Teams meetings, with boards auto-saved to participants' OneDrive."</div>
+        <div class="talking-point">Microsoft Whiteboard is natively embedded in Teams meetings, with boards auto-saved to participants' OneDrive.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Integration</td><td>Microsoft Whiteboard embedded in meetings</td></tr><tr><td>Collaboration</td><td>Real-time multi-user drawing</td></tr><tr><td>Persistence</td><td>Boards saved to OneDrive and accessible later</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard" target="_blank" rel="noopener">Microsoft Whiteboard</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://microsoft.com/en-us/microsoft-365/microsoft-whiteboard" target="_blank" rel="noopener">Microsoft Whiteboard</a></div>
     </div>
 <div class="provision-card" id="polling-and-q-a">
         <h3>Polling and Q&amp;A</h3>
@@ -181,9 +186,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> May 1, 2021</span>
         </div>
-        <div class="talking-point">"Teams integrates Microsoft Forms directly into meetings for seamless polling and quiz creation."</div>
+        <div class="talking-point">Teams integrates Microsoft Forms directly into meetings for seamless polling and quiz creation.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Polls</td><td>Multiple choice and rating via Microsoft Forms</td></tr><tr><td>Q&amp;A</td><td>Structured Q&amp;A with moderation in webinars/town halls</td></tr><tr><td>Quizzes</td><td>Forms-based quiz with auto-grading</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/office/polls-in-microsoft-teams-meetings" target="_blank" rel="noopener">Teams Polls</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
@@ -193,9 +198,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Apr 1, 2020</span>
         </div>
-        <div class="talking-point">"Teams allows IT admins to push branded virtual backgrounds organization-wide, a key enterprise differentiator."</div>
+        <div class="talking-point">Teams allows IT admins to push branded virtual backgrounds organization-wide, a key enterprise differentiator.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background images</td><td>Custom upload and built-in library</td></tr><tr><td>Background blur</td><td>Adjustable blur</td></tr><tr><td>Org-managed</td><td>Admins can deploy branded backgrounds across the organization</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/office/change-your-background-in-teams-meetings" target="_blank" rel="noopener">Teams Backgrounds</a></div>
     </div>
 <div class="provision-card" id="integrated-ai-note-taker">
@@ -205,13 +210,36 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Nov 1, 2023</span>
         </div>
-        <div class="talking-point">"Teams Copilot provides real-time meeting notes and can answer questions about what was discussed mid-meeting."</div>
+        <div class="talking-point">Teams Copilot provides real-time meeting notes and can answer questions about what was discussed mid-meeting.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Intelligent recap</td><td>AI-generated meeting notes with topics, action items, and mentions</td></tr><tr><td>Follow-up tasks</td><td>Copilot suggests follow-up tasks and drafts messages based on meeting content</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.microsoft.com/en-us/microsoft-teams" target="_blank" rel="noopener">Microsoft Teams</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://microsoft.com/en-us/microsoft-teams" target="_blank" rel="noopener">Microsoft Teams</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Microsoft Teams</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-ms-teams/">Microsoft Teams vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-ms-teams/">Microsoft Teams vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-ms-teams/">Microsoft Teams vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-ms-teams/">Microsoft Teams vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-ms-teams/">Microsoft Teams vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-ms-teams/">Microsoft Teams vs ClickMeeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-ms-teams/">Microsoft Teams vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/google-meet-vs-ms-teams/">Microsoft Teams vs Google Meet</a></li>
+            <li><a href="../../compare/goto-meeting-vs-ms-teams/">Microsoft Teams vs GoTo Meeting</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-ms-teams/">Microsoft Teams vs Jitsi Meet</a></li>
+            <li><a href="../../compare/lark-vs-ms-teams/">Microsoft Teams vs Lark</a></li>
+            <li><a href="../../compare/lifesize-vs-ms-teams/">Microsoft Teams vs Lifesize</a></li>
+            <li><a href="../../compare/ms-teams-vs-ringcentral-video/">Microsoft Teams vs RingCentral Video</a></li>
+            <li><a href="../../compare/ms-teams-vs-skype/">Microsoft Teams vs Skype</a></li>
+            <li><a href="../../compare/ms-teams-vs-slack/">Microsoft Teams vs Slack</a></li>
+            <li><a href="../../compare/ms-teams-vs-trueconf/">Microsoft Teams vs TrueConf</a></li>
+            <li><a href="../../compare/ms-teams-vs-webex-meetings/">Microsoft Teams vs Webex Meetings</a></li>
+            <li><a href="../../compare/ms-teams-vs-whereby/">Microsoft Teams vs Whereby</a></li>
+            <li><a href="../../compare/ms-teams-vs-zoho-meeting/">Microsoft Teams vs Zoho Meeting</a></li>
+            <li><a href="../../compare/ms-teams-vs-zoom-workplace/">Microsoft Teams vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

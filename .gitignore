@@ -21,6 +21,9 @@ npm-debug.log*
 # Environment
 .env
 .env.local
+.env.*
+!.env.example
+.vercel/
 
 # --- baseline additions (automated audit 2026-04-21) ---
 __pycache__/
@@ -33,3 +36,5 @@ venv/
 # --- portfolio baseline (2026-07-04): transient dirs ---
 handoffs/
 working/
+.playwright-mcp/
+.search-evidence-private/

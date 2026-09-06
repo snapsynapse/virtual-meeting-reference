@@ -2,7 +2,7 @@
 id: bytedance
 name: ByteDance
 jurisdiction: Global
-website: https://www.larksuite.com
+website: https://larksuite.com
 ---
 
 ## Platforms

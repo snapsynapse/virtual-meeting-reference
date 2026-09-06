@@ -2,7 +2,7 @@
 id: dialpad
 name: Dialpad
 jurisdiction: Global
-website: https://www.dialpad.com
+website: https://dialpad.com
 ---
 
 ## Platforms

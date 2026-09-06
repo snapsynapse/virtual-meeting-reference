@@ -6,15 +6,18 @@
     <title>Skype - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/skype/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Skype — 5 provisions.">
     <meta property="og:title" content="Skype">
     <meta property="og:description" content="Skype — 5 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -85,82 +89,106 @@
             <h2>Skype</h2>
             <div class="detail-meta">
                 <span><strong>Range:</strong> 2-100</span>
-                <span class="status-badge limited">limited</span>
+                <span class="status-badge discontinued">discontinued</span>
                 <span><strong>Effective:</strong> Aug 29, 2003</span>
-                <span><a href="https://www.skype.com" target="_blank" rel="noopener">Official source</a></span>
-                <span><a href="https://www.skype.com/en/" target="_blank" rel="noopener">Pricing page</a></span>
+                <span><strong>Vendor:</strong> <a href="../../authority/microsoft/">Microsoft</a></span>
+                <span><a href="https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836" target="_blank" rel="noopener">Official source</a></span>
+
             </div>
         </div>
-        <div class="pricing-bar"><span class="price-tag"><strong>Free</strong>: $0/mo <span class="price-note">100 participants, 24-hr calls</span></span>
-                <span class="price-tag"><strong>*Note: Consumer Skype is free.*</strong>: </span></div>
+        <div class="pricing-bar"><span class="price-tag"><strong>Historical free service</strong>: Discontinued <span class="price-note">Consumer Skype retired 2025-05-05</span></span>
+                <span class="price-tag"><strong>*Note: Historical capabilities below describe the retired consumer Skype service.*</strong>: </span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a>
         </div>
-        <h3>Timeline</h3><table class="data-table"><thead><tr><th>Milestone</th><th>Date</th><th>Notes</th></tr></thead><tbody><tr><td>Launch</td><td>Aug 29, 2003</td><td>Peer-to-peer VoIP and messaging application</td></tr><tr><td>eBay acquisition</td><td>Sep 12, 2005</td><td>Acquired by eBay for $2.6 billion</td></tr><tr><td>Microsoft acquisition</td><td>May 10, 2011</td><td>Acquired by Microsoft for $8.5 billion</td></tr><tr><td>Skype for Business launch</td><td>Apr 14, 2015</td><td>Enterprise version replacing Microsoft Lync</td></tr><tr><td>Skype for Business retired</td><td>Jul 31, 2021</td><td>Enterprise users migrated to Microsoft Teams</td></tr><tr><td>Consumer Skype in maintenance</td><td>Jan 1, 2023</td><td>Limited updates as Teams becomes primary platform</td></tr></tbody></table>
+        <h3>Timeline</h3><table class="data-table"><thead><tr><th>Milestone</th><th>Date</th><th>Notes</th></tr></thead><tbody><tr><td>Launch</td><td>Aug 29, 2003</td><td>Peer-to-peer VoIP and messaging application</td></tr><tr><td>eBay acquisition</td><td>Sep 12, 2005</td><td>Acquired by eBay for $2.6 billion</td></tr><tr><td>Microsoft acquisition</td><td>May 10, 2011</td><td>Acquired by Microsoft for $8.5 billion</td></tr><tr><td>Skype for Business launch</td><td>Apr 14, 2015</td><td>Enterprise version replacing Microsoft Lync</td></tr><tr><td>Skype for Business retired</td><td>Jul 31, 2021</td><td>Enterprise users migrated to Microsoft Teams</td></tr><tr><td>Consumer Skype retired</td><td>May 5, 2025</td><td>Consumer service retired; users directed to Microsoft Teams Free</td></tr></tbody></table>
         <h3>Provisions (5)</h3>
         <div class="provision-card" id="video-conferencing">
         <h3>Video Conferencing</h3>
         <div class="provision-meta">
             <span><strong>Implements:</strong> <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)">Video Conferencing</a></span>
-            <span><span class="status-badge limited">limited</span></span>
+            <span><span class="status-badge discontinued">discontinued</span></span>
             <span><strong>Effective:</strong> Aug 29, 2003</span>
         </div>
-        <div class="talking-point">"Skype pioneered consumer video calling but now operates in limited maintenance mode as Microsoft focuses on Teams."</div>
+        <div class="talking-point">Skype pioneered consumer video calling but now operates in limited maintenance mode as Microsoft focuses on Teams.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 100 participants in group calls</td></tr><tr><td>Video quality</td><td>HD video calling</td></tr><tr><td>Layout</td><td>Grid view for group calls</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.skype.com" target="_blank" rel="noopener">Skype</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836" target="_blank" rel="noopener">Skype</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
         <h3>Screen Sharing</h3>
         <div class="provision-meta">
             <span><strong>Implements:</strong> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)">Screen Sharing</a></span>
-            <span><span class="status-badge limited">limited</span></span>
+            <span><span class="status-badge discontinued">discontinued</span></span>
             <span><strong>Effective:</strong> Jan 1, 2010</span>
         </div>
-        <div class="talking-point">"Skype screen sharing remains functional for consumer use but lacks the advanced controls found in Teams."</div>
+        <div class="talking-point">Skype screen sharing remains functional for consumer use but lacks the advanced controls found in Teams.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Sharing options</td><td>Full screen sharing during calls</td></tr><tr><td>Audio sharing</td><td>System audio can be shared on some platforms</td></tr><tr><td>Availability</td><td>Desktop and mobile screen sharing</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.skype.com" target="_blank" rel="noopener">Skype</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836" target="_blank" rel="noopener">Skype</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
         <h3>Recording and Transcription</h3>
         <div class="provision-meta">
             <span><strong>Implements:</strong> <a href="../primary/recording/index.html" onclick="passTheme(this)">Recording</a></span>
-            <span><span class="status-badge limited">limited</span></span>
+            <span><span class="status-badge discontinued">discontinued</span></span>
             <span><strong>Effective:</strong> Sep 1, 2018</span>
         </div>
-        <div class="talking-point">"Skype call recording stores clips in the cloud for 30 days, after which they must be downloaded to preserve."</div>
+        <div class="talking-point">Skype call recording stores clips in the cloud for 30 days, after which they must be downloaded to preserve.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Call recording saved to Skype chat for 30 days</td></tr><tr><td>Download</td><td>Recordings can be downloaded as MP4</td></tr><tr><td>Notification</td><td>All participants notified when recording starts</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.skype.com" target="_blank" rel="noopener">Skype</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836" target="_blank" rel="noopener">Skype</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
         <h3>Chat and Messaging</h3>
         <div class="provision-meta">
             <span><strong>Implements:</strong> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)">Chat Messaging</a></span>
-            <span><span class="status-badge limited">limited</span></span>
+            <span><span class="status-badge discontinued">discontinued</span></span>
             <span><strong>Effective:</strong> Aug 29, 2003</span>
         </div>
-        <div class="talking-point">"Skype messaging was a pioneer in consumer instant messaging and remains available for personal communication."</div>
+        <div class="talking-point">Skype messaging was a pioneer in consumer instant messaging and remains available for personal communication.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Instant messaging</td><td>Text chat with individuals and groups</td></tr><tr><td>File sharing</td><td>Send files, photos, and documents in chat</td></tr><tr><td>Emoji and reactions</td><td>Reactions and emoticons in conversations</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.skype.com" target="_blank" rel="noopener">Skype</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836" target="_blank" rel="noopener">Skype</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
         <h3>Virtual Backgrounds</h3>
         <div class="provision-meta">
             <span><strong>Implements:</strong> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)">Virtual Backgrounds</a></span>
-            <span><span class="status-badge limited">limited</span></span>
+            <span><span class="status-badge discontinued">discontinued</span></span>
             <span><strong>Effective:</strong> Jun 1, 2020</span>
         </div>
-        <div class="talking-point">"Skype added virtual backgrounds and blur during the 2020 remote work surge, borrowing features from Teams."</div>
+        <div class="talking-point">Skype added virtual backgrounds and blur during the 2020 remote work surge, borrowing features from Teams.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background images</td><td>Choose from preset images or upload custom backgrounds</td></tr><tr><td>Background blur</td><td>Blur background during video calls</td></tr><tr><td>Preview</td><td>Preview background before starting call</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.skype.com" target="_blank" rel="noopener">Skype</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.microsoft.com/en-us/skype/4e034bbd-cb7a-48b7-9f5a-594255f62836" target="_blank" rel="noopener">Skype</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Skype</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-skype/">Skype vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-skype/">Skype vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-skype/">Skype vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-skype/">Skype vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-skype/">Skype vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-skype/">Skype vs ClickMeeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-skype/">Skype vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/google-meet-vs-skype/">Skype vs Google Meet</a></li>
+            <li><a href="../../compare/goto-meeting-vs-skype/">Skype vs GoTo Meeting</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-skype/">Skype vs Jitsi Meet</a></li>
+            <li><a href="../../compare/lark-vs-skype/">Skype vs Lark</a></li>
+            <li><a href="../../compare/lifesize-vs-skype/">Skype vs Lifesize</a></li>
+            <li><a href="../../compare/ms-teams-vs-skype/">Skype vs Microsoft Teams</a></li>
+            <li><a href="../../compare/ringcentral-video-vs-skype/">Skype vs RingCentral Video</a></li>
+            <li><a href="../../compare/skype-vs-slack/">Skype vs Slack</a></li>
+            <li><a href="../../compare/skype-vs-trueconf/">Skype vs TrueConf</a></li>
+            <li><a href="../../compare/skype-vs-webex-meetings/">Skype vs Webex Meetings</a></li>
+            <li><a href="../../compare/skype-vs-whereby/">Skype vs Whereby</a></li>
+            <li><a href="../../compare/skype-vs-zoho-meeting/">Skype vs Zoho Meeting</a></li>
+            <li><a href="../../compare/skype-vs-zoom-workplace/">Skype vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

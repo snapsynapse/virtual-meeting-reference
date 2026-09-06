@@ -6,15 +6,18 @@
     <title>Adobe Connect - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/adobe-connect/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Adobe Connect — 7 provisions.">
     <meta property="og:title" content="Adobe Connect">
     <meta property="og:description" content="Adobe Connect — 7 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -87,18 +91,20 @@
                 <span><strong>Range:</strong> 2-1,500</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Jan 1, 2003</span>
-                <span><a href="https://www.adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Official source</a></span>
-                <span><a href="https://www.adobe.com/products/adobeconnect/pricing.html" target="_blank" rel="noopener">Pricing page</a></span>
+                <span><strong>Vendor:</strong> <a href="../../authority/adobe/">Adobe</a></span>
+                <span><a href="https://adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Official source</a></span>
+                <span><a href="https://adobe.com/products/adobeconnect/pricing.html" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
         </div>
-        <div class="pricing-bar"><span class="price-tag"><strong>Named Host</strong>: $50/mo <span class="price-note">25 participants</span></span>
-                <span class="price-tag"><strong>Shared Host</strong>: $130/mo <span class="price-note">100 participants</span></span>
-                <span class="price-tag"><strong>Enterprise</strong>: Custom <span class="price-note">1500 participants</span></span></div>
+        <div class="pricing-bar"><span class="price-tag"><strong>Standard</strong>: $190/host/year <span class="price-note">Base capacity 100 participants</span></span>
+                <span class="price-tag"><strong>Premium</strong>: $290/host/year <span class="price-note">Base capacity 100 participants</span></span>
+                <span class="price-tag"><strong>Enterprise</strong>: $390/host/year <span class="price-note">Base capacity 300 participants</span></span>
+                <span class="price-tag"><strong>Capacity upgrades</strong>: From $2,200/year <span class="price-note">500, 1,000, or 1,500 participants per host</span></span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/breakout-rooms/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Breakout Rooms</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/polling/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Polling and Q&amp;A</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a>
         </div>
-        <h3>Timeline</h3><table class="data-table"><thead><tr><th>Milestone</th><th>Date</th><th>Notes</th></tr></thead><tbody><tr><td>Launch as Macromedia Breeze</td><td>Jan 1, 2003</td><td>Web conferencing and eLearning platform</td></tr><tr><td>Adobe acquisition</td><td>Dec 3, 2005</td><td>Adobe acquires Macromedia, rebrands to Adobe Connect</td></tr><tr><td>Adobe Connect 12</td><td>Oct 1, 2022</td><td>Major update with modern UI and WebRTC support</td></tr></tbody></table>
+        <h3>Timeline</h3><table class="data-table"><thead><tr><th>Milestone</th><th>Date</th><th>Notes</th></tr></thead><tbody><tr><td>Launch as Macromedia Breeze</td><td>Jan 1, 2003</td><td>Web conferencing and eLearning platform</td></tr><tr><td>Adobe acquisition</td><td>Dec 3, 2005</td><td>Adobe acquires Macromedia, rebrands to Adobe Connect</td></tr><tr><td>Adobe Connect 12 hosted rollout</td><td>Jul 12, 2022</td><td>Hosted rollout of the WebRTC-based architecture began</td></tr><tr><td>Adobe Connect 12 on-premises</td><td>Sep 15, 2022</td><td>On-premises release became available</td></tr></tbody></table>
         <h3>Provisions (7)</h3>
         <div class="provision-card" id="video-conferencing">
         <h3>Video Conferencing</h3>
@@ -107,10 +113,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2003</span>
         </div>
-        <div class="talking-point">"Adobe Connect's persistent room concept means layouts, content, and polls are saved between sessions."</div>
+        <div class="talking-point">Adobe Connect's persistent room concept means layouts, content, and polls are saved between sessions.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Persistent rooms</td><td>Reusable meeting rooms with saved layouts</td></tr><tr><td>Video pods</td><td>Configurable video display pods within rooms</td></tr><tr><td>Participant limit</td><td>Up to 1,500 participants</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect Features</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect Features</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
         <h3>Screen Sharing</h3>
@@ -119,10 +125,10 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2003</span>
         </div>
-        <div class="talking-point">"Adobe Connect's pod-based layout allows screen sharing alongside polls, notes, and video simultaneously."</div>
+        <div class="talking-point">Adobe Connect's pod-based layout allows screen sharing alongside polls, notes, and video simultaneously.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Screen sharing</td><td>Full desktop or application sharing</td></tr><tr><td>Document sharing</td><td>Upload and present documents within pods</td></tr><tr><td>Pod layouts</td><td>Arrange share pods alongside other content types</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect Sharing</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect Sharing</a></div>
     </div>
 <div class="provision-card" id="breakout-rooms">
         <h3>Breakout Rooms</h3>
@@ -131,9 +137,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2008</span>
         </div>
-        <div class="talking-point">"Adobe Connect breakout rooms each have independent pod layouts, enabling different activities per group."</div>
+        <div class="talking-point">Adobe Connect breakout rooms each have independent pod layouts, enabling different activities per group.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room count</td><td>Up to 20 breakout rooms</td></tr><tr><td>Assignment</td><td>Manual assignment by host</td></tr><tr><td>Content per room</td><td>Each breakout room has its own pod layout</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://helpx.adobe.com/adobe-connect/using/breakout-rooms.html" target="_blank" rel="noopener">Adobe Connect Breakout Rooms</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
@@ -143,9 +149,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2003</span>
         </div>
-        <div class="talking-point">"Adobe Connect recordings capture the full pod layout experience, not just video and audio."</div>
+        <div class="talking-point">Adobe Connect recordings capture the full pod layout experience, not just video and audio.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Server-side recording</td><td>Recordings stored on Adobe Connect server</td></tr><tr><td>Offline conversion</td><td>Export recordings to MP4</td></tr><tr><td>Chaptering</td><td>Add bookmarks and chapters to recordings</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://helpx.adobe.com/adobe-connect/using/recording-playing-back-meetings.html" target="_blank" rel="noopener">Adobe Connect Recording</a></div>
     </div>
 <div class="provision-card" id="polling-and-q-a">
@@ -155,9 +161,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2003</span>
         </div>
-        <div class="talking-point">"Adobe Connect's poll pods persist across sessions, allowing instructors to reuse pre-configured assessments."</div>
+        <div class="talking-point">Adobe Connect's poll pods persist across sessions, allowing instructors to reuse pre-configured assessments.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Poll pods</td><td>Persistent polls embedded in room layouts</td></tr><tr><td>Multiple polls</td><td>Multiple simultaneous poll pods</td></tr><tr><td>Q&amp;A pod</td><td>Dedicated Q&amp;A pod with moderation</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://helpx.adobe.com/adobe-connect/using/polls.html" target="_blank" rel="noopener">Adobe Connect Polls</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
@@ -167,25 +173,48 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2003</span>
         </div>
-        <div class="talking-point">"Adobe Connect supports multiple simultaneous chat pods, enabling parallel discussion threads within a single room."</div>
+        <div class="talking-point">Adobe Connect supports multiple simultaneous chat pods, enabling parallel discussion threads within a single room.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Chat pods</td><td>Multiple chat pods with different scopes</td></tr><tr><td>Moderation</td><td>Host can enable/disable participant chat</td></tr><tr><td>Persistence</td><td>Chat history saved within the room</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect Chat</a></div>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect Chat</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
         <h3>Virtual Backgrounds</h3>
         <div class="provision-meta">
             <span><strong>Implements:</strong> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)">Virtual Backgrounds</a></span>
-            <span><span class="status-badge limited">limited</span></span>
+            <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Oct 1, 2022</span>
         </div>
-        <div class="talking-point">"Adobe Connect added background blur in version 12 with its move to WebRTC, though options are more limited than competitors."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background blur</td><td>Background blur support in Connect 12+</td></tr><tr><td>Virtual backgrounds</td><td>Limited virtual background support via WebRTC</td></tr></tbody></table>
-        
-        <div class="provision-sources"><strong>Sources:</strong> <a href="https://www.adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect 12</a></div>
+        <div class="talking-point">Adobe Connect added background blur in version 12 with its move to WebRTC, though options are more limited than competitors.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background blur</td><td>Background blur support in current Connect releases</td></tr><tr><td>Virtual backgrounds</td><td>Preset and administrator-provided custom backgrounds across current base tiers</td></tr></tbody></table>
+
+        <div class="provision-sources"><strong>Sources:</strong> <a href="https://adobe.com/products/adobeconnect.html" target="_blank" rel="noopener">Adobe Connect 12</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Adobe Connect</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-adobe-connect/">Adobe Connect vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-anymeeting/">Adobe Connect vs AnyMeeting</a></li>
+            <li><a href="../../compare/adobe-connect-vs-bigbluebutton/">Adobe Connect vs BigBlueButton</a></li>
+            <li><a href="../../compare/adobe-connect-vs-bluejeans/">Adobe Connect vs BlueJeans</a></li>
+            <li><a href="../../compare/adobe-connect-vs-clickmeeting/">Adobe Connect vs ClickMeeting</a></li>
+            <li><a href="../../compare/adobe-connect-vs-dialpad-meetings/">Adobe Connect vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/adobe-connect-vs-google-meet/">Adobe Connect vs Google Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-goto-meeting/">Adobe Connect vs GoTo Meeting</a></li>
+            <li><a href="../../compare/adobe-connect-vs-jitsi-meet/">Adobe Connect vs Jitsi Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-lark/">Adobe Connect vs Lark</a></li>
+            <li><a href="../../compare/adobe-connect-vs-lifesize/">Adobe Connect vs Lifesize</a></li>
+            <li><a href="../../compare/adobe-connect-vs-ms-teams/">Adobe Connect vs Microsoft Teams</a></li>
+            <li><a href="../../compare/adobe-connect-vs-ringcentral-video/">Adobe Connect vs RingCentral Video</a></li>
+            <li><a href="../../compare/adobe-connect-vs-skype/">Adobe Connect vs Skype</a></li>
+            <li><a href="../../compare/adobe-connect-vs-slack/">Adobe Connect vs Slack</a></li>
+            <li><a href="../../compare/adobe-connect-vs-trueconf/">Adobe Connect vs TrueConf</a></li>
+            <li><a href="../../compare/adobe-connect-vs-webex-meetings/">Adobe Connect vs Webex Meetings</a></li>
+            <li><a href="../../compare/adobe-connect-vs-whereby/">Adobe Connect vs Whereby</a></li>
+            <li><a href="../../compare/adobe-connect-vs-zoho-meeting/">Adobe Connect vs Zoho Meeting</a></li>
+            <li><a href="../../compare/adobe-connect-vs-zoom-workplace/">Adobe Connect vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

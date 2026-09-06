@@ -2,7 +2,7 @@
 id: intermedia
 name: Intermedia
 jurisdiction: Global
-website: https://www.intermedia.com
+website: https://intermedia.com
 ---
 
 ## Platforms

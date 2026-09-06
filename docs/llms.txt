@@ -1,42 +1,42 @@
 # Virtual Classroom Watch
 
 > A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities.
-> Tracks 22 platforms, 9 features, and 157 capabilities across 20 vendors.
+> Tracks 22 platforms, 9 features, and 153 capabilities across 20 vendors.
 
 ## Platforms
 
-- [8x8 Meet](https://VirtualClassroom.watch/container/8x8-meet/): active, from $24/user/mo
-- [Adobe Connect](https://VirtualClassroom.watch/container/adobe-connect/): active, from $50/mo
-- [AnyMeeting](https://VirtualClassroom.watch/container/anymeeting/): discontinued, from $9.99/mo
-- [BigBlueButton](https://VirtualClassroom.watch/container/bigbluebutton/): active, from $5-50/mo
-- [BlueJeans](https://VirtualClassroom.watch/container/bluejeans/): discontinued, from $9.99/host/mo
-- [ClickMeeting](https://VirtualClassroom.watch/container/clickmeeting/): active, from $25/mo
-- [Dialpad Meetings](https://VirtualClassroom.watch/container/dialpad-meetings/): active, from $27/user/mo
+- [8x8 Meet](https://VirtualClassroom.watch/container/8x8-meet/): active, from Quote-based
+- [Adobe Connect](https://VirtualClassroom.watch/container/adobe-connect/): active, from $190/host/year
+- [AnyMeeting](https://VirtualClassroom.watch/container/anymeeting/): active, from Quote-based
+- [BigBlueButton](https://VirtualClassroom.watch/container/bigbluebutton/): active, from Open source
+- [BlueJeans](https://VirtualClassroom.watch/container/bluejeans/): discontinued, from Discontinued
+- [ClickMeeting](https://VirtualClassroom.watch/container/clickmeeting/): active, from Capacity-based
+- [Dialpad Meetings](https://VirtualClassroom.watch/container/dialpad-meetings/): active, from $0
 - [Google Meet](https://VirtualClassroom.watch/container/google-meet/): active, from $7/user/mo
-- [GoTo Meeting](https://VirtualClassroom.watch/container/goto-meeting/): active, from $14/organizer/mo
-- [Jitsi Meet](https://VirtualClassroom.watch/container/jitsi-meet/): active, from $99/mo
-- [Lark](https://VirtualClassroom.watch/container/lark/): active, from $12/user/mo
-- [Lifesize](https://VirtualClassroom.watch/container/lifesize/): limited, from $14.95/host/mo
+- [GoTo Meeting](https://VirtualClassroom.watch/container/goto-meeting/): active, from Quote-based
+- [Jitsi Meet](https://VirtualClassroom.watch/container/jitsi-meet/): active, from Open source
+- [Lark](https://VirtualClassroom.watch/container/lark/): active, from $6/user/mo
+- [Lifesize](https://VirtualClassroom.watch/container/lifesize/): active, from Quote-based
 - [Microsoft Teams](https://VirtualClassroom.watch/container/ms-teams/): active, from $4/user/mo
-- [RingCentral Video](https://VirtualClassroom.watch/container/ringcentral-video/): active, from $20/user/mo
-- [Skype](https://VirtualClassroom.watch/container/skype/): limited, from $0/mo
+- [RingCentral Video](https://VirtualClassroom.watch/container/ringcentral-video/): active, from Quote-based
+- [Skype](https://VirtualClassroom.watch/container/skype/): discontinued, from Discontinued
 - [Slack](https://VirtualClassroom.watch/container/slack/): active, from $8.75/user/mo
-- [TrueConf](https://VirtualClassroom.watch/container/trueconf/): active, from $8/user/mo
-- [UberConference](https://VirtualClassroom.watch/container/uberconference/): discontinued, from $15/mo
-- [Webex Meetings](https://VirtualClassroom.watch/container/webex-meetings/): active, from $14.50/mo
-- [Whereby](https://VirtualClassroom.watch/container/whereby/): active, from $8.99/mo
-- [Zoho Meeting](https://VirtualClassroom.watch/container/zoho-meeting/): active, from $1/host/mo
+- [TrueConf](https://VirtualClassroom.watch/container/trueconf/): active, from $0
+- [UberConference](https://VirtualClassroom.watch/container/uberconference/): discontinued
+- [Webex Meetings](https://VirtualClassroom.watch/container/webex-meetings/): active, from Verify current offer
+- [Whereby](https://VirtualClassroom.watch/container/whereby/): active, from $10.99/mo
+- [Zoho Meeting](https://VirtualClassroom.watch/container/zoho-meeting/): active, from $0/mo
 - [Zoom Workplace](https://VirtualClassroom.watch/container/zoom-workplace/): active, from $13.33/mo
 
 ## Features
 
 - [Integrated AI Note-Taker](https://VirtualClassroom.watch/primary/ai-notetaker/): 7 platforms support this
 - [Breakout Rooms](https://VirtualClassroom.watch/primary/breakout-rooms/): 16 platforms support this
-- [Chat and Messaging](https://VirtualClassroom.watch/primary/chat-messaging/): 22 platforms support this
+- [Chat and Messaging](https://VirtualClassroom.watch/primary/chat-messaging/): 21 platforms support this
 - [Polling and Q&A](https://VirtualClassroom.watch/primary/polling/): 16 platforms support this
-- [Recording and Transcription](https://VirtualClassroom.watch/primary/recording/): 21 platforms support this
-- [Screen Sharing](https://VirtualClassroom.watch/primary/screen-sharing/): 22 platforms support this
-- [Video Conferencing](https://VirtualClassroom.watch/primary/video-conferencing/): 22 platforms support this
+- [Recording and Transcription](https://VirtualClassroom.watch/primary/recording/): 20 platforms support this
+- [Screen Sharing](https://VirtualClassroom.watch/primary/screen-sharing/): 21 platforms support this
+- [Video Conferencing](https://VirtualClassroom.watch/primary/video-conferencing/): 21 platforms support this
 - [Virtual Backgrounds](https://VirtualClassroom.watch/primary/virtual-backgrounds/): 18 platforms support this
 - [Whiteboard](https://VirtualClassroom.watch/primary/whiteboard/): 13 platforms support this
 
@@ -50,5 +50,6 @@
 
 - [JSON API](https://VirtualClassroom.watch/api/v1/index.json): Programmatic access to all data
 - [agents.json](https://VirtualClassroom.watch/agents.json): Agent discovery metadata
+- [Assistant Guide](https://VirtualClassroom.watch/.well-known/assistant-guide.txt): bounded repository update and validation instructions
 - [Sitemap](https://VirtualClassroom.watch/sitemap.xml): All pages
 - [RSS Feed](https://VirtualClassroom.watch/index.xml): Recent updates

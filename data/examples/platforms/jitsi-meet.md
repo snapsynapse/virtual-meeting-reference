@@ -8,8 +8,8 @@ enacted: 2016-01-01
 effective: 2016-01-01
 official_url: https://meet.jit.si
 pricing_page: https://jaas.8x8.vc/
-range: 2-500
-last_verified: 2026-03-25
+range: deployment-dependent
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -25,10 +25,8 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Self-Hosted | Free | Open source |
-| JaaS Developer | $0/mo | 25 participants |
-| JaaS Startup | $99/mo | 100 participants |
-| JaaS Growth | Custom | Custom capacity |
+| Self-hosted | Open source | Capacity depends on infrastructure and configuration |
+| Jitsi as a Service | Usage-based | Verify current usage tiers in the JaaS billing console |
 
 ---
 
@@ -40,8 +38,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2016-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -51,9 +49,9 @@ last_verified: 2026-03-25
 | Video quality | WebRTC with adaptive simulcast |
 | No account required | Anyone can join a meeting without creating an account |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi Meet removes all sign-up barriers, letting anyone join a meeting instantly with just a browser link."
+Jitsi Meet removes all sign-up barriers, letting anyone join a meeting instantly with just a browser link.
 
 ### Sources
 
@@ -69,8 +67,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2016-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -80,9 +78,9 @@ last_verified: 2026-03-25
 | Audio sharing | System audio can be shared with screen |
 | Multiple sharers | Multiple participants can share simultaneously |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi Meet supports multiple simultaneous screen shares, useful for pair programming and collaborative reviews."
+Jitsi Meet supports multiple simultaneous screen shares, useful for pair programming and collaborative reviews.
 
 ### Sources
 
@@ -98,8 +96,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2022-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -109,9 +107,9 @@ last_verified: 2026-03-25
 | Assignment | Participants can be assigned or can self-select rooms |
 | Auto-close | Rooms can be configured to close after a set duration |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi Meet added breakout rooms to support educational and workshop scenarios alongside its open-source flexibility."
+Jitsi Meet added breakout rooms to support educational and workshop scenarios alongside its open-source flexibility.
 
 ### Sources
 
@@ -127,8 +125,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2018-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -138,9 +136,9 @@ last_verified: 2026-03-25
 | Dropbox integration | Recordings can be saved directly to Dropbox |
 | Live streaming | Stream meetings to YouTube or other RTMP destinations |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi uses the Jibri component for server-side recording and live streaming to YouTube and RTMP endpoints."
+Jitsi uses the Jibri component for server-side recording and live streaming to YouTube and RTMP endpoints.
 
 ### Sources
 
@@ -156,8 +154,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2016-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -167,9 +165,9 @@ last_verified: 2026-03-25
 | Private messages | Direct messages to individual participants |
 | Chat integration | XMPP-based messaging for extensibility |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi's XMPP foundation enables extensible chat that can integrate with external messaging systems."
+Jitsi's XMPP foundation enables extensible chat that can integrate with external messaging systems.
 
 ### Sources
 
@@ -185,8 +183,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2022-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -196,9 +194,9 @@ last_verified: 2026-03-25
 | Reactions | Emoji reactions and raise hand functionality |
 | Results | Poll results shared with all participants |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi Meet's polling and reaction features provide lightweight audience engagement without third-party plugins."
+Jitsi Meet's polling and reaction features provide lightweight audience engagement without third-party plugins.
 
 ### Sources
 
@@ -214,8 +212,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2022-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -225,9 +223,9 @@ last_verified: 2026-03-25
 | Drawing tools | Freehand, shapes, text, and arrows |
 | Real-time collaboration | All participants can draw simultaneously |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi Meet integrates the open-source Excalidraw whiteboard, aligning with its fully open-source philosophy."
+Jitsi Meet integrates the open-source Excalidraw whiteboard, aligning with its fully open-source philosophy.
 
 ### Sources
 
@@ -243,8 +241,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2021-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -254,9 +252,9 @@ last_verified: 2026-03-25
 | Background blur | Blur background with adjustable intensity |
 | Client-side processing | Virtual backgrounds processed locally via WebAssembly |
 
-### Talking Point
+### Editorial Summary
 
-> "Jitsi Meet processes virtual backgrounds locally via WebAssembly, keeping video data private on the client side."
+Jitsi Meet processes virtual backgrounds locally via WebAssembly, keeping video data private on the client side.
 
 ### Sources
 

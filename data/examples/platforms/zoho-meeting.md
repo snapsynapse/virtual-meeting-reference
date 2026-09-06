@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2011-01-01
 effective: 2011-01-01
-official_url: https://www.zoho.com/meeting/
-pricing_page: https://www.zoho.com/meeting/pricing.html
+official_url: https://zoho.com/meeting/
+pricing_page: https://zoho.com/meeting/pricing.html
 range: 2-250
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -25,8 +25,8 @@ last_verified: 2026-03-25
 | Plan | Price | Notes |
 |------|-------|-------|
 | Free | $0/mo | 60-min meetings, 100 participants |
-| Standard | $1/host/mo | 24-hr meetings, 100 participants |
-| Professional | $3/host/mo | 250 participants, recording |
+| Standard | Capacity-based | Price varies by participant tier and host count |
+| Professional | Capacity-based | Price varies by participant tier and host count; includes recording |
 
 ---
 
@@ -38,8 +38,8 @@ last_verified: 2026-03-25
 | Sections | Meeting |
 | Status | active |
 | Effective | 2011-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -49,13 +49,13 @@ last_verified: 2026-03-25
 | Video quality | HD video with adaptive streaming |
 | Layout options | Speaker view and grid view |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoho Meeting offers affordable video conferencing tightly integrated with the broader Zoho productivity ecosystem."
+Zoho Meeting offers affordable video conferencing tightly integrated with the broader Zoho productivity ecosystem.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)
 
 ---
 
@@ -67,8 +67,8 @@ last_verified: 2026-03-25
 | Sections | Meeting |
 | Status | active |
 | Effective | 2011-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -78,13 +78,13 @@ last_verified: 2026-03-25
 | Annotation | Presenter can annotate shared screen |
 | Remote control | Participants can request remote control |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoho Meeting supports screen sharing with annotation tools for interactive presentations."
+Zoho Meeting supports screen sharing with annotation tools for interactive presentations.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)
 
 ---
 
@@ -96,8 +96,8 @@ last_verified: 2026-03-25
 | Sections | Meeting |
 | Status | active |
 | Effective | 2022-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -107,13 +107,13 @@ last_verified: 2026-03-25
 | Assignment | Manual or automatic participant assignment |
 | Broadcast | Host can broadcast messages to all rooms |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoho Meeting added breakout rooms to support collaborative small-group sessions within larger meetings."
+Zoho Meeting added breakout rooms to support collaborative small-group sessions within larger meetings.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)
 
 ---
 
@@ -125,8 +125,8 @@ last_verified: 2026-03-25
 | Sections | Meeting |
 | Status | active |
 | Effective | 2011-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -136,13 +136,13 @@ last_verified: 2026-03-25
 | Local recording | Option to download recordings locally |
 | Playback | Browser-based playback of recorded sessions |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoho Meeting provides cloud recording with easy sharing and playback within the Zoho ecosystem."
+Zoho Meeting provides cloud recording with easy sharing and playback within the Zoho ecosystem.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)
 
 ---
 
@@ -154,8 +154,8 @@ last_verified: 2026-03-25
 | Sections | Meeting, Zoho Cliq |
 | Status | active |
 | Effective | 2011-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -165,13 +165,13 @@ last_verified: 2026-03-25
 | File sharing | Share files through in-meeting chat |
 | Zoho Cliq | Persistent team messaging via Zoho Cliq integration |
 
-### Talking Point
+### Editorial Summary
 
-> "In-meeting chat integrates with Zoho Cliq for seamless team communication across the Zoho suite."
+In-meeting chat integrates with Zoho Cliq for seamless team communication across the Zoho suite.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)
 
 ---
 
@@ -183,8 +183,8 @@ last_verified: 2026-03-25
 | Sections | Meeting, Webinar |
 | Status | active |
 | Effective | 2011-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -194,13 +194,13 @@ last_verified: 2026-03-25
 | Question types | Multiple choice and open-ended questions |
 | Results | Real-time results displayed to host |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoho Meeting's polling features are particularly useful for webinar engagement and audience feedback."
+Zoho Meeting's polling features are particularly useful for webinar engagement and audience feedback.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)
 
 ---
 
@@ -212,8 +212,8 @@ last_verified: 2026-03-25
 | Sections | Meeting |
 | Status | active |
 | Effective | 2022-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -223,13 +223,13 @@ last_verified: 2026-03-25
 | Collaboration | Multiple participants can draw simultaneously |
 | Export | Whiteboard can be saved and exported |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoho Meeting's whiteboard provides a collaborative visual workspace integrated directly into the meeting experience."
+Zoho Meeting's whiteboard provides a collaborative visual workspace integrated directly into the meeting experience.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)
 
 ---
 
@@ -241,8 +241,8 @@ last_verified: 2026-03-25
 | Sections | Meeting |
 | Status | active |
 | Effective | 2020-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -252,10 +252,10 @@ last_verified: 2026-03-25
 | Background blur | Blur background to reduce distractions |
 | Preview | Preview background before joining meeting |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoho Meeting offers virtual backgrounds and blur options to maintain professionalism in any setting."
+Zoho Meeting offers virtual backgrounds and blur options to maintain professionalism in any setting.
 
 ### Sources
 
-- [Zoho Meeting](https://www.zoho.com/meeting/)
+- [Zoho Meeting](https://zoho.com/meeting/)

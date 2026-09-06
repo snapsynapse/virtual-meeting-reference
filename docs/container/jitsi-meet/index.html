@@ -6,15 +6,18 @@
     <title>Jitsi Meet - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/jitsi-meet/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Jitsi Meet — 8 provisions.">
     <meta property="og:title" content="Jitsi Meet">
     <meta property="og:description" content="Jitsi Meet — 8 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -84,17 +88,16 @@
         <div class="detail-header">
             <h2>Jitsi Meet</h2>
             <div class="detail-meta">
-                <span><strong>Range:</strong> 2-500</span>
+                <span><strong>Range:</strong> deployment-dependent</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Jan 1, 2016</span>
+                <span><strong>Vendor:</strong> <a href="../../authority/jitsi-community/">Jitsi Community (8x8)</a></span>
                 <span><a href="https://meet.jit.si" target="_blank" rel="noopener">Official source</a></span>
                 <span><a href="https://jaas.8x8.vc/" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
         </div>
-        <div class="pricing-bar"><span class="price-tag"><strong>Self-Hosted</strong>: Free <span class="price-note">Open source</span></span>
-                <span class="price-tag"><strong>JaaS Developer</strong>: $0/mo <span class="price-note">25 participants</span></span>
-                <span class="price-tag"><strong>JaaS Startup</strong>: $99/mo <span class="price-note">100 participants</span></span>
-                <span class="price-tag"><strong>JaaS Growth</strong>: Custom <span class="price-note">Custom capacity</span></span></div>
+        <div class="pricing-bar"><span class="price-tag"><strong>Self-hosted</strong>: Open source <span class="price-note">Capacity depends on infrastructure and configuration</span></span>
+                <span class="price-tag"><strong>Jitsi as a Service</strong>: Usage-based <span class="price-note">Verify current usage tiers in the JaaS billing console</span></span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/breakout-rooms/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Breakout Rooms</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/polling/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Polling and Q&amp;A</a> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Whiteboard</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a>
@@ -108,9 +111,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2016</span>
         </div>
-        <div class="talking-point">"Jitsi Meet removes all sign-up barriers, letting anyone join a meeting instantly with just a browser link."</div>
+        <div class="talking-point">Jitsi Meet removes all sign-up barriers, letting anyone join a meeting instantly with just a browser link.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>No hard limit; performance depends on server capacity</td></tr><tr><td>Video quality</td><td>WebRTC with adaptive simulcast</td></tr><tr><td>No account required</td><td>Anyone can join a meeting without creating an account</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
@@ -120,9 +123,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2016</span>
         </div>
-        <div class="talking-point">"Jitsi Meet supports multiple simultaneous screen shares, useful for pair programming and collaborative reviews."</div>
+        <div class="talking-point">Jitsi Meet supports multiple simultaneous screen shares, useful for pair programming and collaborative reviews.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Sharing options</td><td>Full screen, application window, or browser tab</td></tr><tr><td>Audio sharing</td><td>System audio can be shared with screen</td></tr><tr><td>Multiple sharers</td><td>Multiple participants can share simultaneously</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
 <div class="provision-card" id="breakout-rooms">
@@ -132,9 +135,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2022</span>
         </div>
-        <div class="talking-point">"Jitsi Meet added breakout rooms to support educational and workshop scenarios alongside its open-source flexibility."</div>
+        <div class="talking-point">Jitsi Meet added breakout rooms to support educational and workshop scenarios alongside its open-source flexibility.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room creation</td><td>Moderator creates breakout rooms from the main meeting</td></tr><tr><td>Assignment</td><td>Participants can be assigned or can self-select rooms</td></tr><tr><td>Auto-close</td><td>Rooms can be configured to close after a set duration</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
@@ -144,9 +147,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2018</span>
         </div>
-        <div class="talking-point">"Jitsi uses the Jibri component for server-side recording and live streaming to YouTube and RTMP endpoints."</div>
+        <div class="talking-point">Jitsi uses the Jibri component for server-side recording and live streaming to YouTube and RTMP endpoints.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Jibri recording</td><td>Server-side recording via the Jibri component</td></tr><tr><td>Dropbox integration</td><td>Recordings can be saved directly to Dropbox</td></tr><tr><td>Live streaming</td><td>Stream meetings to YouTube or other RTMP destinations</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
@@ -156,9 +159,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2016</span>
         </div>
-        <div class="talking-point">"Jitsi's XMPP foundation enables extensible chat that can integrate with external messaging systems."</div>
+        <div class="talking-point">Jitsi's XMPP foundation enables extensible chat that can integrate with external messaging systems.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>In-meeting chat</td><td>Text chat during live meetings</td></tr><tr><td>Private messages</td><td>Direct messages to individual participants</td></tr><tr><td>Chat integration</td><td>XMPP-based messaging for extensibility</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
 <div class="provision-card" id="polling-and-q-a">
@@ -168,9 +171,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2022</span>
         </div>
-        <div class="talking-point">"Jitsi Meet's polling and reaction features provide lightweight audience engagement without third-party plugins."</div>
+        <div class="talking-point">Jitsi Meet's polling and reaction features provide lightweight audience engagement without third-party plugins.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Polls</td><td>In-meeting polls for quick audience feedback</td></tr><tr><td>Reactions</td><td>Emoji reactions and raise hand functionality</td></tr><tr><td>Results</td><td>Poll results shared with all participants</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
 <div class="provision-card" id="whiteboard">
@@ -180,9 +183,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2022</span>
         </div>
-        <div class="talking-point">"Jitsi Meet integrates the open-source Excalidraw whiteboard, aligning with its fully open-source philosophy."</div>
+        <div class="talking-point">Jitsi Meet integrates the open-source Excalidraw whiteboard, aligning with its fully open-source philosophy.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Excalidraw integration</td><td>Collaborative whiteboard powered by Excalidraw</td></tr><tr><td>Drawing tools</td><td>Freehand, shapes, text, and arrows</td></tr><tr><td>Real-time collaboration</td><td>All participants can draw simultaneously</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
@@ -192,13 +195,36 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2021</span>
         </div>
-        <div class="talking-point">"Jitsi Meet processes virtual backgrounds locally via WebAssembly, keeping video data private on the client side."</div>
+        <div class="talking-point">Jitsi Meet processes virtual backgrounds locally via WebAssembly, keeping video data private on the client side.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background images</td><td>Select from built-in options or upload custom images</td></tr><tr><td>Background blur</td><td>Blur background with adjustable intensity</td></tr><tr><td>Client-side processing</td><td>Virtual backgrounds processed locally via WebAssembly</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://jitsi.org/jitsi-meet/" target="_blank" rel="noopener">Jitsi Meet</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Jitsi Meet</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-jitsi-meet/">Jitsi Meet vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-jitsi-meet/">Jitsi Meet vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-jitsi-meet/">Jitsi Meet vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-jitsi-meet/">Jitsi Meet vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-jitsi-meet/">Jitsi Meet vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-jitsi-meet/">Jitsi Meet vs ClickMeeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-jitsi-meet/">Jitsi Meet vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/google-meet-vs-jitsi-meet/">Jitsi Meet vs Google Meet</a></li>
+            <li><a href="../../compare/goto-meeting-vs-jitsi-meet/">Jitsi Meet vs GoTo Meeting</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-lark/">Jitsi Meet vs Lark</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-lifesize/">Jitsi Meet vs Lifesize</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-ms-teams/">Jitsi Meet vs Microsoft Teams</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-ringcentral-video/">Jitsi Meet vs RingCentral Video</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-skype/">Jitsi Meet vs Skype</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-slack/">Jitsi Meet vs Slack</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-trueconf/">Jitsi Meet vs TrueConf</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-webex-meetings/">Jitsi Meet vs Webex Meetings</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-whereby/">Jitsi Meet vs Whereby</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-zoho-meeting/">Jitsi Meet vs Zoho Meeting</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-zoom-workplace/">Jitsi Meet vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

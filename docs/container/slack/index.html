@@ -6,15 +6,18 @@
     <title>Slack - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/slack/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Slack — 3 provisions.">
     <meta property="og:title" content="Slack">
     <meta property="og:description" content="Slack — 3 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -87,13 +91,14 @@
                 <span><strong>Range:</strong> 2-50</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Aug 14, 2013</span>
+                <span><strong>Vendor:</strong> <a href="../../authority/salesforce/">Salesforce (Slack Technologies)</a></span>
                 <span><a href="https://slack.com" target="_blank" rel="noopener">Official source</a></span>
                 <span><a href="https://slack.com/pricing" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
         </div>
         <div class="pricing-bar"><span class="price-tag"><strong>Free</strong>: $0/mo <span class="price-note">1:1 huddles only</span></span>
                 <span class="price-tag"><strong>Pro</strong>: $8.75/user/mo <span class="price-note">Group huddles up to 50</span></span>
-                <span class="price-tag"><strong>Business+</strong>: $12.50/user/mo <span class="price-note">Group huddles up to 50</span></span>
+                <span class="price-tag"><strong>Business+</strong>: $15/user/mo annually <span class="price-note">$18 monthly; group huddles up to 50</span></span>
                 <span class="price-tag"><strong>Enterprise Grid</strong>: Custom <span class="price-note">Custom pricing</span></span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
@@ -108,9 +113,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 30, 2021</span>
         </div>
-        <div class="talking-point">"Slack Huddles provide lightweight, audio-first meetings directly within channels for quick ad-hoc collaboration."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Huddles</td><td>Lightweight audio-first meetings with optional video</td></tr><tr><td>Participant limit</td><td>Up to 50 participants in a huddle</td></tr><tr><td>Multi-channel</td><td>Start huddles from any channel or DM</td></tr></tbody></table>
-        
+        <div class="talking-point">Slack Huddles provide lightweight, audio-first meetings directly within channels for quick ad-hoc collaboration.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Huddles</td><td>Lightweight audio-first meetings with optional video</td></tr><tr><td>Participant limit</td><td>Up to 50 participants in a huddle</td></tr><tr><td>Simultaneous video</td><td>Up to 25 participants can enable video at once</td></tr><tr><td>Multi-channel</td><td>Start huddles from any channel or DM</td></tr></tbody></table>
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://slack.com/features/huddles" target="_blank" rel="noopener">Slack Huddles</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
@@ -120,9 +125,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 30, 2021</span>
         </div>
-        <div class="talking-point">"Slack Huddles support screen sharing with drawing tools for quick collaborative review sessions."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Screen sharing</td><td>Share full screen or application window in huddles</td></tr><tr><td>Drawing tools</td><td>Cursor spotlight and drawing on shared screen</td></tr><tr><td>Multi-share</td><td>Multiple participants can share screens simultaneously</td></tr></tbody></table>
-        
+        <div class="talking-point">Slack Huddles support screen sharing with drawing tools for quick collaborative review sessions.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Screen sharing</td><td>Share full screen or application window in huddles</td></tr><tr><td>Drawing tools</td><td>Cursor spotlight and drawing on shared screen</td></tr><tr><td>Multi-share</td><td>Up to two participants can share screens simultaneously</td></tr></tbody></table>
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://slack.com/features/huddles" target="_blank" rel="noopener">Slack Huddles</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
@@ -132,13 +137,36 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Aug 14, 2013</span>
         </div>
-        <div class="talking-point">"Slack channels and threads are the backbone of modern team communication with thousands of app integrations."</div>
+        <div class="talking-point">Slack channels and threads are the backbone of modern team communication with thousands of app integrations.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Channels</td><td>Public and private channels for team communication</td></tr><tr><td>Threads</td><td>Threaded replies to keep conversations organized</td></tr><tr><td>Integrations</td><td>Thousands of third-party app integrations via Slack Marketplace</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://slack.com/features" target="_blank" rel="noopener">Slack Features</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Slack</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-slack/">Slack vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-slack/">Slack vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-slack/">Slack vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-slack/">Slack vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-slack/">Slack vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-slack/">Slack vs ClickMeeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-slack/">Slack vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/google-meet-vs-slack/">Slack vs Google Meet</a></li>
+            <li><a href="../../compare/goto-meeting-vs-slack/">Slack vs GoTo Meeting</a></li>
+            <li><a href="../../compare/jitsi-meet-vs-slack/">Slack vs Jitsi Meet</a></li>
+            <li><a href="../../compare/lark-vs-slack/">Slack vs Lark</a></li>
+            <li><a href="../../compare/lifesize-vs-slack/">Slack vs Lifesize</a></li>
+            <li><a href="../../compare/ms-teams-vs-slack/">Slack vs Microsoft Teams</a></li>
+            <li><a href="../../compare/ringcentral-video-vs-slack/">Slack vs RingCentral Video</a></li>
+            <li><a href="../../compare/skype-vs-slack/">Slack vs Skype</a></li>
+            <li><a href="../../compare/slack-vs-trueconf/">Slack vs TrueConf</a></li>
+            <li><a href="../../compare/slack-vs-webex-meetings/">Slack vs Webex Meetings</a></li>
+            <li><a href="../../compare/slack-vs-whereby/">Slack vs Whereby</a></li>
+            <li><a href="../../compare/slack-vs-zoho-meeting/">Slack vs Zoho Meeting</a></li>
+            <li><a href="../../compare/slack-vs-zoom-workplace/">Slack vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

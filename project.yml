@@ -31,7 +31,7 @@ entities:
         color: "#4fc3f7"
         color_light: "#0277bd"
       - name: collaboration
-        color: "#7c4dff"
+        color: "#5e35b1"
         color_light: "#4527a0"
       - name: management
         color: "#ff6e40"

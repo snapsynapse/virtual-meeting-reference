@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-03-25T00:00:00.000Z"
+    "generated": "2026-09-05T00:00:00.000Z"
   },
   "comparisons": [
     {
@@ -361,20 +361,19 @@
         "8x8-meet",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 3,
+      "shared_count": 0,
+      "only_a_count": 7,
       "only_b_count": 0
     },
     {
@@ -803,20 +802,19 @@
         "adobe-connect",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
         "polling",
+        "chat-messaging",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 3,
+      "shared_count": 0,
+      "only_a_count": 7,
       "only_b_count": 0
     },
     {
@@ -1219,18 +1217,17 @@
         "anymeeting",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
         "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
+        "chat-messaging",
         "polling"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 1,
+      "shared_count": 0,
+      "only_a_count": 5,
       "only_b_count": 0
     },
     {
@@ -1622,20 +1619,19 @@
         "bigbluebutton",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 3,
+      "shared_count": 0,
+      "only_a_count": 7,
       "only_b_count": 0
     },
     {
@@ -2002,21 +1998,20 @@
         "bluejeans",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 4,
+      "shared_count": 0,
+      "only_a_count": 8,
       "only_b_count": 0
     },
     {
@@ -2360,21 +2355,20 @@
         "clickmeeting",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 4,
+      "shared_count": 0,
+      "only_a_count": 8,
       "only_b_count": 0
     },
     {
@@ -2698,20 +2692,19 @@
         "dialpad-meetings",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
         "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
+        "chat-messaging",
         "whiteboard",
         "virtual-backgrounds",
         "ai-notetaker"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 3,
+      "shared_count": 0,
+      "only_a_count": 7,
       "only_b_count": 0
     },
     {
@@ -3021,21 +3014,20 @@
         "google-meet",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "virtual-backgrounds",
         "ai-notetaker"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 4,
+      "shared_count": 0,
+      "only_a_count": 8,
       "only_b_count": 0
     },
     {
@@ -3313,21 +3305,20 @@
         "goto-meeting",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 4,
+      "shared_count": 0,
+      "only_a_count": 8,
       "only_b_count": 0
     },
     {
@@ -3581,21 +3572,20 @@
         "jitsi-meet",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 4,
+      "shared_count": 0,
+      "only_a_count": 8,
       "only_b_count": 0
     },
     {
@@ -3829,22 +3819,21 @@
         "lark",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds",
         "ai-notetaker"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 5,
+      "shared_count": 0,
+      "only_a_count": 9,
       "only_b_count": 0
     },
     {
@@ -4046,18 +4035,17 @@
         "lifesize",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
         "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
+        "chat-messaging",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 1,
+      "shared_count": 0,
+      "only_a_count": 5,
       "only_b_count": 0
     },
     {
@@ -4246,22 +4234,21 @@
         "ms-teams",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "whiteboard",
         "polling",
         "virtual-backgrounds",
         "ai-notetaker"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 5,
+      "shared_count": 0,
+      "only_a_count": 9,
       "only_b_count": 0
     },
     {
@@ -4427,21 +4414,20 @@
         "ringcentral-video",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "whiteboard",
         "virtual-backgrounds",
         "ai-notetaker"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 4,
+      "shared_count": 0,
+      "only_a_count": 8,
       "only_b_count": 0
     },
     {
@@ -4584,18 +4570,17 @@
         "skype",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
         "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
+        "chat-messaging",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 1,
+      "shared_count": 0,
+      "only_a_count": 5,
       "only_b_count": 0
     },
     {
@@ -4714,18 +4699,16 @@
         "slack",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
         "chat-messaging"
       ],
-      "only_a": [],
-      "only_b": [
-        "recording"
-      ],
-      "shared_count": 3,
-      "only_a_count": 0,
-      "only_b_count": 1
+      "only_b": [],
+      "shared_count": 0,
+      "only_a_count": 3,
+      "only_b_count": 0
     },
     {
       "regulations": [
@@ -4821,21 +4804,20 @@
         "trueconf",
         "uberconference"
       ],
-      "shared_obligations": [
+      "shared_obligations": [],
+      "only_a": [
         "video-conferencing",
         "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
-      "only_a": [
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds"
       ],
       "only_b": [],
-      "shared_count": 4,
-      "only_a_count": 4,
+      "shared_count": 0,
+      "only_a_count": 8,
       "only_b_count": 0
     },
     {
@@ -4932,89 +4914,85 @@
         "uberconference",
         "webex-meetings"
       ],
-      "shared_obligations": [
-        "video-conferencing",
-        "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
+      "shared_obligations": [],
       "only_a": [],
       "only_b": [
+        "video-conferencing",
+        "screen-sharing",
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds",
         "ai-notetaker"
       ],
-      "shared_count": 4,
+      "shared_count": 0,
       "only_a_count": 0,
-      "only_b_count": 5
+      "only_b_count": 9
     },
     {
       "regulations": [
         "uberconference",
         "whereby"
       ],
-      "shared_obligations": [
-        "video-conferencing",
-        "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
+      "shared_obligations": [],
       "only_a": [],
       "only_b": [
+        "video-conferencing",
+        "screen-sharing",
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "virtual-backgrounds"
       ],
-      "shared_count": 4,
+      "shared_count": 0,
       "only_a_count": 0,
-      "only_b_count": 3
+      "only_b_count": 7
     },
     {
       "regulations": [
         "uberconference",
         "zoho-meeting"
       ],
-      "shared_obligations": [
-        "video-conferencing",
-        "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
+      "shared_obligations": [],
       "only_a": [],
       "only_b": [
+        "video-conferencing",
+        "screen-sharing",
         "breakout-rooms",
+        "recording",
+        "chat-messaging",
         "polling",
         "whiteboard",
         "virtual-backgrounds"
       ],
-      "shared_count": 4,
+      "shared_count": 0,
       "only_a_count": 0,
-      "only_b_count": 4
+      "only_b_count": 8
     },
     {
       "regulations": [
         "uberconference",
         "zoom-workplace"
       ],
-      "shared_obligations": [
-        "video-conferencing",
-        "screen-sharing",
-        "recording",
-        "chat-messaging"
-      ],
+      "shared_obligations": [],
       "only_a": [],
       "only_b": [
+        "video-conferencing",
+        "screen-sharing",
         "breakout-rooms",
+        "recording",
         "polling",
+        "chat-messaging",
         "whiteboard",
         "virtual-backgrounds",
         "ai-notetaker"
       ],
-      "shared_count": 4,
+      "shared_count": 0,
       "only_a_count": 0,
-      "only_b_count": 5
+      "only_b_count": 9
     },
     {
       "regulations": [

@@ -9,7 +9,7 @@ effective: 2013-08-14
 official_url: https://slack.com
 pricing_page: https://slack.com/pricing
 range: 2-50
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -28,7 +28,7 @@ last_verified: 2026-03-25
 |------|-------|-------|
 | Free | $0/mo | 1:1 huddles only |
 | Pro | $8.75/user/mo | Group huddles up to 50 |
-| Business+ | $12.50/user/mo | Group huddles up to 50 |
+| Business+ | $15/user/mo annually | $18 monthly; group huddles up to 50 |
 | Enterprise Grid | Custom | Custom pricing |
 
 ---
@@ -41,8 +41,8 @@ last_verified: 2026-03-25
 | Sections | Huddles |
 | Status | active |
 | Effective | 2021-06-30 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -50,11 +50,12 @@ last_verified: 2026-03-25
 |-------------|---------|
 | Huddles | Lightweight audio-first meetings with optional video |
 | Participant limit | Up to 50 participants in a huddle |
+| Simultaneous video | Up to 25 participants can enable video at once |
 | Multi-channel | Start huddles from any channel or DM |
 
-### Talking Point
+### Editorial Summary
 
-> "Slack Huddles provide lightweight, audio-first meetings directly within channels for quick ad-hoc collaboration."
+Slack Huddles provide lightweight, audio-first meetings directly within channels for quick ad-hoc collaboration.
 
 ### Sources
 
@@ -70,8 +71,8 @@ last_verified: 2026-03-25
 | Sections | Huddles |
 | Status | active |
 | Effective | 2021-06-30 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -79,11 +80,11 @@ last_verified: 2026-03-25
 |-------------|---------|
 | Screen sharing | Share full screen or application window in huddles |
 | Drawing tools | Cursor spotlight and drawing on shared screen |
-| Multi-share | Multiple participants can share screens simultaneously |
+| Multi-share | Up to two participants can share screens simultaneously |
 
-### Talking Point
+### Editorial Summary
 
-> "Slack Huddles support screen sharing with drawing tools for quick collaborative review sessions."
+Slack Huddles support screen sharing with drawing tools for quick collaborative review sessions.
 
 ### Sources
 
@@ -99,8 +100,8 @@ last_verified: 2026-03-25
 | Sections | Messaging |
 | Status | active |
 | Effective | 2013-08-14 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -110,9 +111,9 @@ last_verified: 2026-03-25
 | Threads | Threaded replies to keep conversations organized |
 | Integrations | Thousands of third-party app integrations via Slack Marketplace |
 
-### Talking Point
+### Editorial Summary
 
-> "Slack channels and threads are the backbone of modern team communication with thousands of app integrations."
+Slack channels and threads are the backbone of modern team communication with thousands of app integrations.
 
 ### Sources
 

@@ -3,13 +3,13 @@ name: Lifesize
 authority: enghouse
 market: Global
 type: platform
-status: limited
+status: active
 enacted: 2003-01-01
 effective: 2003-01-01
-official_url: https://www.lifesize.com
-pricing_page: https://www.lifesize.com/pricing
+official_url: https://enghousevideo.com/lifesize
+pricing_page: https://enghousevideo.com/video-conferencing-solutions/lifesize-cloud-enterprise-meeting-solutions
 range: 2-500
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -18,17 +18,15 @@ last_verified: 2026-03-25
 |-----------|------|-------|
 | Launch | 2003-01-01 | Founded as HD video conferencing hardware and software provider |
 | Cloud service launch | 2014-11-01 | Introduced cloud-based video conferencing alongside hardware |
-| Acquired by Enghouse | 2022-10-01 | Enghouse Systems acquired Lifesize |
-| Limited availability | 2023-01-01 | Platform transitioned to limited status under Enghouse |
+| Acquired by Enghouse | 2023-08-01 | Enghouse Systems completed its acquisition of Lifesize assets |
 
 ## Pricing
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Plus | $14.95/host/mo | 100 participants |
-| Enterprise | Custom | 500 participants |
+| Enterprise meeting solutions | Quote-based | Current packages and capacity are configured through Enghouse Video sales |
 
-*Note: Acquired by Enghouse.*
+*Note: Lifesize is currently marketed and supported by Enghouse Video.*
 
 ---
 
@@ -40,8 +38,8 @@ last_verified: 2026-03-25
 | Sections | Lifesize App |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -51,13 +49,13 @@ last_verified: 2026-03-25
 | Video quality | Up to 4K ultra-HD video with compatible hardware |
 | Hardware integration | Native integration with Lifesize room systems |
 
-### Talking Point
+### Editorial Summary
 
-> "Lifesize pioneered 4K video conferencing by combining purpose-built hardware with its cloud platform."
+Lifesize pioneered 4K video conferencing by combining purpose-built hardware with its cloud platform.
 
 ### Sources
 
-- [Lifesize](https://www.lifesize.com)
+- [Lifesize](https://enghousevideo.com/lifesize)
 
 ---
 
@@ -69,8 +67,8 @@ last_verified: 2026-03-25
 | Sections | Lifesize App |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -80,13 +78,13 @@ last_verified: 2026-03-25
 | Wireless sharing | Dedicated Lifesize Share device for one-touch presentation |
 | Dual display | Support for dual-screen presentation in conference rooms |
 
-### Talking Point
+### Editorial Summary
 
-> "Lifesize Share provides one-touch wireless screen sharing purpose-built for meeting room environments."
+Lifesize Share provides one-touch wireless screen sharing purpose-built for meeting room environments.
 
 ### Sources
 
-- [Lifesize](https://www.lifesize.com)
+- [Lifesize](https://enghousevideo.com/lifesize)
 
 ---
 
@@ -98,8 +96,8 @@ last_verified: 2026-03-25
 | Sections | Lifesize App |
 | Status | active |
 | Effective | 2014-11-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -109,13 +107,13 @@ last_verified: 2026-03-25
 | Storage | Unlimited recording storage on enterprise plans |
 | Sharing | Share recorded meetings via link |
 
-### Talking Point
+### Editorial Summary
 
-> "Lifesize offered unlimited cloud recording storage on enterprise plans, a differentiator for content-heavy organizations."
+Lifesize offered unlimited cloud recording storage on enterprise plans, a differentiator for content-heavy organizations.
 
 ### Sources
 
-- [Lifesize](https://www.lifesize.com)
+- [Lifesize](https://enghousevideo.com/lifesize)
 
 ---
 
@@ -127,8 +125,8 @@ last_verified: 2026-03-25
 | Sections | Lifesize App |
 | Status | active |
 | Effective | 2014-11-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -138,13 +136,13 @@ last_verified: 2026-03-25
 | Persistent chat | Team messaging channels outside of meetings |
 | File sharing | Share files within chat conversations |
 
-### Talking Point
+### Editorial Summary
 
-> "Lifesize integrated persistent team chat alongside its video platform to reduce reliance on third-party messaging tools."
+Lifesize integrated persistent team chat alongside its video platform to reduce reliance on third-party messaging tools.
 
 ### Sources
 
-- [Lifesize](https://www.lifesize.com)
+- [Lifesize](https://enghousevideo.com/lifesize)
 
 ---
 
@@ -156,8 +154,8 @@ last_verified: 2026-03-25
 | Sections | Lifesize App |
 | Status | active |
 | Effective | 2020-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -167,10 +165,10 @@ last_verified: 2026-03-25
 | Custom backgrounds | Upload custom background images |
 | Preset backgrounds | Built-in selection of virtual backgrounds |
 
-### Talking Point
+### Editorial Summary
 
-> "Lifesize added virtual backgrounds to its desktop and mobile apps to support the shift to remote work."
+Lifesize added virtual backgrounds to its desktop and mobile apps to support the shift to remote work.
 
 ### Sources
 
-- [Lifesize](https://www.lifesize.com)
+- [Lifesize](https://enghousevideo.com/lifesize)

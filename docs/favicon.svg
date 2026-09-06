@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Virtual Classroom Watch</title>
+  <rect width="64" height="64" rx="12" fill="#1a1a2e"/>
+  <path d="M13 17l10 30h8l5-16 5 16h8l10-30h-9l-5 18-5-18h-8l-5 18-5-18z" fill="#4fc3f7"/>
+</svg>

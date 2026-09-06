@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated": "2026-03-25T00:00:00.000Z",
-    "count": 157
+    "generated": "2026-09-05T00:00:00.000Z",
+    "count": 153
   },
   "items": [
     {
@@ -362,7 +362,7 @@
       "regulation": "webex-meetings",
       "authority": "cisco",
       "source_file": "data/examples/container/webex-meetings.md",
-      "source_heading": "Polling and Q&A"
+      "source_heading": "Polling"
     },
     {
       "id": "webex-whiteboard",
@@ -442,7 +442,7 @@
       "regulation": "goto-meeting",
       "authority": "goto",
       "source_file": "data/examples/container/goto-meeting.md",
-      "source_heading": "Polling and Q&A"
+      "source_heading": "Polling"
     },
     {
       "id": "goto-whiteboard",
@@ -452,7 +452,7 @@
       "regulation": "goto-meeting",
       "authority": "goto",
       "source_file": "data/examples/container/goto-meeting.md",
-      "source_heading": "Whiteboard"
+      "source_heading": "Screen Annotation"
     },
     {
       "id": "goto-virtual-backgrounds",
@@ -622,7 +622,7 @@
       "regulation": "clickmeeting",
       "authority": "clickmeeting",
       "source_file": "data/examples/container/clickmeeting.md",
-      "source_heading": "Polling and Q&A"
+      "source_heading": "Polling"
     },
     {
       "id": "clickmeeting-whiteboard",
@@ -1025,46 +1025,6 @@
       "source_heading": "Virtual Backgrounds"
     },
     {
-      "id": "uberconference-video-conferencing",
-      "obligations": [
-        "video-conferencing"
-      ],
-      "regulation": "uberconference",
-      "authority": "dialpad",
-      "source_file": "data/examples/container/uberconference.md",
-      "source_heading": "Video Conferencing"
-    },
-    {
-      "id": "uberconference-screen-sharing",
-      "obligations": [
-        "screen-sharing"
-      ],
-      "regulation": "uberconference",
-      "authority": "dialpad",
-      "source_file": "data/examples/container/uberconference.md",
-      "source_heading": "Screen Sharing"
-    },
-    {
-      "id": "uberconference-recording",
-      "obligations": [
-        "recording"
-      ],
-      "regulation": "uberconference",
-      "authority": "dialpad",
-      "source_file": "data/examples/container/uberconference.md",
-      "source_heading": "Recording and Transcription"
-    },
-    {
-      "id": "uberconference-chat",
-      "obligations": [
-        "chat-messaging"
-      ],
-      "regulation": "uberconference",
-      "authority": "dialpad",
-      "source_file": "data/examples/container/uberconference.md",
-      "source_heading": "Chat and Messaging"
-    },
-    {
       "id": "dialpad-video-conferencing",
       "obligations": [
         "video-conferencing"
@@ -1112,7 +1072,7 @@
       "regulation": "dialpad-meetings",
       "authority": "dialpad",
       "source_file": "data/examples/container/dialpad-meetings.md",
-      "source_heading": "Whiteboard"
+      "source_heading": "Miro Whiteboard Integration"
     },
     {
       "id": "dialpad-virtual-backgrounds",

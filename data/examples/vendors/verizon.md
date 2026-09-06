@@ -2,7 +2,7 @@
 id: verizon
 name: Verizon
 jurisdiction: Global
-website: https://www.verizon.com
+website: https://verizon.com
 ---
 
 ## Platforms

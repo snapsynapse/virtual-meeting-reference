@@ -67,7 +67,9 @@ last_verified: YYYY-MM-DD
 | Status | active |
 | Effective | 2013-01-01 |
 
-**Talking Point:** "Zoom supports up to 1,000 participants with HD video."
+**Editorial Summary:** Zoom supports up to 1,000 participants with eligible enterprise or capacity licensing.
+
+Editorial summaries are paraphrases. Do not use quotation marks or blockquote formatting unless the text is a verbatim, attributable quotation supported by a precise source.
 
 ### Requirements
 

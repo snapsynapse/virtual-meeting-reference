@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2019-04-01
 effective: 2019-04-01
-official_url: https://www.larksuite.com
-pricing_page: https://www.larksuite.com/pricing
+official_url: https://larksuite.com
+pricing_page: https://larksuite.com/en_us/plans
 range: 2-500
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -25,9 +25,10 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Starter | $0/mo | 50 users, basic features |
-| Pro | $12/user/mo | 500 participants, advanced admin |
-| Enterprise | Custom | Unlimited |
+| Starter | $0/mo | Up to 20 users; one-to-one meetings |
+| Basic | $6/user/mo | Annual billing; one-to-one meetings |
+| Pro | $12/user/mo | Annual billing; up to 500 meeting participants |
+| Enterprise | Custom | Up to 500 meeting participants |
 
 ---
 
@@ -39,24 +40,24 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2019-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Participant limit | Up to 500 participants on enterprise plans |
+| Participant limit | Up to 500 participants on Pro and Enterprise plans |
 | Video quality | HD video with adaptive bitrate |
 | Gallery view | Grid layout with multiple participants visible |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark integrates video meetings directly into its collaboration suite, making it seamless to jump from chat to call."
+Lark integrates video meetings directly into its collaboration suite, making it seamless to jump from chat to call.
 
 ### Sources
 
-- [Lark Video Conferencing](https://www.larksuite.com/en_us/product/video-conferencing)
+- [Lark Video Conferencing](https://larksuite.com/en_us/product/video-conferencing)
 
 ---
 
@@ -68,8 +69,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2019-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -79,13 +80,13 @@ last_verified: 2026-03-25
 | Magic Share | Share documents directly within the meeting for collaborative viewing |
 | Annotations | Participants can annotate shared content |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark's Magic Share feature allows document sharing within meetings without traditional screen sharing limitations."
+Lark's Magic Share feature allows document sharing within meetings without traditional screen sharing limitations.
 
 ### Sources
 
-- [Lark Meetings](https://www.larksuite.com/en_us/product/video-conferencing)
+- [Lark Meetings](https://larksuite.com/en_us/product/video-conferencing)
 
 ---
 
@@ -97,8 +98,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2021-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -108,13 +109,13 @@ last_verified: 2026-03-25
 | Assignment | Manual or automatic participant assignment |
 | Broadcast | Host can broadcast messages to all breakout rooms |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark breakout rooms support both pre-assigned and on-the-fly groupings for flexible workshop facilitation."
+Lark breakout rooms support both pre-assigned and on-the-fly groupings for flexible workshop facilitation.
 
 ### Sources
 
-- [Lark Meetings](https://www.larksuite.com/en_us/product/video-conferencing)
+- [Lark Meetings](https://larksuite.com/en_us/product/video-conferencing)
 
 ---
 
@@ -126,8 +127,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2019-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -137,13 +138,13 @@ last_verified: 2026-03-25
 | Auto-transcription | AI-generated transcripts with speaker identification |
 | Meeting minutes | Automated meeting summary and action items |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark automatically generates meeting minutes with action items, reducing post-meeting administrative overhead."
+Lark automatically generates meeting minutes with action items, reducing post-meeting administrative overhead.
 
 ### Sources
 
-- [Lark Meetings](https://www.larksuite.com/en_us/product/video-conferencing)
+- [Lark Meetings](https://larksuite.com/en_us/product/video-conferencing)
 
 ---
 
@@ -155,8 +156,8 @@ last_verified: 2026-03-25
 | Sections | Messenger |
 | Status | active |
 | Effective | 2019-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -166,13 +167,13 @@ last_verified: 2026-03-25
 | Lark Messenger | Persistent team messaging with threads and reactions |
 | Group chats | Topic-based group chats with file sharing and integrations |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark Messenger provides a unified chat experience tightly integrated with meetings, docs, and project tools."
+Lark Messenger provides a unified chat experience tightly integrated with meetings, docs, and project tools.
 
 ### Sources
 
-- [Lark Messenger](https://www.larksuite.com/en_us/product/messenger)
+- [Lark Messenger](https://larksuite.com/en_us/product/messenger)
 
 ---
 
@@ -184,8 +185,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -195,13 +196,13 @@ last_verified: 2026-03-25
 | Real-time results | Results displayed live during the meeting |
 | Export | Poll results exportable after the meeting |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark's in-meeting polling integrates with its broader survey and form tools for consistent data collection."
+Lark's in-meeting polling integrates with its broader survey and form tools for consistent data collection.
 
 ### Sources
 
-- [Lark Meetings](https://www.larksuite.com/en_us/product/video-conferencing)
+- [Lark Meetings](https://larksuite.com/en_us/product/video-conferencing)
 
 ---
 
@@ -213,8 +214,8 @@ last_verified: 2026-03-25
 | Sections | Meetings, Docs |
 | Status | active |
 | Effective | 2021-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -224,13 +225,13 @@ last_verified: 2026-03-25
 | Templates | Pre-built templates for brainstorming and planning |
 | Integration | Whiteboards accessible from meetings and Lark Docs |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark's whiteboard is natively embedded in the platform, accessible from both meetings and the document editor."
+Lark's whiteboard is natively embedded in the platform, accessible from both meetings and the document editor.
 
 ### Sources
 
-- [Lark Whiteboard](https://www.larksuite.com/en_us/product/whiteboard)
+- [Lark Whiteboard](https://larksuite.com/en_us/product/whiteboard)
 
 ---
 
@@ -242,8 +243,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2020-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -253,13 +254,13 @@ last_verified: 2026-03-25
 | Background blur | Adjustable blur intensity |
 | Virtual avatars | Avatar mode for camera-off participation |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark offers virtual avatars as an alternative to traditional backgrounds, allowing expressive camera-off participation."
+Lark offers virtual avatars as an alternative to traditional backgrounds, allowing expressive camera-off participation.
 
 ### Sources
 
-- [Lark Meetings](https://www.larksuite.com/en_us/product/video-conferencing)
+- [Lark Meetings](https://larksuite.com/en_us/product/video-conferencing)
 
 ---
 
@@ -271,8 +272,8 @@ last_verified: 2026-03-25
 | Sections | Minutes |
 | Status | active |
 | Effective | 2023-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -281,10 +282,10 @@ last_verified: 2026-03-25
 | Smart minutes | AI-powered meeting minutes with topic segmentation |
 | Action tracking | Automatic action item extraction linked to Lark Tasks |
 
-### Talking Point
+### Editorial Summary
 
-> "Lark Minutes AI segments meetings by topic and links extracted action items directly to Lark's task management system."
+Lark Minutes AI segments meetings by topic and links extracted action items directly to Lark's task management system.
 
 ### Sources
 
-- [Lark](https://www.larksuite.com)
+- [Lark](https://larksuite.com)

@@ -23,3 +23,6 @@ jobs:
 
       - name: Verify build succeeds
         run: node scripts/build.js
+
+      - name: Verify search contract
+        run: node scripts/check-search.mjs

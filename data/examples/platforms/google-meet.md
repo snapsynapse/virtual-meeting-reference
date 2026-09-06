@@ -8,8 +8,8 @@ enacted: 2017-03-09
 effective: 2017-03-09
 official_url: https://meet.google.com
 pricing_page: https://workspace.google.com/pricing
-range: 2-500
-last_verified: 2026-03-25
+range: 2-1,000
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -40,20 +40,20 @@ last_verified: 2026-03-25
 | Sections | Meet |
 | Status | active |
 | Effective | 2017-03-09 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Participant limit | Up to 500 participants (Enterprise) |
+| Participant limit | Up to 1,000 connections on Enterprise Plus and Enterprise Essentials Plus; connections after 500 are view-only |
 | Video quality | Up to 720p standard, 1080p on some plans |
 | Tiled layout | Auto-adjusting grid view |
 
-### Talking Point
+### Editorial Summary
 
-> "Google Meet leverages Google's global infrastructure for low-latency video delivery across regions."
+Google Meet leverages Google's global infrastructure for low-latency video delivery across regions.
 
 ### Sources
 
@@ -69,8 +69,8 @@ last_verified: 2026-03-25
 | Sections | Meet |
 | Status | active |
 | Effective | 2017-03-09 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -80,9 +80,9 @@ last_verified: 2026-03-25
 | Tab audio | Audio sharing when presenting a Chrome tab |
 | Co-presenting | Multiple participants can present sequentially |
 
-### Talking Point
+### Editorial Summary
 
-> "Google Meet's Chrome tab sharing with audio is particularly well-suited for sharing video content in presentations."
+Google Meet's Chrome tab sharing with audio is particularly well-suited for sharing video content in presentations.
 
 ### Sources
 
@@ -98,8 +98,8 @@ last_verified: 2026-03-25
 | Sections | Meet |
 | Status | active |
 | Effective | 2021-03-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -109,9 +109,9 @@ last_verified: 2026-03-25
 | Assignment | Automatic shuffle or manual assignment |
 | Timer | Configurable timer for breakout sessions |
 
-### Talking Point
+### Editorial Summary
 
-> "Google Meet supports up to 100 breakout rooms, the highest count among the major platforms."
+Google Meet supports up to 100 breakout rooms, the highest count among the major platforms.
 
 ### Sources
 
@@ -127,8 +127,8 @@ last_verified: 2026-03-25
 | Sections | Meet |
 | Status | active |
 | Effective | 2017-03-09 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -138,9 +138,9 @@ last_verified: 2026-03-25
 | Transcription | Automatic transcripts saved alongside recordings |
 | Live captions | Real-time captions in multiple languages |
 
-### Talking Point
+### Editorial Summary
 
-> "Meet recordings and transcripts are automatically saved to the organizer's Google Drive for easy sharing."
+Meet recordings and transcripts are automatically saved to the organizer's Google Drive for easy sharing.
 
 ### Sources
 
@@ -156,8 +156,8 @@ last_verified: 2026-03-25
 | Sections | Meet, Google Chat |
 | Status | active |
 | Effective | 2017-03-09 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -167,9 +167,9 @@ last_verified: 2026-03-25
 | Google Chat | Persistent team messaging via Google Chat (separate app) |
 | Spaces | Team collaboration spaces with topics and file sharing |
 
-### Talking Point
+### Editorial Summary
 
-> "Google Chat Spaces provide persistent team collaboration alongside Meet, integrated into the Workspace ecosystem."
+Google Chat Spaces provide persistent team collaboration alongside Meet, integrated into the Workspace ecosystem.
 
 ### Sources
 
@@ -185,8 +185,8 @@ last_verified: 2026-03-25
 | Sections | Meet |
 | Status | active |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -196,9 +196,9 @@ last_verified: 2026-03-25
 | Q&A | Structured Q&A with upvoting |
 | Results | Real-time results visible to host and participants |
 
-### Talking Point
+### Editorial Summary
 
-> "Meet's Q&A feature allows attendees to upvote questions, helping organizers prioritize audience inquiries."
+Meet's Q&A feature allows attendees to upvote questions, helping organizers prioritize audience inquiries.
 
 ### Sources
 
@@ -214,8 +214,8 @@ last_verified: 2026-03-25
 | Sections | Meet |
 | Status | active |
 | Effective | 2020-09-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -225,9 +225,9 @@ last_verified: 2026-03-25
 | Background blur | Slight and full blur options |
 | Video backgrounds | Animated background support |
 
-### Talking Point
+### Editorial Summary
 
-> "Google Meet added virtual backgrounds during the pandemic-driven remote work surge in late 2020."
+Google Meet added virtual backgrounds during the pandemic-driven remote work surge in late 2020.
 
 ### Sources
 
@@ -243,8 +243,8 @@ last_verified: 2026-03-25
 | Sections | Gemini |
 | Status | active |
 | Effective | 2024-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -253,9 +253,9 @@ last_verified: 2026-03-25
 | Take notes for me | AI-generated meeting notes shared via Google Docs |
 | Summary emails | Automatic summary emailed to attendees who missed the meeting |
 
-### Talking Point
+### Editorial Summary
 
-> "Google Meet's Gemini integration auto-generates notes in Google Docs, tightly coupled with the Workspace ecosystem."
+Google Meet's Gemini integration auto-generates notes in Google Docs, tightly coupled with the Workspace ecosystem.
 
 ### Sources
 

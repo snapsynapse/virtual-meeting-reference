@@ -7,9 +7,9 @@ status: active
 enacted: 2013-01-01
 effective: 2013-01-01
 official_url: https://whereby.com
-pricing_page: https://whereby.com/information/pricing
+pricing_page: https://whereby.com/information/meetings/pricing
 range: 2-200
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -25,9 +25,9 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Free | $0/mo | 100 participants, 45-min limit |
-| Pro | $8.99/mo | 200 participants, recording |
-| Business | $11.99/mo | 200 participants, branding |
+| Free | $0/mo | 4 attendees, 30-min limit, 1 room |
+| Pro | $10.99/mo | 100 attendees, unlimited duration, local recording |
+| Business | $13.99/host/mo | 200 attendees, minimum 3 hosts |
 
 ---
 
@@ -39,8 +39,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2013-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -50,9 +50,9 @@ last_verified: 2026-03-25
 | Video quality | HD video, browser-based with no download |
 | Room links | Persistent room URLs that can be reused |
 
-### Talking Point
+### Editorial Summary
 
-> "Whereby pioneered the no-download, browser-based meeting experience with simple persistent room links."
+Whereby pioneered the no-download, browser-based meeting experience with simple persistent room links.
 
 ### Sources
 
@@ -68,8 +68,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2013-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -79,9 +79,9 @@ last_verified: 2026-03-25
 | No plugin required | Screen sharing works natively in the browser |
 | Participant sharing | Any participant can share their screen |
 
-### Talking Point
+### Editorial Summary
 
-> "Whereby's screen sharing requires zero plugins or extensions, working entirely through browser-native APIs."
+Whereby's screen sharing requires zero plugins or extensions, working entirely through browser-native APIs.
 
 ### Sources
 
@@ -97,8 +97,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -108,9 +108,9 @@ last_verified: 2026-03-25
 | Manual assignment | Host assigns participants to groups |
 | Rejoin | Participants can return to the main room |
 
-### Talking Point
+### Editorial Summary
 
-> "Whereby added breakout groups to support workshops and collaborative sessions for its small-team user base."
+Whereby added breakout groups to support workshops and collaborative sessions for its small-team user base.
 
 ### Sources
 
@@ -126,20 +126,20 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Cloud recording | Recordings saved to Whereby cloud |
-| Local recording | Option to record locally via browser |
+| Local recording | Meeting recordings saved locally to the host device |
+| Cloud recording | Available for Whereby Embedded, not the Meetings product tracked here |
 | Recording indicator | Visual notification when recording is active |
 
-### Talking Point
+### Editorial Summary
 
-> "Whereby offers both cloud and local recording options, giving hosts flexibility in how they capture meetings."
+Whereby offers both cloud and local recording options, giving hosts flexibility in how they capture meetings.
 
 ### Sources
 
@@ -155,8 +155,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2013-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -166,9 +166,9 @@ last_verified: 2026-03-25
 | Emoji reactions | Quick emoji reactions during calls |
 | Chat history | Chat persists for the duration of the meeting |
 
-### Talking Point
+### Editorial Summary
 
-> "Whereby keeps in-meeting chat simple and lightweight, consistent with its minimal-friction design philosophy."
+Whereby keeps in-meeting chat simple and lightweight, consistent with its minimal-friction design philosophy.
 
 ### Sources
 
@@ -182,22 +182,21 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | polling |
 | Sections | Meetings |
-| Status | active |
+| Status | limited |
 | Effective | 2022-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Polls | In-meeting polls for quick audience feedback |
-| Real-time results | Results visible to host and participants |
-| Multiple choice | Support for multiple choice question format |
+| Native polling | Not listed for Whereby Meetings in the current official feature matrix |
+| Alternatives | Use chat, reactions, or an external polling tool |
 
-### Talking Point
+### Editorial Summary
 
-> "Whereby added polling to give small teams and embedded meeting experiences lightweight engagement tools."
+Whereby added polling to give small teams and embedded meeting experiences lightweight engagement tools.
 
 ### Sources
 
@@ -213,8 +212,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2021-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -224,9 +223,9 @@ last_verified: 2026-03-25
 | Background blur | Blur background to reduce visual distractions |
 | Browser-based | Virtual backgrounds processed entirely in the browser |
 
-### Talking Point
+### Editorial Summary
 
-> "Whereby processes virtual backgrounds client-side in the browser, requiring no server-side rendering."
+Whereby processes virtual backgrounds client-side in the browser, requiring no server-side rendering.
 
 ### Sources
 

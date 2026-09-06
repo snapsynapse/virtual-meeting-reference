@@ -6,15 +6,18 @@
     <title>ClickMeeting - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/clickmeeting/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="ClickMeeting — 8 provisions.">
     <meta property="og:title" content="ClickMeeting">
     <meta property="og:description" content="ClickMeeting — 8 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -84,16 +88,17 @@
         <div class="detail-header">
             <h2>ClickMeeting</h2>
             <div class="detail-meta">
-                <span><strong>Range:</strong> 2-1,000</span>
+                <span><strong>Range:</strong> 2-10,000</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Jan 1, 2011</span>
+                <span><strong>Vendor:</strong> <a href="../../authority/clickmeeting/">ClickMeeting</a></span>
                 <span><a href="https://clickmeeting.com" target="_blank" rel="noopener">Official source</a></span>
                 <span><a href="https://clickmeeting.com/pricing" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
         </div>
-        <div class="pricing-bar"><span class="price-tag"><strong>Live</strong>: $25/mo <span class="price-note">25 attendees</span></span>
-                <span class="price-tag"><strong>Automated</strong>: $40/mo <span class="price-note">Automated webinars</span></span>
-                <span class="price-tag"><strong>Enterprise</strong>: Custom <span class="price-note">1000 attendees</span></span></div>
+        <div class="pricing-bar"><span class="price-tag"><strong>Live</strong>: Capacity-based <span class="price-note">Meetings support 40 active participants; webinar price varies by tier</span></span>
+                <span class="price-tag"><strong>Automated</strong>: Capacity-based <span class="price-note">Automated webinar price varies by attendee tier</span></span>
+                <span class="price-tag"><strong>Custom</strong>: Quote-based <span class="price-note">Custom online events support up to 10,000 attendees</span></span></div>
         <h3>Features Covered</h3>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;">
             <a href="../primary/video-conferencing/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Video Conferencing</a> <a href="../primary/screen-sharing/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Screen Sharing</a> <a href="../primary/breakout-rooms/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Breakout Rooms</a> <a href="../primary/recording/index.html" onclick="passTheme(this)" class="group-badge management" style="text-decoration:none;">Recording and Transcription</a> <a href="../primary/chat-messaging/index.html" onclick="passTheme(this)" class="group-badge communication" style="text-decoration:none;">Chat and Messaging</a> <a href="../primary/polling/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Polling and Q&amp;A</a> <a href="../primary/whiteboard/index.html" onclick="passTheme(this)" class="group-badge collaboration" style="text-decoration:none;">Whiteboard</a> <a href="../primary/virtual-backgrounds/index.html" onclick="passTheme(this)" class="group-badge engagement" style="text-decoration:none;">Virtual Backgrounds</a>
@@ -107,9 +112,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2011</span>
         </div>
-        <div class="talking-point">"ClickMeeting supports up to 1,000 webinar attendees with a dedicated virtual classroom mode for education."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 1,000 attendees for webinars</td></tr><tr><td>HD video</td><td>720p video support</td></tr><tr><td>Edu mode</td><td>Virtual classroom layout optimized for teaching</td></tr></tbody></table>
-        
+        <div class="talking-point">ClickMeeting supports up to 1,000 webinar attendees with a dedicated virtual classroom mode for education.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>40 active participants in meetings; up to 1,000 for live webinars and 10,000 for Custom events</td></tr><tr><td>HD video</td><td>720p video support</td></tr><tr><td>Edu mode</td><td>Virtual classroom layout optimized for teaching</td></tr></tbody></table>
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
@@ -119,9 +124,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2011</span>
         </div>
-        <div class="talking-point">"ClickMeeting allows direct slide upload and presentation without requiring screen sharing of external apps."</div>
+        <div class="talking-point">ClickMeeting allows direct slide upload and presentation without requiring screen sharing of external apps.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Desktop sharing</td><td>Full screen or application window sharing</td></tr><tr><td>Presentation mode</td><td>Upload and present slides directly within the platform</td></tr><tr><td>Whiteboard overlay</td><td>Annotate over shared content</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
 <div class="provision-card" id="breakout-rooms">
@@ -131,9 +136,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2020</span>
         </div>
-        <div class="talking-point">"ClickMeeting breakout rooms support group activities during webinars and virtual classroom sessions."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room count</td><td>Multiple breakout rooms for group work</td></tr><tr><td>Assignment</td><td>Manual participant assignment by organizer</td></tr><tr><td>Controls</td><td>Timer and broadcast to all rooms</td></tr></tbody></table>
-        
+        <div class="talking-point">ClickMeeting breakout rooms support group activities during webinars and virtual classroom sessions.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room count</td><td>Up to 20 breakout rooms</td></tr><tr><td>Assignment</td><td>Up to 40 people per room on eligible Live and Automated plans</td></tr><tr><td>Controls</td><td>Timer and broadcast to all rooms</td></tr></tbody></table>
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
@@ -143,9 +148,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2011</span>
         </div>
-        <div class="talking-point">"ClickMeeting recordings can be shared as on-demand webinars, extending the reach of live events."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Automatic cloud recording of meetings and webinars</td></tr><tr><td>On-demand replay</td><td>Share recorded webinars as on-demand content</td></tr><tr><td>Storage</td><td>Cloud storage included in all paid plans</td></tr></tbody></table>
-        
+        <div class="talking-point">ClickMeeting recordings can be shared as on-demand webinars, extending the reach of live events.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Event recording and cloud storage on eligible plans; automatic recording is not universal</td></tr><tr><td>On-demand replay</td><td>Share recorded webinars as on-demand content</td></tr><tr><td>Storage</td><td>Cloud storage included in all paid plans</td></tr></tbody></table>
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
@@ -155,9 +160,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2011</span>
         </div>
-        <div class="talking-point">"ClickMeeting provides moderated chat and a dedicated Q&amp;A panel to manage audience interaction at scale."</div>
+        <div class="talking-point">ClickMeeting provides moderated chat and a dedicated Q&amp;A panel to manage audience interaction at scale.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>In-meeting chat</td><td>Public and private chat during events</td></tr><tr><td>Moderated chat</td><td>Hosts can moderate messages before they appear</td></tr><tr><td>Q&amp;A panel</td><td>Dedicated Q&amp;A panel for webinar attendees</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
 <div class="provision-card" id="polling">
@@ -167,9 +172,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2011</span>
         </div>
-        <div class="talking-point">"ClickMeeting polling is deeply integrated into the webinar flow with real-time results and post-event analytics."</div>
+        <div class="talking-point">ClickMeeting polling is deeply integrated into the webinar flow with real-time results and post-event analytics.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Poll types</td><td>Multiple choice, single choice, and survey polls</td></tr><tr><td>Live results</td><td>Display results to attendees in real time</td></tr><tr><td>Reports</td><td>Detailed polling analytics in post-event reports</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
 <div class="provision-card" id="whiteboard">
@@ -179,9 +184,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2015</span>
         </div>
-        <div class="talking-point">"ClickMeeting whiteboard integrates alongside presentation slides for interactive teaching and brainstorming."</div>
+        <div class="talking-point">ClickMeeting whiteboard integrates alongside presentation slides for interactive teaching and brainstorming.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Drawing tools</td><td>Freehand drawing, shapes, and text</td></tr><tr><td>Collaboration</td><td>Participants can draw on the shared whiteboard</td></tr><tr><td>Presentation integration</td><td>Whiteboard available alongside presentation slides</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
@@ -191,13 +196,36 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jan 1, 2021</span>
         </div>
-        <div class="talking-point">"ClickMeeting virtual backgrounds include custom branding options for professional webinar presentations."</div>
+        <div class="talking-point">ClickMeeting virtual backgrounds include custom branding options for professional webinar presentations.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Static backgrounds</td><td>Built-in backgrounds and custom image upload</td></tr><tr><td>Background blur</td><td>Blur effect for privacy</td></tr><tr><td>Branding</td><td>Custom branded backgrounds for webinar presenters</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://clickmeeting.com/features" target="_blank" rel="noopener">ClickMeeting</a></div>
     </div>
-    
-    </div>
+        <h3>Compare ClickMeeting</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-clickmeeting/">ClickMeeting vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-clickmeeting/">ClickMeeting vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-clickmeeting/">ClickMeeting vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-clickmeeting/">ClickMeeting vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-clickmeeting/">ClickMeeting vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-dialpad-meetings/">ClickMeeting vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/clickmeeting-vs-google-meet/">ClickMeeting vs Google Meet</a></li>
+            <li><a href="../../compare/clickmeeting-vs-goto-meeting/">ClickMeeting vs GoTo Meeting</a></li>
+            <li><a href="../../compare/clickmeeting-vs-jitsi-meet/">ClickMeeting vs Jitsi Meet</a></li>
+            <li><a href="../../compare/clickmeeting-vs-lark/">ClickMeeting vs Lark</a></li>
+            <li><a href="../../compare/clickmeeting-vs-lifesize/">ClickMeeting vs Lifesize</a></li>
+            <li><a href="../../compare/clickmeeting-vs-ms-teams/">ClickMeeting vs Microsoft Teams</a></li>
+            <li><a href="../../compare/clickmeeting-vs-ringcentral-video/">ClickMeeting vs RingCentral Video</a></li>
+            <li><a href="../../compare/clickmeeting-vs-skype/">ClickMeeting vs Skype</a></li>
+            <li><a href="../../compare/clickmeeting-vs-slack/">ClickMeeting vs Slack</a></li>
+            <li><a href="../../compare/clickmeeting-vs-trueconf/">ClickMeeting vs TrueConf</a></li>
+            <li><a href="../../compare/clickmeeting-vs-webex-meetings/">ClickMeeting vs Webex Meetings</a></li>
+            <li><a href="../../compare/clickmeeting-vs-whereby/">ClickMeeting vs Whereby</a></li>
+            <li><a href="../../compare/clickmeeting-vs-zoho-meeting/">ClickMeeting vs Zoho Meeting</a></li>
+            <li><a href="../../compare/clickmeeting-vs-zoom-workplace/">ClickMeeting vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

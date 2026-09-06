@@ -6,15 +6,18 @@
     <title>About - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/about.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -37,6 +40,7 @@
     <meta property="og:title" content="About">
     <meta property="og:description" content="About the Virtual Classroom Watch — how the data is structured, the JSON API, and how to contribute.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -73,10 +77,10 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
+    <main class="container" id="main-content">
         <div class="about-content">
         <h2 style="margin-top: 0.5rem;">About</h2>
-        <p>A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities. Tracks <strong>22 platforms</strong>, <strong>9 features</strong>, <strong>157 capabilitys</strong>, and <strong>20 vendors</strong>.</p>
+        <p>A structured reference tracking virtual meeting and classroom platforms, their vendors, and feature capabilities. Tracks <strong>22 platforms</strong>, <strong>9 features</strong>, <strong>153 capabilities</strong>, and <strong>20 vendors</strong>.</p>
         <h3>Data Model</h3>
         <p><strong>Vendor</strong> &rarr; <strong>Platform</strong> &rarr; <strong>Capability</strong> &rarr; <strong>Feature</strong></p>
         <p>Features are the stable anchors. Capabilitys are the implementations — different platforms supports the same features differently.</p>
@@ -89,7 +93,7 @@
         <h3>Contributing</h3>
         <p>See the <a href="https://github.com/snapsynapse/virtual-classroom-watch">repository</a> for contribution guidelines.</p>
     </div>
-    </div>
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>

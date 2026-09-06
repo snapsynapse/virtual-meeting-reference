@@ -290,7 +290,7 @@ function parseProvisionSection(section) {
         }).filter(Boolean);
     }
 
-    const talkMatch = trimmed.match(/### Talking Point\n\n> "([^"]+)"/);
+    const talkMatch = trimmed.match(/### Editorial Summary\n\n([^\n]+)/);
     if (talkMatch) provision.talking_point = talkMatch[1];
 
     return provision;
@@ -510,19 +510,23 @@ function renderPageShell(config, { title, activePage, prefix, content, descripti
     <title>${escapeHTML(title)} - ${escapeHTML(siteName)}</title>
     <meta name="theme-color" content="#1a1a2e">
     ${canonical}
+    <link rel="icon" href="${prefix}favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="${prefix}site.webmanifest">
+    <link rel="assistant-guide" href="${siteUrl}.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="${prefix}assets/styles.css">
     <style>${configCSS || ''}</style>
     <meta name="description" content="${escapeHTML(desc)}">
     <meta property="og:title" content="${escapeHTML(title)}">
     <meta property="og:description" content="${escapeHTML(desc)}">
-    <meta property="og:type" content="website">${jsonLd}
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="${siteUrl}imgs/og.png">${jsonLd}
     ${renderThemeInit()}
 </head>
 <body>
     ${renderSiteNav(config, activePage, prefix)}
-    <div class="container" id="main-content">
+    <main class="container" id="main-content">
         ${content}
-    </div>
+    </main>
     ${renderFooter(config)}
     <script src="${prefix}assets/search.js"></script>
     <script src="${prefix}assets/tables.js"></script>
@@ -544,20 +548,24 @@ function renderBridgeShell(config, { title, depth, content, description, canonic
     <title>${escapeHTML(title)} - ${escapeHTML(config.name || '')}</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="${siteUrl}${canonicalPath || ''}">
+    <link rel="icon" href="${prefix}favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="${prefix}site.webmanifest">
+    <link rel="assistant-guide" href="${siteUrl}.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="${prefix}assets/styles.css">
     <style>${configCSS || ''}</style>
     ${noindex ? '<meta name="robots" content="noindex">' : ''}
     <meta name="description" content="${escapeHTML(description || '')}">
     <meta property="og:title" content="${escapeHTML(title)}">
     <meta property="og:description" content="${escapeHTML(description || '')}">
-    <meta property="og:type" content="website">${jsonLd}
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="${siteUrl}imgs/og.png">${jsonLd}
     ${renderThemeInit()}
 </head>
 <body>
     ${renderSiteNav(config, 'none', prefix)}
-    <div class="container" id="main-content">
+    <main class="container" id="main-content">
         ${content}
-    </div>
+    </main>
     ${renderFooter(config)}
     <script src="${prefix}assets/search.js"></script>
     <script src="${prefix}assets/tables.js"></script>
@@ -597,11 +605,11 @@ function renderProvisionCard(prov) {
             ${prov.status ? `<span>${renderStatusBadge(prov.status)}</span>` : ''}
             ${prov.effective ? `<span><strong>Effective:</strong> ${formatDate(prov.effective)}</span>` : ''}
         </div>
-        ${prov.talking_point ? `<div class="talking-point">"${escapeHTML(prov.talking_point)}"</div>` : ''}
+        ${prov.talking_point ? `<div class="talking-point">${escapeHTML(prov.talking_point)}</div>` : ''}
         ${reqRows ? `<h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody>${reqRows}</tbody></table>` : ''}
         ${penRows ? `<h4>Penalties</h4><table class="data-table"><thead><tr><th>Violation</th><th>Fine</th></tr></thead><tbody>${penRows}</tbody></table>` : ''}
         ${sources ? `<div class="provision-sources"><strong>Sources:</strong> ${sources}</div>` : ''}
-    </div>`;
+    </div>`.replace(/[ \t]+$/gm, '');
 }
 
 // ---------------------------------------------------------------------------
@@ -693,9 +701,12 @@ function generateContainersPage(config, data, configCSS) {
     const cName = config.entities?.container?.name || 'Container';
     const cPlural = config.entities?.container?.plural || 'Containers';
     const statuses = [...new Set(containers.map(c => c.status).filter(Boolean))].sort();
+    const scopeField = config.entities?.container?.scope_field || config.bridges?.applies_to?.field;
+    const scopes = scopeField ? [...new Set(containers.map(c => c[scopeField]).filter(Boolean))] : [];
 
     const content = `
         <h2 style="margin-top: 0.5rem;">${escapeHTML(cPlural)}</h2>
+        ${scopes.length ? `<p>Browse by market: ${scopes.map(scope => `<a href="applies-to/${slugify(scope)}/">${escapeHTML(scope)}</a>`).join(', ')}.</p>` : ''}
         <div class="filters">
             <div class="filter-group">
                 <label for="statusFilter">Status</label>
@@ -881,12 +892,13 @@ function generateAboutPage(config, data, configCSS) {
     const cName = config.entities?.container?.name || 'Container';
     const cPlural = config.entities?.container?.plural || 'Containers';
     const secName = config.entities?.secondary?.name || 'Provision';
+    const secPlural = config.entities?.secondary?.plural || `${secName}s`;
     const authName = config.entities?.authority?.name || 'Authority';
     const rel = config.entities?.secondary?.relationship || 'implements';
 
     const content = `<div class="about-content">
         <h2 style="margin-top: 0.5rem;">About</h2>
-        <p>${escapeHTML(config.description || '')} Tracks <strong>${containers.length} ${cPlural.toLowerCase()}</strong>, <strong>${primaries.length} ${pPlural.toLowerCase()}</strong>, <strong>${totalProvisions} ${secName.toLowerCase()}s</strong>, and <strong>${authorities.length} ${authName.toLowerCase()}${authorities.length !== 1 ? 's' : ''}</strong>.</p>
+        <p>${escapeHTML(config.description || '')} Tracks <strong>${containers.length} ${cPlural.toLowerCase()}</strong>, <strong>${primaries.length} ${pPlural.toLowerCase()}</strong>, <strong>${totalProvisions} ${secPlural.toLowerCase()}</strong>, and <strong>${authorities.length} ${authName.toLowerCase()}${authorities.length !== 1 ? 's' : ''}</strong>.</p>
         <h3>Data Model</h3>
         <p><strong>${escapeHTML(authName)}</strong> &rarr; <strong>${escapeHTML(cName)}</strong> &rarr; <strong>${escapeHTML(secName)}</strong> &rarr; <strong>${escapeHTML(pName)}</strong></p>
         <p>${escapeHTML(pPlural)} are the stable anchors. ${escapeHTML(secName)}s are the implementations — different ${cPlural.toLowerCase()} ${rel} the same ${pPlural.toLowerCase()} differently.</p>
@@ -971,10 +983,11 @@ function generateFaqPage(config, data, configCSS) {
 // ---------------------------------------------------------------------------
 
 function generateContainerDetail(config, container, data, configCSS) {
-    const { primaries, mappingIndex, matrix } = data;
+    const { primaries, mappingIndex, comparisons } = data;
     const cPlural = config.entities?.container?.plural || 'Containers';
     const cProvisions = mappingIndex.filter(m => m.regulation === container.id);
     const cPrimaries = [...new Set(cProvisions.flatMap(m => m.obligations))];
+    const relatedComparisons = comparisons.filter(comp => comp.shared_count > 0 && comp.regulations.includes(container.id));
 
     const timelineRows = container.timeline.map(t => `<tr><td>${escapeHTML(t.milestone || '')}</td><td>${formatDate(t.date)}</td><td>${escapeHTML(t.notes || '')}</td></tr>`).join('');
 
@@ -986,6 +999,7 @@ function generateContainerDetail(config, container, data, configCSS) {
                 ${container.range ? `<span><strong>Range:</strong> ${escapeHTML(container.range)}</span>` : ''}
                 ${renderStatusBadge(container.status)}
                 ${container.effective ? `<span><strong>Effective:</strong> ${formatDate(container.effective)}</span>` : ''}
+                ${container.authority ? `<span><strong>Vendor:</strong> <a href="../../authority/${escapeHTML(container.authority)}/">${escapeHTML(data.authorities.find(item => item.id === container.authority)?.name || humanizeId(container.authority))}</a></span>` : ''}
                 ${container.official_url ? `<span><a href="${escapeHTML(container.official_url)}" target="_blank" rel="noopener">Official source</a></span>` : ''}
                 ${container.pricing_page ? `<span><a href="${escapeHTML(container.pricing_page)}" target="_blank" rel="noopener">Pricing page</a></span>` : ''}
             </div>
@@ -998,7 +1012,16 @@ function generateContainerDetail(config, container, data, configCSS) {
         ${timelineRows ? `<h3>Timeline</h3><table class="data-table"><thead><tr><th>Milestone</th><th>Date</th><th>Notes</th></tr></thead><tbody>${timelineRows}</tbody></table>` : ''}
         <h3>Provisions (${container.provisions.length})</h3>
         ${container.provisions.map(p => renderProvisionCard(p)).join('\n')}
-    `;
+        ${relatedComparisons.length ? `<h3>Compare ${escapeHTML(container.name)}</h3>
+        <ul class="compare-list">
+            ${relatedComparisons.map(comp => {
+                const [aId, bId] = comp.regulations;
+                const otherId = aId === container.id ? bId : aId;
+                const other = data.containers.find(item => item.id === otherId);
+                return `<li><a href="../../compare/${aId}-vs-${bId}/">${escapeHTML(container.name)} vs ${escapeHTML(other?.name || humanizeId(otherId))}</a></li>`;
+            }).join('\n            ')}
+        </ul>` : ''}
+    `.replace(/[ \t]+$/gm, '');
 
     return renderBridgeShell(config, { title: container.name, depth: 2, content, canonicalPath: `container/${container.id}/`, description: `${container.name} — ${container.provisions.length} provisions.`, configCSS });
 }
@@ -1050,7 +1073,16 @@ function generateAuthorityDetail(config, auth, data, configCSS) {
         </tbody></table>` : '<p style="color:var(--text-secondary);">None tracked.</p>'}
     `;
 
-    return renderBridgeShell(config, { title: auth.name || humanizeId(auth.id), depth: 2, content, canonicalPath: `authority/${auth.id}/`, configCSS });
+    const authorityName = auth.name || humanizeId(auth.id);
+    const platformCount = authContainers.length;
+    return renderBridgeShell(config, {
+        title: `${authorityName} Vendor`,
+        depth: 2,
+        content,
+        canonicalPath: `authority/${auth.id}/`,
+        description: `${authorityName} is the vendor for ${platformCount} tracked virtual meeting platform${platformCount === 1 ? '' : 's'}.`,
+        configCSS
+    });
 }
 
 // ---------------------------------------------------------------------------
@@ -1109,7 +1141,15 @@ function generateCompareBridge(config, cA, cB, comparison, data, configCSS) {
         </div>
     `;
 
-    return renderBridgeShell(config, { title: `${cA.name} vs ${cB.name}`, depth: 3, content, canonicalPath: `compare/${cA.id}-vs-${cB.id}/`, configCSS, noindex: comparison.shared_count === 0 });
+    return renderBridgeShell(config, {
+        title: `${cA.name} vs ${cB.name}`,
+        depth: 3,
+        content,
+        canonicalPath: `compare/${cA.id}-vs-${cB.id}/`,
+        description: `Compare ${cA.name} and ${cB.name} across tracked virtual meeting and classroom capabilities.`,
+        configCSS,
+        noindex: comparison.shared_count === 0
+    });
 }
 
 function generateAppliesToBridge(config, scopeValue, data, configCSS) {
@@ -1128,7 +1168,15 @@ function generateAppliesToBridge(config, scopeValue, data, configCSS) {
         <div style="margin-top: 2rem; text-align: center;"><a href="../../containers.html" onclick="passTheme(this)" class="bridge-cta">All ${escapeHTML((config.entities?.container?.plural || 'containers').toLowerCase())}</a></div>
     `;
 
-    return renderBridgeShell(config, { title: `${scopeValue}`, depth: 2, content, canonicalPath: `applies-to/${slugify(scopeValue)}/`, configCSS, noindex: scopeContainers.length === 0 });
+    return renderBridgeShell(config, {
+        title: `${scopeValue} Platforms`,
+        depth: 2,
+        content,
+        canonicalPath: `applies-to/${slugify(scopeValue)}/`,
+        description: `Browse ${scopeContainers.length} tracked virtual meeting and classroom platform${scopeContainers.length === 1 ? '' : 's'} available in ${scopeValue}.`,
+        configCSS,
+        noindex: scopeContainers.length === 0
+    });
 }
 
 // ---------------------------------------------------------------------------
@@ -1410,6 +1458,7 @@ function build() {
         '',
         `- [JSON API](${siteUrl}api/v1/index.json): Programmatic access to all data`,
         `- [agents.json](${siteUrl}agents.json): Agent discovery metadata`,
+        `- [Assistant Guide](${siteUrl}.well-known/assistant-guide.txt): bounded repository update and validation instructions`,
         `- [Sitemap](${siteUrl}sitemap.xml): All pages`,
         `- [RSS Feed](${siteUrl}index.xml): Recent updates`,
         ''
@@ -1475,7 +1524,9 @@ function build() {
             generated_by: 'knowledge-as-code build.js'
         }
     };
-    fs.writeFileSync(path.join(DOCS_DIR, 'agents.json'), JSON.stringify(agentsJson, null, 2) + '\n');
+    const agentsJsonText = JSON.stringify(agentsJson, null, 2) + '\n';
+    fs.writeFileSync(path.join(DOCS_DIR, 'agents.json'), agentsJsonText);
+    fs.writeFileSync(path.join(ROOT, 'agents.json'), agentsJsonText);
 
     // index.xml — RSS feed of platforms (most recently verified first)
     const sortedContainers = [...containers].sort((a, b) => (b.last_verified || '').localeCompare(a.last_verified || ''));
@@ -1507,6 +1558,14 @@ function build() {
     ].join('\n');
     fs.writeFileSync(path.join(DOCS_DIR, 'index.xml'), rssFeed);
 
+    // Portfolio-standard hosted assets and trust anchors.
+    const docsImages = path.join(DOCS_DIR, 'imgs');
+    ensureDir(docsImages);
+    fs.copyFileSync(path.join(ROOT, 'imgs', 'og.png'), path.join(docsImages, 'og.png'));
+    const wellKnown = path.join(DOCS_DIR, '.well-known');
+    ensureDir(wellKnown);
+    fs.copyFileSync(path.join(ROOT, 'assistant-guide.txt'), path.join(wellKnown, 'assistant-guide.txt'));
+
     // .nojekyll — prevent GitHub Pages from running Jekyll on output
     fs.writeFileSync(path.join(DOCS_DIR, '.nojekyll'), '');
 
@@ -1517,6 +1576,20 @@ function build() {
     const srcCSS = path.join(ROOT, 'docs', 'assets', 'styles.css');
     const srcSearch = path.join(ROOT, 'docs', 'assets', 'search.js');
     // These are already in docs/assets/ from the repo — no copy needed
+
+    // Keep generated text deterministic and compatible with diff hygiene checks.
+    const stripTrailingWhitespace = dir => {
+        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+            const target = path.join(dir, entry.name);
+            if (entry.isDirectory()) {
+                stripTrailingWhitespace(target);
+            } else if (/\.(?:css|html|js|json|txt|xml)$/.test(entry.name)) {
+                const content = fs.readFileSync(target, 'utf8');
+                fs.writeFileSync(target, content.replace(/[ \t]+$/gm, ''));
+            }
+        }
+    };
+    stripTrailingWhitespace(DOCS_DIR);
 
     const elapsed = Date.now() - startTime;
     const totalPages = 7 + containers.length + primaries.length + authorities.length + reqCount + cmpCount + appCount;

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "repository": "snapsynapse/virtual-classroom-watch",
+  "profile": [
+    "public",
+    "hosted",
+    "agent-facing"
+  ],
+  "visibility": "public",
+  "default_branch": "main",
+  "delete_branch_on_merge": true,
+  "merge_methods": {
+    "merge_commit": false,
+    "squash": true,
+    "rebase": false,
+    "auto_merge": false
+  },
+  "features": {
+    "issues": true,
+    "discussions": false,
+    "wiki": false,
+    "projects": false
+  },
+  "security": {
+    "advanced_security": null,
+    "secret_scanning": true,
+    "secret_scanning_push_protection": true,
+    "dependabot_alerts": null,
+    "dependabot_security_updates": null
+  },
+  "actions": null,
+  "pages": {
+    "enabled": true,
+    "build_type": "legacy",
+    "source_branch": "main",
+    "source_path": "/docs",
+    "https_enforced": true,
+    "custom_domain": "virtualclassroom.watch"
+  },
+  "rulesets": [],
+  "environments": [],
+  "custom_properties": {},
+  "exceptions": []
+}

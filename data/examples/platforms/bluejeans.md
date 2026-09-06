@@ -6,10 +6,9 @@ type: platform
 status: discontinued
 enacted: 2009-01-01
 effective: 2009-01-01
-official_url: https://www.bluejeans.com
-pricing_page: https://www.bluejeans.com/pricing
+official_url: https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf
 range: 2-500
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -19,16 +18,13 @@ last_verified: 2026-03-25
 | Launch | 2009-01-01 | Cloud-based interoperable video conferencing platform |
 | Primetime launch | 2018-05-01 | Interactive events platform for large-scale broadcasts |
 | Verizon acquisition | 2020-05-01 | Acquired by Verizon for approximately $400 million |
-| Verizon announces wind-down | 2024-08-01 | Service scheduled for discontinuation |
-| Service discontinued | 2024-10-31 | BlueJeans platform fully retired |
+| Cease to offer | 2023-08-08 | Verizon stopped offering BlueJeans to new customers |
 
 ## Pricing
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Basic | $9.99/host/mo | 25 participants |
-| Standard | $13.99/host/mo | 75 participants |
-| Pro | $16.66/host/mo | 150 participants |
+| Historical plans | Discontinued | Current pricing is not available |
 
 *Note: Service discontinued.*
 
@@ -42,8 +38,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings |
 | Status | discontinued |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -53,13 +49,13 @@ last_verified: 2026-03-25
 | Video quality | HD video with Dolby Voice spatial audio |
 | Interoperability | Native SIP/H.323 room system support |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans was known for its room system interoperability and Dolby Voice audio integration before discontinuation."
+BlueJeans was known for its room system interoperability and Dolby Voice audio integration before discontinuation.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)
 
 ---
 
@@ -71,8 +67,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings |
 | Status | discontinued |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -82,13 +78,13 @@ last_verified: 2026-03-25
 | Annotation | Annotation tools on shared content |
 | Remote desktop | Remote control for shared desktops |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans offered annotation and remote control features alongside standard screen sharing capabilities."
+BlueJeans offered annotation and remote control features alongside standard screen sharing capabilities.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)
 
 ---
 
@@ -100,8 +96,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings |
 | Status | discontinued |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -111,13 +107,13 @@ last_verified: 2026-03-25
 | Assignment | Automatic or manual participant assignment |
 | Host controls | Host can move between breakout rooms |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans added breakout rooms as part of its feature expansion before Verizon's decision to wind down the service."
+BlueJeans added breakout rooms as part of its feature expansion before Verizon's decision to wind down the service.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)
 
 ---
 
@@ -129,8 +125,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings |
 | Status | discontinued |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -140,13 +136,13 @@ last_verified: 2026-03-25
 | Highlights | AI-generated meeting highlights and chapters |
 | Sharing | Shareable recording links with access controls |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans offered AI-generated meeting highlights and chapters, ahead of many competitors in smart recording."
+BlueJeans offered AI-generated meeting highlights and chapters, ahead of many competitors in smart recording.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)
 
 ---
 
@@ -158,8 +154,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings |
 | Status | discontinued |
 | Effective | 2009-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -169,13 +165,13 @@ last_verified: 2026-03-25
 | File sharing | Share files in meeting chat |
 | Private messaging | Direct messages between participants |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans provided standard in-meeting chat with private messaging between individual participants."
+BlueJeans provided standard in-meeting chat with private messaging between individual participants.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)
 
 ---
 
@@ -187,8 +183,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings, BlueJeans Events |
 | Status | discontinued |
 | Effective | 2018-05-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -198,13 +194,13 @@ last_verified: 2026-03-25
 | Q&A | Structured Q&A for BlueJeans Events |
 | Moderation | Host moderation of questions and poll timing |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans Events (Primetime) offered robust polling and Q&A for large-scale interactive broadcasts."
+BlueJeans Events (Primetime) offered robust polling and Q&A for large-scale interactive broadcasts.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)
 
 ---
 
@@ -216,8 +212,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings |
 | Status | discontinued |
 | Effective | 2022-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -227,13 +223,13 @@ last_verified: 2026-03-25
 | Collaboration | Multi-user whiteboard collaboration |
 | Export | Save whiteboard content for later reference |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans added collaborative whiteboarding as part of late-stage feature parity efforts with competitors."
+BlueJeans added collaborative whiteboarding as part of late-stage feature parity efforts with competitors.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)
 
 ---
 
@@ -245,8 +241,8 @@ last_verified: 2026-03-25
 | Sections | BlueJeans Meetings |
 | Status | discontinued |
 | Effective | 2020-09-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -256,10 +252,10 @@ last_verified: 2026-03-25
 | Background blur | Background blur with adjustable levels |
 | Noise cancellation | AI-powered background noise cancellation |
 
-### Talking Point
+### Editorial Summary
 
-> "BlueJeans combined virtual backgrounds with Dolby-powered noise cancellation for a polished meeting experience."
+BlueJeans combined virtual backgrounds with Dolby-powered noise cancellation for a polished meeting experience.
 
 ### Sources
 
-- [BlueJeans](https://www.bluejeans.com)
+- [BlueJeans](https://verizon.com/business/service_guide/reg/bluejeans_by_verizon_2023SEP01_mk.pdf)

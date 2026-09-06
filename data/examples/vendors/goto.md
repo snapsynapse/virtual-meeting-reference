@@ -2,7 +2,7 @@
 id: goto
 name: GoTo
 jurisdiction: Global
-website: https://www.goto.com
+website: https://goto.com
 ---
 
 ## Platforms

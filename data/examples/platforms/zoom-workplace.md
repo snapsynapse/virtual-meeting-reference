@@ -9,7 +9,7 @@ effective: 2013-01-01
 official_url: https://zoom.us
 pricing_page: https://zoom.us/pricing
 range: 2-1,000
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -29,7 +29,7 @@ last_verified: 2026-03-25
 | Free | $0/mo | 40-min limit on group meetings |
 | Pro | $13.33/mo | 30-hr meetings, 100 participants |
 | Business | $18.33/mo | 300 participants |
-| Enterprise | Custom | 1000 participants |
+| Enterprise | Custom | Up to 1,000 with an eligible enterprise arrangement or Large Meeting capacity |
 
 ---
 
@@ -41,8 +41,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2013-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -52,9 +52,9 @@ last_verified: 2026-03-25
 | HD video | 720p and 1080p support depending on plan |
 | Virtual backgrounds | Built-in and custom image/video backgrounds |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom supports up to 1,000 video participants and 49 on-screen in gallery view on paid plans."
+Zoom supports 100 participants on Basic and Pro, 300 on Business, and up to 1,000 with eligible enterprise or Large Meeting capacity.
 
 ### Sources
 
@@ -70,8 +70,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2013-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -81,9 +81,9 @@ last_verified: 2026-03-25
 | Annotation | Drawing tools on shared content |
 | Remote control | Grant remote control to participants |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom allows simultaneous screen sharing from multiple participants, a differentiator for collaborative workflows."
+Zoom allows simultaneous screen sharing from multiple participants, a differentiator for collaborative workflows.
 
 ### Sources
 
@@ -99,8 +99,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -110,9 +110,9 @@ last_verified: 2026-03-25
 | Assignment | Automatic, manual, or participant self-select |
 | Controls | Broadcast, timer, and help request |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom supports up to 50 breakout rooms with self-select capability, making it a strong choice for classroom settings."
+Zoom supports up to 50 breakout rooms with self-select capability, making it a strong choice for classroom settings.
 
 ### Sources
 
@@ -128,8 +128,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2013-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -139,9 +139,9 @@ last_verified: 2026-03-25
 | Local recording | Available on all plans |
 | AI transcription | Automatic meeting summary and chapters |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom AI Companion generates meeting summaries, action items, and smart chapters from cloud recordings."
+Zoom's current AI assistant offering generates meeting summaries, action items, and smart chapters for eligible accounts.
 
 ### Sources
 
@@ -157,8 +157,8 @@ last_verified: 2026-03-25
 | Sections | Meetings, Webinars |
 | Status | active |
 | Effective | 2020-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -168,9 +168,9 @@ last_verified: 2026-03-25
 | Q&A | Structured Q&A with upvoting in webinars |
 | Quizzes | Quiz mode with correct answer marking |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom polls support advanced quiz mode, allowing hosts to mark correct answers and share results live."
+Zoom polls support advanced quiz mode, allowing hosts to mark correct answers and share results live.
 
 ### Sources
 
@@ -186,8 +186,8 @@ last_verified: 2026-03-25
 | Sections | Team Chat |
 | Status | active |
 | Effective | 2013-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -197,9 +197,9 @@ last_verified: 2026-03-25
 | Team Chat | Persistent channels with file sharing |
 | Threads | Threaded replies and message reactions |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom Team Chat provides persistent messaging channels that integrate directly with Zoom Meetings."
+Zoom Team Chat provides persistent messaging channels that integrate directly with Zoom Meetings.
 
 ### Sources
 
@@ -215,8 +215,8 @@ last_verified: 2026-03-25
 | Sections | Zoom Whiteboard |
 | Status | active |
 | Effective | 2022-04-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -226,9 +226,9 @@ last_verified: 2026-03-25
 | Templates | Pre-built brainstorming and planning templates |
 | Persistence | Boards saved and accessible outside meetings |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom Whiteboard offers persistent collaborative canvases with templates, usable in and out of meetings."
+Zoom Whiteboard offers persistent collaborative canvases with templates, usable in and out of meetings.
 
 ### Sources
 
@@ -244,8 +244,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2016-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -255,9 +255,9 @@ last_verified: 2026-03-25
 | Video backgrounds | Animated and video loop backgrounds |
 | Background blur | Adjustable blur intensity |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom was among the first to offer virtual backgrounds without a green screen, driving mainstream adoption."
+Zoom was among the first to offer virtual backgrounds without a green screen, driving mainstream adoption.
 
 ### Sources
 
@@ -270,11 +270,11 @@ last_verified: 2026-03-25
 | Property | Value |
 |----------|-------|
 | Obligation | ai-notetaker |
-| Sections | AI Companion |
+| Sections | ZoomMate and Zoom AI features |
 | Status | active |
 | Effective | 2023-09-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -283,9 +283,9 @@ last_verified: 2026-03-25
 | Meeting summary | Auto-generated summary with key topics and next steps |
 | Action items | AI-extracted action items sent to participants |
 
-### Talking Point
+### Editorial Summary
 
-> "Zoom AI Companion is included at no extra cost across paid plans, generating summaries, action items, and smart chapters."
+Zoom's current AI assistant packaging varies by account and plan; eligible accounts can generate summaries and action items.
 
 ### Sources
 

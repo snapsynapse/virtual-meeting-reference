@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2018-01-01
 effective: 2018-01-01
-official_url: https://www.8x8.com/products/video-conferencing
-pricing_page: https://www.8x8.com/products/plans-and-pricing
+official_url: https://8x8.com/products/video-conferencing
+pricing_page: https://8x8.com/products/plans-and-pricing
 range: 2-500
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -25,9 +25,7 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| X2 | $24/user/mo | 500 participants, recording |
-| X4 | $44/user/mo | 500 participants, supervisor analytics |
-| X6 | $85/user/mo | Contact center features |
+| Business communications plans | Quote-based | Current US pricing requires a sales quote; meetings support up to 500 active participants |
 
 ---
 
@@ -39,8 +37,8 @@ last_verified: 2026-03-25
 | Sections | 8x8 Meet |
 | Status | active |
 | Effective | 2018-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -50,13 +48,13 @@ last_verified: 2026-03-25
 | Video quality | HD video with adaptive bitrate |
 | Layout options | Gallery view, speaker view, and presentation mode |
 
-### Talking Point
+### Editorial Summary
 
-> "8x8 Meet is part of the 8x8 X Series UCaaS platform, combining voice, video, and chat in a single app."
+8x8 Meet is part of the 8x8 X Series UCaaS platform, combining voice, video, and chat in a single app.
 
 ### Sources
 
-- [8x8 Meet](https://www.8x8.com/products/video-conferencing)
+- [8x8 Meet](https://8x8.com/products/video-conferencing)
 
 ---
 
@@ -68,8 +66,8 @@ last_verified: 2026-03-25
 | Sections | 8x8 Meet |
 | Status | active |
 | Effective | 2018-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -79,13 +77,13 @@ last_verified: 2026-03-25
 | Annotation | Remote annotation on shared content |
 | Bandwidth optimization | Adaptive quality for screen sharing |
 
-### Talking Point
+### Editorial Summary
 
-> "8x8 Meet screen sharing integrates seamlessly with the broader 8x8 Work unified communications experience."
+8x8 Meet screen sharing integrates seamlessly with the broader 8x8 Work unified communications experience.
 
 ### Sources
 
-- [8x8 Meet](https://www.8x8.com/products/video-conferencing)
+- [8x8 Meet](https://8x8.com/products/video-conferencing)
 
 ---
 
@@ -97,8 +95,8 @@ last_verified: 2026-03-25
 | Sections | 8x8 Meet |
 | Status | active |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -108,13 +106,13 @@ last_verified: 2026-03-25
 | Assignment | Manual or automatic participant distribution |
 | Host controls | Host can move between rooms and broadcast messages |
 
-### Talking Point
+### Editorial Summary
 
-> "8x8 Meet breakout rooms support collaborative workshops within the unified 8x8 Work platform."
+8x8 Meet breakout rooms support collaborative workshops within the unified 8x8 Work platform.
 
 ### Sources
 
-- [8x8 Meet](https://www.8x8.com/products/video-conferencing)
+- [8x8 Meet](https://8x8.com/products/video-conferencing)
 
 ---
 
@@ -126,8 +124,8 @@ last_verified: 2026-03-25
 | Sections | 8x8 Meet |
 | Status | active |
 | Effective | 2018-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -137,13 +135,13 @@ last_verified: 2026-03-25
 | Transcription | AI-powered meeting transcription |
 | Playback | In-app playback and download options |
 
-### Talking Point
+### Editorial Summary
 
-> "8x8 Meet provides AI-powered transcription alongside cloud recording for searchable meeting archives."
+8x8 Meet provides AI-powered transcription alongside cloud recording for searchable meeting archives.
 
 ### Sources
 
-- [8x8 Meet](https://www.8x8.com/products/video-conferencing)
+- [8x8 Meet](https://8x8.com/products/video-conferencing)
 
 ---
 
@@ -155,8 +153,8 @@ last_verified: 2026-03-25
 | Sections | 8x8 Meet, 8x8 Work |
 | Status | active |
 | Effective | 2018-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -166,13 +164,13 @@ last_verified: 2026-03-25
 | Team messaging | Persistent team chat via 8x8 Work |
 | File sharing | Share files in chat during and outside meetings |
 
-### Talking Point
+### Editorial Summary
 
-> "8x8 Work unifies in-meeting chat with persistent team messaging in a single application."
+8x8 Work unifies in-meeting chat with persistent team messaging in a single application.
 
 ### Sources
 
-- [8x8 Meet](https://www.8x8.com/products/video-conferencing)
+- [8x8 Meet](https://8x8.com/products/video-conferencing)
 
 ---
 
@@ -184,8 +182,8 @@ last_verified: 2026-03-25
 | Sections | 8x8 Meet |
 | Status | active |
 | Effective | 2021-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -195,13 +193,13 @@ last_verified: 2026-03-25
 | Question types | Multiple choice polling |
 | Results | Real-time results visible to host |
 
-### Talking Point
+### Editorial Summary
 
-> "8x8 Meet polling helps drive engagement in large meetings and company-wide town halls."
+8x8 Meet polling helps drive engagement in large meetings and company-wide town halls.
 
 ### Sources
 
-- [8x8 Meet](https://www.8x8.com/products/video-conferencing)
+- [8x8 Meet](https://8x8.com/products/video-conferencing)
 
 ---
 
@@ -213,8 +211,8 @@ last_verified: 2026-03-25
 | Sections | 8x8 Meet |
 | Status | active |
 | Effective | 2020-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -224,10 +222,10 @@ last_verified: 2026-03-25
 | Background blur | Adjustable blur intensity |
 | Preview | Preview background before joining |
 
-### Talking Point
+### Editorial Summary
 
-> "8x8 Meet virtual backgrounds include customizable blur levels for flexible privacy options."
+8x8 Meet virtual backgrounds include customizable blur levels for flexible privacy options.
 
 ### Sources
 
-- [8x8 Meet](https://www.8x8.com/products/video-conferencing)
+- [8x8 Meet](https://8x8.com/products/video-conferencing)

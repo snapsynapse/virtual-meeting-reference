@@ -18,7 +18,9 @@
 
 5. **Build**: `node scripts/build.js`
 
-6. **Submit a PR** with your changes
+6. **Check search surfaces**: `node scripts/check-search.mjs`
+
+7. **Submit a PR** with your changes
 
 ## Adding a New Feature
 

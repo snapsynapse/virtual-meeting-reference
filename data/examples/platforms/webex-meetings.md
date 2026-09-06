@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2007-05-01
 effective: 2007-05-01
-official_url: https://www.webex.com
-pricing_page: https://www.webex.com/pricing.html
+official_url: https://webex.com
+pricing_page: https://webex.com/pricing.html
 range: 2-1,000
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -26,10 +26,8 @@ last_verified: 2026-03-25
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Free | $0/mo | 40-min meetings, 100 participants |
-| Starter | $14.50/mo | 24-hr meetings, 150 participants |
-| Business | $25/mo | 200 participants, recording |
-| Enterprise | Custom | 1000 participants |
+| Free | Verify current offer | Plan details vary by market |
+| Paid plans | Quote or market-specific | Verify current price, capacity, and entitlements directly with Webex |
 
 ---
 
@@ -41,8 +39,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2007-05-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -52,13 +50,13 @@ last_verified: 2026-03-25
 | HD video | 720p and 1080p support |
 | Noise removal | AI-powered background noise suppression |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex supports up to 1,000 participants per meeting and 81 on-screen in grid view on enterprise plans."
+Webex supports up to 1,000 participants per meeting and 81 on-screen in grid view on enterprise plans.
 
 ### Sources
 
-- [Webex Meetings](https://www.webex.com/video-conferencing)
+- [Webex Meetings](https://webex.com/video-conferencing)
 
 ---
 
@@ -70,8 +68,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2007-05-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -81,13 +79,13 @@ last_verified: 2026-03-25
 | Annotation | Drawing and annotation tools on shared content |
 | Remote control | Host can grant remote desktop control to participants |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex screen sharing includes built-in annotation tools and remote control for technical support scenarios."
+Webex screen sharing includes built-in annotation tools and remote control for technical support scenarios.
 
 ### Sources
 
-- [Webex Meetings](https://www.webex.com/video-conferencing)
+- [Webex Meetings](https://webex.com/video-conferencing)
 
 ---
 
@@ -99,8 +97,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2020-09-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -110,9 +108,9 @@ last_verified: 2026-03-25
 | Assignment | Pre-assign or auto-assign participants |
 | Controls | Broadcast messages, set timers, and move between rooms |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex supports up to 100 breakout sessions with pre-assignment capabilities for large training events."
+Webex supports up to 100 breakout sessions with pre-assignment capabilities for large training events.
 
 ### Sources
 
@@ -128,8 +126,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2007-05-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -139,13 +137,13 @@ last_verified: 2026-03-25
 | Local recording | Available for desktop client users |
 | Transcription | Automated meeting transcripts with speaker attribution |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex cloud recordings include automated transcription and AI-generated meeting highlights."
+Webex cloud recordings include automated transcription and AI-generated meeting highlights.
 
 ### Sources
 
-- [Webex Recording](https://www.webex.com/video-conferencing)
+- [Webex Recording](https://webex.com/video-conferencing)
 
 ---
 
@@ -157,8 +155,8 @@ last_verified: 2026-03-25
 | Sections | Messaging |
 | Status | active |
 | Effective | 2007-05-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -168,13 +166,13 @@ last_verified: 2026-03-25
 | Persistent messaging | Spaces with threaded conversations and file sharing |
 | Integrations | Connects to third-party tools via app hub |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex Messaging provides persistent spaces that carry context before and after meetings."
+Webex Messaging provides persistent spaces that carry context before and after meetings.
 
 ### Sources
 
-- [Webex Messaging](https://www.webex.com/team-collaboration)
+- [Webex Messaging](https://webex.com/team-collaboration)
 
 ---
 
@@ -186,8 +184,8 @@ last_verified: 2026-03-25
 | Sections | Meetings, Webinars |
 | Status | active |
 | Effective | 2021-10-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -197,13 +195,13 @@ last_verified: 2026-03-25
 | Poll types | Multiple choice, word cloud, rating, open text, and quizzes |
 | Analytics | Real-time results and post-meeting polling reports |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex integrates Slido natively, providing advanced polling including word clouds and quizzes without a separate app."
+Webex integrates Slido natively, providing advanced polling including word clouds and quizzes without a separate app.
 
 ### Sources
 
-- [Webex Slido Integration](https://www.webex.com/slido)
+- [Webex Slido Integration](https://webex.com/slido)
 
 ---
 
@@ -215,8 +213,8 @@ last_verified: 2026-03-25
 | Sections | Whiteboarding |
 | Status | active |
 | Effective | 2021-03-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -226,13 +224,13 @@ last_verified: 2026-03-25
 | Templates | Pre-built templates for brainstorming and workflows |
 | Persistence | Whiteboards saved and accessible outside meetings |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex Whiteboard offers a persistent collaborative canvas with templates, usable in and outside meetings."
+Webex Whiteboard offers a persistent collaborative canvas with templates, usable in and outside meetings.
 
 ### Sources
 
-- [Webex Whiteboard](https://www.webex.com/whiteboard)
+- [Webex Whiteboard](https://webex.com/whiteboard)
 
 ---
 
@@ -244,8 +242,8 @@ last_verified: 2026-03-25
 | Sections | Meetings |
 | Status | active |
 | Effective | 2020-06-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -255,9 +253,9 @@ last_verified: 2026-03-25
 | Background blur | Adjustable blur effect |
 | Immersive sharing | Place presenter video over shared content |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex virtual backgrounds include immersive share mode, placing the presenter directly into the presentation."
+Webex virtual backgrounds include immersive share mode, placing the presenter directly into the presentation.
 
 ### Sources
 
@@ -273,8 +271,8 @@ last_verified: 2026-03-25
 | Sections | AI Assistant |
 | Status | active |
 | Effective | 2024-03-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -283,10 +281,10 @@ last_verified: 2026-03-25
 | Meeting summary | AI-generated post-meeting summary with key decisions |
 | Real-time suggestions | In-meeting AI suggestions for action items and follow-ups |
 
-### Talking Point
+### Editorial Summary
 
-> "Webex AI Assistant generates real-time meeting summaries and can catch up latecomers with contextual recaps."
+Webex AI Assistant generates real-time meeting summaries and can catch up latecomers with contextual recaps.
 
 ### Sources
 
-- [Webex Meetings](https://www.webex.com)
+- [Webex Meetings](https://webex.com)

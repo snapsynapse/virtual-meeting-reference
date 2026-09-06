@@ -6,10 +6,10 @@ type: platform
 status: active
 enacted: 2003-01-01
 effective: 2003-01-01
-official_url: https://www.adobe.com/products/adobeconnect.html
-pricing_page: https://www.adobe.com/products/adobeconnect/pricing.html
+official_url: https://adobe.com/products/adobeconnect.html
+pricing_page: https://adobe.com/products/adobeconnect/pricing.html
 range: 2-1,500
-last_verified: 2026-03-25
+last_verified: 2026-09-05
 ---
 
 ## Timeline
@@ -18,15 +18,17 @@ last_verified: 2026-03-25
 |-----------|------|-------|
 | Launch as Macromedia Breeze | 2003-01-01 | Web conferencing and eLearning platform |
 | Adobe acquisition | 2005-12-03 | Adobe acquires Macromedia, rebrands to Adobe Connect |
-| Adobe Connect 12 | 2022-10-01 | Major update with modern UI and WebRTC support |
+| Adobe Connect 12 hosted rollout | 2022-07-12 | Hosted rollout of the WebRTC-based architecture began |
+| Adobe Connect 12 on-premises | 2022-09-15 | On-premises release became available |
 
 ## Pricing
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| Named Host | $50/mo | 25 participants |
-| Shared Host | $130/mo | 100 participants |
-| Enterprise | Custom | 1500 participants |
+| Standard | $190/host/year | Base capacity 100 participants |
+| Premium | $290/host/year | Base capacity 100 participants |
+| Enterprise | $390/host/year | Base capacity 300 participants |
+| Capacity upgrades | From $2,200/year | 500, 1,000, or 1,500 participants per host |
 
 ---
 
@@ -38,8 +40,8 @@ last_verified: 2026-03-25
 | Sections | Meeting Rooms |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -49,13 +51,13 @@ last_verified: 2026-03-25
 | Video pods | Configurable video display pods within rooms |
 | Participant limit | Up to 1,500 participants |
 
-### Talking Point
+### Editorial Summary
 
-> "Adobe Connect's persistent room concept means layouts, content, and polls are saved between sessions."
+Adobe Connect's persistent room concept means layouts, content, and polls are saved between sessions.
 
 ### Sources
 
-- [Adobe Connect Features](https://www.adobe.com/products/adobeconnect.html)
+- [Adobe Connect Features](https://adobe.com/products/adobeconnect.html)
 
 ---
 
@@ -67,8 +69,8 @@ last_verified: 2026-03-25
 | Sections | Meeting Rooms |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -78,13 +80,13 @@ last_verified: 2026-03-25
 | Document sharing | Upload and present documents within pods |
 | Pod layouts | Arrange share pods alongside other content types |
 
-### Talking Point
+### Editorial Summary
 
-> "Adobe Connect's pod-based layout allows screen sharing alongside polls, notes, and video simultaneously."
+Adobe Connect's pod-based layout allows screen sharing alongside polls, notes, and video simultaneously.
 
 ### Sources
 
-- [Adobe Connect Sharing](https://www.adobe.com/products/adobeconnect.html)
+- [Adobe Connect Sharing](https://adobe.com/products/adobeconnect.html)
 
 ---
 
@@ -96,8 +98,8 @@ last_verified: 2026-03-25
 | Sections | Meeting Rooms |
 | Status | active |
 | Effective | 2008-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -107,9 +109,9 @@ last_verified: 2026-03-25
 | Assignment | Manual assignment by host |
 | Content per room | Each breakout room has its own pod layout |
 
-### Talking Point
+### Editorial Summary
 
-> "Adobe Connect breakout rooms each have independent pod layouts, enabling different activities per group."
+Adobe Connect breakout rooms each have independent pod layouts, enabling different activities per group.
 
 ### Sources
 
@@ -125,8 +127,8 @@ last_verified: 2026-03-25
 | Sections | Meeting Rooms |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -136,9 +138,9 @@ last_verified: 2026-03-25
 | Offline conversion | Export recordings to MP4 |
 | Chaptering | Add bookmarks and chapters to recordings |
 
-### Talking Point
+### Editorial Summary
 
-> "Adobe Connect recordings capture the full pod layout experience, not just video and audio."
+Adobe Connect recordings capture the full pod layout experience, not just video and audio.
 
 ### Sources
 
@@ -154,8 +156,8 @@ last_verified: 2026-03-25
 | Sections | Meeting Rooms |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -165,9 +167,9 @@ last_verified: 2026-03-25
 | Multiple polls | Multiple simultaneous poll pods |
 | Q&A pod | Dedicated Q&A pod with moderation |
 
-### Talking Point
+### Editorial Summary
 
-> "Adobe Connect's poll pods persist across sessions, allowing instructors to reuse pre-configured assessments."
+Adobe Connect's poll pods persist across sessions, allowing instructors to reuse pre-configured assessments.
 
 ### Sources
 
@@ -183,8 +185,8 @@ last_verified: 2026-03-25
 | Sections | Meeting Rooms |
 | Status | active |
 | Effective | 2003-01-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
@@ -194,13 +196,13 @@ last_verified: 2026-03-25
 | Moderation | Host can enable/disable participant chat |
 | Persistence | Chat history saved within the room |
 
-### Talking Point
+### Editorial Summary
 
-> "Adobe Connect supports multiple simultaneous chat pods, enabling parallel discussion threads within a single room."
+Adobe Connect supports multiple simultaneous chat pods, enabling parallel discussion threads within a single room.
 
 ### Sources
 
-- [Adobe Connect Chat](https://www.adobe.com/products/adobeconnect.html)
+- [Adobe Connect Chat](https://adobe.com/products/adobeconnect.html)
 
 ---
 
@@ -210,22 +212,22 @@ last_verified: 2026-03-25
 |----------|-------|
 | Obligation | virtual-backgrounds |
 | Sections | Meeting Rooms |
-| Status | limited |
+| Status | active |
 | Effective | 2022-10-01 |
-| Verified | 2026-03-25 |
-| Checked | 2026-03-25 |
+| Verified | 2026-09-05 |
+| Checked | 2026-09-05 |
 
 ### Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| Background blur | Background blur support in Connect 12+ |
-| Virtual backgrounds | Limited virtual background support via WebRTC |
+| Background blur | Background blur support in current Connect releases |
+| Virtual backgrounds | Preset and administrator-provided custom backgrounds across current base tiers |
 
-### Talking Point
+### Editorial Summary
 
-> "Adobe Connect added background blur in version 12 with its move to WebRTC, though options are more limited than competitors."
+Adobe Connect added background blur in version 12 with its move to WebRTC, though options are more limited than competitors.
 
 ### Sources
 
-- [Adobe Connect 12](https://www.adobe.com/products/adobeconnect.html)
+- [Adobe Connect 12](https://adobe.com/products/adobeconnect.html)

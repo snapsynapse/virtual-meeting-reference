@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-03-25T00:00:00.000Z",
+    "generated": "2026-09-05T00:00:00.000Z",
     "count": 22
   },
   "items": [
@@ -21,7 +21,7 @@
     {
       "id": "anymeeting",
       "name": "AnyMeeting",
-      "status": "discontinued",
+      "status": "active",
       "effective": "2009-01-01",
       "provision_count": 5
     },
@@ -84,7 +84,7 @@
     {
       "id": "lifesize",
       "name": "Lifesize",
-      "status": "limited",
+      "status": "active",
       "effective": "2003-01-01",
       "provision_count": 5
     },
@@ -105,7 +105,7 @@
     {
       "id": "skype",
       "name": "Skype",
-      "status": "limited",
+      "status": "discontinued",
       "effective": "2003-08-29",
       "provision_count": 5
     },
@@ -128,7 +128,7 @@
       "name": "UberConference",
       "status": "discontinued",
       "effective": "2012-11-01",
-      "provision_count": 4
+      "provision_count": 0
     },
     {
       "id": "webex-meetings",

@@ -9,7 +9,7 @@ A structured, version-controlled reference tracking virtual meeting and classroo
 - **22 platforms** — Zoom, Microsoft Teams, Google Meet, Webex, BigBlueButton, and more
 - **9 features** — video conferencing, screen sharing, breakout rooms, AI notetakers, and more
 - **20 vendors** — the companies behind the platforms
-- **157 capabilities** — individual assessments of how each platform supports each feature
+- **153 capabilities** - individual assessments of how each platform supports each feature
 
 ## Data Model
 
@@ -41,9 +41,14 @@ node scripts/validate.js
 
 # Build the site and JSON API
 node scripts/build.js
+
+# Validate generated search and discovery surfaces
+node scripts/check-search.mjs
 ```
 
 Zero dependencies — uses only Node.js built-ins.
+
+For bounded assistant-led data updates, review [assistant-guide.txt](assistant-guide.txt) before acting.
 
 ## Contributing
 

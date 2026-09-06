@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-03-25T00:00:00.000Z"
+    "generated": "2026-09-05T00:00:00.000Z"
   },
   "matrix": {
     "ai-notetaker": {
@@ -248,12 +248,6 @@
           "trueconf-chat"
         ]
       },
-      "uberconference": {
-        "covered": true,
-        "provisions": [
-          "uberconference-chat"
-        ]
-      },
       "webex-meetings": {
         "covered": true,
         "provisions": [
@@ -474,12 +468,6 @@
           "trueconf-recording"
         ]
       },
-      "uberconference": {
-        "covered": true,
-        "provisions": [
-          "uberconference-recording"
-        ]
-      },
       "webex-meetings": {
         "covered": true,
         "provisions": [
@@ -608,12 +596,6 @@
           "trueconf-screen-sharing"
         ]
       },
-      "uberconference": {
-        "covered": true,
-        "provisions": [
-          "uberconference-screen-sharing"
-        ]
-      },
       "webex-meetings": {
         "covered": true,
         "provisions": [
@@ -740,12 +722,6 @@
         "covered": true,
         "provisions": [
           "trueconf-video-conferencing"
-        ]
-      },
-      "uberconference": {
-        "covered": true,
-        "provisions": [
-          "uberconference-video-conferencing"
         ]
       },
       "webex-meetings": {

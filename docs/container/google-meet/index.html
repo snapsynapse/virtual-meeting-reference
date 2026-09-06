@@ -6,15 +6,18 @@
     <title>Google Meet - Virtual Classroom Watch</title>
     <meta name="theme-color" content="#1a1a2e">
     <link rel="canonical" href="https://VirtualClassroom.watch/container/google-meet/">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="assistant-guide" href="https://VirtualClassroom.watch/.well-known/assistant-guide.txt">
     <link rel="stylesheet" href="../../assets/styles.css">
     <style>/* Generated from project.yml — do not edit manually */
 .group-badge.communication { background: #4fc3f7; }
 :is(html, body).light-mode .group-badge.communication { background: #0277bd; }
 .matrix-table .matrix-row-header.group-communication { border-left-color: #4fc3f7; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-communication { border-left-color: #0277bd; }
-.group-badge.collaboration { background: #7c4dff; }
+.group-badge.collaboration { background: #5e35b1; }
 :is(html, body).light-mode .group-badge.collaboration { background: #4527a0; }
-.matrix-table .matrix-row-header.group-collaboration { border-left-color: #7c4dff; }
+.matrix-table .matrix-row-header.group-collaboration { border-left-color: #5e35b1; }
 :is(html, body).light-mode .matrix-table .matrix-row-header.group-collaboration { border-left-color: #4527a0; }
 .group-badge.management { background: #ff6e40; }
 :is(html, body).light-mode .group-badge.management { background: #bf360c; }
@@ -33,11 +36,12 @@
 :root { --accent: #4fc3f7; }
 :is(html, body).light-mode { --accent: #0055aa; }
 </style>
-    
+
     <meta name="description" content="Google Meet — 8 provisions.">
     <meta property="og:title" content="Google Meet">
     <meta property="og:description" content="Google Meet — 8 provisions.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://VirtualClassroom.watch/imgs/og.png">
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
@@ -74,8 +78,8 @@
             <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#x1F313;</button>
         </div>
     </header>
-    <div class="container" id="main-content">
-        
+    <main class="container" id="main-content">
+
         <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../index.html" onclick="passTheme(this)">Home</a>
         <span class="sep">/</span> <a href="../../containers.html" onclick="passTheme(this)">Platforms</a>
@@ -84,9 +88,10 @@
         <div class="detail-header">
             <h2>Google Meet</h2>
             <div class="detail-meta">
-                <span><strong>Range:</strong> 2-500</span>
+                <span><strong>Range:</strong> 2-1,000</span>
                 <span class="status-badge active">active</span>
                 <span><strong>Effective:</strong> Mar 9, 2017</span>
+                <span><strong>Vendor:</strong> <a href="../../authority/google/">Google</a></span>
                 <span><a href="https://meet.google.com" target="_blank" rel="noopener">Official source</a></span>
                 <span><a href="https://workspace.google.com/pricing" target="_blank" rel="noopener">Pricing page</a></span>
             </div>
@@ -108,9 +113,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 9, 2017</span>
         </div>
-        <div class="talking-point">"Google Meet leverages Google's global infrastructure for low-latency video delivery across regions."</div>
-        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 500 participants (Enterprise)</td></tr><tr><td>Video quality</td><td>Up to 720p standard, 1080p on some plans</td></tr><tr><td>Tiled layout</td><td>Auto-adjusting grid view</td></tr></tbody></table>
-        
+        <div class="talking-point">Google Meet leverages Google's global infrastructure for low-latency video delivery across regions.</div>
+        <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Participant limit</td><td>Up to 1,000 connections on Enterprise Plus and Enterprise Essentials Plus; connections after 500 are view-only</td></tr><tr><td>Video quality</td><td>Up to 720p standard, 1080p on some plans</td></tr><tr><td>Tiled layout</td><td>Auto-adjusting grid view</td></tr></tbody></table>
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://workspace.google.com/products/meet/" target="_blank" rel="noopener">Google Meet Features</a></div>
     </div>
 <div class="provision-card" id="screen-sharing">
@@ -120,9 +125,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 9, 2017</span>
         </div>
-        <div class="talking-point">"Google Meet's Chrome tab sharing with audio is particularly well-suited for sharing video content in presentations."</div>
+        <div class="talking-point">Google Meet's Chrome tab sharing with audio is particularly well-suited for sharing video content in presentations.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Sharing options</td><td>Entire screen, window, or Chrome tab</td></tr><tr><td>Tab audio</td><td>Audio sharing when presenting a Chrome tab</td></tr><tr><td>Co-presenting</td><td>Multiple participants can present sequentially</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.google.com/meet/answer/9308856" target="_blank" rel="noopener">Google Meet Sharing</a></div>
     </div>
 <div class="provision-card" id="breakout-rooms">
@@ -132,9 +137,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 1, 2021</span>
         </div>
-        <div class="talking-point">"Google Meet supports up to 100 breakout rooms, the highest count among the major platforms."</div>
+        <div class="talking-point">Google Meet supports up to 100 breakout rooms, the highest count among the major platforms.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Room count</td><td>Up to 100 breakout rooms</td></tr><tr><td>Assignment</td><td>Automatic shuffle or manual assignment</td></tr><tr><td>Timer</td><td>Configurable timer for breakout sessions</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.google.com/meet/answer/10099500" target="_blank" rel="noopener">Meet Breakout Rooms</a></div>
     </div>
 <div class="provision-card" id="recording-and-transcription">
@@ -144,9 +149,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 9, 2017</span>
         </div>
-        <div class="talking-point">"Meet recordings and transcripts are automatically saved to the organizer's Google Drive for easy sharing."</div>
+        <div class="talking-point">Meet recordings and transcripts are automatically saved to the organizer's Google Drive for easy sharing.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Cloud recording</td><td>Saved to Google Drive automatically</td></tr><tr><td>Transcription</td><td>Automatic transcripts saved alongside recordings</td></tr><tr><td>Live captions</td><td>Real-time captions in multiple languages</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.google.com/meet/answer/9308681" target="_blank" rel="noopener">Meet Recording</a></div>
     </div>
 <div class="provision-card" id="chat-and-messaging">
@@ -156,9 +161,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Mar 9, 2017</span>
         </div>
-        <div class="talking-point">"Google Chat Spaces provide persistent team collaboration alongside Meet, integrated into the Workspace ecosystem."</div>
+        <div class="talking-point">Google Chat Spaces provide persistent team collaboration alongside Meet, integrated into the Workspace ecosystem.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>In-meeting chat</td><td>Text chat during live meetings</td></tr><tr><td>Google Chat</td><td>Persistent team messaging via Google Chat (separate app)</td></tr><tr><td>Spaces</td><td>Team collaboration spaces with topics and file sharing</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://workspace.google.com/products/chat/" target="_blank" rel="noopener">Google Chat</a></div>
     </div>
 <div class="provision-card" id="polling-and-q-a">
@@ -168,9 +173,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2021</span>
         </div>
-        <div class="talking-point">"Meet's Q&amp;A feature allows attendees to upvote questions, helping organizers prioritize audience inquiries."</div>
+        <div class="talking-point">Meet's Q&amp;A feature allows attendees to upvote questions, helping organizers prioritize audience inquiries.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Polls</td><td>Multiple choice polls during meetings</td></tr><tr><td>Q&amp;A</td><td>Structured Q&amp;A with upvoting</td></tr><tr><td>Results</td><td>Real-time results visible to host and participants</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.google.com/meet/answer/10165071" target="_blank" rel="noopener">Meet Polls and Q&amp;A</a></div>
     </div>
 <div class="provision-card" id="virtual-backgrounds">
@@ -180,9 +185,9 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Sep 1, 2020</span>
         </div>
-        <div class="talking-point">"Google Meet added virtual backgrounds during the pandemic-driven remote work surge in late 2020."</div>
+        <div class="talking-point">Google Meet added virtual backgrounds during the pandemic-driven remote work surge in late 2020.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Background images</td><td>Upload custom or choose from built-in library</td></tr><tr><td>Background blur</td><td>Slight and full blur options</td></tr><tr><td>Video backgrounds</td><td>Animated background support</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://support.google.com/meet/answer/10058482" target="_blank" rel="noopener">Meet Backgrounds</a></div>
     </div>
 <div class="provision-card" id="integrated-ai-note-taker">
@@ -192,13 +197,36 @@
             <span><span class="status-badge active">active</span></span>
             <span><strong>Effective:</strong> Jun 1, 2024</span>
         </div>
-        <div class="talking-point">"Google Meet's Gemini integration auto-generates notes in Google Docs, tightly coupled with the Workspace ecosystem."</div>
+        <div class="talking-point">Google Meet's Gemini integration auto-generates notes in Google Docs, tightly coupled with the Workspace ecosystem.</div>
         <h4>Requirements</h4><table class="data-table"><thead><tr><th>Requirement</th><th>Details</th></tr></thead><tbody><tr><td>Take notes for me</td><td>AI-generated meeting notes shared via Google Docs</td></tr><tr><td>Summary emails</td><td>Automatic summary emailed to attendees who missed the meeting</td></tr></tbody></table>
-        
+
         <div class="provision-sources"><strong>Sources:</strong> <a href="https://meet.google.com" target="_blank" rel="noopener">Google Meet</a></div>
     </div>
-    
-    </div>
+        <h3>Compare Google Meet</h3>
+        <ul class="compare-list">
+            <li><a href="../../compare/8x8-meet-vs-google-meet/">Google Meet vs 8x8 Meet</a></li>
+            <li><a href="../../compare/adobe-connect-vs-google-meet/">Google Meet vs Adobe Connect</a></li>
+            <li><a href="../../compare/anymeeting-vs-google-meet/">Google Meet vs AnyMeeting</a></li>
+            <li><a href="../../compare/bigbluebutton-vs-google-meet/">Google Meet vs BigBlueButton</a></li>
+            <li><a href="../../compare/bluejeans-vs-google-meet/">Google Meet vs BlueJeans</a></li>
+            <li><a href="../../compare/clickmeeting-vs-google-meet/">Google Meet vs ClickMeeting</a></li>
+            <li><a href="../../compare/dialpad-meetings-vs-google-meet/">Google Meet vs Dialpad Meetings</a></li>
+            <li><a href="../../compare/google-meet-vs-goto-meeting/">Google Meet vs GoTo Meeting</a></li>
+            <li><a href="../../compare/google-meet-vs-jitsi-meet/">Google Meet vs Jitsi Meet</a></li>
+            <li><a href="../../compare/google-meet-vs-lark/">Google Meet vs Lark</a></li>
+            <li><a href="../../compare/google-meet-vs-lifesize/">Google Meet vs Lifesize</a></li>
+            <li><a href="../../compare/google-meet-vs-ms-teams/">Google Meet vs Microsoft Teams</a></li>
+            <li><a href="../../compare/google-meet-vs-ringcentral-video/">Google Meet vs RingCentral Video</a></li>
+            <li><a href="../../compare/google-meet-vs-skype/">Google Meet vs Skype</a></li>
+            <li><a href="../../compare/google-meet-vs-slack/">Google Meet vs Slack</a></li>
+            <li><a href="../../compare/google-meet-vs-trueconf/">Google Meet vs TrueConf</a></li>
+            <li><a href="../../compare/google-meet-vs-webex-meetings/">Google Meet vs Webex Meetings</a></li>
+            <li><a href="../../compare/google-meet-vs-whereby/">Google Meet vs Whereby</a></li>
+            <li><a href="../../compare/google-meet-vs-zoho-meeting/">Google Meet vs Zoho Meeting</a></li>
+            <li><a href="../../compare/google-meet-vs-zoom-workplace/">Google Meet vs Zoom Workplace</a></li>
+        </ul>
+
+    </main>
     <footer>
         <p>Maintained with <a href="https://github.com/snapsynapse/virtual-classroom-watch">version control</a>. This is a reference tool, not professional advice.</p>
         <p>&copy; 2026 | Built with <a href="https://github.com/snapsynapse/knowledge-as-code-template">Knowledge-as-Code</a></p>
